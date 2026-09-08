@@ -421,7 +421,7 @@ Cada número del blog añade un fichero a `resultados/` con las cifras tal como 
 | [2026-W37](resultados/2026-W37.json) | `anthropic/claude-haiku-4-5` | `extraer-pedidos` | 20 | 15 | 16,9 | 0,3822 € | `todavia-no` |
 | [2026-W37](resultados/2026-W37.json) | `anthropic/claude-haiku-4-5` | `clasificar-facturas` | 25 | 24 | 10,5 | 0,1428 € | `lo-usaria-el-lunes` |
 
-Publicado en el número [«A la última»](https://bytenauta.com/a-la-ultima/) del 8 de septiembre de 2026, medido con los datos v1.0.0.
+Publicado en el número del 8 de septiembre de 2026, [«La referencia entró bien y el precio no era el de la tarifa»](https://bytenauta.com/a-la-ultima/2026-09-08-referencia-bien-precio-tarifa/), medido con los datos v1.0.0.
 
 En pedidos fueron **cinco** fallos sobre 20 casos, de los que el formato publica los tres primeros; los tres son errores de precio: en dos (pedidos 06 y 13) el modelo cogió la columna de otro cliente de la tarifa, y en el 07 arrastró el precio de la línea anterior del mismo pedido. El fallo de facturas fue el vencimiento de `factura-08`, el caso de [§6](#6-una-tarea-entera-clasificar-facturas).
 
@@ -485,7 +485,7 @@ Kit_de_la_pyme/
 
 El blog puntúa con código TypeScript (`src/pruebas/index.ts`, `tareas.ts` y `puntuar.ts` de su pipeline) ejecutado desde un Worker de Cloudflare. El kit lo reproduce en Python. La paridad no se afirma, se comprueba:
 
-- **633 pruebas** (`python -m pytest`; la única que se salta necesita `mmdc` en el `PATH`). El grueso carga salidas grabadas de ese código TypeScript sobre los mismos datos —prompts compuestos con su sha256, entradas de cada caso, respuestas correctas que dan el 100 %, más de cien respuestas trucadas con el `ok` y la frase de fallo exactos, tablas de normalización, 17 combinaciones de veredicto y nota— y exige que el kit devuelva lo mismo. El resto comprueba la CLI, los scripts de `tools/` y que los documentos español e inglés siguen emparejados.
+- **655 pruebas** (`python -m pytest`; la única que se salta necesita `mmdc` en el `PATH`). El grueso carga salidas grabadas de ese código TypeScript sobre los mismos datos —prompts compuestos con su sha256, entradas de cada caso, respuestas correctas que dan el 100 %, más de cien respuestas trucadas con el `ok` y la frase de fallo exactos, tablas de normalización, 17 combinaciones de veredicto y nota— y exige que el kit devuelva lo mismo. El resto comprueba la CLI, los scripts de `tools/` y que los documentos español e inglés siguen emparejados.
 - **Los prompts van sellados.** `tests/oro/resumen.json` guarda el sha256 del prompt compuesto y del mensaje de sistema de cada tarea, y `python -m kit_pyme verificar` los comprueba junto a los 85 checksums de `datos/`.
 - **Los redondeos de JavaScript están emulados.** `Math.round` y `toFixed` no redondean como los de Python, y una cifra publicada depende de eso: 0,38215 € tiene que dar 0,3822 y 16.850 ms tienen que dar 16,9 s. Hay tests por cada operación.
 - **Cuatro trabajos de integración continua** en cada push: `ruff` (lint y formato), `pruebas` (pytest y `verificar` en Python 3.11, 3.12 y 3.13), `datos` (checksums con `sha256sum` sin pasar por el paquete, LF en el índice de git, UTF-8 sin BOM, JSON válido y esquemas de los YAML) y `mermaid` (los 30 diagramas de los dos README y de `docs/`, español e inglés, renderizados con mermaid-cli 11.17.0).

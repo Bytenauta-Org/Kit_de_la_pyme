@@ -17,6 +17,8 @@ import re
 
 import pytest
 
+from tests.conftest import markdown_del_repositorio
+
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 DOCS = RAIZ / "docs"
 
@@ -149,10 +151,6 @@ def fuera_de_bloques(ruta: pathlib.Path) -> str:
         if not en_bloque:
             lineas.append(linea)
     return "\n".join(lineas)
-
-
-def markdown_del_repositorio() -> list[pathlib.Path]:
-    return sorted(p for p in RAIZ.rglob("*.md") if ".git" not in p.parts)
 
 
 @pytest.mark.parametrize(

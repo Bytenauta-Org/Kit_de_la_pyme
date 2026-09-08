@@ -221,7 +221,7 @@ clasificar-facturas       25        4000  Contabilizar 25 facturas recibidas: to
 redactar-recordatorio     10        4000  Escribir 10 recordatorios de cobro con el tono que toca
 ```
 
-The ids and names stay Spanish because they are what the program sends, prints and publishes. In English:
+The ids and names stay Spanish because they are what the program sends, prints and publishes. What each one asks for:
 
 | Id | What the tool has to do | Cases | `max_tokens` | Input of each case | What is scored |
 |---|---|---:|---:|---|---|
@@ -294,7 +294,7 @@ Para cada factura devuelve:
 FORMATO DE LA RESPUESTA: un solo objeto JSON con exactamente estas claves, escritas así: proveedor, numero, fecha, base, iva, total, vencimiento, cuenta_sugerida, duplicada. Sin otras claves, sin comentarios y sin texto antes ni después.
 ```
 
-In English: it says who the model works for, that the total may carry withholding to subtract or a non-VAT tax to add, that services invoiced from outside Spain under the reverse charge come without VAT, and how to turn each Spanish payment-terms phrase into a due date. The composed prompt is 2,280 bytes with the register of already-booked invoices included; the system message that is actually sent adds the `FORMATO` line and comes to 2,521. `python -m kit_pyme prompt clasificar-facturas` prints the second one, `--sin-formato` the first.
+What that prompt says: who the model works for, that the total may carry withholding to subtract or a non-VAT tax to add, that services invoiced from outside Spain under the reverse charge come without VAT, and how to turn each Spanish payment-terms phrase into a due date. The composed prompt is 2,280 bytes with the register of already-booked invoices included; the system message that is actually sent adds the `FORMATO` line and comes to 2,521. `python -m kit_pyme prompt clasificar-facturas` prints the second one, `--sin-formato` the first.
 
 **The correct answer.** What `datos/facturas/facturas-verdad.json` says for this case, of which only three fields are compared:
 
@@ -443,7 +443,7 @@ Every blog issue adds a file to `resultados/` with the figures as they came out 
 | [2026-W37](resultados/2026-W37.json) | `anthropic/claude-haiku-4-5` | `extraer-pedidos` | 20 | 15 | 16.9 | 0.3822 € | `todavia-no` |
 | [2026-W37](resultados/2026-W37.json) | `anthropic/claude-haiku-4-5` | `clasificar-facturas` | 25 | 24 | 10.5 | 0.1428 € | `lo-usaria-el-lunes` |
 
-Published in the [«A la última»](https://bytenauta.com/a-la-ultima/) issue of 8 September 2026, measured on data v1.0.0.
+Published in the issue of 8 September 2026, [«The reference went in right, but the price was wrong»](https://bytenauta.com/a-la-ultima/en/2026-09-08-reference-matched-price-didnt-match/) ([in Spanish](https://bytenauta.com/a-la-ultima/2026-09-08-referencia-bien-precio-tarifa/)), measured on data v1.0.0.
 
 In orders there were **five** failures over 20 cases, of which the format publishes the first three; all three are price errors: in two of them (orders 06 and 13) the model took the column of a different customer, and in order 07 it carried over the price of the previous line of the same order. The invoice failure was the due date of `factura-08`, the case in [§6](#6-one-task-in-full-clasificar-facturas).
 
@@ -507,7 +507,7 @@ Kit_de_la_pyme/
 
 The blog scores with TypeScript code (`src/pruebas/index.ts`, `tareas.ts` and `puntuar.ts` of its pipeline) running in a Cloudflare Worker. The kit reproduces it in Python. Parity is not asserted, it is checked:
 
-- **633 tests** (`python -m pytest`; the only one that is skipped needs `mmdc` on the `PATH`). Most of them load recorded output of that TypeScript code over this same data — composed prompts with their SHA-256, the input of every case, correct answers that score 100 %, more than a hundred doctored answers with their exact `ok` and failure sentence, normalization tables, 17 verdict-and-note combinations — and require the kit to return the same thing. The rest cover the CLI, the scripts in `tools/`, and that the Spanish and English documents stay paired.
+- **655 tests** (`python -m pytest`; the only one that is skipped needs `mmdc` on the `PATH`). Most of them load recorded output of that TypeScript code over this same data — composed prompts with their SHA-256, the input of every case, correct answers that score 100 %, more than a hundred doctored answers with their exact `ok` and failure sentence, normalization tables, 17 verdict-and-note combinations — and require the kit to return the same thing. The rest cover the CLI, the scripts in `tools/`, and that the Spanish and English documents stay paired.
 - **The prompts are sealed.** `tests/oro/resumen.json` keeps the SHA-256 of the composed prompt and of the system message of every task, and `python -m kit_pyme verificar` checks them alongside the 85 checksums of `datos/`.
 - **JavaScript rounding is emulated.** `Math.round` and `toFixed` do not round the way Python's do, and a published figure depends on that: 0.38215 € has to come out as 0.3822, and 16,850 ms as 16.9 s. There are tests for each operation.
 - **Four continuous integration jobs** on every push: `ruff` (lint and format), `pruebas` (pytest and `verificar` on Python 3.11, 3.12 and 3.13), `datos` (checksums with `sha256sum` without going through the package, LF in the git index, UTF-8 without a byte-order mark, valid JSON and YAML schemas) and `mermaid` (the 30 diagrams of both READMEs and of `docs/`, Spanish and English, rendered with mermaid-cli 11.17.0).

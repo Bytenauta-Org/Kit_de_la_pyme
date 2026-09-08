@@ -14,6 +14,8 @@ import types
 
 import pytest
 
+from tests.conftest import markdown_del_repositorio
+
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 
 
@@ -171,9 +173,7 @@ def test_los_markdown_del_repositorio_pasan_el_chequeo_minimo() -> None:
     ``resultados/README.md`` llevaban diagramas que nadie comprobaba. La lista se saca
     de los ficheros, no se escribe a mano: uno nuevo entra solo.
     """
-    ficheros = [
-        f for f in sorted(RAIZ.rglob("*.md")) if ".git" not in f.parts and "```mermaid" in f.read_text(encoding="utf-8")
-    ]
+    ficheros = [f for f in markdown_del_repositorio() if "```mermaid" in f.read_text(encoding="utf-8")]
     if not ficheros:
         pytest.skip("todavía no hay ningún Markdown con diagramas en esta copia")
     fallos = [r for r in mermaid.comprobar(ficheros, None) if not r.ok]

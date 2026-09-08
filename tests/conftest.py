@@ -65,3 +65,39 @@ def negativos() -> list[dict[str, Any]]:
 @pytest.fixture(scope="session")
 def tareas() -> dict[str, Tarea]:
     return {t.id: t for t in cargar_tareas(RAIZ)}
+
+
+#: Carpetas que están en el árbol de trabajo pero no en el repositorio: cachés de
+#: herramientas, entornos virtuales, empaquetado y restos de npx.
+CARPETAS_AJENAS = frozenset(
+    {
+        ".git",
+        ".mypy_cache",
+        ".pytest_cache",
+        ".ruff_cache",
+        ".venv",
+        "build",
+        "dist",
+        "env",
+        "node_modules",
+        "venv",
+    }
+)
+
+
+def markdown_del_repositorio() -> list[Path]:
+    """Todos los Markdown del kit, en orden y sin los de las carpetas de trabajo.
+
+    Dos pruebas recorren el repositorio entero buscando ``*.md``: la de los enlaces internos
+    y la de los diagramas. Sin filtrar, ``.pytest_cache/README.md`` entraba en la lista, así
+    que el número de pruebas dependía de si pytest ya se había ejecutado antes en esa copia
+    y no coincidía con el que dice la documentación.
+
+    Returns:
+        Las rutas absolutas de los Markdown versionados, ordenadas.
+    """
+    return sorted(
+        ruta
+        for ruta in RAIZ.rglob("*.md")
+        if not any(parte in CARPETAS_AJENAS or parte.endswith(".egg-info") for parte in ruta.parts)
+    )

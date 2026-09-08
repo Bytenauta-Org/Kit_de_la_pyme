@@ -18,7 +18,8 @@ Un sobre con la procedencia y, dentro, la lista de pruebas con la misma forma qu
 {
   "semana": "2026-W37",
   "fecha_publicacion": "2026-09-08",
-  "publicado_en": "https://bytenauta.com/a-la-ultima/",
+  "publicado_en": "<dirección del número, no la del índice del blog>",
+  "publicado_en_ingles": "<la misma entrada en inglés, si el número sale en los dos idiomas>",
   "numero": "<slug del número>",
   "origen": "<repositorio y commit de donde salen las cifras>",
   "banco": "<qué código las midió y desde dónde>",
@@ -61,11 +62,13 @@ Campos de cada prueba, en el orden en que los escribe el blog:
 
 Opcionalmente, `otras_tiradas` recoge tiradas del mismo día que no se publicaron, con sus segundos y coste, para que se vea la variabilidad; y `nota_tiradas` la explica.
 
+`publicado_en_ingles` solo está cuando el número tiene entrada en inglés; si no la hay, la clave no se escribe.
+
 ## Ficheros
 
 | Fichero | Número | Modelo | Pruebas | Datos |
 |---|---|---|---|---|
-| [`2026-W37.json`](2026-W37.json) | 2026-09-08, primer número | anthropic/claude-haiku-4-5 | extraer-pedidos 15/20 (16,9 s, 0,3822 €, todavia-no); clasificar-facturas 24/25 (10,5 s, 0,1428 €, lo-usaria-el-lunes) | 1.0.0 |
+| [`2026-W37.json`](2026-W37.json) | [2026-09-08, primer número](https://bytenauta.com/a-la-ultima/2026-09-08-referencia-bien-precio-tarifa/) | anthropic/claude-haiku-4-5 | extraer-pedidos 15/20 (16,9 s, 0,3822 €, todavia-no); clasificar-facturas 24/25 (10,5 s, 0,1428 €, lo-usaria-el-lunes) | 1.0.0 |
 
 Sobre 2026-W37: el mismo modelo se ejecutó tres veces ese día mientras se ponía a punto el pipeline, con los mismos aciertos y los mismos fallos las tres veces; los segundos y la cuarta cifra decimal del coste cambiaron. El fichero recoge la tirada publicada (la del PR #5 de la web) y anota las otras dos.
 
