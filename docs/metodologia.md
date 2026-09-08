@@ -84,7 +84,7 @@ Qué se comprueba, una fila por cosa que podría desviarse:
 | Los redondeos son los de JavaScript | `Math.round`, `toFixed(1)`, `toFixed(2)` y `Math.ceil` con los valores de borde | `tests/test_javascript.py` |
 | El ejecutor se comporta igual ante un error | Un servidor falso en `127.0.0.1` que devuelve 400, 429, cuerpo vacío y respuestas grabadas | `tests/test_ejecutar.py` |
 
-La batería entera son **655 pruebas** (`python -m pytest`, medido el 08-09-2026 con Python 3.13; una se salta si `mmdc` no está en el `PATH`). La integración continua las ejecuta en cuatro trabajos: `ruff` (lint y formato), `pruebas` (la batería en Python 3.11, 3.12 y 3.13), `datos` (checksums con `sha256sum`, LF en el índice de git, UTF-8 sin BOM, JSON válido y esquemas de los YAML) y `mermaid` (los 30 diagramas de la documentación, en los dos idiomas, renderizados con mermaid-cli).
+La batería entera son **654 pruebas** (`python -m pytest`, medido el 08-09-2026 con Python 3.13; una se salta si `mmdc` no está en el `PATH`). La integración continua las ejecuta en cuatro trabajos: `ruff` (lint y formato), `pruebas` (la batería en Python 3.11, 3.12 y 3.13), `datos` (checksums con `sha256sum`, LF en el índice de git, UTF-8 sin BOM, JSON válido y esquemas de los YAML) y `mermaid` (los 30 diagramas de la documentación, en los dos idiomas, renderizados con mermaid-cli).
 
 Emular los redondeos de JavaScript no es un detalle de estilo: `Math.round(0.5)` va hacia arriba y el `round()` de Python va al par, y `toFixed(2)` redondea el valor binario exacto. Sin eso, el coste publicado y el del kit se separarían en el cuarto decimal y las dos cifras dejarían de ser la misma cifra. Está en [`puntuacion.md`](puntuacion.md#redondeos).
 

@@ -86,7 +86,7 @@ What is checked, one row per thing that could drift:
 | Rounding is JavaScript rounding | `Math.round`, `toFixed(1)`, `toFixed(2)` and `Math.ceil` at their edge values | `tests/test_javascript.py` |
 | The runner behaves the same when a call fails | A fake server on `127.0.0.1` returning 400, 429, an empty body and recorded answers | `tests/test_ejecutar.py` |
 
-The whole suite is **655 tests** (`python -m pytest`, measured on 2026-09-08 with Python 3.13; one is skipped when `mmdc` is not on the `PATH`). Continuous integration runs them in four jobs: `ruff` (lint and format), `pruebas` (the suite on Python 3.11, 3.12 and 3.13), `datos` (checksums with `sha256sum`, LF in the git index, UTF-8 without BOM, valid JSON and schema validation of the YAML files) and `mermaid` (the 30 diagrams of the documentation, in both languages, rendered with mermaid-cli).
+The whole suite is **654 tests** (`python -m pytest`, measured on 2026-09-08 with Python 3.13; one is skipped when `mmdc` is not on the `PATH`). Continuous integration runs them in four jobs: `ruff` (lint and format), `pruebas` (the suite on Python 3.11, 3.12 and 3.13), `datos` (checksums with `sha256sum`, LF in the git index, UTF-8 without BOM, valid JSON and schema validation of the YAML files) and `mermaid` (the 30 diagrams of the documentation, in both languages, rendered with mermaid-cli).
 
 Emulating JavaScript rounding is not a matter of taste. `Math.round(0.5)` goes up and Python's `round()` goes to even, and `toFixed(2)` rounds the exact binary value of the float. Without that, the published cost and the cost computed here would diverge in the fourth decimal, and the two numbers would stop being the same number. The detail is in [`puntuacion.md`](puntuacion.md#rounding).
 
