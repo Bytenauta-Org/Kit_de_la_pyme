@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.python-version
+
+# Herramientas
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Salida de «python -m kit_pyme ejecutar» y de las pruebas locales
+# (los resultados que se publican van en resultados/ con nombre de semana, y sí se versionan)
+/resultado.json
+/detalle.json
+/salida/
+*.jsonl.tmp
+
+# Claves de API: nunca en el repositorio. Se leen de una variable de entorno (--clave-env).
+.env
+.env.*
+
+# mermaid-cli / npx (no hay proyecto Node: cualquier node_modules es un resto de npx)
+node_modules/
+*.mmd.svg
+
+# Paquetes de release (los genera .github/workflows/release.yml)
+/kit-de-la-pyme-datos-v*.zip
+/kit-de-la-pyme-datos-v*.zip.sha256
+
+# Editores y sistema
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

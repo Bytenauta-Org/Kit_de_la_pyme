@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/respuesta-clasificar-facturas.schema.json",
+  "title": "Respuesta esperada de clasificar-facturas (una factura)",
+  "$comment": "Copia literal del campo «esquema» de la tarea en src/pruebas/tareas.ts del pipeline del blog (Bytenauta-Org/bytenauta-blog-agentes). El objeto que se usa para validar la respuesta del modelo, y el mismo que lleva tareas/<id>/tarea.json, es este sin las claves $schema, $id, title y $comment.",
+  "type": "object",
+  "required": [
+    "proveedor",
+    "numero",
+    "fecha",
+    "base",
+    "iva",
+    "total",
+    "vencimiento",
+    "cuenta_sugerida",
+    "duplicada"
+  ],
+  "properties": {
+    "proveedor": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string",
+      "description": "AAAA-MM-DD"
+    },
+    "base": {
+      "type": "number"
+    },
+    "iva": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "vencimiento": {
+      "type": "string",
+      "description": "AAAA-MM-DD"
+    },
+    "cuenta_sugerida": {
+      "type": "string"
+    },
+    "duplicada": {
+      "type": "boolean"
+    }
+  }
+}

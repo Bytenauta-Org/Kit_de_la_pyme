@@ -1,0 +1,23 @@
+ENERGÍA LEVANTE COMERCIALIZADORA S.L.
+B98120041 · Av. de Aragón 30, 3.º · 46021 València · Tel. 900 122 344
+clientes@energialevante.example
+
+                                                          FACTURA Nº EL-26-0812931
+                                                          Fecha: 03/09/2026
+CLIENTE: Conservas Marjal Blanca S.L.
+NIF: B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+Su referencia: CUPS ES0021000012345678AB · Periodo 01/08/2026 – 31/08/2026
+
+Concepto                                                  Cantidad      Precio       Importe
+------------------------------------------------------------------------------------------
+Término de potencia (P1-P6) 31 días                          1     1120,40       1120,40
+Término de energía 41.860 kWh                            41860      0,1287       5387,38
+Impuesto sobre la electricidad 5,11269632 %                  1      332,66        332,66
+Alquiler de equipos de medida                                1       24,60         24,60
+------------------------------------------------------------------------------------------
+                                                          Base imponible        6865,04
+                                                          IVA 21 %               1441,66
+                                                          TOTAL FACTURA         8306,70 €
+
+Domiciliación bancaria. Cargo en cuenta el 10/09/2026.

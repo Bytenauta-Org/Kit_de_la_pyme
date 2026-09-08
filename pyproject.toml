@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kit-pyme"
+version = "1.0.0"
+description = "El kit de la pyme: banco de pruebas del blog «A la última» (Bytenauta), con la puntuación del blog portada regla por regla."
+readme = "README.md"
+license = "CC-BY-4.0"
+requires-python = ">=3.11"
+authors = [{ name = "Bytenauta S.L." }]
+keywords = ["benchmark", "pyme", "ia", "llm", "evaluacion"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Natural Language :: Spanish",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+kit-pyme = "kit_pyme.__main__:main"
+
+[project.urls]
+Repositorio = "https://github.com/Bytenauta-Org/Kit_de_la_pyme"
+Blog = "https://bytenauta.com/a-la-ultima/"
+
+[tool.setuptools]
+packages = ["kit_pyme"]
+
+[tool.setuptools.package-data]
+kit_pyme = ["precios.json", "py.typed"]
+
+# ----- ruff: estilo Google (pycodestyle, pyflakes, isort, pydocstyle google), línea de 100 -----
+[tool.ruff]
+# 120 y no 100: lo que se pasa son mensajes de fallo con formato («Pedido 06: no avisó de que el
+# precio de CONS-BONI-OL-220 no coincide con la tarifa»). Partirlos en dos líneas los hace más
+# difíciles de leer y de buscar, y son exactamente el texto que se publica en el blog.
+line-length = 120
+target-version = "py311"
+extend-exclude = [".venv", "datos", "resultados"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "D", "UP", "B", "RUF100"]
+ignore = [
+  "D105", # docstring en métodos mágicos: no aporta
+  "D107", # docstring en __init__: se documenta en la clase
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+known-first-party = ["kit_pyme"]
+
+[tool.ruff.lint.per-file-ignores]
+# En los tests, los literales son datos: una respuesta de modelo o una factura de ejemplo se
+# escriben tal como llegan, no se parten para que quepan.
+"tests/**" = ["E501", "D1"] # los literales son datos y los tests se explican por su nombre
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+docstring-code-format = true
+
+# ----- pytest -----
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = ["red: tests que abren un servidor HTTP local"]

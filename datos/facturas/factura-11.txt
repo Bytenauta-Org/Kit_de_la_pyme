@@ -1,0 +1,23 @@
+FACTURA
+Número: 2026-09-A14
+Fecha de emisión: 1 de septiembre de 2026
+Referencia: Contrato de arrendamiento nave anexa (c/ Alcachofa 16)
+
+Emisor: Inmobiliaria Las Maromas S.L.
+NIF: B36119709
+Domicilio: c/ San Andrés 4 · 03160 Almoradí (Alicante)
+Correo: admon@inmomaromas.example
+
+Destinatario: Conservas Marjal Blanca S.L. · NIF B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+
+Detalle:
+  1. Renta mensual septiembre 2026 nave anexa 600 m² — 1 x 2400,00 = 2400,00 €
+
+Base imponible: 2400,00 €
+IVA (21 %): 504,00 €
+Retención IRPF (19 %): -456,00 €
+TOTAL A PAGAR: 2448,00 €
+
+Condiciones de pago: Transferencia antes del día 5 del mes en curso.
+Cuenta para transferencias: ES61 0081 1234 5600 9988 1122

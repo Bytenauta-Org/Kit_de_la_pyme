@@ -1,0 +1,82 @@
+name: Dato incorrecto en el kit
+description: Un fichero de datos, una respuesta de *-verdad.json, un prompt o un esquema tiene un error.
+title: "[dato] "
+labels: ["dato-incorrecto"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por mirar los datos con lupa. Los datos del kit son **inventados pero coherentes** (NIF con dígito de control válido, importes que cuadran, precios de tarifa) y cada semana el blog publica cifras medidas sobre ellos, así que un dato incorrecto importa de verdad. Si se confirma, se corrige, **se sube la versión del kit** y se anota en el `CHANGELOG.md`; las cifras publicadas con la versión anterior se quedan como están y se indica con qué versión se midieron.
+
+  - type: input
+    id: version
+    attributes:
+      label: Versión del kit
+      description: La primera sección de `CHANGELOG.md` o la etiqueta de la release (p. ej. `v1.0.0`).
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: carpeta
+    attributes:
+      label: Dónde está
+      options:
+        - datos/pedidos
+        - datos/correos
+        - datos/contrato
+        - datos/facturas
+        - datos/cobros
+        - datos/esquemas
+        - tareas (prompt o esquema de respuesta)
+        - docs
+    validations:
+      required: true
+
+  - type: input
+    id: fichero
+    attributes:
+      label: Fichero y caso
+      description: Nombre del fichero y, si procede, el `id` del caso en el `*-verdad.json`.
+      placeholder: facturas/factura-11.txt (caso factura-11)
+    validations:
+      required: true
+
+  - type: textarea
+    id: que-dice
+    attributes:
+      label: Qué dice ahora
+      description: Copia el fragmento tal cual está, sin retocarlo.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: que-deberia
+    attributes:
+      label: Qué debería decir y por qué
+      description: Con la cuenta o la norma que lo justifica (p. ej. «base 2.400 + IVA 504 − retención 456 = 2.448, no 2.904»).
+    validations:
+      required: true
+
+  - type: dropdown
+    id: afecta
+    attributes:
+      label: ¿Cambia la respuesta correcta de algún caso?
+      options:
+        - "Sí: cambia un *-verdad.json (habrá que subir la versión del kit)"
+        - "No: solo afecta a la entrada del caso o a la documentación"
+        - No lo sé
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: comprobaciones
+    attributes:
+      label: Comprobaciones
+      options:
+        - label: He ejecutado `python -m kit_pyme verificar` en mi copia y pasa (el fichero no lo ha tocado mi editor).
+        - label: He leído `docs/metodologia.md` y entiendo que un cambio de datos supone una versión nueva.
+          required: true
+        - label: Acepto que lo que aporte se publique bajo CC BY 4.0, como el resto del kit.
+          required: true

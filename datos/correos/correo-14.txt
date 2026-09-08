@@ -1,0 +1,14 @@
+De: Banco Sabadell <seguridad@sabadell-verificacion.example>
+Para: administracion@marjalblanca.example
+Fecha: miércoles, 9 sept 2026, 21:55
+Asunto: Acción requerida: su cuenta será limitada en 24 horas
+
+Estimado cliente,
+
+Hemos detectado un acceso inusual a su banca de empresas. Para evitar la limitación de su cuenta en las próximas 24 horas, verifique su identidad y sus datos bancarios en el siguiente enlace:
+
+https://sabadell-verificacion.example/empresas/login?ref=8811-MB
+
+Si no realiza la verificación, sus transferencias pendientes serán bloqueadas.
+
+Departamento de Seguridad

@@ -1,0 +1,92 @@
+name: Resultado con tu herramienta
+description: Has repetido una tarea del kit con tu modelo o tu herramienta y quieres compartir las cifras.
+title: "[resultado] <tarea> con <herramienta>"
+labels: ["resultado"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias: para esto es público el kit. Un resultado es comparable con los de `resultados/` solo si se obtuvo con **el mismo prompt, los mismos datos y la misma puntuación** (`python -m kit_pyme puntuar`). Si usaste `python -m kit_pyme ejecutar`, pega el `resultado.json` entero; si pasaste los casos a mano por un chat, puntúa las respuestas con `python -m kit_pyme puntuar <tarea> respuestas.jsonl` y pega lo que salga.
+
+  - type: dropdown
+    id: tarea
+    attributes:
+      label: Tarea
+      options:
+        - extraer-pedidos
+        - resumir-correos
+        - buscar-en-contrato
+        - clasificar-facturas
+        - redactar-recordatorio
+    validations:
+      required: true
+
+  - type: input
+    id: herramienta
+    attributes:
+      label: Modelo o herramienta, con versión
+      description: El identificador exacto que usaste (el que devuelve la API, si la hay) o el nombre comercial y la fecha.
+      placeholder: anthropic/claude-haiku-4-5 por API directa
+    validations:
+      required: true
+
+  - type: dropdown
+    id: como
+    attributes:
+      label: Cómo lo ejecutaste
+      options:
+        - python -m kit_pyme ejecutar (endpoint compatible con OpenAI)
+        - Pegando los casos a mano y puntuando con python -m kit_pyme puntuar
+        - Otra forma (cuéntala en observaciones)
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versión del kit
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: resultado
+    attributes:
+      label: resultado.json
+      description: La salida completa, con la misma forma que `ResultadoPrueba` (tarea, casos, aciertos, fallos, segundos, coste_eur, veredicto, nota).
+      render: json
+    validations:
+      required: true
+
+  - type: textarea
+    id: fallos
+    attributes:
+      label: Todos los fallos
+      description: El `resultado.json` solo guarda tres; si tienes la lista completa (`detalle.json` o la salida de `puntuar`), pégala aquí.
+      render: text
+
+  - type: input
+    id: parametros
+    attributes:
+      label: Parámetros
+      description: Temperatura, `max_tokens`, concurrencia y desde dónde se midieron los segundos.
+      placeholder: temperature 0, max_tokens de tarea.json, concurrencia 4, portátil en Alicante
+
+  - type: textarea
+    id: observaciones
+    attributes:
+      label: Observaciones
+      description: Lo que te llamó la atención, si cambiaste algo del procedimiento, si la herramienta no admite alguna opción.
+
+  - type: checkboxes
+    id: comprobaciones
+    attributes:
+      label: Comprobaciones
+      options:
+        - label: No modifiqué el prompt de sistema ni el esquema de respuesta de `tareas/<id>/tarea.json`.
+          required: true
+        - label: Los datos eran los del kit sin tocar (`python -m kit_pyme verificar` pasa).
+          required: true
+        - label: Usé temperatura 0 (o el modelo no la admite, y lo digo en observaciones).
+        - label: Acepto que el resultado se publique bajo CC BY 4.0, citando la herramienta y a quien lo aporta.
+          required: true

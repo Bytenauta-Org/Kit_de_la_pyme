@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/pedidos-verdad.schema.json",
+  "title": "Respuesta correcta de los 20 pedidos (datos/pedidos/pedidos-verdad.json)",
+  "description": "Un elemento por pedido, en el orden en que se prueban. Se puntúan las líneas (referencia, cajas y precio de tarifa), las incidencias obligatorias y el cliente; el resto es informativo.",
+  "type": "object",
+  "required": [
+    "_comentario",
+    "empresa",
+    "fecha_referencia",
+    "pedidos"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "_comentario": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Criterio de acierto en una frase, para quien abre el fichero sin leer la documentación."
+    },
+    "empresa": {
+      "const": "Conservas Marjal Blanca S.L."
+    },
+    "fecha_referencia": {
+      "$ref": "#/$defs/fecha_iso",
+      "const": "2026-09-10",
+      "description": "Día en que llegan los pedidos (jueves 10 de septiembre de 2026). Informativo."
+    },
+    "pedidos": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 20,
+      "items": {
+        "$ref": "#/$defs/pedido"
+      },
+      "$comment": "v1.0.0: 20 pedidos. Cambiar el número de casos, o cualquier caso, es cambiar de versión mayor (ver datos/README.md)."
+    }
+  },
+  "$defs": {
+    "fecha_iso": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "format": "date",
+      "description": "Fecha en formato AAAA-MM-DD."
+    },
+    "nif": {
+      "type": "string",
+      "description": "NIF/CIF español (letra + 7 dígitos + control), DNI (8 dígitos + letra) o número de IVA extranjero («GB 447 2201 93»). Todos inventados; los españoles llevan dígito de control válido.",
+      "anyOf": [
+        {
+          "pattern": "^[ABCDEFGHJNPQRSUVW][0-9]{7}[0-9A-J]$"
+        },
+        {
+          "pattern": "^[0-9]{8}[A-Z]$"
+        },
+        {
+          "pattern": "^[A-Z]{2} [0-9A-Z ]+$"
+        }
+      ]
+    },
+    "importe": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Euros, con dos decimales como mucho."
+    },
+    "referencia": {
+      "type": "string",
+      "pattern": "^CONS-[A-Z0-9]+-[A-Z0-9]+-[A-Z0-9]+$",
+      "description": "Referencia de tarifa.csv (CONS-<producto>-<variante>-<formato>)."
+    },
+    "pedido": {
+      "type": "object",
+      "required": [
+        "id",
+        "fichero",
+        "cliente",
+        "nif_cliente",
+        "tarifa",
+        "formato",
+        "lineas",
+        "importe_lineas_eur",
+        "incidencias",
+        "nota"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^pedido-[0-9]{2}$"
+        },
+        "fichero": {
+          "type": "string",
+          "pattern": "^pedido-[0-9]{2}\\.txt$",
+          "description": "Fichero de pedidos/ que se da al modelo íntegro como mensaje de usuario."
+        },
+        "cliente": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nombre exacto de la columna «cliente» de clientes.csv. Se puntúa: basta con que el modelo escriba alguna palabra distintiva (4+ letras, no genérica) del nombre."
+        },
+        "nif_cliente": {
+          "$ref": "#/$defs/nif"
+        },
+        "tarifa": {
+          "enum": [
+            "general",
+            "serrano",
+            "cascales",
+            "mediterraneo",
+            "cash"
+          ],
+          "description": "Columna de precio de tarifa.csv que corresponde al cliente (precio_caja_<tarifa>), según clientes.csv."
+        },
+        "formato": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Cómo llega el pedido (correo, tabla, PDF, OCR, valenciano…). Informativo."
+        },
+        "lineas": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/linea"
+          },
+          "description": "Las líneas que hay que grabar. Se puntúan todas: si falta una, sobra una, o una cantidad o precio no coincide, el pedido cuenta como fallo."
+        },
+        "importe_lineas_eur": {
+          "$ref": "#/$defs/importe",
+          "description": "Suma de cantidad_cajas × precio_caja de las líneas con precio. No se puntúa."
+        },
+        "incidencias": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/incidencia"
+          }
+        },
+        "nota": {
+          "type": "string",
+          "description": "Por qué el caso es como es. Informativo."
+        }
+      }
+    },
+    "linea": {
+      "type": "object",
+      "required": [
+        "referencia",
+        "descripcion",
+        "cantidad_cajas",
+        "precio_caja"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "referencia": {
+          "$ref": "#/$defs/referencia",
+          "description": "Se compara sin distinguir mayúsculas y quitando todo lo que no sea letra o dígito («cons atun-ol_120» vale)."
+        },
+        "descripcion": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "«descripcion · formato» de tarifa.csv; null si la referencia no existe. Informativo."
+        },
+        "cantidad_cajas": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Siempre en cajas (unidades convertidas con uds_por_caja, palés con cajas_por_pale, entregas repartidas sumadas). Se compara exacta."
+        },
+        "precio_caja": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "description": "Precio por caja de la columna del cliente en tarifa.csv; null si la referencia no existe (y entonces no se comprueba). Tolerancia: ±0,011 €."
+        }
+      }
+    },
+    "incidencia": {
+      "type": "object",
+      "required": [
+        "tipo",
+        "detalle",
+        "obligatoria"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "tipo": {
+          "enum": [
+            "referencia-inexistente",
+            "precio-distinto-de-tarifa",
+            "pedido-por-historico",
+            "reclamacion-en-el-mismo-correo"
+          ]
+        },
+        "detalle": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Texto de la incidencia. En las obligatorias, la primera referencia CONS-… que aparece es la que el modelo tiene que mencionar en sus incidencias."
+        },
+        "obligatoria": {
+          "type": "boolean",
+          "description": "true: el caso solo es acierto si el modelo la avisa (en v1.0.0 solo pasa con referencia-inexistente en pedido-07 y precio-distinto-de-tarifa en pedido-08)."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+FACTURA
+Número: F/26/2210
+Fecha de emisión: 11 de septiembre de 2026
+Referencia: Informe 26-08821 · lotes L26187 y L26190
+
+Emisor: Laboratorio Analítico del Segura S.L.
+NIF: B35772011
+Domicilio: Parque Científico, edificio 2 · 03202 Elche (Alicante)
+Correo: admon@labsegura.example
+
+Destinatario: Conservas Marjal Blanca S.L. · NIF B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+
+Detalle:
+  1. Análisis microbiológico completo (aerobios, anaerobios, esporulados) — 4 x 95,00 = 380,00 €
+  2. Prueba de esterilidad comercial (incubación 37 °C / 55 °C) — 2 x 140,00 = 280,00 €
+  3. Recogida de muestras en planta — 1 x 40,00 = 40,00 €
+
+Base imponible: 700,00 €
+IVA (21 %): 147,00 €
+TOTAL A PAGAR: 847,00 €
+
+Condiciones de pago: Transferencia a 30 días desde la fecha de factura.
+Cuenta para transferencias: ES15 0049 1122 3300 4455 6677

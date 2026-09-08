@@ -1,0 +1,23 @@
+FACTURA
+Número: MIS/26/0803
+Fecha de emisión: 9 de septiembre de 2026
+Referencia: Parte de trabajo 26-3390
+
+Emisor: Mantenimientos Industriales Segura S.L.
+NIF: B36021889
+Domicilio: c/ Calderería 11, Pol. Ind. La Granadina · 03350 Cox (Alicante)
+Correo: facturas@misegura.example
+
+Destinatario: Conservas Marjal Blanca S.L. · NIF B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+
+Detalle:
+  1. Revisión anual caldera de vapor y limpieza de quemador — 1 x 1260,00 = 1260,00 €
+  2. Electrodo de ionización (recambio) — 2 x 46,20 = 92,40 €
+
+Base imponible: 1352,40 €
+IVA (21 %): 284,00 €
+TOTAL A PAGAR: 1636,40 €
+
+Condiciones de pago: Transferencia a 30 días fecha factura.
+Cuenta para transferencias: ES88 0128 0400 1100 8899 0011

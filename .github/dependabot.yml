@@ -1,0 +1,31 @@
+# Dependabot: una PR al mes por ecosistema, agrupada, con título Conventional Commits.
+# Solo hay dependencias de desarrollo (ruff, pytest) y las acciones de los workflows:
+# el paquete kit_pyme usa exclusivamente la biblioteca estándar.
+
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+      timezone: Europe/Madrid
+    commit-message:
+      prefix: ci
+      include: scope
+    groups:
+      acciones:
+        patterns:
+          - "*"
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+      timezone: Europe/Madrid
+    commit-message:
+      prefix: build
+      include: scope
+    groups:
+      desarrollo:
+        patterns:
+          - "*"

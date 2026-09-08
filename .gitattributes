@@ -1,0 +1,19 @@
+# Todo el texto se guarda y se extrae con salto de línea LF, también en Windows: los hashes de
+# datos/CHECKSUMS.sha256 y los prompts que se componen a partir de los CSV dependen de cada byte.
+* text=auto eol=lf
+*.csv text
+*.json text
+*.txt text
+*.md text
+*.py text
+*.sha256 text
+*.yml text
+*.yaml text
+*.toml text
+*.cff text
+
+# Binarios, por si algún día entra alguno.
+*.png binary
+*.jpg binary
+*.zip binary
+*.pdf binary

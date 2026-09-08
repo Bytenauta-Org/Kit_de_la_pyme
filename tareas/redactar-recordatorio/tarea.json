@@ -1,0 +1,65 @@
+{
+  "_comentario": "Copiado sin cambiar una coma de src/pruebas/tareas.ts del pipeline del blog (bytenauta-blog-agentes). Los marcadores {{ruta}} del prompt se sustituyen por el contenido literal del fichero al componerlo; el sha256 del prompt compuesto y del mensaje de sistema enviado (prompt + línea FORMATO) están en «sha256» y los comprueba «python -m kit_pyme verificar».",
+  "id": "redactar-recordatorio",
+  "nombre": "Escribir 10 recordatorios de cobro con el tono que toca",
+  "descripcion": "Diez facturas vencidas de la hoja de cobros: un correo por cada una con el número, el importe pendiente y el vencimiento, amable a los 7 días, firme al mes y último aviso a los dos meses. Se puntúa por reglas, no por gusto.",
+  "origen": {
+    "fichero": "src/pruebas/tareas.ts",
+    "lineas": "318-363",
+    "repo": "bytenauta-blog-agentes"
+  },
+  "prompt": "Eres Marisa Pérez, de Administración de Conservas Marjal Blanca S.L. (Almoradí, Alicante). Escribes correos de recordatorio de cobro a clientes con los que queremos seguir trabajando.\n\nReglas de la casa:\n- Un correo corto (menos de 200 palabras), en español, dirigido a la persona de contacto por su nombre de pila, con asunto.\n- Tiene que decir siempre el número de factura, el importe pendiente en euros y la fecha de vencimiento. Si hubo un pago parcial, reconócelo y reclama solo el resto.\n- Tono según lo que te indiquen:\n  · amable: recordatorio cordial: damos por hecho que es un despiste; sin amenazas ni mención de intereses.\n  · firme: firme pero educado: pide fecha concreta de pago y avisa de que es el segundo aviso o de que el retraso es ya importante; sin amenazas legales.\n  · formal: último aviso formal: fija un plazo de días para pagar y advierte de suspensión de suministro y/o intereses de demora según contrato; correcto, sin insultos.\n- Ofrece siempre la cuenta para el pago (IBAN ES21 0081 1234 5600 0123 4567) y un teléfono (965 70 12 48) por si el pago ya está hecho o hay algún problema con la factura.\n- Nunca amenaces con abogados ni denuncias; nunca insultes; nunca digas que «el sistema» lo ha enviado.\n- Firma como Marisa Pérez, Administración, Conservas Marjal Blanca S.L.\n\nHoy es 14/09/2026. Responde solo con el JSON del esquema.",
+  "linea_formato": true,
+  "esquema": {
+    "type": "object",
+    "required": [
+      "asunto",
+      "cuerpo"
+    ],
+    "properties": {
+      "asunto": {
+        "type": "string"
+      },
+      "cuerpo": {
+        "type": "string",
+        "description": "El correo completo, con saludo y firma"
+      }
+    }
+  },
+  "max_tokens": 4000,
+  "verdad": "datos/cobros/cobros-verdad.json",
+  "lista": "casos_recordatorio",
+  "entrada": {
+    "tipo": "plantilla",
+    "plantilla": "Factura: {factura}\nCliente: {cliente} (contacto: {contacto})\nImporte pendiente: {importe_pendiente} €\nVencimiento: {vencimiento}\nDías de retraso a día de hoy: {dias_retraso}\nTono requerido: {tono}\nContexto (hoja de cobros): {rasgos}\n\nFila de cobros.csv:\n{fila_cobros}",
+    "rasgos_de": "recordar",
+    "clave_relacion": "factura",
+    "fila_de": "datos/cobros/cobros.csv",
+    "campos": {
+      "factura, cliente, contacto, dias_retraso, tono": "tal cual vienen en el caso de casos_recordatorio",
+      "importe_pendiente": "importe_pendiente del caso con dos decimales y coma decimal, sin separador de millar (toFixed(2) con «,»): 4312,60",
+      "vencimiento": "vencimiento del caso pasado de AAAA-MM-DD a DD/MM/AAAA",
+      "rasgos": "campo «rasgos» del elemento de «recordar» (cobros-verdad.json) cuya «factura» es la del caso; cadena vacía si no hay",
+      "fila_cobros": "primera línea (cabecera) de datos/cobros/cobros.csv, un salto de línea y la línea que empieza por «<factura>;»; «(no encontrada)» si no existe"
+    },
+    "descripcion": "Diez líneas unidas con salto de línea y sin salto final; ver ejemplo en docs/tareas.md."
+  },
+  "sha256": {
+    "prompt": "5aa5c0c0ffe0f403bb403ea0c26c8d41eae4df8c175bb78878fc2911856ea95a",
+    "system": "d68cbb0ed5ef3b948afbad3063af2cef1e6dac8bcf2257570eff11ceb0f5e011"
+  },
+  "prompt_origen": {
+    "descripcion": "El prompt está resuelto: tareas.ts lo interpola desde cobros-verdad.json. Un test recompone el texto desde esos campos y comprueba que coincide.",
+    "fichero": "datos/cobros/cobros-verdad.json",
+    "campos": [
+      "firma.nombre",
+      "firma.cargo",
+      "tonos.amable.descripcion",
+      "tonos.firme.descripcion",
+      "tonos.formal.descripcion",
+      "firma.iban",
+      "firma.telefono",
+      "fecha_referencia (como DD/MM/AAAA)"
+    ]
+  }
+}

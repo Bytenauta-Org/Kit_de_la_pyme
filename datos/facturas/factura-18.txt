@@ -1,0 +1,23 @@
+UNIFORMES Y VESTUARIO LABORAL ALICANTE S.L.
+B36901775 · c/ Doctor Fleming 52 · 03690 San Vicente del Raspeig · Tel. 965 66 12 40
+ventas@uniformesalicante.example
+
+                                                          FACTURA Nº UVA-26-0930
+                                                          Fecha: 10/09/2026
+CLIENTE: Conservas Marjal Blanca S.L.
+NIF: B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+Su referencia: Pedido web 26-4471
+
+Concepto                                                  Cantidad      Precio       Importe
+------------------------------------------------------------------------------------------
+Bata blanca sala de envasado, bordado logo                  20       24,50        490,00
+Gorro/cubrepelo desechable (caja 100)                       10        6,90         69,00
+Bota de seguridad S2 blanca, par                             8       27,75        222,00
+------------------------------------------------------------------------------------------
+                                                          Base imponible         781,00
+                                                          IVA 21 %                164,01
+                                                          TOTAL FACTURA          945,01 €
+
+Transferencia a 30 días f.f.
+IBAN: ES27 2100 4400 1122 3355 6688

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/respuesta-resumir-correos.schema.json",
+  "title": "Respuesta esperada de resumir-correos (un correo)",
+  "$comment": "Copia literal del campo «esquema» de la tarea en src/pruebas/tareas.ts del pipeline del blog (Bytenauta-Org/bytenauta-blog-agentes). El objeto que se usa para validar la respuesta del modelo, y el mismo que lleva tareas/<id>/tarea.json, es este sin las claves $schema, $id, title y $comment.",
+  "type": "object",
+  "required": [
+    "categoria",
+    "urgencia",
+    "accion",
+    "resumen"
+  ],
+  "properties": {
+    "categoria": {
+      "type": "string",
+      "enum": [
+        "reclamacion",
+        "consulta",
+        "cambio-pedido",
+        "pedido",
+        "factura-proveedor",
+        "aviso-proveedor",
+        "administrativo",
+        "spam"
+      ]
+    },
+    "urgencia": {
+      "type": "string",
+      "enum": [
+        "alta",
+        "media",
+        "baja"
+      ]
+    },
+    "accion": {
+      "type": "string"
+    },
+    "resumen": {
+      "type": "string"
+    }
+  }
+}

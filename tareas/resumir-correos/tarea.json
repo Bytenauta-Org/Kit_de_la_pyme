@@ -1,0 +1,64 @@
+{
+  "_comentario": "Copiado sin cambiar una coma de src/pruebas/tareas.ts del pipeline del blog (bytenauta-blog-agentes). Los marcadores {{ruta}} del prompt se sustituyen por el contenido literal del fichero al componerlo; el sha256 del prompt compuesto y del mensaje de sistema enviado (prompt + línea FORMATO) están en «sha256» y los comprueba «python -m kit_pyme verificar».",
+  "id": "resumir-correos",
+  "nombre": "Clasificar 30 correos del buzón de administración y decir qué hay que hacer",
+  "descripcion": "Treinta correos de clientes, proveedores, gestoría, banco, Sanidad y spam: categoría, urgencia y acción. Se puntúan categoría y urgencia exactas.",
+  "origen": {
+    "fichero": "src/pruebas/tareas.ts",
+    "lineas": "204-234",
+    "repo": "bytenauta-blog-agentes"
+  },
+  "prompt": "Eres la persona de administración de Conservas Marjal Blanca S.L., una conservera de Almoradí (Alicante) con unos 40 empleados. Cada mañana repasas el buzón y decides qué hacer con cada correo.\n\nPara cada correo devuelve:\n- categoria, una de: reclamacion (un cliente se queja de algo que hemos hecho mal o de una factura), consulta (pregunta o petición de información, precio, plazo o documentación), cambio-pedido (modifica, anula o retrasa un pedido ya hecho), pedido (un pedido nuevo), factura-proveedor (nos envían una factura), aviso-proveedor (un proveedor avisa de precios, retrasos o plazos que nos afectan), administrativo (gestoría, banco, ayuntamiento, Sanidad, seguros: trámites y plazos legales), spam (publicidad, premios de pago, phishing, boletines).\n- urgencia: alta si hay que actuar HOY (una entrega parada, un cliente sin género para mañana, un posible problema sanitario, un plazo legal o de aduana que vence, una inspección anunciada para dentro de pocos días); media si hay que hacerlo esta semana; baja si puede esperar o no hay que hacer nada.\n- accion: en una frase, qué haría un buen administrativo con este correo.\n- resumen: una línea que explique el correo a quien no lo ha leído.\n\nFíjate en las fechas: hoy es lunes 14 de septiembre de 2026. Un correo del banco que pide documentación para dentro de dos semanas es media; un tarro hinchado o un palé retenido en aduana es alta; un boletín de ferias es spam aunque hable de nuestro sector.\n\nResponde solo con el JSON del esquema.",
+  "linea_formato": true,
+  "esquema": {
+    "type": "object",
+    "required": [
+      "categoria",
+      "urgencia",
+      "accion",
+      "resumen"
+    ],
+    "properties": {
+      "categoria": {
+        "type": "string",
+        "enum": [
+          "reclamacion",
+          "consulta",
+          "cambio-pedido",
+          "pedido",
+          "factura-proveedor",
+          "aviso-proveedor",
+          "administrativo",
+          "spam"
+        ]
+      },
+      "urgencia": {
+        "type": "string",
+        "enum": [
+          "alta",
+          "media",
+          "baja"
+        ]
+      },
+      "accion": {
+        "type": "string"
+      },
+      "resumen": {
+        "type": "string"
+      }
+    }
+  },
+  "max_tokens": 4000,
+  "verdad": "datos/correos/correos-verdad.json",
+  "lista": "correos",
+  "entrada": {
+    "tipo": "fichero",
+    "carpeta": "datos/correos",
+    "campo": "fichero",
+    "descripcion": "El fichero correo-NN.txt entero, tal cual, como mensaje de usuario."
+  },
+  "sha256": {
+    "prompt": "1760765f27944b1b9e4a1c3054d6703a1c70f0de0178b06231c4955d3233c898",
+    "system": "cfb42d36e4bd277bcfbec0f37c1dbc64ae9f48e4a59aaa7213a9bda0e4017780"
+  }
+}

@@ -1,0 +1,22 @@
+De: Prevención Activa Levante S.L. <admon@prevencionactiva.example>
+Para: Administración Marjal Blanca <administracion@marjalblanca.example>
+Fecha: 03/09/2026
+Asunto: Factura PAL-2026-0388
+
+Estimado cliente:
+
+Le remitimos la factura PAL-2026-0388 de fecha 03/09/2026, emitida a nombre de Conservas Marjal Blanca S.L. (NIF B38122941).
+
+| Concepto | Cantidad | Precio | Importe |
+|---|---|---|---|
+| Servicio de prevención ajeno (seguridad, higiene, ergonomía) – 3.er trimestre 2026 | 1 | 975,00 | 975,00 |
+| Reconocimientos médicos (6 trabajadores) | 6 | 25,00 | 150,00 |
+
+Base imponible: 1125,00 €
+IVA 21 %: 236,25 €
+Total: 1361,25 €
+
+Pago a 60 días desde la fecha de factura, por transferencia.
+IBAN ES02 0182 1100 3300 6677 8899
+
+Prevención Activa Levante S.L. · B37088440 · c/ Churruca 27 · 03003 Alicante

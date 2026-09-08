@@ -1,0 +1,20 @@
+De: Nimbus ERP Ltd <billing@nimbus-erp.example>
+Para: Administración Marjal Blanca <administracion@marjalblanca.example>
+Fecha: 01/09/2026
+Asunto: Factura INV-2026-091877
+
+Estimado cliente:
+
+Le remitimos la factura INV-2026-091877 de fecha 01/09/2026, emitida a nombre de Conservas Marjal Blanca S.L. (NIF B38122941).
+
+| Concepto | Cantidad | Precio | Importe |
+|---|---|---|---|
+| Nimbus ERP – Plan Business, 12 usuarios, September 2026 | 1 | 289,00 | 289,00 |
+
+Base imponible: 289,00 €
+IVA: 0,00 € (Reverse charge – VAT to be accounted for by the recipient, art. 196 Directive 2006/112/EC)
+Total: 289,00 €
+
+Charged to card ending 4471 on 01/09/2026. No action required.
+
+Nimbus ERP Ltd · IE 3512299 KH · 12 Harcourt Street · Dublin 2 · Ireland

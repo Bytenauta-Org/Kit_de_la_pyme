@@ -1,0 +1,30 @@
+# EditorConfig: https://editorconfig.org
+# Todo el repositorio es UTF-8 sin BOM y con finales de línea LF (también .gitattributes lo fuerza).
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{yml,yaml,json,toml,cff}]
+indent_size = 2
+
+[*.md]
+# En Markdown dos espacios al final de línea son un salto de línea; no se recortan.
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
+
+# Los datos del kit son intocables: cambiarlos es una versión nueva (ver CHANGELOG.md).
+# Que ningún editor los «arregle» al guardar.
+[datos/**]
+trim_trailing_whitespace = false
+insert_final_newline = false
+indent_style = unset
+indent_size = unset

@@ -1,0 +1,23 @@
+FACTURA
+Número: MIS/26/0771
+Fecha de emisión: 21 de agosto de 2026
+Referencia: Parte de trabajo 26-3312
+
+Emisor: Mantenimientos Industriales Segura S.L.
+NIF: B36021889
+Domicilio: c/ Calderería 11, Pol. Ind. La Granadina · 03350 Cox (Alicante)
+Correo: facturas@misegura.example
+
+Destinatario: Conservas Marjal Blanca S.L. · NIF B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+
+Detalle:
+  1. Revisión anual autoclave AC-2 y prueba hidráulica — 1 x 1260,00 = 1260,00 €
+  2. Junta de puerta autoclave (recambio) — 1 x 384,50 = 384,50 €
+
+Base imponible: 1644,50 €
+IVA (21 %): 345,35 €
+TOTAL A PAGAR: 1989,85 €
+
+Condiciones de pago: Transferencia a 30 días fecha factura.
+Cuenta para transferencias: ES88 0128 0400 1100 8899 0011

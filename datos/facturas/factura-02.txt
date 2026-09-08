@@ -1,0 +1,22 @@
+FACTURA
+Número: A/26/0472
+Fecha de emisión: 2 de septiembre de 2026
+Referencia: Entrega cisterna 01/09/2026
+
+Emisor: Almazara Sierra de Mariola S. Coop. V.
+NIF: F30204176
+Domicilio: Ctra. de Banyeres km 3 · 03830 Muro de Alcoy (Alicante)
+Correo: admon@almazaramariola.example
+
+Destinatario: Conservas Marjal Blanca S.L. · NIF B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+
+Detalle:
+  1. Aceite de oliva virgen a granel, calidad conservera (kg) — 3200 x 4,85 = 15520,00 €
+
+Base imponible: 15520,00 €
+IVA (4 %): 620,80 €
+TOTAL A PAGAR: 16140,80 €
+
+Condiciones de pago: Transferencia a 30 días fecha factura.
+Cuenta para transferencias: ES12 3058 0122 4400 9988 7766

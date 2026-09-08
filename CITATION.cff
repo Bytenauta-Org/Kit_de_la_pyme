@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Si usas el kit de la pyme en un artículo, una comparativa o un producto, cítalo así."
+type: dataset
+title: "Kit de la pyme"
+abstract: >-
+  Banco de pruebas público para medir herramientas de inteligencia artificial sobre
+  el trabajo administrativo de una pyme española: 100 casos con respuesta correcta
+  conocida (20 pedidos, 30 correos, 15 preguntas sobre un contrato de suministro,
+  25 facturas recibidas y 10 recordatorios de cobro) de una conservera inventada,
+  cinco tareas con su prompt y su esquema de respuesta, una puntuación determinista
+  regla por regla y un ejecutor en Python que produce las mismas cifras que publica
+  el blog semanal «A la última» de Bytenauta.
+authors:
+  - name: "Bytenauta S.L."
+    city: Alicante
+    country: ES
+    website: "https://bytenauta.com"
+    email: info@bytenauta.com
+version: 1.0.0
+date-released: 2026-09-08
+license: CC-BY-4.0
+repository-code: "https://github.com/Bytenauta-Org/Kit_de_la_pyme"
+url: "https://bytenauta.com/a-la-ultima/"
+keywords:
+  - benchmark
+  - inteligencia artificial
+  - pyme
+  - modelos de lenguaje
+  - administración
+  - facturas
+  - pedidos
+  - contratos
+  - datos sintéticos
+  - español

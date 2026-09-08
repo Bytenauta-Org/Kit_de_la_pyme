@@ -1,0 +1,21 @@
+MUTUA ASEGURADORA DEL MEDITERRÁNEO, M.P.S.
+V46001285 · Pl. del Ayuntamiento 9 · 46002 València · Tel. 963 50 20 20
+empresas@mutuamediterraneo.example
+
+                                                          FACTURA Nº REC-2026-0771208
+                                                          Fecha: 01/09/2026
+CLIENTE: Conservas Marjal Blanca S.L.
+NIF: B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+Su referencia: Póliza RC-PROD 4471-2 · anualidad 01/10/2026 – 30/09/2027
+
+Concepto                                                  Cantidad      Precio       Importe
+------------------------------------------------------------------------------------------
+Prima neta seguro responsabilidad civil de producto          1     4000,00       4000,00
+------------------------------------------------------------------------------------------
+                                                          Base imponible        4000,00
+                                                          IVA  0 %                  0,00
+                                                          IPS 8 % + Consorcio       380,00
+                                                          TOTAL FACTURA         4380,00 €
+
+Recibo domiciliado. Fecha de cargo: 01/10/2026.

@@ -1,0 +1,23 @@
+De: Transportes Orihuela Express S.L. <admin@orihuelaexpress.example>
+Para: Administración Marjal Blanca <administracion@marjalblanca.example>
+Fecha: 05/09/2026
+Asunto: Factura TOE/26/0812
+
+Estimado cliente:
+
+Le remitimos la factura TOE/26/0812 de fecha 05/09/2026, emitida a nombre de Conservas Marjal Blanca S.L. (NIF B38122941).
+
+| Concepto | Cantidad | Precio | Importe |
+|---|---|---|---|
+| Portes agosto 2026 (37 expediciones, según detalle adjunto) | 1 | 2867,40 | 2867,40 |
+| Recargo combustible 4,2 % | 1 | 120,43 | 120,43 |
+| Espera en descarga superior a 1 h (Benidorm 11/08 y 25/08) | 2 | 45,00 | 90,00 |
+
+Base imponible: 3077,83 €
+IVA 21 %: 646,34 €
+Total: 3724,17 €
+
+Pago por transferencia a 30 días desde la fecha de factura.
+IBAN ES71 0182 3300 1100 5566 7788
+
+Transportes Orihuela Express S.L. · B33992108 · Pol. Ind. Puente Alto, c/ Camioneros 2 · 03300 Orihuela (Alicante)

@@ -1,0 +1,627 @@
+{
+  "_comentario": "Semana de referencia: lunes 14 de septiembre de 2026. Regla de la casa: se recuerda toda factura vencida y no cobrada (o cobrada en parte) salvo que esté en disputa, haya un acuerdo de pago posterior, se haya recordado en los últimos 7 días o venciera en fin de semana (se espera al lunes siguiente). Tono según retraso: 1-15 días amable; 16-45 firme; más de 45 último aviso formal. Los casos de «redactar-recordatorio» se puntúan por reglas (debe_contener_alguno = cada grupo debe aparecer con alguno de sus formatos).",
+  "fecha_referencia": "2026-09-14",
+  "empresa": "Conservas Marjal Blanca S.L.",
+  "firma": {
+    "nombre": "Marisa Pérez",
+    "cargo": "Administración",
+    "telefono": "965 70 12 48",
+    "iban": "ES21 0081 1234 5600 0123 4567"
+  },
+  "tonos": {
+    "amable": {
+      "descripcion": "recordatorio cordial: damos por hecho que es un despiste; sin amenazas ni mención de intereses",
+      "prohibido": [
+        "requerimiento",
+        "acciones legales",
+        "intereses de demora",
+        "suspensión",
+        "suspender",
+        "burofax",
+        "reclamación judicial",
+        "último aviso"
+      ],
+      "obligatorio": []
+    },
+    "firme": {
+      "descripcion": "firme pero educado: pide fecha concreta de pago y avisa de que es el segundo aviso o de que el retraso es ya importante; sin amenazas legales",
+      "prohibido": [
+        "acciones legales",
+        "burofax",
+        "reclamación judicial",
+        "abogado"
+      ],
+      "obligatorio": []
+    },
+    "formal": {
+      "descripcion": "último aviso formal: fija un plazo de días para pagar y advierte de suspensión de suministro y/o intereses de demora según contrato; correcto, sin insultos",
+      "prohibido": [
+        "abogado",
+        "denuncia"
+      ],
+      "obligatorio": [
+        "suspensi|intereses de demora|último aviso|ultimo aviso|plazo"
+      ]
+    }
+  },
+  "recordar": [
+    {
+      "factura": "26/1135",
+      "cliente": "Supermercados Alifresc S.L.",
+      "contacto": "Sergio Baeza",
+      "importe_total": 4312.6,
+      "importe_pendiente": 4312.6,
+      "vencimiento": "2026-09-07",
+      "dias_retraso": 7,
+      "tono": "amable",
+      "rasgos": "Mencionar la factura 26/1135, 4312,60 € pendientes y el vencimiento del 07/09/2026; tono amable."
+    },
+    {
+      "factura": "26/1149",
+      "cliente": "Sabores de Levante Online S.L.",
+      "contacto": "Irene Mora",
+      "importe_total": 1264.35,
+      "importe_pendiente": 1264.35,
+      "vencimiento": "2026-09-09",
+      "dias_retraso": 5,
+      "tono": "amable",
+      "rasgos": "Mencionar la factura 26/1149, 1264,35 € pendientes y el vencimiento del 09/09/2026; tono amable."
+    },
+    {
+      "factura": "26/1144",
+      "cliente": "Catering Lucentum Eventos S.L.",
+      "contacto": "Nuria Pastor",
+      "importe_total": 842.1,
+      "importe_pendiente": 842.1,
+      "vencimiento": "2026-09-02",
+      "dias_retraso": 12,
+      "tono": "amable",
+      "rasgos": "Mencionar la factura 26/1144, 842,10 € pendientes y el vencimiento del 02/09/2026; tono amable."
+    },
+    {
+      "factura": "26/1150",
+      "cliente": "Cooperativa Agrícola San Isidro de Callosa S. Coop. V.",
+      "contacto": "Mari Carmen Gil",
+      "importe_total": 655.2,
+      "importe_pendiente": 655.2,
+      "vencimiento": "2026-09-11",
+      "dias_retraso": 3,
+      "tono": "amable",
+      "rasgos": "Mencionar la factura 26/1150, 655,20 € pendientes y el vencimiento del 11/09/2026; tono amable."
+    },
+    {
+      "factura": "26/1121",
+      "cliente": "Supermercados Serrano S.L.",
+      "contacto": "Amparo Sellés",
+      "importe_total": 7418.9,
+      "importe_pendiente": 7418.9,
+      "vencimiento": "2026-08-21",
+      "dias_retraso": 24,
+      "tono": "firme",
+      "rasgos": "Mencionar la factura 26/1121, 7418,90 € pendientes y el vencimiento del 21/08/2026; tono firme."
+    },
+    {
+      "factura": "26/1118",
+      "cliente": "Distribuciones Bernabéu e Hijos S.L.",
+      "contacto": "Juanjo Bernabéu",
+      "importe_total": 2976.4,
+      "importe_pendiente": 2976.4,
+      "vencimiento": "2026-08-14",
+      "dias_retraso": 31,
+      "tono": "firme",
+      "rasgos": "Mencionar la factura 26/1118, 2976,40 € pendientes y el vencimiento del 14/08/2026; tono firme."
+    },
+    {
+      "factura": "26/1140",
+      "cliente": "Grupo Hostelero Mediterráneo S.L.",
+      "contacto": "Rubén Ortolá",
+      "importe_total": 3163.42,
+      "importe_pendiente": 3163.42,
+      "vencimiento": "2026-08-19",
+      "dias_retraso": 26,
+      "tono": "firme",
+      "rasgos": "Mencionar la factura 26/1140, 3163,42 € pendientes y el vencimiento del 19/08/2026; tono firme."
+    },
+    {
+      "factura": "26/1125",
+      "cliente": "Cash Vega Baja S.A.",
+      "contacto": "Loli Marco",
+      "importe_total": 5104,
+      "importe_pendiente": 2104,
+      "vencimiento": "2026-08-15",
+      "dias_retraso": 30,
+      "tono": "firme",
+      "rasgos": "Mencionar la factura 26/1125, 2104,00 € pendientes y el vencimiento del 15/08/2026; tono firme; reconocer el pago parcial recibido; contexto: Pago parcial de 3.000,00 el 28/08; queda el resto.."
+    },
+    {
+      "factura": "26/1105",
+      "cliente": "Distribuciones Bernabéu e Hijos S.L.",
+      "contacto": "Juanjo Bernabéu",
+      "importe_total": 1188.75,
+      "importe_pendiente": 1188.75,
+      "vencimiento": "2026-07-10",
+      "dias_retraso": 66,
+      "tono": "formal",
+      "rasgos": "Mencionar la factura 26/1105, 1188,75 € pendientes y el vencimiento del 10/07/2026; tono formal; contexto: Segundo recordatorio enviado el 20/08 sin respuesta.."
+    },
+    {
+      "factura": "26/1124",
+      "cliente": "Ultramarinos La Font S.L.U.",
+      "contacto": "Vicent Ferrándiz",
+      "importe_total": 421.9,
+      "importe_pendiente": 421.9,
+      "vencimiento": "2026-06-30",
+      "dias_retraso": 76,
+      "tono": "formal",
+      "rasgos": "Mencionar la factura 26/1124, 421,90 € pendientes y el vencimiento del 30/06/2026; tono formal; contexto: Contado no atendido. Dice que lo transfiere «esta semana» desde julio.."
+    },
+    {
+      "factura": "26/1137",
+      "cliente": "Restaurante Casa Pepa (Josefa Belmonte Cano)",
+      "contacto": "Pepa Belmonte",
+      "importe_total": 268.4,
+      "importe_pendiente": 268.4,
+      "vencimiento": "2026-07-14",
+      "dias_retraso": 62,
+      "tono": "formal",
+      "rasgos": "Mencionar la factura 26/1137, 268,40 € pendientes y el vencimiento del 14/07/2026; tono formal; contexto: El repartidor no cobró; ella dice que pagó en efectivo y no hay recibo.."
+    }
+  ],
+  "no_recordar": [
+    {
+      "factura": "26/1132",
+      "cliente": "Distribuciones Hermanos Cascales S.L.",
+      "vencimiento": "2026-08-31",
+      "motivo": "en disputa: el cliente reclama precio erróneo (factura 26/1132) y está pendiente la rectificativa"
+    },
+    {
+      "factura": "26/1131",
+      "cliente": "Supermercados Serrano S.L.",
+      "vencimiento": "2026-09-04",
+      "motivo": "acordado por teléfono el pago el 18/09; no reclamar antes"
+    },
+    {
+      "factura": "26/1133",
+      "cliente": "Cash Vega Baja S.A.",
+      "vencimiento": "2026-08-22",
+      "motivo": "se le recordó hace 3 días (11/09); esperar respuesta"
+    },
+    {
+      "factura": "26/1153",
+      "cliente": "Sabores de Levante Online S.L.",
+      "vencimiento": "2026-09-13",
+      "motivo": "vence esta semana (13/09 era domingo → 1 día): se recuerda la semana que viene si sigue pendiente"
+    },
+    {
+      "factura": "26/1151",
+      "cliente": "Grupo Hostelero Mediterráneo S.L.",
+      "vencimiento": "2026-09-12",
+      "motivo": "no ha vencido todavía (vence el 12/09 + margen de cortesía de 2 días laborables acordado en contrato)"
+    }
+  ],
+  "casos_recordatorio": [
+    {
+      "id": "recordatorio-01",
+      "factura": "26/1135",
+      "cliente": "Supermercados Alifresc S.L.",
+      "contacto": "Sergio Baeza",
+      "importe_pendiente": 4312.6,
+      "vencimiento": "2026-09-07",
+      "dias_retraso": 7,
+      "tono": "amable",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1135",
+            "26-1135",
+            "1135"
+          ],
+          [
+            "4312,60",
+            "4.312,60",
+            "4312.60"
+          ],
+          [
+            "07/09/2026",
+            "7/9/2026",
+            "07-09-2026",
+            "7 de septiembre",
+            "2026-09-07"
+          ]
+        ],
+        "debe_contener_expresion": [],
+        "no_debe_contener": [
+          "requerimiento",
+          "acciones legales",
+          "intereses de demora",
+          "suspensión",
+          "suspender",
+          "burofax",
+          "reclamación judicial",
+          "último aviso"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Sergio",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-02",
+      "factura": "26/1149",
+      "cliente": "Sabores de Levante Online S.L.",
+      "contacto": "Irene Mora",
+      "importe_pendiente": 1264.35,
+      "vencimiento": "2026-09-09",
+      "dias_retraso": 5,
+      "tono": "amable",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1149",
+            "26-1149",
+            "1149"
+          ],
+          [
+            "1264,35",
+            "1.264,35",
+            "1264.35"
+          ],
+          [
+            "09/09/2026",
+            "9/9/2026",
+            "09-09-2026",
+            "9 de septiembre",
+            "2026-09-09"
+          ]
+        ],
+        "debe_contener_expresion": [],
+        "no_debe_contener": [
+          "requerimiento",
+          "acciones legales",
+          "intereses de demora",
+          "suspensión",
+          "suspender",
+          "burofax",
+          "reclamación judicial",
+          "último aviso"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Irene",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-03",
+      "factura": "26/1144",
+      "cliente": "Catering Lucentum Eventos S.L.",
+      "contacto": "Nuria Pastor",
+      "importe_pendiente": 842.1,
+      "vencimiento": "2026-09-02",
+      "dias_retraso": 12,
+      "tono": "amable",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1144",
+            "26-1144",
+            "1144"
+          ],
+          [
+            "842,10",
+            "842.10"
+          ],
+          [
+            "02/09/2026",
+            "2/9/2026",
+            "02-09-2026",
+            "2 de septiembre",
+            "2026-09-02"
+          ]
+        ],
+        "debe_contener_expresion": [],
+        "no_debe_contener": [
+          "requerimiento",
+          "acciones legales",
+          "intereses de demora",
+          "suspensión",
+          "suspender",
+          "burofax",
+          "reclamación judicial",
+          "último aviso"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Nuria",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-04",
+      "factura": "26/1150",
+      "cliente": "Cooperativa Agrícola San Isidro de Callosa S. Coop. V.",
+      "contacto": "Mari Carmen Gil",
+      "importe_pendiente": 655.2,
+      "vencimiento": "2026-09-11",
+      "dias_retraso": 3,
+      "tono": "amable",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1150",
+            "26-1150",
+            "1150"
+          ],
+          [
+            "655,20",
+            "655.20"
+          ],
+          [
+            "11/09/2026",
+            "11/9/2026",
+            "11-09-2026",
+            "11 de septiembre",
+            "2026-09-11"
+          ]
+        ],
+        "debe_contener_expresion": [],
+        "no_debe_contener": [
+          "requerimiento",
+          "acciones legales",
+          "intereses de demora",
+          "suspensión",
+          "suspender",
+          "burofax",
+          "reclamación judicial",
+          "último aviso"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Mari",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-05",
+      "factura": "26/1121",
+      "cliente": "Supermercados Serrano S.L.",
+      "contacto": "Amparo Sellés",
+      "importe_pendiente": 7418.9,
+      "vencimiento": "2026-08-21",
+      "dias_retraso": 24,
+      "tono": "firme",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1121",
+            "26-1121",
+            "1121"
+          ],
+          [
+            "7418,90",
+            "7.418,90",
+            "7418.90"
+          ],
+          [
+            "21/08/2026",
+            "21/8/2026",
+            "21-08-2026",
+            "21 de agosto",
+            "2026-08-21"
+          ]
+        ],
+        "debe_contener_expresion": [],
+        "no_debe_contener": [
+          "acciones legales",
+          "burofax",
+          "reclamación judicial",
+          "abogado"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Amparo",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-06",
+      "factura": "26/1118",
+      "cliente": "Distribuciones Bernabéu e Hijos S.L.",
+      "contacto": "Juanjo Bernabéu",
+      "importe_pendiente": 2976.4,
+      "vencimiento": "2026-08-14",
+      "dias_retraso": 31,
+      "tono": "firme",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1118",
+            "26-1118",
+            "1118"
+          ],
+          [
+            "2976,40",
+            "2.976,40",
+            "2976.40"
+          ],
+          [
+            "14/08/2026",
+            "14/8/2026",
+            "14-08-2026",
+            "14 de agosto",
+            "2026-08-14"
+          ]
+        ],
+        "debe_contener_expresion": [],
+        "no_debe_contener": [
+          "acciones legales",
+          "burofax",
+          "reclamación judicial",
+          "abogado"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Juanjo",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-07",
+      "factura": "26/1140",
+      "cliente": "Grupo Hostelero Mediterráneo S.L.",
+      "contacto": "Rubén Ortolá",
+      "importe_pendiente": 3163.42,
+      "vencimiento": "2026-08-19",
+      "dias_retraso": 26,
+      "tono": "firme",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1140",
+            "26-1140",
+            "1140"
+          ],
+          [
+            "3163,42",
+            "3.163,42",
+            "3163.42"
+          ],
+          [
+            "19/08/2026",
+            "19/8/2026",
+            "19-08-2026",
+            "19 de agosto",
+            "2026-08-19"
+          ]
+        ],
+        "debe_contener_expresion": [],
+        "no_debe_contener": [
+          "acciones legales",
+          "burofax",
+          "reclamación judicial",
+          "abogado"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Rubén",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-08",
+      "factura": "26/1125",
+      "cliente": "Cash Vega Baja S.A.",
+      "contacto": "Loli Marco",
+      "importe_pendiente": 2104,
+      "vencimiento": "2026-08-15",
+      "dias_retraso": 30,
+      "tono": "firme",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1125",
+            "26-1125",
+            "1125"
+          ],
+          [
+            "2104,00",
+            "2.104,00",
+            "2104.00"
+          ],
+          [
+            "15/08/2026",
+            "15/8/2026",
+            "15-08-2026",
+            "15 de agosto",
+            "2026-08-15"
+          ]
+        ],
+        "debe_contener_expresion": [],
+        "no_debe_contener": [
+          "acciones legales",
+          "burofax",
+          "reclamación judicial",
+          "abogado"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Loli",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-09",
+      "factura": "26/1105",
+      "cliente": "Distribuciones Bernabéu e Hijos S.L.",
+      "contacto": "Juanjo Bernabéu",
+      "importe_pendiente": 1188.75,
+      "vencimiento": "2026-07-10",
+      "dias_retraso": 66,
+      "tono": "formal",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1105",
+            "26-1105",
+            "1105"
+          ],
+          [
+            "1188,75",
+            "1.188,75",
+            "1188.75"
+          ],
+          [
+            "10/07/2026",
+            "10/7/2026",
+            "10-07-2026",
+            "10 de julio",
+            "2026-07-10"
+          ]
+        ],
+        "debe_contener_expresion": [
+          "suspensi|intereses de demora|último aviso|ultimo aviso|plazo"
+        ],
+        "no_debe_contener": [
+          "abogado",
+          "denuncia"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Juanjo",
+        "debe_firmar": "Marjal"
+      }
+    },
+    {
+      "id": "recordatorio-10",
+      "factura": "26/1124",
+      "cliente": "Ultramarinos La Font S.L.U.",
+      "contacto": "Vicent Ferrándiz",
+      "importe_pendiente": 421.9,
+      "vencimiento": "2026-06-30",
+      "dias_retraso": 76,
+      "tono": "formal",
+      "reglas": {
+        "debe_contener_alguno": [
+          [
+            "26/1124",
+            "26-1124",
+            "1124"
+          ],
+          [
+            "421,90",
+            "421.90"
+          ],
+          [
+            "30/06/2026",
+            "30/6/2026",
+            "30-06-2026",
+            "30 de junio",
+            "2026-06-30"
+          ]
+        ],
+        "debe_contener_expresion": [
+          "suspensi|intereses de demora|último aviso|ultimo aviso|plazo"
+        ],
+        "no_debe_contener": [
+          "abogado",
+          "denuncia"
+        ],
+        "max_palabras": 220,
+        "debe_nombrar_cliente": "Vicent",
+        "debe_firmar": "Marjal"
+      }
+    }
+  ]
+}

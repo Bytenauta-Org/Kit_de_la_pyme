@@ -1,0 +1,1900 @@
+[
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "objeto vacío",
+    "respuesta": {},
+    "ok": false,
+    "fallo": "Pedido 01: no devolvió nada legible"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "referencia con otro formato y cliente corto: OK",
+    "respuesta": {
+      "cliente": "Serrano",
+      "lineas": [
+        {
+          "referencia": "cons atun ol 120",
+          "cantidad_cajas": 40,
+          "precio_caja": 24.29
+        },
+        {
+          "referencia": "cons atun na 120",
+          "cantidad_cajas": 25,
+          "precio_caja": 21.64
+        },
+        {
+          "referencia": "cons boni ol 220",
+          "cantidad_cajas": 15,
+          "precio_caja": 34.22
+        },
+        {
+          "referencia": "cons alca co t370",
+          "cantidad_cajas": 30,
+          "precio_caja": 24.84
+        },
+        {
+          "referencia": "cons toma fr t370",
+          "cantidad_cajas": 20,
+          "precio_caja": 14.9
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "cantidad y precio como cadenas españolas: OK",
+    "respuesta": {
+      "cliente": "Supermercados Serrano S.L.",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": "40",
+          "precio_caja": "24,29 €"
+        },
+        {
+          "referencia": "CONS-ATUN-NA-120",
+          "cantidad_cajas": "25",
+          "precio_caja": "21,64 €"
+        },
+        {
+          "referencia": "CONS-BONI-OL-220",
+          "cantidad_cajas": "15",
+          "precio_caja": "34,22 €"
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "cantidad_cajas": "30",
+          "precio_caja": "24,84 €"
+        },
+        {
+          "referencia": "CONS-TOMA-FR-T370",
+          "cantidad_cajas": "20",
+          "precio_caja": "14,90 €"
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "claves cantidad/precio en vez de cantidad_cajas/precio_caja: OK",
+    "respuesta": {
+      "cliente": "Serrano",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad": 40,
+          "precio": 24.29
+        },
+        {
+          "referencia": "CONS-ATUN-NA-120",
+          "cantidad": 25,
+          "precio": 21.64
+        },
+        {
+          "referencia": "CONS-BONI-OL-220",
+          "cantidad": 15,
+          "precio": 34.22
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "cantidad": 30,
+          "precio": 24.84
+        },
+        {
+          "referencia": "CONS-TOMA-FR-T370",
+          "cantidad": 20,
+          "precio": 14.9
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "precio con desvío de 0,01: OK",
+    "respuesta": {
+      "cliente": "Serrano",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 24.3
+        },
+        {
+          "referencia": "CONS-ATUN-NA-120",
+          "cantidad_cajas": 25,
+          "precio_caja": 21.650000000000002
+        },
+        {
+          "referencia": "CONS-BONI-OL-220",
+          "cantidad_cajas": 15,
+          "precio_caja": 34.23
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "cantidad_cajas": 30,
+          "precio_caja": 24.85
+        },
+        {
+          "referencia": "CONS-TOMA-FR-T370",
+          "cantidad_cajas": 20,
+          "precio_caja": 14.91
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "precio con desvío de 0,02: fallo",
+    "respuesta": {
+      "cliente": "Serrano",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 24.31
+        },
+        {
+          "referencia": "CONS-ATUN-NA-120",
+          "cantidad_cajas": 25,
+          "precio_caja": 21.64
+        },
+        {
+          "referencia": "CONS-BONI-OL-220",
+          "cantidad_cajas": 15,
+          "precio_caja": 34.22
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "cantidad_cajas": 30,
+          "precio_caja": 24.84
+        },
+        {
+          "referencia": "CONS-TOMA-FR-T370",
+          "cantidad_cajas": 20,
+          "precio_caja": 14.9
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 01: en CONS-ATUN-OL-120 puso 24,31 € donde la tarifa dice 24,29 €"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-05",
+    "nombre": "cantidad mal leída",
+    "respuesta": {
+      "cliente": "Casa Pepa",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-1K",
+          "cantidad_cajas": 12,
+          "precio_caja": 47.4
+        },
+        {
+          "referencia": "CONS-ALCA-CO-3K",
+          "cantidad_cajas": 4,
+          "precio_caja": 34.8
+        },
+        {
+          "referencia": "CONS-PIQU-EN-3K",
+          "cantidad_cajas": 1,
+          "precio_caja": 33.6
+        },
+        {
+          "referencia": "CONS-TOMA-FR-3K",
+          "cantidad_cajas": 3,
+          "precio_caja": 17.6
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 05: en CONS-ATUN-OL-1K leyó 12 cajas donde ponía 2"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-05",
+    "nombre": "cantidad ausente",
+    "respuesta": {
+      "cliente": "Casa Pepa",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-1K",
+          "precio_caja": 47.4
+        },
+        {
+          "referencia": "CONS-ALCA-CO-3K",
+          "cantidad_cajas": 4,
+          "precio_caja": 34.8
+        },
+        {
+          "referencia": "CONS-PIQU-EN-3K",
+          "cantidad_cajas": 1,
+          "precio_caja": 33.6
+        },
+        {
+          "referencia": "CONS-TOMA-FR-3K",
+          "cantidad_cajas": 3,
+          "precio_caja": 17.6
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 05: en CONS-ATUN-OL-1K leyó ¿? cajas donde ponía 2"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-08",
+    "nombre": "precio del cliente en vez del de tarifa",
+    "respuesta": {
+      "cliente": "La Font",
+      "lineas": [
+        {
+          "referencia": "CONS-BONI-OL-T400",
+          "cantidad_cajas": 3,
+          "precio_caja": 58.8
+        },
+        {
+          "referencia": "CONS-ANCH-OL-50",
+          "cantidad_cajas": 2,
+          "precio_caja": 48
+        },
+        {
+          "referencia": "CONS-HABI-BA-T370",
+          "cantidad_cajas": 2,
+          "precio_caja": 39.6
+        },
+        {
+          "referencia": "CONS-NORA-SE-B100",
+          "cantidad_cajas": 1,
+          "precio_caja": 33
+        }
+      ],
+      "incidencias": [
+        "precio anchoas"
+      ]
+    },
+    "ok": false,
+    "fallo": "Pedido 08: en CONS-ANCH-OL-50 puso 48,00 € donde la tarifa dice 52,80 €"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-08",
+    "nombre": "precio ausente (null)",
+    "respuesta": {
+      "cliente": "La Font",
+      "lineas": [
+        {
+          "referencia": "CONS-BONI-OL-T400",
+          "cantidad_cajas": 3,
+          "precio_caja": 58.8
+        },
+        {
+          "referencia": "CONS-ANCH-OL-50",
+          "cantidad_cajas": 2,
+          "precio_caja": null
+        },
+        {
+          "referencia": "CONS-HABI-BA-T370",
+          "cantidad_cajas": 2,
+          "precio_caja": 39.6
+        },
+        {
+          "referencia": "CONS-NORA-SE-B100",
+          "cantidad_cajas": 1,
+          "precio_caja": 33
+        }
+      ],
+      "incidencias": [
+        "precio anchoas"
+      ]
+    },
+    "ok": false,
+    "fallo": "Pedido 08: en CONS-ANCH-OL-50 puso sin precio donde la tarifa dice 52,80 €"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-08",
+    "nombre": "precio de tarifa pero sin avisar de la diferencia",
+    "respuesta": {
+      "cliente": "La Font",
+      "lineas": [
+        {
+          "referencia": "CONS-BONI-OL-T400",
+          "cantidad_cajas": 3,
+          "precio_caja": 58.8
+        },
+        {
+          "referencia": "CONS-ANCH-OL-50",
+          "cantidad_cajas": 2,
+          "precio_caja": 52.8
+        },
+        {
+          "referencia": "CONS-HABI-BA-T370",
+          "cantidad_cajas": 2,
+          "precio_caja": 39.6
+        },
+        {
+          "referencia": "CONS-NORA-SE-B100",
+          "cantidad_cajas": 1,
+          "precio_caja": 33
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 08: no avisó de que el precio de CONS-ANCH-OL-50 no coincide con la tarifa"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-08",
+    "nombre": "incidencia que menciona precio pero no la referencia",
+    "respuesta": {
+      "cliente": "La Font",
+      "lineas": [
+        {
+          "referencia": "CONS-BONI-OL-T400",
+          "cantidad_cajas": 3,
+          "precio_caja": 58.8
+        },
+        {
+          "referencia": "CONS-ANCH-OL-50",
+          "cantidad_cajas": 2,
+          "precio_caja": 52.8
+        },
+        {
+          "referencia": "CONS-HABI-BA-T370",
+          "cantidad_cajas": 2,
+          "precio_caja": 39.6
+        },
+        {
+          "referencia": "CONS-NORA-SE-B100",
+          "cantidad_cajas": 1,
+          "precio_caja": 33
+        }
+      ],
+      "incidencias": [
+        "El cliente escribe un precio distinto del de tarifa en las anchoas"
+      ]
+    },
+    "ok": false,
+    "fallo": "Pedido 08: no avisó de que el precio de CONS-ANCH-OL-50 no coincide con la tarifa"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-08",
+    "nombre": "incidencia correcta: OK",
+    "respuesta": {
+      "cliente": "La Font",
+      "lineas": [
+        {
+          "referencia": "CONS-BONI-OL-T400",
+          "cantidad_cajas": 3,
+          "precio_caja": 58.8
+        },
+        {
+          "referencia": "CONS-ANCH-OL-50",
+          "cantidad_cajas": 2,
+          "precio_caja": 52.8
+        },
+        {
+          "referencia": "CONS-HABI-BA-T370",
+          "cantidad_cajas": 2,
+          "precio_caja": 39.6
+        },
+        {
+          "referencia": "CONS-NORA-SE-B100",
+          "cantidad_cajas": 1,
+          "precio_caja": 33
+        }
+      ],
+      "incidencias": [
+        "CONS-ANCH-OL-50: el cliente pone 48,00 € y la tarifa dice 52,80 €"
+      ]
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-07",
+    "nombre": "referencia inexistente sin avisar",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 30,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-OL-200",
+          "cantidad_cajas": 20,
+          "precio_caja": null
+        },
+        {
+          "referencia": "CONS-MELV-OL-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 29.28
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 23.4
+        },
+        {
+          "referencia": "CONS-ACEI-VE-T370",
+          "cantidad_cajas": 12,
+          "precio_caja": 15
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 07: no avisó de que la referencia CONS-ATUN-OL-200 no existe en la tarifa"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-07",
+    "nombre": "referencia inexistente avisada: OK",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 30,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-OL-200",
+          "cantidad_cajas": 20,
+          "precio_caja": null
+        },
+        {
+          "referencia": "CONS-MELV-OL-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 29.28
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 23.4
+        },
+        {
+          "referencia": "CONS-ACEI-VE-T370",
+          "cantidad_cajas": 12,
+          "precio_caja": 15
+        }
+      ],
+      "incidencias": [
+        "La referencia CONS-ATUN-OL-200 no existe en la tarifa; preguntar al cliente"
+      ]
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-07",
+    "nombre": "referencia inexistente avisada con la referencia sin guiones: OK",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 30,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-OL-200",
+          "cantidad_cajas": 20,
+          "precio_caja": null
+        },
+        {
+          "referencia": "CONS-MELV-OL-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 29.28
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 23.4
+        },
+        {
+          "referencia": "CONS-ACEI-VE-T370",
+          "cantidad_cajas": 12,
+          "precio_caja": 15
+        }
+      ],
+      "incidencias": [
+        "consatunol200 no figura en la tarifa"
+      ]
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-07",
+    "nombre": "línea inexistente con precio inventado (no se comprueba el precio si el esperado es null): OK",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 30,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-OL-200",
+          "cantidad_cajas": 20,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-MELV-OL-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 29.28
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 23.4
+        },
+        {
+          "referencia": "CONS-ACEI-VE-T370",
+          "cantidad_cajas": 12,
+          "precio_caja": 15
+        }
+      ],
+      "incidencias": [
+        "CONS-ATUN-OL-200 no existe"
+      ]
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-16",
+    "nombre": "falta una línea",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-ES-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 24
+        },
+        {
+          "referencia": "CONS-CABA-OL-120",
+          "cantidad_cajas": 16,
+          "precio_caja": 21.6
+        },
+        {
+          "referencia": "CONS-JUDI-VE-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 12.6
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 16: le faltó la línea de CONS-ATUN-OL-120 (40 cajas)"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-16",
+    "nombre": "línea inventada",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-ES-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 24
+        },
+        {
+          "referencia": "CONS-CABA-OL-120",
+          "cantidad_cajas": 16,
+          "precio_caja": 21.6
+        },
+        {
+          "referencia": "CONS-JUDI-VE-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 12.6
+        },
+        {
+          "referencia": "CONS-MEJI-ES-120",
+          "cantidad_cajas": 12,
+          "precio_caja": 34.08
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 16: se inventó una línea de CONS-MEJI-ES-120 que no está en el pedido"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-16",
+    "nombre": "línea inventada sin referencia",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-ES-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 24
+        },
+        {
+          "referencia": "CONS-CABA-OL-120",
+          "cantidad_cajas": 16,
+          "precio_caja": 21.6
+        },
+        {
+          "referencia": "CONS-JUDI-VE-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 12.6
+        },
+        {
+          "cantidad_cajas": 12,
+          "precio_caja": 34.08
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 16: se inventó una línea de (sin referencia) que no está en el pedido"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-16",
+    "nombre": "línea duplicada",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-ES-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 24
+        },
+        {
+          "referencia": "CONS-CABA-OL-120",
+          "cantidad_cajas": 16,
+          "precio_caja": 21.6
+        },
+        {
+          "referencia": "CONS-JUDI-VE-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 12.6
+        },
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 26.4
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 16: duplicó líneas (5 donde había 4)"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-16",
+    "nombre": "línea duplicada con otra cantidad (se acepta la que coincide)",
+    "respuesta": {
+      "cliente": "Alifresc",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 99,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-ES-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 24
+        },
+        {
+          "referencia": "CONS-CABA-OL-120",
+          "cantidad_cajas": 16,
+          "precio_caja": 21.6
+        },
+        {
+          "referencia": "CONS-JUDI-VE-T720",
+          "cantidad_cajas": 24,
+          "precio_caja": 12.6
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 16: duplicó líneas (5 donde había 4)"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-02",
+    "nombre": "cliente equivocado",
+    "respuesta": {
+      "cliente": "Supermercados Serrano",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 60,
+          "precio_caja": 23.23
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 20.06
+        },
+        {
+          "referencia": "CONS-SARD-OL-120",
+          "cantidad_cajas": 20,
+          "precio_caja": 26.61
+        },
+        {
+          "referencia": "CONS-MEJI-ES-120",
+          "cantidad_cajas": 15,
+          "precio_caja": 29.99
+        },
+        {
+          "referencia": "CONS-CALA-TI-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 25.13
+        },
+        {
+          "referencia": "CONS-TOMA-TR-T720",
+          "cantidad_cajas": 50,
+          "precio_caja": 8.71
+        },
+        {
+          "referencia": "CONS-GARB-CO-T720",
+          "cantidad_cajas": 30,
+          "precio_caja": 8.18
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 02: identificó al cliente como «Supermercados Serrano» y era Distribuciones Hermanos Cascales S.L."
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-02",
+    "nombre": "cliente vacío",
+    "respuesta": {
+      "cliente": "",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 60,
+          "precio_caja": 23.23
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 20.06
+        },
+        {
+          "referencia": "CONS-SARD-OL-120",
+          "cantidad_cajas": 20,
+          "precio_caja": 26.61
+        },
+        {
+          "referencia": "CONS-MEJI-ES-120",
+          "cantidad_cajas": 15,
+          "precio_caja": 29.99
+        },
+        {
+          "referencia": "CONS-CALA-TI-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 25.13
+        },
+        {
+          "referencia": "CONS-TOMA-TR-T720",
+          "cantidad_cajas": 50,
+          "precio_caja": 8.71
+        },
+        {
+          "referencia": "CONS-GARB-CO-T720",
+          "cantidad_cajas": 30,
+          "precio_caja": 8.18
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 02: identificó al cliente como «nadie» y era Distribuciones Hermanos Cascales S.L."
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-02",
+    "nombre": "cliente ausente",
+    "respuesta": {
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 60,
+          "precio_caja": 23.23
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 20.06
+        },
+        {
+          "referencia": "CONS-SARD-OL-120",
+          "cantidad_cajas": 20,
+          "precio_caja": 26.61
+        },
+        {
+          "referencia": "CONS-MEJI-ES-120",
+          "cantidad_cajas": 15,
+          "precio_caja": 29.99
+        },
+        {
+          "referencia": "CONS-CALA-TI-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 25.13
+        },
+        {
+          "referencia": "CONS-TOMA-TR-T720",
+          "cantidad_cajas": 50,
+          "precio_caja": 8.71
+        },
+        {
+          "referencia": "CONS-GARB-CO-T720",
+          "cantidad_cajas": 30,
+          "precio_caja": 8.18
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 02: identificó al cliente como «nadie» y era Distribuciones Hermanos Cascales S.L."
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-02",
+    "nombre": "cliente abreviado: OK",
+    "respuesta": {
+      "cliente": "Hnos. Cascales",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 60,
+          "precio_caja": 23.23
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 20.06
+        },
+        {
+          "referencia": "CONS-SARD-OL-120",
+          "cantidad_cajas": 20,
+          "precio_caja": 26.61
+        },
+        {
+          "referencia": "CONS-MEJI-ES-120",
+          "cantidad_cajas": 15,
+          "precio_caja": 29.99
+        },
+        {
+          "referencia": "CONS-CALA-TI-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 25.13
+        },
+        {
+          "referencia": "CONS-TOMA-TR-T720",
+          "cantidad_cajas": 50,
+          "precio_caja": 8.71
+        },
+        {
+          "referencia": "CONS-GARB-CO-T720",
+          "cantidad_cajas": 30,
+          "precio_caja": 8.18
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-02",
+    "nombre": "cliente solo con palabras genéricas",
+    "respuesta": {
+      "cliente": "Distribuciones S.L.",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "cantidad_cajas": 60,
+          "precio_caja": 23.23
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "cantidad_cajas": 40,
+          "precio_caja": 20.06
+        },
+        {
+          "referencia": "CONS-SARD-OL-120",
+          "cantidad_cajas": 20,
+          "precio_caja": 26.61
+        },
+        {
+          "referencia": "CONS-MEJI-ES-120",
+          "cantidad_cajas": 15,
+          "precio_caja": 29.99
+        },
+        {
+          "referencia": "CONS-CALA-TI-120",
+          "cantidad_cajas": 10,
+          "precio_caja": 25.13
+        },
+        {
+          "referencia": "CONS-TOMA-TR-T720",
+          "cantidad_cajas": 50,
+          "precio_caja": 8.71
+        },
+        {
+          "referencia": "CONS-GARB-CO-T720",
+          "cantidad_cajas": 30,
+          "precio_caja": 8.18
+        }
+      ],
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 02: identificó al cliente como «Distribuciones S.L.» y era Distribuciones Hermanos Cascales S.L."
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-02",
+    "nombre": "lineas no es un array",
+    "respuesta": {
+      "cliente": "Cascales",
+      "lineas": "ninguna",
+      "incidencias": []
+    },
+    "ok": false,
+    "fallo": "Pedido 02: le faltó la línea de CONS-ATUN-OL-120 (60 cajas)"
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-06",
+    "nombre": "objeto vacío",
+    "respuesta": {},
+    "ok": false,
+    "fallo": "Correo 06: no devolvió nada legible"
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-06",
+    "nombre": "con acentos y mayúsculas: OK",
+    "respuesta": {
+      "categoria": "Reclamación",
+      "urgencia": "ALTA",
+      "accion": "",
+      "resumen": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-06",
+    "nombre": "urgencia equivocada",
+    "respuesta": {
+      "categoria": "reclamacion",
+      "urgencia": "media"
+    },
+    "ok": false,
+    "fallo": "Correo 06: urgencia «media» donde era alta (Cash Vega Baja recibió 68 cajas de atún en vez de 80 y necesita las 12 que faltan hoy porque mañana empieza una promoción.)"
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-06",
+    "nombre": "categoría equivocada",
+    "respuesta": {
+      "categoria": "consulta",
+      "urgencia": "alta"
+    },
+    "ok": false,
+    "fallo": "Correo 06: lo clasificó como «consulta» cuando era reclamacion (Cash Vega Baja recibió 68 cajas de atún en vez de 80 y necesita las 12 que faltan hoy porque mañana empieza una promoción.)"
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-06",
+    "nombre": "categoría ausente",
+    "respuesta": {
+      "urgencia": "alta"
+    },
+    "ok": false,
+    "fallo": "Correo 06: lo clasificó como «nada» cuando era reclamacion (Cash Vega Baja recibió 68 cajas de atún en vez de 80 y necesita las 12 que faltan hoy porque mañana empieza una promoción.)"
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-06",
+    "nombre": "urgencia ausente",
+    "respuesta": {
+      "categoria": "reclamacion"
+    },
+    "ok": false,
+    "fallo": "Correo 06: urgencia «ninguna» donde era alta (Cash Vega Baja recibió 68 cajas de atún en vez de 80 y necesita las 12 que faltan hoy porque mañana empieza una promoción.)"
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-03",
+    "nombre": "categoría con espacio: OK",
+    "respuesta": {
+      "categoria": "cambio pedido",
+      "urgencia": "alta"
+    },
+    "ok": true
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-03",
+    "nombre": "categoría con guion bajo: OK",
+    "respuesta": {
+      "categoria": "Cambio_Pedido",
+      "urgencia": "alta"
+    },
+    "ok": true
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-04",
+    "nombre": "factura-proveedor con espacios dobles: OK",
+    "respuesta": {
+      "categoria": "factura  proveedor",
+      "urgencia": "baja"
+    },
+    "ok": true
+  },
+  {
+    "tarea": "resumir-correos",
+    "caso": "correo-04",
+    "nombre": "categoría con guiones dobles",
+    "respuesta": {
+      "categoria": "factura--proveedor",
+      "urgencia": "baja"
+    },
+    "ok": false,
+    "fallo": "Correo 04: lo clasificó como «factura--proveedor» cuando era factura-proveedor (Factura de hojalata del proveedor de envases, vencimiento a 60 días, con aviso de subida de recargo en octubre.)"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "objeto vacío",
+    "respuesta": {},
+    "ok": false,
+    "fallo": "Contrato p01: no devolvió nada legible"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "dato en letras y cláusula con prefijo: OK",
+    "respuesta": {
+      "respuesta": "Sesenta días naturales desde la fecha de factura.",
+      "clausula": "Cláusula 9.2",
+      "cita": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "cláusula con punto final: OK",
+    "respuesta": {
+      "respuesta": "60 días",
+      "clausula": "9.2.",
+      "cita": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "cláusula con subapartado de más (9.2.1): fallo",
+    "respuesta": {
+      "respuesta": "60 días",
+      "clausula": "9.2.1",
+      "cita": ""
+    },
+    "ok": false,
+    "fallo": "Contrato p01: acertó el dato pero no citó la cláusula 9.2, así que no hay forma de comprobarlo sin releer"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "dato solo en la cita: OK",
+    "respuesta": {
+      "respuesta": "Lo dice la cláusula 9",
+      "clausula": "9",
+      "cita": "en el plazo de sesenta (60) días naturales"
+    },
+    "ok": false,
+    "fallo": "Contrato p01: a «¿En qué plazo tiene que pagar Serrano las facturas de Marjal Blanca?» respondió «Lo dice la cláusula 9» y el contrato dice 60 días naturales desde la fecha de la factura, por transferencia. (cláusula 9.2)"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p03",
+    "nombre": "dato equivocado",
+    "respuesta": {
+      "respuesta": "7 días",
+      "clausula": "7.3",
+      "cita": ""
+    },
+    "ok": false,
+    "fallo": "Contrato p03: a «¿Cuál es el plazo de entrega estándar de un pedido una vez confirmado?» respondió «7 días» y el contrato dice 5 días laborables desde la confirmación del pedido (o desde el vencimiento del plazo de confirmación tácita). (cláusula 7.3)"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p03",
+    "nombre": "respuesta larga (se corta a 80 caracteres en el fallo)",
+    "respuesta": {
+      "respuesta": "El plazo de entrega estándar es de siete días laborables contados desde la confirmación del pedido por parte del Proveedor, salvo pacto en contrario.",
+      "clausula": "7.3",
+      "cita": ""
+    },
+    "ok": false,
+    "fallo": "Contrato p03: a «¿Cuál es el plazo de entrega estándar de un pedido una vez confirmado?» respondió «El plazo de entrega estándar es de siete días laborables contados desde la confi» y el contrato dice 5 días laborables desde la confirmación del pedido (o desde el vencimiento del plazo de confirmación tácita). (cláusula 7.3)"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p10",
+    "nombre": "dato bien sin cláusula",
+    "respuesta": {
+      "respuesta": "3.000.000 € por siniestro",
+      "clausula": "",
+      "cita": ""
+    },
+    "ok": false,
+    "fallo": "Contrato p10: acertó el dato pero no citó la cláusula 19.1, así que no hay forma de comprobarlo sin releer"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p10",
+    "nombre": "cláusula dentro de la respuesta: OK",
+    "respuesta": {
+      "respuesta": "3 millones de euros (cláusula 19)",
+      "clausula": "",
+      "cita": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p10",
+    "nombre": "cláusula equivocada",
+    "respuesta": {
+      "respuesta": "3.000.000 €",
+      "clausula": "9.1",
+      "cita": ""
+    },
+    "ok": false,
+    "fallo": "Contrato p10: acertó el dato pero no citó la cláusula 19.1, así que no hay forma de comprobarlo sin releer"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p04",
+    "nombre": "solo uno de los dos datos",
+    "respuesta": {
+      "respuesta": "1 % por día laborable",
+      "clausula": "13.2",
+      "cita": ""
+    },
+    "ok": false,
+    "fallo": "Contrato p04: a «¿Qué penalización hay por entregar un pedido con retraso y cuál es su tope?» respondió «1 % por día laborable» y el contrato dice 1 % del valor de lo entregado con retraso por cada día laborable, con un máximo del 10 %. (cláusula 13.2)"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p04",
+    "nombre": "los dos datos: OK",
+    "respuesta": {
+      "respuesta": "1 % por día laborable, máximo 10 %",
+      "clausula": "13.2",
+      "cita": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p04",
+    "nombre": "anexo aceptado: OK",
+    "respuesta": {
+      "respuesta": "1% diario con tope del 10%",
+      "clausula": "Anexo III",
+      "cita": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p13",
+    "nombre": "anexo con apartado: OK",
+    "respuesta": {
+      "respuesta": "El 3 %",
+      "clausula": "Anexo II.3",
+      "cita": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p13",
+    "nombre": "anexo en minúsculas sin apartado: OK",
+    "respuesta": {
+      "respuesta": "un 3% de rappel",
+      "clausula": "anexo ii",
+      "cita": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p15",
+    "nombre": "los dos grupos con acentos distintos: OK",
+    "respuesta": {
+      "respuesta": "Mediacion en la Camara de Comercio y luego los juzgados de ALICANTE",
+      "clausula": "27",
+      "cita": ""
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-11",
+    "nombre": "objeto vacío",
+    "respuesta": {},
+    "ok": false,
+    "fallo": "Factura 11: no devolvió nada legible"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-11",
+    "nombre": "formatos españoles y «no»: OK",
+    "respuesta": {
+      "total": "2.448,00",
+      "vencimiento": "05/09/2026",
+      "duplicada": "no"
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-11",
+    "nombre": "números y booleanos: OK",
+    "respuesta": {
+      "total": 2448,
+      "vencimiento": "2026-09-05",
+      "duplicada": false
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-11",
+    "nombre": "total mal calculado (con pista de la nota)",
+    "respuesta": {
+      "total": 2904,
+      "vencimiento": "2026-09-05",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 11: total 2.904,00 € donde ponía 2.448,00 € (Total = base + IVA − retención IRPF 19 %: 2.400 + 504 − 456 = 2.448,00)"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-11",
+    "nombre": "total ausente",
+    "respuesta": {
+      "vencimiento": "2026-09-05",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 11: total sin importe donde ponía 2.448,00 € (Total = base + IVA − retención IRPF 19 %: 2.400 + 504 − 456 = 2.448,00)"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-11",
+    "nombre": "total como texto ilegible",
+    "respuesta": {
+      "total": "dos mil",
+      "vencimiento": "2026-09-05",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 11: total sin importe donde ponía 2.448,00 € (Total = base + IVA − retención IRPF 19 %: 2.400 + 504 − 456 = 2.448,00)"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-11",
+    "nombre": "total con desvío de 0,01: OK",
+    "respuesta": {
+      "total": 2448.01,
+      "vencimiento": "2026-09-05",
+      "duplicada": false
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-11",
+    "nombre": "total con desvío de 0,02",
+    "respuesta": {
+      "total": 2448.02,
+      "vencimiento": "2026-09-05",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 11: total 2.448,02 € donde ponía 2.448,00 € (Total = base + IVA − retención IRPF 19 %: 2.400 + 504 − 456 = 2.448,00)"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-06",
+    "nombre": "total mal sin nota (sin pista)",
+    "respuesta": {
+      "total": 3330,
+      "vencimiento": "2026-11-07",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 06: total 3.330,00 € donde ponía 4.029,30 €"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-01",
+    "nombre": "vencimiento = fecha de factura (mal)",
+    "respuesta": {
+      "total": 22845.41,
+      "vencimiento": "2026-09-04",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 01: vencimiento 2026-09-04 donde tocaba 03/11/2026"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-01",
+    "nombre": "vencimiento en blanco",
+    "respuesta": {
+      "total": 22845.41,
+      "vencimiento": "",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 01: vencimiento en blanco donde tocaba 03/11/2026"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-01",
+    "nombre": "vencimiento ausente",
+    "respuesta": {
+      "total": 22845.41,
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 01: vencimiento en blanco donde tocaba 03/11/2026"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-01",
+    "nombre": "vencimiento en letras: OK",
+    "respuesta": {
+      "total": 22845.41,
+      "vencimiento": "3 de noviembre de 2026",
+      "duplicada": false
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-01",
+    "nombre": "vencimiento con puntos: OK",
+    "respuesta": {
+      "total": 22845.41,
+      "vencimiento": "03.11.2026",
+      "duplicada": false
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-01",
+    "nombre": "vencimiento con texto alrededor: OK",
+    "respuesta": {
+      "total": 22845.41,
+      "vencimiento": "Vence el 03/11/2026 (60 días)",
+      "duplicada": false
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-01",
+    "nombre": "vencimiento con año de dos cifras: fallo",
+    "respuesta": {
+      "total": 22845.41,
+      "vencimiento": "03/11/26",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 01: vencimiento 03/11/26 donde tocaba 03/11/2026"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-21",
+    "nombre": "duplicada no detectada",
+    "respuesta": {
+      "total": 1989.85,
+      "vencimiento": "2026-09-20",
+      "duplicada": false
+    },
+    "ok": false,
+    "fallo": "Factura 21: no vio que la MIS/26/0771 de Mantenimientos Industriales Segura S.L. ya estaba contabilizada (duplicada)"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-21",
+    "nombre": "duplicada ausente (cuenta como false)",
+    "respuesta": {
+      "total": 1989.85,
+      "vencimiento": "2026-09-20"
+    },
+    "ok": false,
+    "fallo": "Factura 21: no vio que la MIS/26/0771 de Mantenimientos Industriales Segura S.L. ya estaba contabilizada (duplicada)"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-21",
+    "nombre": "duplicada como «sí»: OK",
+    "respuesta": {
+      "total": 1989.85,
+      "vencimiento": "2026-09-20",
+      "duplicada": "Sí"
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-21",
+    "nombre": "duplicada como 1: OK",
+    "respuesta": {
+      "total": 1989.85,
+      "vencimiento": "2026-09-20",
+      "duplicada": 1
+    },
+    "ok": true
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-21",
+    "nombre": "duplicada como «quizás» (indefinido)",
+    "respuesta": {
+      "total": 1989.85,
+      "vencimiento": "2026-09-20",
+      "duplicada": "quizás"
+    },
+    "ok": false,
+    "fallo": "Factura 21: no vio que la MIS/26/0771 de Mantenimientos Industriales Segura S.L. ya estaba contabilizada (duplicada)"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-17",
+    "nombre": "duplicada inventada",
+    "respuesta": {
+      "total": 1636.4,
+      "vencimiento": "2026-10-09",
+      "duplicada": true
+    },
+    "ok": false,
+    "fallo": "Factura 17: marcó como duplicada la MIS/26/0803 de Mantenimientos Industriales Segura S.L., que es nueva"
+  },
+  {
+    "tarea": "clasificar-facturas",
+    "caso": "factura-17",
+    "nombre": "duplicada como «quizás» en una nueva (indefinido ≠ false)",
+    "respuesta": {
+      "total": 1636.4,
+      "vencimiento": "2026-10-09",
+      "duplicada": "quizás"
+    },
+    "ok": false,
+    "fallo": "Factura 17: marcó como duplicada la MIS/26/0803 de Mantenimientos Industriales Segura S.L., que es nueva"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "objeto vacío",
+    "respuesta": {},
+    "ok": false,
+    "fallo": "Recordatorio 01: no escribió nada"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "cuerpo vacío",
+    "respuesta": {
+      "asunto": "",
+      "cuerpo": "   "
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: no escribió nada"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "amable completo: OK",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": true
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "sin importe",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, , que venció el 07/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: no menciona el importe pendiente (4.312,60 €)"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "sin número de factura",
+    "respuesta": {
+      "asunto": "Recordatorio",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura pendiente, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: no menciona el número de factura (26/1135)"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "sin vencimiento",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: no menciona la fecha de vencimiento (07/09/2026)"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "importe con punto de millar: OK",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4.312,60 €, que venció el 07/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": true
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "importe con punto decimal y fecha en letras: OK",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312.60 €, que venció el 7 de septiembre y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": true
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "amenaza en tono amable",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta. Si no, iniciaremos acciones legales. Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: usa «acciones legales» en un recordatorio de tono amable a Supermercados Alifresc S.L."
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "menciona intereses de demora en tono amable",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta. Recuerda que aplicamos intereses de demora. Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: usa «intereses de demora» en un recordatorio de tono amable a Supermercados Alifresc S.L."
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "«suspensión» con acento en tono amable",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta. Podríamos valorar la suspensión del suministro. Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: usa «suspensión» en un recordatorio de tono amable a Supermercados Alifresc S.L."
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-05",
+    "nombre": "firme con «abogado»",
+    "respuesta": {
+      "asunto": "Factura 26/1121",
+      "cuerpo": "Hola Amparo,\n\nTe escribo por la factura 26/1121, de 7418,90 €, que venció el 21/08/2026 y aún no nos consta. Lo pasaremos a nuestro abogado. Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 05: usa «abogado» en un recordatorio de tono firme a Supermercados Serrano S.L."
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-05",
+    "nombre": "firme con «último aviso»: OK (solo prohibido en amable)",
+    "respuesta": {
+      "asunto": "Factura 26/1121",
+      "cuerpo": "Hola Amparo,\n\nTe escribo por la factura 26/1121, de 7418,90 €, que venció el 21/08/2026 y aún no nos consta. Este es el último aviso. Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": true
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-09",
+    "nombre": "formal sin plazo ni advertencia",
+    "respuesta": {
+      "asunto": "Factura 26/1105",
+      "cuerpo": "Hola Juanjo,\n\nTe escribo por la factura 26/1105, de 1188,75 €, que venció el 10/07/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 09: un último aviso tiene que fijar plazo y advertir de suspensión o intereses, y no lo hace"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-09",
+    "nombre": "formal con plazo y suspensión: OK",
+    "respuesta": {
+      "asunto": "Factura 26/1105",
+      "cuerpo": "Hola Juanjo,\n\nTe escribo por la factura 26/1105, de 1188,75 €, que venció el 10/07/2026 y aún no nos consta. Si no recibimos el pago en el plazo de 5 días, nos veremos obligados a la suspensión del suministro. Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": true
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-09",
+    "nombre": "formal con «último aviso» acentuado: OK",
+    "respuesta": {
+      "asunto": "Factura 26/1105",
+      "cuerpo": "Hola Juanjo,\n\nTe escribo por la factura 26/1105, de 1188,75 €, que venció el 10/07/2026 y aún no nos consta. Este es nuestro último aviso. Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": true
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-09",
+    "nombre": "formal con «denuncia»",
+    "respuesta": {
+      "asunto": "Factura 26/1105",
+      "cuerpo": "Hola Juanjo,\n\nTe escribo por la factura 26/1105, de 1188,75 €, que venció el 10/07/2026 y aún no nos consta. En el plazo de 5 días presentaremos denuncia. Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 09: usa «denuncia» en un recordatorio de tono formal a Distribuciones Bernabéu e Hijos S.L."
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "demasiado largo",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta. bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: 277 palabras para reclamar una factura; nadie lo lee entero"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "sin nombre de pila",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: no se dirige a Sergio Baeza por su nombre"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "sin firma",
+    "respuesta": {
+      "asunto": "Factura 26/1135",
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · "
+    },
+    "ok": false,
+    "fallo": "Recordatorio 01: no firma como la empresa (Marjal Blanca)"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-04",
+    "nombre": "nombre compuesto («Mari» basta): OK",
+    "respuesta": {
+      "asunto": "Factura 26/1150",
+      "cuerpo": "Hola Mari,\n\nTe escribo por la factura 26/1150, de 655,20 €, que venció el 11/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": true
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "respuesta como cadena suelta: OK",
+    "respuesta": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L.",
+    "ok": true
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "solo cuerpo sin asunto: OK",
+    "respuesta": {
+      "cuerpo": "Hola Sergio,\n\nTe escribo por la factura 26/1135, de 4312,60 €, que venció el 07/09/2026 y aún no nos consta.  Si ya está pagada, disculpa el correo. IBAN ES21 0081 1234 5600 0123 4567.\n\nUn saludo,\nMarisa Pérez · Administración · Conservas Marjal Blanca S.L."
+    },
+    "ok": true
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "respuesta undefined (llamada fallida)",
+    "ok": false,
+    "fallo": "Pedido 01: el modelo no devolvió una respuesta válida"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "respuesta null",
+    "respuesta": null,
+    "ok": false,
+    "fallo": "Pedido 01: no devolvió nada legible"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "respuesta es un array",
+    "respuesta": [
+      1,
+      2
+    ],
+    "ok": false,
+    "fallo": "Pedido 01: no devolvió nada legible"
+  },
+  {
+    "tarea": "extraer-pedidos",
+    "caso": "pedido-01",
+    "nombre": "respuesta es un número",
+    "respuesta": 7,
+    "ok": false,
+    "fallo": "Pedido 01: no devolvió nada legible"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "respuesta undefined (llamada fallida)",
+    "ok": false,
+    "fallo": "p01: el modelo no devolvió una respuesta válida"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "respuesta null",
+    "respuesta": null,
+    "ok": false,
+    "fallo": "Contrato p01: no devolvió nada legible"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "respuesta es un array",
+    "respuesta": [
+      1,
+      2
+    ],
+    "ok": false,
+    "fallo": "Contrato p01: no devolvió nada legible"
+  },
+  {
+    "tarea": "buscar-en-contrato",
+    "caso": "p01",
+    "nombre": "respuesta es un número",
+    "respuesta": 7,
+    "ok": false,
+    "fallo": "Contrato p01: no devolvió nada legible"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "respuesta undefined (llamada fallida)",
+    "ok": false,
+    "fallo": "Recordatorio 01: el modelo no devolvió una respuesta válida"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "respuesta null",
+    "respuesta": null,
+    "ok": false,
+    "fallo": "Recordatorio 01: no escribió nada"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "respuesta es un array",
+    "respuesta": [
+      1,
+      2
+    ],
+    "ok": false,
+    "fallo": "Recordatorio 01: no escribió nada"
+  },
+  {
+    "tarea": "redactar-recordatorio",
+    "caso": "recordatorio-01",
+    "nombre": "respuesta es un número",
+    "respuesta": 7,
+    "ok": false,
+    "fallo": "Recordatorio 01: no escribió nada"
+  }
+]

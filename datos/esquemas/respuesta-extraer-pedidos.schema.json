@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/respuesta-extraer-pedidos.schema.json",
+  "title": "Respuesta esperada de extraer-pedidos (un pedido)",
+  "$comment": "Copia literal del campo «esquema» de la tarea en src/pruebas/tareas.ts del pipeline del blog (Bytenauta-Org/bytenauta-blog-agentes). El objeto que se usa para validar la respuesta del modelo, y el mismo que lleva tareas/<id>/tarea.json, es este sin las claves $schema, $id, title y $comment.",
+  "type": "object",
+  "required": [
+    "cliente",
+    "lineas",
+    "incidencias"
+  ],
+  "properties": {
+    "cliente": {
+      "type": "string",
+      "description": "Nombre del cliente tal como aparece en clientes.csv"
+    },
+    "fecha_entrega": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Fecha de entrega pedida, si la hay (texto libre)"
+    },
+    "lineas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "referencia",
+          "cantidad_cajas",
+          "precio_caja"
+        ],
+        "properties": {
+          "referencia": {
+            "type": "string"
+          },
+          "cantidad_cajas": {
+            "type": "integer"
+          },
+          "precio_caja": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Precio por caja de la tarifa del cliente, con dos decimales; null si la referencia no existe"
+          }
+        }
+      }
+    },
+    "incidencias": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Una frase por cosa que haya que revisar antes de servir"
+    }
+  }
+}

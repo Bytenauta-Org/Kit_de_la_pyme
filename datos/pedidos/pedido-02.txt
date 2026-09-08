@@ -1,0 +1,22 @@
+De: Paco Cascales <pedidos@hcascales.example>
+Para: Pedidos Marjal Blanca <pedidos@marjalblanca.example>
+Fecha: martes, 1 sept 2026, 11:52
+Asunto: pedido semana
+
+Hola Vicente,
+
+Te pego la tabla del Excel, dime si hay algo sin stock antes de cargar.
+
+Ref	Artículo	Cajas	Precio caja
+CONS-ATUN-OL-120	Atún oliva RO-120	60	23,23
+CONS-ATUN-GI-120	Atún girasol RO-120	40	20,06
+CONS-SARD-OL-120	Sardinillas oliva	20	26,61
+CONS-MEJI-ES-120	Mejillones escabeche	15	29,99
+CONS-CALA-TI-120	Calamares tinta	10	25,13
+CONS-TOMA-TR-T720	Tomate triturado 720	50	8,71
+CONS-GARB-CO-T720	Garbanzos 720	30	8,18
+
+Total 225 cajas. Recogemos nosotros con el camión el miércoles por la tarde si os viene bien; si no, el jueves a primera hora.
+
+Paco
+Distribuciones Hermanos Cascales, S.L. – Orihuela

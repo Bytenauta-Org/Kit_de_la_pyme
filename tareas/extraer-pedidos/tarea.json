@@ -1,0 +1,80 @@
+{
+  "_comentario": "Copiado sin cambiar una coma de src/pruebas/tareas.ts del pipeline del blog (bytenauta-blog-agentes). Los marcadores {{ruta}} del prompt se sustituyen por el contenido literal del fichero al componerlo; el sha256 del prompt compuesto y del mensaje de sistema enviado (prompt + línea FORMATO) están en «sha256» y los comprueba «python -m kit_pyme verificar».",
+  "id": "extraer-pedidos",
+  "nombre": "Sacar las líneas de 20 pedidos tal como llegan por correo",
+  "descripcion": "Veinte pedidos reales de una conservera (correo suelto, tabla pegada, PDF, CSV, foto con OCR, valenciano, uno con una referencia que no existe y otro con un precio que no es el de tarifa): cliente, referencias, cajas y precio de tarifa.",
+  "origen": {
+    "fichero": "src/pruebas/tareas.ts",
+    "lineas": "151-200",
+    "repo": "bytenauta-blog-agentes"
+  },
+  "prompt": "Trabajas en administración de Conservas Marjal Blanca S.L., una conservera de Almoradí (Alicante). Te llegan pedidos de clientes por correo en cualquier formato y tienes que pasarlos a líneas para grabarlos en el programa de gestión.\n\nReglas de la casa:\n- Cada línea es una referencia de la tarifa (formato CONS-XXXX-XX-XXX), con la cantidad en CAJAS y el precio por caja que corresponde a ese cliente según la tarifa (cada cliente tiene una columna de precio: general, serrano, cascales, mediterraneo o cash; la columna de cada cliente está en clientes.csv).\n- Si el cliente pide unidades, packs, tarros o latas sueltas, convierte a cajas con «uds_por_caja». Si pide palés o medios palés, usa «cajas_por_pale». Si una referencia aparece repartida en varias entregas, una sola línea con el total.\n- Si el cliente escribe una descripción en vez de una referencia (también en valenciano o en inglés), busca la referencia en la tarifa por descripción y formato.\n- Si el correo se corrige a sí mismo («quita la línea de…», «sube a…»), vale la versión corregida.\n- Si dice «lo de siempre» y el pedido anterior viene citado en el hilo, usa el pedido citado con los cambios que indique, y anótalo en incidencias.\n- El precio es SIEMPRE el de la tarifa del cliente. Si el cliente escribe otro precio, usa el de la tarifa y anota la diferencia en incidencias.\n- Si una referencia no existe en la tarifa, inclúyela tal cual con precio_caja null y anótalo en incidencias. No la sustituyas por una parecida.\n- Las reclamaciones, preguntas o comentarios que no sean líneas de pedido no van en «lineas»; si son importantes, en incidencias.\n- Referencias siempre en mayúsculas y con guiones, corrigiendo errores evidentes de OCR (0 por O, l por 1).\n\nResponde solo con el JSON del esquema.\n\n=== TARIFA (tarifa.csv, separador ;) ===\n{{datos/pedidos/tarifa.csv}}\n=== CLIENTES (clientes.csv, separador ;) ===\n{{datos/pedidos/clientes.csv}}",
+  "linea_formato": true,
+  "esquema": {
+    "type": "object",
+    "required": [
+      "cliente",
+      "lineas",
+      "incidencias"
+    ],
+    "properties": {
+      "cliente": {
+        "type": "string",
+        "description": "Nombre del cliente tal como aparece en clientes.csv"
+      },
+      "fecha_entrega": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Fecha de entrega pedida, si la hay (texto libre)"
+      },
+      "lineas": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "referencia",
+            "cantidad_cajas",
+            "precio_caja"
+          ],
+          "properties": {
+            "referencia": {
+              "type": "string"
+            },
+            "cantidad_cajas": {
+              "type": "integer"
+            },
+            "precio_caja": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Precio por caja de la tarifa del cliente, con dos decimales; null si la referencia no existe"
+            }
+          }
+        }
+      },
+      "incidencias": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Una frase por cosa que haya que revisar antes de servir"
+      }
+    }
+  },
+  "max_tokens": 6000,
+  "verdad": "datos/pedidos/pedidos-verdad.json",
+  "lista": "pedidos",
+  "entrada": {
+    "tipo": "fichero",
+    "carpeta": "datos/pedidos",
+    "campo": "fichero",
+    "descripcion": "El fichero pedido-NN.txt entero, tal cual, como mensaje de usuario."
+  },
+  "sha256": {
+    "prompt": "7c613ac2a9cde1ce58fe0b38b24e804ea4b78c0f36f9a6daef52ac6e7cb4aa8c",
+    "system": "79480c98e6eb90047c6046bae43c1d58d911879a8ae9ce6874c42f5cce3f23cb"
+  }
+}

@@ -1,0 +1,61 @@
+numero;cliente;nif;fecha_factura;importe_total;vencimiento;forma_pago;estado;importe_cobrado;fecha_cobro;dias_retraso;ultimo_recordatorio;notas
+26/1101;Grupo Hostelero Mediterráneo S.L.;B37205416;07/05/2026;5940,02;06/06/2026;transferencia 30 días f.f.;cobrada;5940,02;07/06/2026;1;;
+26/1102;Cash Vega Baja S.A.;A32884553;08/05/2026;4338,35;22/06/2026;transferencia 45 días f.f.;cobrada;4338,35;23/06/2026;1;;
+26/1103;Bar-Cafetería El Racó de Toni (Antoni Buigues Soler);53210077Z;09/05/2026;523,13;09/05/2026;contado;cobrada;523,13;11/05/2026;2;;
+26/1104;Distribuciones Bernabéu e Hijos S.L.;B31304660;11/05/2026;3301,91;10/07/2026;transferencia 60 días f.f.;cobrada;3301,91;13/07/2026;3;;
+26/1105;Distribuciones Bernabéu e Hijos S.L.;B31304660;11/05/2026;1188,75;10/07/2026;transferencia 60 días f.f.;vencida;0,00;;66;20/08/2026;Segundo recordatorio enviado el 20/08 sin respuesta.
+26/1106;Grupo Hostelero Mediterráneo S.L.;B37205416;12/05/2026;6498,41;11/06/2026;transferencia 30 días f.f.;cobrada;6498,41;11/06/2026;0;;
+26/1107;Supermercados Serrano S.L.;B34029173;12/05/2026;7279,28;11/07/2026;transferencia 60 días f.f.;cobrada;7279,28;17/07/2026;6;;
+26/1108;Catering Lucentum Eventos S.L.;B35541986;15/05/2026;3652,79;14/06/2026;transferencia 30 días f.f.;cobrada;3652,79;18/06/2026;4;;
+26/1109;Supermercados Serrano S.L.;B34029173;16/05/2026;7851,76;15/07/2026;transferencia 60 días f.f.;cobrada;7851,76;19/07/2026;4;;
+26/1110;Distribuciones Bernabéu e Hijos S.L.;B31304660;17/05/2026;3460,75;16/07/2026;transferencia 60 días f.f.;cobrada;3460,75;16/07/2026;0;;
+26/1111;Distribuciones Bernabéu e Hijos S.L.;B31304660;19/05/2026;2945,18;18/07/2026;transferencia 60 días f.f.;cobrada;2945,18;18/07/2026;0;;
+26/1112;Ultramarinos La Font S.L.U.;B35647304;26/05/2026;482,26;26/05/2026;contado;cobrada;482,26;26/05/2026;0;;
+26/1113;Distribuciones Bernabéu e Hijos S.L.;B31304660;27/05/2026;3607,77;26/07/2026;transferencia 60 días f.f.;cobrada;3607,77;27/07/2026;1;;
+26/1114;Supermercados Serrano S.L.;B34029173;28/05/2026;5161,09;27/07/2026;transferencia 60 días f.f.;cobrada;5161,09;29/07/2026;2;;
+26/1115;Distribuciones Hermanos Cascales S.L.;B33911082;29/05/2026;6036,00;28/07/2026;transferencia 60 días f.f.;cobrada;6036,00;02/08/2026;5;;
+26/1116;Cash Vega Baja S.A.;A32884553;05/06/2026;8680,34;20/07/2026;transferencia 45 días f.f.;cobrada;8680,34;21/07/2026;1;;
+26/1117;Supermercados Alifresc S.L.;B36700235;07/06/2026;6530,02;06/08/2026;transferencia 60 días f.f.;cobrada;6530,02;10/08/2026;4;;
+26/1118;Distribuciones Bernabéu e Hijos S.L.;B31304660;15/06/2026;2976,40;14/08/2026;transferencia 60 días f.f.;vencida;0,00;;31;;
+26/1119;Supermercados Alifresc S.L.;B36700235;16/06/2026;6420,67;15/08/2026;transferencia 60 días f.f.;cobrada;6420,67;16/08/2026;1;;
+26/1120;Cash Vega Baja S.A.;A32884553;17/06/2026;5661,71;01/08/2026;transferencia 45 días f.f.;cobrada;5661,71;04/08/2026;3;;
+26/1121;Supermercados Serrano S.L.;B34029173;22/06/2026;7418,90;21/08/2026;transferencia 60 días f.f.;vencida;0,00;;24;01/09/2026;
+26/1122;Cash Vega Baja S.A.;A32884553;23/06/2026;6948,72;07/08/2026;transferencia 45 días f.f.;cobrada;6948,72;11/08/2026;4;;
+26/1123;Supermercados Alifresc S.L.;B36700235;26/06/2026;6462,90;25/08/2026;transferencia 60 días f.f.;cobrada;6462,90;30/08/2026;5;;
+26/1124;Ultramarinos La Font S.L.U.;B35647304;30/06/2026;421,90;30/06/2026;contado;vencida;0,00;;76;05/08/2026;Contado no atendido. Dice que lo transfiere «esta semana» desde julio.
+26/1125;Cash Vega Baja S.A.;A32884553;01/07/2026;5104,00;15/08/2026;transferencia 45 días f.f.;parcial;3000,00;28/08/2026;30;;"Pago parcial de 3.000,00 el 28/08; queda el resto."
+26/1132;Distribuciones Hermanos Cascales S.L.;B33911082;02/07/2026;1584,00;31/08/2026;transferencia 60 días f.f.;vencida;0,00;;14;;EN DISPUTA: reclama precio de tarifa general en vez del suyo. Pendiente rectificativa. No reclamar.
+26/1127;Distribuciones Hermanos Cascales S.L.;B33911082;05/07/2026;9639,52;03/09/2026;transferencia 60 días f.f.;cobrada;9639,52;09/09/2026;6;;
+26/1128;Restaurante Casa Pepa (Josefa Belmonte Cano);21489302B;06/07/2026;192,99;06/07/2026;contado;cobrada;192,99;10/07/2026;4;;
+26/1129;Catering Lucentum Eventos S.L.;B35541986;06/07/2026;2747,27;05/08/2026;transferencia 30 días f.f.;cobrada;2747,27;09/08/2026;4;;
+26/1130;Distribuciones Hermanos Cascales S.L.;B33911082;06/07/2026;6077,62;04/09/2026;transferencia 60 días f.f.;cobrada;6077,62;05/09/2026;1;;
+26/1131;Supermercados Serrano S.L.;B34029173;06/07/2026;5522,30;04/09/2026;transferencia 60 días f.f.;vencida;0,00;;10;;Amparo confirma por teléfono el 10/09 que la pagan en la remesa del 18/09.
+26/1126;Ultramarinos La Font S.L.U.;B35647304;08/07/2026;192,51;08/07/2026;contado;cobrada;192,51;14/07/2026;6;;
+26/1133;Cash Vega Baja S.A.;A32884553;08/07/2026;2210,50;22/08/2026;transferencia 45 días f.f.;vencida;0,00;;23;11/09/2026;
+26/1134;Supermercados Alifresc S.L.;B36700235;09/07/2026;8769,38;07/09/2026;transferencia 60 días f.f.;cobrada;8769,38;09/09/2026;2;;
+26/1135;Supermercados Alifresc S.L.;B36700235;09/07/2026;4312,60;07/09/2026;transferencia 60 días f.f.;vencida;0,00;;7;;
+26/1136;Sabores de Levante Online S.L.;B36988020;14/07/2026;924,26;13/08/2026;transferencia 30 días f.f.;cobrada;924,26;13/08/2026;0;;
+26/1137;Restaurante Casa Pepa (Josefa Belmonte Cano);21489302B;14/07/2026;268,40;14/07/2026;contado;vencida;0,00;;62;;"El repartidor no cobró; ella dice que pagó en efectivo y no hay recibo."
+26/1138;Supermercados Serrano S.L.;B34029173;15/07/2026;1787,85;13/09/2026;transferencia 60 días f.f.;cobrada;1787,85;13/09/2026;0;;
+26/1139;Distribuciones Hermanos Cascales S.L.;B33911082;17/07/2026;9478,56;15/09/2026;transferencia 60 días f.f.;pendiente;0,00;;0;;
+26/1140;Grupo Hostelero Mediterráneo S.L.;B37205416;20/07/2026;3163,42;19/08/2026;transferencia 30 días f.f.;vencida;0,00;;26;31/08/2026;
+26/1141;Catering Lucentum Eventos S.L.;B35541986;26/07/2026;3568,78;25/08/2026;transferencia 30 días f.f.;cobrada;3568,78;25/08/2026;0;;
+26/1142;Distribuciones Bernabéu e Hijos S.L.;B31304660;26/07/2026;2767,05;24/09/2026;transferencia 60 días f.f.;pendiente;0,00;;0;;
+26/1143;Cooperativa Agrícola San Isidro de Callosa S. Coop. V.;F30117295;30/07/2026;975,64;29/08/2026;transferencia 30 días f.f.;cobrada;975,64;03/09/2026;5;;
+26/1144;Catering Lucentum Eventos S.L.;B35541986;03/08/2026;842,10;02/09/2026;transferencia 30 días f.f.;vencida;0,00;;12;;
+26/1145;Distribuciones Hermanos Cascales S.L.;B33911082;05/08/2026;6116,35;04/10/2026;transferencia 60 días f.f.;pendiente;0,00;;0;;
+26/1146;Sabores de Levante Online S.L.;B36988020;05/08/2026;1330,69;04/09/2026;transferencia 30 días f.f.;cobrada;1330,69;06/09/2026;2;;
+26/1147;Distribuciones Hermanos Cascales S.L.;B33911082;05/08/2026;8314,60;04/10/2026;transferencia 60 días f.f.;pendiente;0,00;;0;;
+26/1148;Grupo Hostelero Mediterráneo S.L.;B37205416;07/08/2026;4562,80;06/09/2026;transferencia 30 días f.f.;cobrada;4562,80;08/09/2026;2;;
+26/1149;Sabores de Levante Online S.L.;B36988020;10/08/2026;1264,35;09/09/2026;transferencia 30 días f.f.;vencida;0,00;;5;;
+26/1150;Cooperativa Agrícola San Isidro de Callosa S. Coop. V.;F30117295;12/08/2026;655,20;11/09/2026;transferencia 30 días f.f.;vencida;0,00;;3;;
+26/1151;Grupo Hostelero Mediterráneo S.L.;B37205416;13/08/2026;2450,00;12/09/2026;transferencia 30 días f.f.;vencida;0,00;;2;;Contrato marco: 2 días laborables de cortesía tras el vencimiento.
+26/1152;Cash Vega Baja S.A.;A32884553;14/08/2026;4832,94;28/09/2026;transferencia 45 días f.f.;pendiente;0,00;;0;;
+26/1153;Sabores de Levante Online S.L.;B36988020;14/08/2026;980,00;13/09/2026;transferencia 30 días f.f.;vencida;0,00;;1;;"Vence en fin de semana; contabilidad del cliente paga los lunes."
+26/1154;Supermercados Serrano S.L.;B34029173;17/08/2026;8633,14;16/10/2026;transferencia 60 días f.f.;pendiente;0,00;;0;;
+26/1155;Supermercados Alifresc S.L.;B36700235;23/08/2026;1866,23;22/10/2026;transferencia 60 días f.f.;pendiente;0,00;;0;;
+26/1156;Distribuciones Bernabéu e Hijos S.L.;B31304660;24/08/2026;2052,88;23/10/2026;transferencia 60 días f.f.;pendiente;0,00;;0;;
+26/1157;Distribuciones Bernabéu e Hijos S.L.;B31304660;01/09/2026;2129,98;31/10/2026;transferencia 60 días f.f.;pendiente;0,00;;0;;
+26/1158;Cash Vega Baja S.A.;A32884553;02/09/2026;8898,18;17/10/2026;transferencia 45 días f.f.;pendiente;0,00;;0;;
+26/1159;Grupo Hostelero Mediterráneo S.L.;B37205416;07/09/2026;8117,91;07/10/2026;transferencia 30 días f.f.;pendiente;0,00;;0;;
+26/1160;Cooperativa Agrícola San Isidro de Callosa S. Coop. V.;F30117295;10/09/2026;1693,28;10/10/2026;transferencia 30 días f.f.;pendiente;0,00;;0;;

@@ -1,0 +1,19 @@
+{
+  "_comentario": "Precios en euros por millón de tokens (entrada / salida). Copia exacta de config/modelos.json del blog (precios_eur_por_millon) el 08-09-2026. Un modelo que no esté en la tabla se cobra a «por_defecto»; ojo: si la API devuelve el nombre con fecha (claude-haiku-4-5-20251001), tampoco está y se cobra a por_defecto, igual que en el blog. Edita este fichero (o pasa --precios) para tu proveedor.",
+  "anthropic/claude-haiku-4-5": {
+    "entrada": 0.9,
+    "salida": 4.5
+  },
+  "anthropic/claude-sonnet-5": {
+    "entrada": 2.8,
+    "salida": 14
+  },
+  "anthropic/claude-opus-5": {
+    "entrada": 14,
+    "salida": 70
+  },
+  "por_defecto": {
+    "entrada": 3,
+    "salida": 15
+  }
+}

@@ -1,0 +1,22 @@
+De: Limpiezas Industriales Costa Blanca S.L. <admon@limpiezascostablanca.example>
+Para: Administración Marjal Blanca <administracion@marjalblanca.example>
+Fecha: 01/09/2026
+Asunto: Factura LICB/2026/0902
+
+Estimado cliente:
+
+Le remitimos la factura LICB/2026/0902 de fecha 01/09/2026, emitida a nombre de Conservas Marjal Blanca S.L. (NIF B38122941).
+
+| Concepto | Cantidad | Precio | Importe |
+|---|---|---|---|
+| Servicio de limpieza y desinfección industrial – agosto 2026 (contrato anual) | 1 | 1450,00 | 1450,00 |
+| Tratamiento DDD trimestral (desinsectación y desratización) | 1 | 210,00 | 210,00 |
+
+Base imponible: 1660,00 €
+IVA 21 %: 348,60 €
+Total: 2008,60 €
+
+Pago a 30 días desde la fecha de factura.
+IBAN ES84 0182 5500 2200 7788 9900
+
+Limpiezas Industriales Costa Blanca S.L. · B35990217 · c/ Astrónomo Comas Solà 10 · 03016 Alicante

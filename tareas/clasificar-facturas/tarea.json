@@ -1,0 +1,71 @@
+{
+  "_comentario": "Copiado sin cambiar una coma de src/pruebas/tareas.ts del pipeline del blog (bytenauta-blog-agentes). Los marcadores {{ruta}} del prompt se sustituyen por el contenido literal del fichero al componerlo; el sha256 del prompt compuesto y del mensaje de sistema enviado (prompt + línea FORMATO) están en «sha256» y los comprueba «python -m kit_pyme verificar».",
+  "id": "clasificar-facturas",
+  "nombre": "Contabilizar 25 facturas recibidas: total, vencimiento y si ya estaba registrada",
+  "descripcion": "Veinticinco facturas de proveedores como llegan (hojalata, atún, luz, alquiler con retención, seguro sin IVA, un SaaS irlandés con inversión del sujeto pasivo, un ticket de gasóleo, y dos que ya estaban contabilizadas). Se puntúan total, vencimiento y duplicada.",
+  "origen": {
+    "fichero": "src/pruebas/tareas.ts",
+    "lineas": "271-308",
+    "repo": "bytenauta-blog-agentes"
+  },
+  "prompt": "Trabajas en contabilidad de Conservas Marjal Blanca S.L. (NIF B38122941, Almoradí, Alicante). Te van llegando facturas de proveedores y tienes que dejarlas listas para contabilizar.\n\nPara cada factura devuelve:\n- proveedor y numero de factura tal como aparecen.\n- fecha de la factura y base imponible, cuota de IVA y total, en euros con dos decimales (número, no texto). Ojo: el total puede llevar retención de IRPF (alquileres 19 %, profesionales autónomos 15 %) que se resta, o impuestos que no son IVA (primas de seguros) que se suman. Las facturas de servicios de fuera de España con inversión del sujeto pasivo van sin IVA.\n- vencimiento en formato AAAA-MM-DD. Si la factura dice «30 días fecha factura», «60 días f.f.», «pagaré a 90 días», cuéntalos desde la fecha de la factura; si dice contado, pagado con tarjeta o en efectivo, el vencimiento es la fecha de la factura; si dice que se domicilia o se carga en cuenta en una fecha, esa fecha; si dice «antes del día 5 del mes», el día 5 de ese mes.\n- cuenta_sugerida: cuenta del Plan General Contable de pymes de tres dígitos (600 mercaderías, 601 materias primas, 602 otros aprovisionamientos como envases y embalajes, 621 arrendamientos, 622 reparaciones y conservación, 623 servicios de profesionales, 624 transportes, 625 primas de seguros, 628 suministros, 629 otros servicios).\n- duplicada: true si el número de factura de ese mismo proveedor ya aparece en el registro de facturas contabilizadas que tienes abajo. Mismo proveedor y mismo importe con distinto número NO es duplicada.\n\nResponde solo con el JSON del esquema.\n\n=== REGISTRO DE FACTURAS YA CONTABILIZADAS (registro-previo.csv, separador ;) ===\n{{datos/facturas/registro-previo.csv}}",
+  "linea_formato": true,
+  "esquema": {
+    "type": "object",
+    "required": [
+      "proveedor",
+      "numero",
+      "fecha",
+      "base",
+      "iva",
+      "total",
+      "vencimiento",
+      "cuenta_sugerida",
+      "duplicada"
+    ],
+    "properties": {
+      "proveedor": {
+        "type": "string"
+      },
+      "numero": {
+        "type": "string"
+      },
+      "fecha": {
+        "type": "string",
+        "description": "AAAA-MM-DD"
+      },
+      "base": {
+        "type": "number"
+      },
+      "iva": {
+        "type": "number"
+      },
+      "total": {
+        "type": "number"
+      },
+      "vencimiento": {
+        "type": "string",
+        "description": "AAAA-MM-DD"
+      },
+      "cuenta_sugerida": {
+        "type": "string"
+      },
+      "duplicada": {
+        "type": "boolean"
+      }
+    }
+  },
+  "max_tokens": 4000,
+  "verdad": "datos/facturas/facturas-verdad.json",
+  "lista": "facturas",
+  "entrada": {
+    "tipo": "fichero",
+    "carpeta": "datos/facturas",
+    "campo": "fichero",
+    "descripcion": "El fichero factura-NN.txt entero, tal cual, como mensaje de usuario."
+  },
+  "sha256": {
+    "prompt": "c41359a43546984e292e82ba9248f8e52aec1b4db8d061b1a3c2c24bb217b132",
+    "system": "01307e1f80c6f7450fa8b0d209f76867fe082b2065e44009e52d26124bf58e4a"
+  }
+}

@@ -1,0 +1,855 @@
+{
+  "_comentario": "Respuesta correcta de cada pedido. cantidad_cajas siempre en cajas (convertidas con uds_por_caja y cajas_por_pale de tarifa.csv). precio_caja es el de la tarifa del cliente (columna precio_caja_<tarifa>); null si la referencia no existe. Las incidencias con obligatoria=true tienen que aparecer para dar el caso por bueno.",
+  "empresa": "Conservas Marjal Blanca S.L.",
+  "fecha_referencia": "2026-09-10",
+  "pedidos": [
+    {
+      "id": "pedido-01",
+      "fichero": "pedido-01.txt",
+      "cliente": "Supermercados Serrano S.L.",
+      "nif_cliente": "B34029173",
+      "tarifa": "serrano",
+      "formato": "correo en texto, con referencias",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 40,
+          "precio_caja": 24.29
+        },
+        {
+          "referencia": "CONS-ATUN-NA-120",
+          "descripcion": "Atún claro al natural · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 25,
+          "precio_caja": 21.64
+        },
+        {
+          "referencia": "CONS-BONI-OL-220",
+          "descripcion": "Bonito del norte en aceite de oliva · Lata RO-220 (220 g / 160 g esc.)",
+          "cantidad_cajas": 15,
+          "precio_caja": 34.22
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 30,
+          "precio_caja": 24.84
+        },
+        {
+          "referencia": "CONS-TOMA-FR-T370",
+          "descripcion": "Tomate frito con aceite de oliva · Tarro cristal 370 ml (350 g)",
+          "cantidad_cajas": 20,
+          "precio_caja": 14.9
+        }
+      ],
+      "importe_lineas_eur": 3069.1,
+      "incidencias": [],
+      "nota": "Caso limpio: referencias explícitas, tarifa Serrano (–8 %)."
+    },
+    {
+      "id": "pedido-02",
+      "fichero": "pedido-02.txt",
+      "cliente": "Distribuciones Hermanos Cascales S.L.",
+      "nif_cliente": "B33911082",
+      "tarifa": "cascales",
+      "formato": "tabla pegada desde Excel (tabuladores), con precios",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 60,
+          "precio_caja": 23.23
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "descripcion": "Atún claro en aceite de girasol · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 40,
+          "precio_caja": 20.06
+        },
+        {
+          "referencia": "CONS-SARD-OL-120",
+          "descripcion": "Sardinillas en aceite de oliva · Lata RR-125 (125 g / 90 g esc.)",
+          "cantidad_cajas": 20,
+          "precio_caja": 26.61
+        },
+        {
+          "referencia": "CONS-MEJI-ES-120",
+          "descripcion": "Mejillones en escabeche 8/12 piezas · Lata RR-125 (115 g / 69 g esc.)",
+          "cantidad_cajas": 15,
+          "precio_caja": 29.99
+        },
+        {
+          "referencia": "CONS-CALA-TI-120",
+          "descripcion": "Calamares en su tinta · Lata RR-125 (115 g / 72 g esc.)",
+          "cantidad_cajas": 10,
+          "precio_caja": 25.13
+        },
+        {
+          "referencia": "CONS-TOMA-TR-T720",
+          "descripcion": "Tomate triturado · Tarro cristal 720 ml (700 g)",
+          "cantidad_cajas": 50,
+          "precio_caja": 8.71
+        },
+        {
+          "referencia": "CONS-GARB-CO-T720",
+          "descripcion": "Garbanzos cocidos · Tarro cristal 720 ml (660 g / 400 g esc.)",
+          "cantidad_cajas": 30,
+          "precio_caja": 8.18
+        }
+      ],
+      "importe_lineas_eur": 4110.45,
+      "incidencias": [],
+      "nota": "Tabla con tabuladores; los precios que pone el cliente coinciden con su tarifa (–12 %)."
+    },
+    {
+      "id": "pedido-03",
+      "fichero": "pedido-03.txt",
+      "cliente": "Grupo Hostelero Mediterráneo S.L.",
+      "nif_cliente": "B37205416",
+      "tarifa": "mediterraneo",
+      "formato": "orden de compra en PDF (texto extraído, cabeceras y pies de página)",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-1K",
+          "descripcion": "Atún claro en aceite de oliva hostelería · Lata 1 kg (1000 g / 700 g esc.)",
+          "cantidad_cajas": 24,
+          "precio_caja": 45.03
+        },
+        {
+          "referencia": "CONS-ALCA-CO-3K",
+          "descripcion": "Corazones de alcachofa hostelería · Lata 3 kg (2.500 g / 1.500 g esc.)",
+          "cantidad_cajas": 12,
+          "precio_caja": 33.06
+        },
+        {
+          "referencia": "CONS-PIQU-EN-3K",
+          "descripcion": "Pimientos del piquillo enteros hostelería · Lata 3 kg (2.500 g / 1.800 g esc.)",
+          "cantidad_cajas": 10,
+          "precio_caja": 31.92
+        },
+        {
+          "referencia": "CONS-TOMA-TR-3K",
+          "descripcion": "Tomate triturado hostelería · Lata 3 kg",
+          "cantidad_cajas": 30,
+          "precio_caja": 13.68
+        },
+        {
+          "referencia": "CONS-TOMA-FR-3K",
+          "descripcion": "Tomate frito hostelería · Lata 3 kg",
+          "cantidad_cajas": 16,
+          "precio_caja": 16.72
+        },
+        {
+          "referencia": "CONS-ANCH-OL-50",
+          "descripcion": "Filetes de anchoa en aceite de oliva · Lata 50 g (29 g esc.)",
+          "cantidad_cajas": 8,
+          "precio_caja": 50.16
+        }
+      ],
+      "importe_lineas_eur": 2875.84,
+      "incidencias": [],
+      "nota": "PDF con cabecera, pie y totales; formatos de hostelería (latas de 1 y 3 kg). Tarifa Mediterráneo (–5 %)."
+    },
+    {
+      "id": "pedido-04",
+      "fichero": "pedido-04.txt",
+      "cliente": "Cash Vega Baja S.A.",
+      "nif_cliente": "A32884553",
+      "tarifa": "cash",
+      "formato": "hoja de cálculo exportada a CSV (punto y coma)",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 80,
+          "precio_caja": 23.76
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "descripcion": "Atún claro en aceite de girasol · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 60,
+          "precio_caja": 20.52
+        },
+        {
+          "referencia": "CONS-ATUN-NA-120",
+          "descripcion": "Atún claro al natural · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 40,
+          "precio_caja": 21.17
+        },
+        {
+          "referencia": "CONS-SARD-TO-120",
+          "descripcion": "Sardinas en tomate · Lata RR-125 (125 g / 90 g esc.)",
+          "cantidad_cajas": 30,
+          "precio_caja": 17.93
+        },
+        {
+          "referencia": "CONS-CABA-OL-120",
+          "descripcion": "Caballa del sur en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 30,
+          "precio_caja": 19.44
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 40,
+          "precio_caja": 24.3
+        },
+        {
+          "referencia": "CONS-PIQU-TI-T370",
+          "descripcion": "Pimientos del piquillo en tiras · Tarro cristal 370 ml (350 g / 220 g esc.)",
+          "cantidad_cajas": 24,
+          "precio_caja": 20.52
+        },
+        {
+          "referencia": "CONS-ACEI-VE-T370",
+          "descripcion": "Aceitunas verdes manzanilla con hueso · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 36,
+          "precio_caja": 13.5
+        }
+      ],
+      "importe_lineas_eur": 7050.38,
+      "incidencias": [],
+      "nota": "CSV con punto y coma y descripciones en mayúsculas sin acentos. Tarifa Cash (–10 %)."
+    },
+    {
+      "id": "pedido-05",
+      "fichero": "pedido-05.txt",
+      "cliente": "Restaurante Casa Pepa (Josefa Belmonte Cano)",
+      "nif_cliente": "21489302B",
+      "tarifa": "general",
+      "formato": "nota manuscrita escaneada con OCR sucio",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-1K",
+          "descripcion": "Atún claro en aceite de oliva hostelería · Lata 1 kg (1000 g / 700 g esc.)",
+          "cantidad_cajas": 2,
+          "precio_caja": 47.4
+        },
+        {
+          "referencia": "CONS-ALCA-CO-3K",
+          "descripcion": "Corazones de alcachofa hostelería · Lata 3 kg (2.500 g / 1.500 g esc.)",
+          "cantidad_cajas": 4,
+          "precio_caja": 34.8
+        },
+        {
+          "referencia": "CONS-PIQU-EN-3K",
+          "descripcion": "Pimientos del piquillo enteros hostelería · Lata 3 kg (2.500 g / 1.800 g esc.)",
+          "cantidad_cajas": 1,
+          "precio_caja": 33.6
+        },
+        {
+          "referencia": "CONS-TOMA-FR-3K",
+          "descripcion": "Tomate frito hostelería · Lata 3 kg",
+          "cantidad_cajas": 3,
+          "precio_caja": 17.6
+        }
+      ],
+      "importe_lineas_eur": 320.4,
+      "incidencias": [],
+      "nota": "OCR con ceros por oes y eles por unos: «C0NS-ATUN-0L-1K», «l caja». La referencia se debe normalizar."
+    },
+    {
+      "id": "pedido-06",
+      "fichero": "pedido-06.txt",
+      "cliente": "Bar-Cafetería El Racó de Toni (Antoni Buigues Soler)",
+      "nif_cliente": "53210077Z",
+      "tarifa": "general",
+      "formato": "correo en valenciano, sin referencias (solo descripciones)",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 2,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-BONI-OL-220",
+          "descripcion": "Bonito del norte en aceite de oliva · Lata RO-220 (220 g / 160 g esc.)",
+          "cantidad_cajas": 1,
+          "precio_caja": 37.2
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 3,
+          "precio_caja": 27
+        }
+      ],
+      "importe_lineas_eur": 171,
+      "incidencias": [],
+      "nota": "Hay que casar descripciones en valenciano con la tarifa: tonyina = atún, bonítol = bonito, cors de carxofa = corazones de alcachofa."
+    },
+    {
+      "id": "pedido-07",
+      "fichero": "pedido-07.txt",
+      "cliente": "Supermercados Alifresc S.L.",
+      "nif_cliente": "B36700235",
+      "tarifa": "general",
+      "formato": "correo con referencias; UNA NO EXISTE en la tarifa",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 30,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-OL-200",
+          "descripcion": null,
+          "cantidad_cajas": 20,
+          "precio_caja": null
+        },
+        {
+          "referencia": "CONS-MELV-OL-120",
+          "descripcion": "Melva canutera en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 10,
+          "precio_caja": 29.28
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T720",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 720 ml (660 g / 400 g esc.)",
+          "cantidad_cajas": 24,
+          "precio_caja": 23.4
+        },
+        {
+          "referencia": "CONS-ACEI-VE-T370",
+          "descripcion": "Aceitunas verdes manzanilla con hueso · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 12,
+          "precio_caja": 15
+        }
+      ],
+      "importe_lineas_eur": 1826.4,
+      "incidencias": [
+        {
+          "tipo": "referencia-inexistente",
+          "detalle": "CONS-ATUN-OL-200 no existe en la tarifa (¿CONS-BONI-OL-220 o CONS-ATUN-OL-120?). Hay que preguntar al cliente antes de servir.",
+          "obligatoria": true
+        }
+      ],
+      "nota": "La línea inexistente debe aparecer como tal (sin precio) y la incidencia debe señalarse. No vale inventar la referencia parecida."
+    },
+    {
+      "id": "pedido-08",
+      "fichero": "pedido-08.txt",
+      "cliente": "Ultramarinos La Font S.L.U.",
+      "nif_cliente": "B35647304",
+      "tarifa": "general",
+      "formato": "correo con precios escritos por el cliente; UNO NO COINCIDE con la tarifa",
+      "lineas": [
+        {
+          "referencia": "CONS-BONI-OL-T400",
+          "descripcion": "Bonito del norte en aceite de oliva · Tarro cristal 400 g",
+          "cantidad_cajas": 3,
+          "precio_caja": 58.8
+        },
+        {
+          "referencia": "CONS-ANCH-OL-50",
+          "descripcion": "Filetes de anchoa en aceite de oliva · Lata 50 g (29 g esc.)",
+          "cantidad_cajas": 2,
+          "precio_caja": 52.8
+        },
+        {
+          "referencia": "CONS-HABI-BA-T370",
+          "descripcion": "Habitas baby en aceite de oliva · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 2,
+          "precio_caja": 39.6
+        },
+        {
+          "referencia": "CONS-NORA-SE-B100",
+          "descripcion": "Ñoras secas de la Vega Baja · Bolsa 100 g",
+          "cantidad_cajas": 1,
+          "precio_caja": 33
+        }
+      ],
+      "importe_lineas_eur": 394.2,
+      "incidencias": [
+        {
+          "tipo": "precio-distinto-de-tarifa",
+          "detalle": "CONS-ANCH-OL-50: el cliente escribe 48,00 €/caja y la tarifa general es 52,80 €/caja. Se sirve a tarifa y se avisa al cliente antes.",
+          "obligatoria": true
+        }
+      ],
+      "nota": "El precio de la línea es el de tarifa (52,80), no el que escribe el cliente; la diferencia es una incidencia obligatoria."
+    },
+    {
+      "id": "pedido-09",
+      "fichero": "pedido-09.txt",
+      "cliente": "Distribuciones Bernabéu e Hijos S.L.",
+      "nif_cliente": "B31304660",
+      "tarifa": "general",
+      "formato": "«lo de siempre» con el pedido anterior citado en el hilo",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 25,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "descripcion": "Atún claro en aceite de girasol · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 10,
+          "precio_caja": 22.8
+        },
+        {
+          "referencia": "CONS-SARD-TO-120",
+          "descripcion": "Sardinas en tomate · Lata RR-125 (125 g / 90 g esc.)",
+          "cantidad_cajas": 12,
+          "precio_caja": 19.92
+        },
+        {
+          "referencia": "CONS-PIQU-TI-T370",
+          "descripcion": "Pimientos del piquillo en tiras · Tarro cristal 370 ml (350 g / 220 g esc.)",
+          "cantidad_cajas": 8,
+          "precio_caja": 22.8
+        },
+        {
+          "referencia": "CONS-DATI-EL-B250",
+          "descripcion": "Dátil de Elche deshuesado · Bandeja 250 g",
+          "cantidad_cajas": 6,
+          "precio_caja": 42
+        }
+      ],
+      "importe_lineas_eur": 1561.44,
+      "incidencias": [
+        {
+          "tipo": "pedido-por-historico",
+          "detalle": "«Lo de siempre» se deduce del correo citado de agosto, con +5 cajas de CONS-ATUN-OL-120 (20 → 25). Conviene confirmar con el cliente.",
+          "obligatoria": false
+        }
+      ],
+      "nota": "Las líneas salen del hilo citado; el atún en oliva sube de 20 a 25."
+    },
+    {
+      "id": "pedido-10",
+      "fichero": "pedido-10.txt",
+      "cliente": "Sabores de Levante Online S.L.",
+      "nif_cliente": "B36988020",
+      "tarifa": "general",
+      "formato": "cantidades en unidades (no cajas) y SKU propios del cliente",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-P3",
+          "descripcion": "Atún claro en aceite de oliva pack 3 · Pack 3 latas RO-80 (3 x 80 g)",
+          "cantidad_cajas": 10,
+          "precio_caja": 28.8
+        },
+        {
+          "referencia": "CONS-BONI-OL-T400",
+          "descripcion": "Bonito del norte en aceite de oliva · Tarro cristal 400 g",
+          "cantidad_cajas": 4,
+          "precio_caja": 58.8
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 10,
+          "precio_caja": 27
+        }
+      ],
+      "importe_lineas_eur": 793.2,
+      "incidencias": [],
+      "nota": "Cantidades en unidades: 160 packs / 16 por caja = 10 cajas; 48 tarros / 12 = 4; 120 / 12 = 10."
+    },
+    {
+      "id": "pedido-11",
+      "fichero": "pedido-11.txt",
+      "cliente": "Distribuciones Hermanos Cascales S.L.",
+      "nif_cliente": "B33911082",
+      "tarifa": "cascales",
+      "formato": "cantidades en palés y medios palés",
+      "lineas": [
+        {
+          "referencia": "CONS-TOMA-TR-T720",
+          "descripcion": "Tomate triturado · Tarro cristal 720 ml (700 g)",
+          "cantidad_cajas": 60,
+          "precio_caja": 8.71
+        },
+        {
+          "referencia": "CONS-GARB-CO-T720",
+          "descripcion": "Garbanzos cocidos · Tarro cristal 720 ml (660 g / 400 g esc.)",
+          "cantidad_cajas": 30,
+          "precio_caja": 8.18
+        },
+        {
+          "referencia": "CONS-LENT-CO-T720",
+          "descripcion": "Lentejas cocidas · Tarro cristal 720 ml (660 g / 400 g esc.)",
+          "cantidad_cajas": 20,
+          "precio_caja": 8.18
+        }
+      ],
+      "importe_lineas_eur": 931.6,
+      "incidencias": [],
+      "nota": "Palé de tomate triturado 720 = 60 cajas; medio palé de garbanzos = 30. Lentejas sin referencia: CONS-LENT-CO-T720."
+    },
+    {
+      "id": "pedido-12",
+      "fichero": "pedido-12.txt",
+      "cliente": "Supermercados Serrano S.L.",
+      "nif_cliente": "B34029173",
+      "tarifa": "serrano",
+      "formato": "pedido de compra en PDF de dos páginas (texto extraído), con una línea partida entre páginas",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 50,
+          "precio_caja": 24.29
+        },
+        {
+          "referencia": "CONS-ATUN-GI-120",
+          "descripcion": "Atún claro en aceite de girasol · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 30,
+          "precio_caja": 20.98
+        },
+        {
+          "referencia": "CONS-ATUN-NA-120",
+          "descripcion": "Atún claro al natural · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 20,
+          "precio_caja": 21.64
+        },
+        {
+          "referencia": "CONS-BONI-OL-120",
+          "descripcion": "Bonito del norte en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 12,
+          "precio_caja": 38.42
+        },
+        {
+          "referencia": "CONS-MELV-OL-120",
+          "descripcion": "Melva canutera en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 10,
+          "precio_caja": 26.94
+        },
+        {
+          "referencia": "CONS-PIQU-EN-T370",
+          "descripcion": "Pimientos del piquillo enteros · Tarro cristal 370 ml (350 g / 220 g esc.)",
+          "cantidad_cajas": 18,
+          "precio_caja": 23.18
+        },
+        {
+          "referencia": "CONS-PIQU-TI-T370",
+          "descripcion": "Pimientos del piquillo en tiras · Tarro cristal 370 ml (350 g / 220 g esc.)",
+          "cantidad_cajas": 12,
+          "precio_caja": 20.98
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T720",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 720 ml (660 g / 400 g esc.)",
+          "cantidad_cajas": 24,
+          "precio_caja": 21.53
+        },
+        {
+          "referencia": "CONS-ACEI-NE-T370",
+          "descripcion": "Aceitunas negras aragón · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 15,
+          "precio_caja": 15.46
+        }
+      ],
+      "importe_lineas_eur": 4424.76,
+      "incidencias": [],
+      "nota": "La línea 6 (piquillo enteros, 18 cajas) queda partida por el salto de página; no hay que perderla ni duplicarla."
+    },
+    {
+      "id": "pedido-13",
+      "fichero": "pedido-13.txt",
+      "cliente": "Catering Lucentum Eventos S.L.",
+      "nif_cliente": "B35541986",
+      "tarifa": "general",
+      "formato": "mensaje de WhatsApp reenviado por una compañera, lenguaje informal",
+      "lineas": [
+        {
+          "referencia": "CONS-ALCA-CO-T720",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 720 ml (660 g / 400 g esc.)",
+          "cantidad_cajas": 6,
+          "precio_caja": 23.4
+        },
+        {
+          "referencia": "CONS-PIQU-EN-T370",
+          "descripcion": "Pimientos del piquillo enteros · Tarro cristal 370 ml (350 g / 220 g esc.)",
+          "cantidad_cajas": 6,
+          "precio_caja": 25.2
+        }
+      ],
+      "importe_lineas_eur": 291.6,
+      "incidencias": [],
+      "nota": "«La del tarro grande» = tarro 720; «del tarro, no la lata» = CONS-PIQU-EN-T370. Cantidades en cajas según la nota de Marisa."
+    },
+    {
+      "id": "pedido-14",
+      "fichero": "pedido-14.txt",
+      "cliente": "Mediterranean Pantry Ltd",
+      "nif_cliente": "GB 447 2201 93",
+      "tarifa": "general",
+      "formato": "pedido en inglés de un importador, EXW",
+      "lineas": [
+        {
+          "referencia": "CONS-BONI-OL-T400",
+          "descripcion": "Bonito del norte en aceite de oliva · Tarro cristal 400 g",
+          "cantidad_cajas": 20,
+          "precio_caja": 58.8
+        },
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 30,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ANCH-OL-50",
+          "descripcion": "Filetes de anchoa en aceite de oliva · Lata 50 g (29 g esc.)",
+          "cantidad_cajas": 15,
+          "precio_caja": 52.8
+        },
+        {
+          "referencia": "CONS-ALCA-CO-T370",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 24,
+          "precio_caja": 27
+        },
+        {
+          "referencia": "CONS-NORA-SE-B100",
+          "descripcion": "Ñoras secas de la Vega Baja · Bolsa 100 g",
+          "cantidad_cajas": 10,
+          "precio_caja": 33
+        }
+      ],
+      "importe_lineas_eur": 3738,
+      "incidencias": [],
+      "nota": "Cliente de exportación con tarifa general; cantidades en «cases» = cajas."
+    },
+    {
+      "id": "pedido-15",
+      "fichero": "pedido-15.txt",
+      "cliente": "Cooperativa Agrícola San Isidro de Callosa S. Coop. V.",
+      "nif_cliente": "F30117295",
+      "tarifa": "general",
+      "formato": "sin referencias, cantidades en letras",
+      "lineas": [
+        {
+          "referencia": "CONS-ALCA-CO-T720",
+          "descripcion": "Corazones de alcachofa de la Vega Baja · Tarro cristal 720 ml (660 g / 400 g esc.)",
+          "cantidad_cajas": 4,
+          "precio_caja": 23.4
+        },
+        {
+          "referencia": "CONS-ALCA-FO-T370",
+          "descripcion": "Fondos de alcachofa · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 2,
+          "precio_caja": 31.8
+        },
+        {
+          "referencia": "CONS-TOMA-TR-T720",
+          "descripcion": "Tomate triturado · Tarro cristal 720 ml (700 g)",
+          "cantidad_cajas": 6,
+          "precio_caja": 9.9
+        },
+        {
+          "referencia": "CONS-ACEI-VE-T370",
+          "descripcion": "Aceitunas verdes manzanilla con hueso · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 3,
+          "precio_caja": 15
+        }
+      ],
+      "importe_lineas_eur": 261.6,
+      "incidencias": [],
+      "nota": "Cuatro/dos/seis/tres en letras; la pregunta sobre el dátil NO es una línea de pedido."
+    },
+    {
+      "id": "pedido-16",
+      "fichero": "pedido-16.txt",
+      "cliente": "Supermercados Alifresc S.L.",
+      "nif_cliente": "B36700235",
+      "tarifa": "general",
+      "formato": "pedido con corrección posterior en el mismo correo (quita una línea, sube otra)",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 40,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-ATUN-ES-120",
+          "descripcion": "Atún claro en escabeche · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 10,
+          "precio_caja": 24
+        },
+        {
+          "referencia": "CONS-CABA-OL-120",
+          "descripcion": "Caballa del sur en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 16,
+          "precio_caja": 21.6
+        },
+        {
+          "referencia": "CONS-JUDI-VE-T720",
+          "descripcion": "Judías verdes planas · Tarro cristal 720 ml (660 g / 350 g esc.)",
+          "cantidad_cajas": 24,
+          "precio_caja": 12.6
+        }
+      ],
+      "importe_lineas_eur": 1944,
+      "incidencias": [],
+      "nota": "Vale la versión corregida: sin mejillones y con 24 cajas de judías."
+    },
+    {
+      "id": "pedido-17",
+      "fichero": "pedido-17.txt",
+      "cliente": "Grupo Hostelero Mediterráneo S.L.",
+      "nif_cliente": "B37205416",
+      "tarifa": "mediterraneo",
+      "formato": "correo que mezcla una reclamación y un pedido urgente",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-1K",
+          "descripcion": "Atún claro en aceite de oliva hostelería · Lata 1 kg (1000 g / 700 g esc.)",
+          "cantidad_cajas": 12,
+          "precio_caja": 45.03
+        },
+        {
+          "referencia": "CONS-TOMA-FR-3K",
+          "descripcion": "Tomate frito hostelería · Lata 3 kg",
+          "cantidad_cajas": 8,
+          "precio_caja": 16.72
+        },
+        {
+          "referencia": "CONS-ALCA-CO-3K",
+          "descripcion": "Corazones de alcachofa hostelería · Lata 3 kg (2.500 g / 1.500 g esc.)",
+          "cantidad_cajas": 6,
+          "precio_caja": 33.06
+        }
+      ],
+      "importe_lineas_eur": 872.48,
+      "incidencias": [
+        {
+          "tipo": "reclamacion-en-el-mismo-correo",
+          "detalle": "Pide abono o reposición de 3 latas de 1 kg abolladas. No es línea de pedido; va a calidad/comercial.",
+          "obligatoria": false
+        }
+      ],
+      "nota": "Las 3 latas abolladas no son una línea de pedido. El pedido son 3 líneas a tarifa Mediterráneo."
+    },
+    {
+      "id": "pedido-18",
+      "fichero": "pedido-18.txt",
+      "cliente": "Cash Vega Baja S.A.",
+      "nif_cliente": "A32884553",
+      "tarifa": "cash",
+      "formato": "tabla con barras verticales copiada de un portal de compras",
+      "lineas": [
+        {
+          "referencia": "CONS-BONI-OL-120",
+          "descripcion": "Bonito del norte en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 20,
+          "precio_caja": 37.58
+        },
+        {
+          "referencia": "CONS-ATUN-OL-P3",
+          "descripcion": "Atún claro en aceite de oliva pack 3 · Pack 3 latas RO-80 (3 x 80 g)",
+          "cantidad_cajas": 30,
+          "precio_caja": 25.92
+        },
+        {
+          "referencia": "CONS-SARD-OL-120",
+          "descripcion": "Sardinillas en aceite de oliva · Lata RR-125 (125 g / 90 g esc.)",
+          "cantidad_cajas": 25,
+          "precio_caja": 27.22
+        },
+        {
+          "referencia": "CONS-BERB-NA-120",
+          "descripcion": "Berberechos al natural 40/50 piezas · Lata RR-125 (115 g / 63 g esc.)",
+          "cantidad_cajas": 6,
+          "precio_caja": 59.4
+        },
+        {
+          "referencia": "CONS-PULP-OL-120",
+          "descripcion": "Pulpo en aceite de oliva · Lata RR-125 (115 g / 72 g esc.)",
+          "cantidad_cajas": 6,
+          "precio_caja": 54.86
+        },
+        {
+          "referencia": "CONS-ALCP-EN-T200",
+          "descripcion": "Alcaparras en vinagre · Tarro cristal 200 ml (180 g / 100 g esc.)",
+          "cantidad_cajas": 10,
+          "precio_caja": 17.28
+        }
+      ],
+      "importe_lineas_eur": 3068.06,
+      "incidencias": [],
+      "nota": "Tabla con barras; precios a tarifa Cash (–10 %)."
+    },
+    {
+      "id": "pedido-19",
+      "fichero": "pedido-19.txt",
+      "cliente": "Ultramarinos La Font S.L.U.",
+      "nif_cliente": "B35647304",
+      "tarifa": "general",
+      "formato": "correo corto sin referencias, cantidades en letras, con un producto añadido «ah, y…»",
+      "lineas": [
+        {
+          "referencia": "CONS-PIST-VE-T370",
+          "descripcion": "Pisto de verduras · Tarro cristal 370 ml (350 g)",
+          "cantidad_cajas": 12,
+          "precio_caja": 21
+        },
+        {
+          "referencia": "CONS-ALUB-CO-T720",
+          "descripcion": "Alubias blancas cocidas · Tarro cristal 720 ml (660 g / 400 g esc.)",
+          "cantidad_cajas": 4,
+          "precio_caja": 9.6
+        },
+        {
+          "referencia": "CONS-ALCP-EN-T200",
+          "descripcion": "Alcaparras en vinagre · Tarro cristal 200 ml (180 g / 100 g esc.)",
+          "cantidad_cajas": 1,
+          "precio_caja": 19.2
+        },
+        {
+          "referencia": "CONS-DATI-EL-B250",
+          "descripcion": "Dátil de Elche deshuesado · Bandeja 250 g",
+          "cantidad_cajas": 2,
+          "precio_caja": 42
+        }
+      ],
+      "importe_lineas_eur": 393.6,
+      "incidencias": [],
+      "nota": "Doce / cuatro / una / dos; el dátil va al final en tono de «se me olvidaba»."
+    },
+    {
+      "id": "pedido-20",
+      "fichero": "pedido-20.txt",
+      "cliente": "Sabores de Levante Online S.L.",
+      "nif_cliente": "B36988020",
+      "tarifa": "general",
+      "formato": "una referencia repartida en dos entregas (hay que sumar)",
+      "lineas": [
+        {
+          "referencia": "CONS-ATUN-OL-120",
+          "descripcion": "Atún claro en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 40,
+          "precio_caja": 26.4
+        },
+        {
+          "referencia": "CONS-BONI-OL-120",
+          "descripcion": "Bonito del norte en aceite de oliva · Lata RO-120 (120 g / 85 g esc.)",
+          "cantidad_cajas": 16,
+          "precio_caja": 41.76
+        },
+        {
+          "referencia": "CONS-DATI-EL-B250",
+          "descripcion": "Dátil de Elche deshuesado · Bandeja 250 g",
+          "cantidad_cajas": 24,
+          "precio_caja": 42
+        },
+        {
+          "referencia": "CONS-HABI-BA-T370",
+          "descripcion": "Habitas baby en aceite de oliva · Tarro cristal 370 ml (350 g / 200 g esc.)",
+          "cantidad_cajas": 6,
+          "precio_caja": 39.6
+        }
+      ],
+      "importe_lineas_eur": 2969.76,
+      "incidencias": [],
+      "nota": "Una línea por referencia con la cantidad total; las fechas de entrega son un dato aparte."
+    }
+  ]
+}

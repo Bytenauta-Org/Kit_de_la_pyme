@@ -1,0 +1,77 @@
+{
+  "semana": "2026-W37",
+  "fecha_publicacion": "2026-09-08",
+  "publicado_en": "https://bytenauta.com/a-la-ultima/",
+  "numero": "2026-09-08-referencia-bien-precio-tarifa",
+  "origen": "Bytenauta-Org/bytenauta-web@1884104 (PR #5), contenido/borradores/2026-09-08-referencia-bien-precio-tarifa/post.json",
+  "banco": "Bytenauta-Org/bytenauta-blog-agentes, src/pruebas/{index,tareas,puntuar}.ts, ejecutado desde un Worker de Cloudflare",
+  "modo": "directo (endpoint compatible OpenAI de Anthropic), sin response_format, temperature 0, 4 casos en paralelo, hasta 3 intentos por caso",
+  "kit_datos_version": "1.0.0",
+  "pruebas": [
+    {
+      "novedad_url": "",
+      "modelo": "anthropic/claude-haiku-4-5",
+      "tarea": "extraer-pedidos",
+      "tarea_nombre": "Sacar las líneas de 20 pedidos tal como llegan por correo",
+      "casos": 20,
+      "aciertos": 15,
+      "fallos": [
+        "Pedido 06: en CONS-BONI-OL-220 puso 34,22 € donde la tarifa dice 37,20 €",
+        "Pedido 07: en CONS-MELV-OL-120 puso 26,40 € donde la tarifa dice 29,28 €",
+        "Pedido 13: en CONS-ALCA-CO-T720 puso 22,23 € donde la tarifa dice 23,40 €"
+      ],
+      "segundos": 16.9,
+      "coste_eur": 0.3822,
+      "veredicto": "todavia-no",
+      "nota": "Falló 5 de 20: hay que revisar cada resultado y entonces no ahorra tiempo. Ejemplo: Pedido 06: en CONS-BONI-OL-220 puso 34,22 € donde la tarifa dice 37,20 €.",
+      "de_fondo": true,
+      "nombre_visible": "el modelo pequeño de Anthropic"
+    },
+    {
+      "novedad_url": "",
+      "modelo": "anthropic/claude-haiku-4-5",
+      "tarea": "clasificar-facturas",
+      "tarea_nombre": "Contabilizar 25 facturas recibidas: total, vencimiento y si ya estaba registrada",
+      "casos": 25,
+      "aciertos": 24,
+      "fallos": [
+        "Factura 08: vencimiento 2026-10-05 donde tocaba 05/09/2026"
+      ],
+      "segundos": 10.5,
+      "coste_eur": 0.1428,
+      "veredicto": "lo-usaria-el-lunes",
+      "nota": "Acertó 24 de 25 a 0,6 céntimos por caso; sirve el lunes si una persona repasa los casos con incidencia. Ejemplo: Factura 08: vencimiento 2026-10-05 donde tocaba 05/09/2026.",
+      "de_fondo": true,
+      "nombre_visible": "el modelo pequeño de Anthropic"
+    }
+  ],
+  "otras_tiradas": [
+    {
+      "origen": "tirada del banco del 08-09-2026 anterior al PR #4 (registro local del pipeline)",
+      "extraer-pedidos": {
+        "aciertos": 15,
+        "segundos": 17.5,
+        "coste_eur": 0.3824
+      },
+      "clasificar-facturas": {
+        "aciertos": 24,
+        "segundos": 10,
+        "coste_eur": 0.1428
+      }
+    },
+    {
+      "origen": "Bytenauta-Org/bytenauta-web PR #4, contenido/borradores/2026-09-08-referencias-salieron-precio-tarifa-no/post.json",
+      "extraer-pedidos": {
+        "aciertos": 15,
+        "segundos": 18.2,
+        "coste_eur": 0.3824
+      },
+      "clasificar-facturas": {
+        "aciertos": 24,
+        "segundos": 10.4,
+        "coste_eur": 0.1428
+      }
+    }
+  ],
+  "nota_tiradas": "Tres tiradas del mismo día con el mismo modelo dieron los mismos aciertos y los mismos tres fallos; solo cambian los segundos (tiempo de red) y el coste en la cuarta cifra decimal (tokens de salida). La publicada es la del PR #5."
+}

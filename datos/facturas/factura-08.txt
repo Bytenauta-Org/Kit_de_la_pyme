@@ -1,0 +1,21 @@
+De: Asesoría Vega Fiscal S.L.P. <fiscal@vegafiscal.example>
+Para: Administración Marjal Blanca <administracion@marjalblanca.example>
+Fecha: 01/09/2026
+Asunto: Factura VF-2026-0911
+
+Estimado cliente:
+
+Le remitimos la factura VF-2026-0911 de fecha 01/09/2026, emitida a nombre de Conservas Marjal Blanca S.L. (NIF B38122941).
+
+| Concepto | Cantidad | Precio | Importe |
+|---|---|---|---|
+| Cuota mensual asesoramiento fiscal, contable y laboral – septiembre 2026 | 1 | 480,00 | 480,00 |
+
+Base imponible: 480,00 €
+IVA 21 %: 100,80 €
+Total: 580,80 €
+
+Recibo domiciliado el día 5 de cada mes.
+IBAN ES20 2038 7700 1100 2233 4455
+
+Asesoría Vega Fiscal S.L.P. · B37880192 · c/ Mayor 18, 1.º B · 03160 Almoradí (Alicante)

@@ -1,0 +1,23 @@
+FACTURA
+Número: 2026-031
+Fecha de emisión: 10 de septiembre de 2026
+Referencia: Proyecto de legalización de instalación de vapor (RITE / RAP)
+
+Emisor: Miguel Ángel Sáez Peral (autónomo)
+NIF: 48660123N
+Domicilio: c/ Reyes Católicos 22, 2.º · 03003 Alicante
+Correo: masaez.ingenieria@example
+
+Destinatario: Conservas Marjal Blanca S.L. · NIF B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+
+Detalle:
+  1. Redacción de proyecto técnico y certificado de dirección de obra — 1 x 1800,00 = 1800,00 €
+
+Base imponible: 1800,00 €
+IVA (21 %): 378,00 €
+Retención IRPF (15 %): -270,00 €
+TOTAL A PAGAR: 1908,00 €
+
+Condiciones de pago: Transferencia a 30 días fecha factura.
+Cuenta para transferencias: ES10 0073 0100 5100 4455 6677

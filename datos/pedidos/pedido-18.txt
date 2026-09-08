@@ -1,0 +1,18 @@
+De: Loli Marco <aprovisionamiento@cashvegabaja.example>
+Para: Pedidos Marjal Blanca <pedidos@marjalblanca.example>
+Fecha: miércoles, 9 sept 2026, 08:12
+Asunto: Pedido portal nº 77120 (el PDF no se abre)
+
+Hola Marisa, este es el pedido que ha generado el portal, te lo pego porque el PDF que os manda el sistema sale en blanco. Entrega el 15/09.
+
+| Nº | Ref. proveedor | Descripción | Cajas | € caja | Importe |
+|----|----------------|-------------|-------|--------|---------|
+| 1 | CONS-BONI-OL-120 | BONITO NORTE AC OLIVA RO120 | 20 | 37,58 | 751,60 |
+| 2 | CONS-ATUN-OL-P3 | ATUN CLARO OLIVA PACK 3 | 30 | 25,92 | 777,60 |
+| 3 | CONS-SARD-OL-120 | SARDINILLA AC OLIVA RR125 | 25 | 27,22 | 680,50 |
+| 4 | CONS-BERB-NA-120 | BERBERECHO NATURAL 40/50 | 6 | 59,40 | 356,40 |
+| 5 | CONS-PULP-OL-120 | PULPO AC OLIVA RR125 | 6 | 54,86 | 329,16 |
+| 6 | CONS-ALCP-EN-T200 | ALCAPARRA VINAGRE T200 | 10 | 17,28 | 172,80 |
+| | | TOTAL | 97 | | 3068,06 |
+
+Loli Marco · Aprovisionamiento · Cash Vega Baja S.A.

@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/correos-verdad.schema.json",
+  "title": "Respuesta correcta de los 30 correos (datos/correos/correos-verdad.json)",
+  "description": "Un elemento por correo. Se puntúan categoría y urgencia exactas; acción y resumen son la referencia humana y no se comparan.",
+  "type": "object",
+  "required": [
+    "_comentario",
+    "categorias",
+    "urgencias",
+    "correos"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "_comentario": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Criterio de acierto en una frase, para quien abre el fichero sin leer la documentación."
+    },
+    "categorias": {
+      "const": [
+        "reclamacion",
+        "consulta",
+        "cambio-pedido",
+        "pedido",
+        "factura-proveedor",
+        "aviso-proveedor",
+        "administrativo",
+        "spam"
+      ],
+      "description": "Las ocho categorías, en el orden del prompt. Coinciden con el enum del esquema de respuesta de resumir-correos."
+    },
+    "urgencias": {
+      "const": [
+        "alta",
+        "media",
+        "baja"
+      ],
+      "description": "alta = hoy; media = esta semana; baja = cuando se pueda."
+    },
+    "correos": {
+      "type": "array",
+      "minItems": 30,
+      "maxItems": 30,
+      "items": {
+        "$ref": "#/$defs/correo"
+      },
+      "$comment": "v1.0.0: 30 correos. Cambiar el número de casos, o cualquier caso, es cambiar de versión mayor (ver datos/README.md)."
+    }
+  },
+  "$defs": {
+    "correo": {
+      "type": "object",
+      "required": [
+        "id",
+        "fichero",
+        "categoria",
+        "urgencia",
+        "remitente",
+        "accion",
+        "resumen"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^correo-[0-9]{2}$"
+        },
+        "fichero": {
+          "type": "string",
+          "pattern": "^correo-[0-9]{2}\\.txt$",
+          "description": "Fichero de correos/ que se da al modelo íntegro como mensaje de usuario."
+        },
+        "categoria": {
+          "enum": [
+            "reclamacion",
+            "consulta",
+            "cambio-pedido",
+            "pedido",
+            "factura-proveedor",
+            "aviso-proveedor",
+            "administrativo",
+            "spam"
+          ],
+          "description": "Se puntúa exacta tras normalizar (minúsculas, sin acentos; espacios y «_» cuentan como «-»)."
+        },
+        "urgencia": {
+          "enum": [
+            "alta",
+            "media",
+            "baja"
+          ],
+          "description": "Se puntúa exacta tras normalizar (minúsculas, sin acentos)."
+        },
+        "remitente": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Quién escribe. Informativo."
+        },
+        "accion": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Qué haría un buen administrativo. No se puntúa."
+        },
+        "resumen": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Una línea para quien no ha leído el correo. No se puntúa; aparece en el texto del fallo."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1429 @@
+CONTRATO MARCO DE SUMINISTRO DE CONSERVAS ALIMENTARIAS
+
+entre
+
+CONSERVAS MARJAL BLANCA S.L.
+(el «Proveedor»)
+
+y
+
+SUPERMERCADOS SERRANO S.L.
+(el «Comprador»)
+
+Referencia interna: CMS-2026-004
+Fecha de firma: 26 de enero de 2026
+Fecha de efectos: 1 de febrero de 2026
+Versión: 3 (definitiva, con los cambios acordados en la reunión de 19 de enero de 2026)
+
+
+ÍNDICE
+
+REUNIDOS
+EXPONEN
+CLÁUSULAS
+  1. Definiciones e interpretación
+  2. Objeto del contrato
+  3. Duración, prórroga y preaviso
+  4. Productos, especificaciones y cambios
+  5. Previsiones, pedidos y confirmación
+  6. Precios, revisión de precios y descuentos
+  7. Condiciones de entrega e Incoterms
+  8. Transmisión del riesgo y reserva de dominio
+  9. Facturación, plazo de pago y morosidad
+  10. Garantía de calidad y seguridad alimentaria
+  11. Recepción, inspección y reclamaciones
+  12. Retirada y recuperación de producto
+  13. Penalizaciones
+  14. Nivel de servicio y seguimiento
+  15. Marca del distribuidor y exclusividades
+  16. Propiedad intelectual e industrial
+  17. Confidencialidad
+  18. Protección de datos personales
+  19. Seguros
+  20. Fuerza mayor
+  21. Cesión y subcontratación
+  22. Resolución del contrato
+  23. Consecuencias de la terminación
+  24. Responsabilidad y limitación
+  25. Cumplimiento normativo, ética y sostenibilidad
+  26. Notificaciones
+  27. Ley aplicable, mediación y jurisdicción
+  28. Disposiciones finales
+ANEXO I. Productos y especificaciones técnicas
+ANEXO II. Tarifa y condiciones económicas
+ANEXO III. Nivel de servicio y cuadro de penalizaciones
+ANEXO IV. Requisitos logísticos y de entrega
+ANEXO V. Requisitos de calidad, certificaciones y documentación
+ANEXO VI. Protocolo de reclamaciones y de retirada de producto
+ANEXO VII. Modelos de acta de recepción y de no conformidad
+ANEXO VIII. Datos de contacto y direcciones de notificación
+
+
+En Elche (Alicante), a 26 de enero de 2026.
+
+REUNIDOS
+
+De una parte, D. Fermín Leal Payá, mayor de edad, con DNI número 48.612.209-X, en nombre y representación de Conservas Marjal Blanca S.L., sociedad de nacionalidad española, con domicilio social en Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante), provista de NIF B38122941, inscrita en el Registro Mercantil de Alicante al tomo 3.118, folio 42, hoja A-88.914, inscripción 7.ª. Actúa en su condición de Administrador Único, cargo vigente y para el que fue nombrado por acuerdo de la Junta General de 14 de marzo de 2022, elevado a público ante el Notario de Orihuela D. Andrés Cerdán Mora con el número 611 de su protocolo (en adelante, el «Proveedor»).
+
+De otra parte, D.ª Rosario Serrano Antón, mayor de edad, con DNI número 21.998.441-K, en nombre y representación de Supermercados Serrano S.L., sociedad de nacionalidad española, con domicilio social en Avenida de la Libertad 214, 03206 Elche (Alicante), provista de NIF B34029173, inscrita en el Registro Mercantil de Alicante al tomo 2.207, folio 115, hoja A-51.330, inscripción 12.ª. Actúa en su condición de Consejera Delegada, en virtud de escritura de poder otorgada el 3 de junio de 2020 ante el Notario de Elche D. Julián Pastor Ibarra con el número 1.402 de su protocolo (en adelante, el «Comprador»).
+
+El Proveedor y el Comprador serán denominados conjuntamente las «Partes» e individualmente la «Parte».
+
+Ambas Partes se reconocen mutuamente, en la representación que ostentan, la capacidad legal necesaria para obligarse y para otorgar el presente Contrato Marco de Suministro (el «Contrato»), y a tal efecto
+
+EXPONEN
+
+I. Que el Proveedor es una empresa dedicada a la elaboración, envasado y comercialización de conservas de pescado y de vegetales, con instalaciones productivas en Almoradí (Alicante), inscrita en el Registro General Sanitario de Empresas Alimentarias y Alimentos (RGSEAA) con el número 12.019873/A y el número 21.006544/A, y titular de un certificado IFS Food en vigor con nivel superior («Higher Level»), cuya copia se incorpora al Anexo V.
+
+II. Que el Comprador es una empresa de distribución alimentaria minorista que explota una red de treinta y dos establecimientos bajo la enseña «Serrano» en las provincias de Alicante y Murcia, así como una plataforma logística central situada en el Polígono Industrial de Carrús, en Elche, desde la que abastece a dichos establecimientos.
+
+III. Que las Partes vienen manteniendo relaciones comerciales desde el año 2019, al amparo de las condiciones generales de compra del Comprador y de la tarifa anual del Proveedor, y desean ahora dotar a dicha relación de un marco contractual estable, que regule de forma completa las condiciones de suministro, los niveles de servicio, las garantías de calidad y seguridad alimentaria, las consecuencias de los incumplimientos y los procedimientos de gestión de incidencias.
+
+IV. Que el Comprador está interesado en adquirir del Proveedor, y el Proveedor en suministrar al Comprador, los productos relacionados en el Anexo I, tanto bajo las marcas propias del Proveedor como, respecto de determinadas referencias, bajo la marca del distribuidor del Comprador, en los términos y condiciones del presente Contrato.
+
+V. Que las Partes declaran conocer y aceptar la Ley 12/2013, de 2 de agosto, de medidas para mejorar el funcionamiento de la cadena alimentaria, con sus modificaciones posteriores, y manifiestan que el presente Contrato se formaliza por escrito, con anterioridad al inicio de las prestaciones que regula, y que su contenido ha sido negociado libremente, sin que ninguna de las Partes haya impuesto a la otra condiciones abusivas ni modificaciones unilaterales.
+
+VI. Que, en atención a lo expuesto, las Partes acuerdan formalizar el presente Contrato, que se regirá por las siguientes
+
+CLÁUSULAS
+
+CLÁUSULA 1. DEFINICIONES E INTERPRETACIÓN
+
+1.1. A los efectos de este Contrato, los términos que se relacionan a continuación, cuando aparezcan con la inicial en mayúscula, tendrán el significado que se indica, tanto en singular como en plural:
+
+«Acta de No Conformidad»: el documento, conforme al modelo del Anexo VII, mediante el cual el Comprador comunica al Proveedor una discrepancia detectada en la recepción de los Productos, ya sea cuantitativa, cualitativa, documental o de estado del embalaje.
+
+«Acta de Recepción»: el documento, conforme al modelo del Anexo VII, o en su defecto el albarán firmado y sellado por el personal de recepción de la Plataforma, que acredita la entrega de los Productos y la fecha y hora en que se produjo.
+
+«Albarán»: el documento de entrega que acompaña a cada expedición, con el contenido mínimo establecido en el Anexo IV, y cuya copia firmada sirve de justificante de la entrega a los efectos de la Cláusula 7.
+
+«Año Contractual»: cada uno de los periodos sucesivos de doce meses contados desde la Fecha de Efectos.
+
+«Calendario de Entregas»: el conjunto de ventanas horarias y días de la semana en los que la Plataforma admite entregas del Proveedor, según se detalla en el Anexo IV, y que podrá ser modificado por el Comprador con un preaviso de quince días naturales.
+
+«Cita Previa»: la reserva de franja horaria de descarga en la Plataforma, que el Proveedor o su transportista deberán solicitar a través del portal de proveedores del Comprador con la antelación mínima indicada en el Anexo IV.
+
+«Comprador»: Supermercados Serrano S.L., con los datos que constan en el encabezamiento.
+
+«Confirmación de Pedido»: la comunicación escrita del Proveedor por la que acepta un Pedido, total o parcialmente, con indicación de las cantidades confirmadas y de la fecha prevista de entrega, conforme a la Cláusula 5.
+
+«Contrato»: el presente Contrato Marco de Suministro, incluidos sus Anexos y las modificaciones que se acuerden por escrito conforme a la Cláusula 28.
+
+«Día Laborable»: cualquier día de lunes a viernes, ambos inclusive, que no sea festivo nacional, autonómico en la Comunitat Valenciana o local en Elche o en Almoradí. Cuando un plazo expresado en Días Laborables afecte a ambas Partes, se considerarán únicamente los festivos comunes a ambas localidades.
+
+«Documentación de Calidad»: las fichas técnicas, certificados, declaraciones, resultados analíticos y registros que el Proveedor debe entregar al Comprador conforme al Anexo V.
+
+«Especificación»: la descripción técnica de cada Producto contenida en el Anexo I, incluidos su composición, formato, peso neto y escurrido, vida útil, condiciones de conservación, envase primario y secundario, paletización y codificación.
+
+«Fecha de Efectos»: el 1 de febrero de 2026.
+
+«Incidencia de Calidad»: cualquier desviación de un Producto respecto de su Especificación o respecto de la normativa aplicable, detectada en cualquier momento de la cadena de distribución, incluida la fase de venta al consumidor.
+
+«Incoterms 2020»: las reglas de la Cámara de Comercio Internacional para la interpretación de los términos comerciales, en su edición de 2020.
+
+«Marca del Distribuidor» o «MDD»: la marca «Serrano Selección» y cualesquiera otras marcas titularidad del Comprador bajo las que se envasen Productos conforme a la Cláusula 15.
+
+«Nivel de Servicio»: los indicadores de cumplimiento del suministro definidos en la Cláusula 14 y en el Anexo III, incluida la Tasa de Servicio y el Índice de Puntualidad.
+
+«Pedido»: la solicitud de suministro de Productos cursada por el Comprador conforme a la Cláusula 5, con indicación de referencias, cantidades, punto de entrega y fecha de entrega solicitada.
+
+«Pedido Mínimo»: la cantidad o importe mínimos por Pedido establecidos en la Cláusula 5.4.
+
+«Penalización»: la cantidad que una Parte deberá abonar a la otra en caso de incumplimiento de las obligaciones que se determinan en la Cláusula 13 y en el Anexo III, con carácter de cláusula penal sustitutiva de la indemnización en los términos allí previstos.
+
+«Plataforma»: el centro logístico del Comprador situado en Plataforma logística Serrano, Pol. Ind. Carrús, c/ Alfarería 3, 03206 Elche, o cualquier otro que lo sustituya y que el Comprador comunique con un preaviso mínimo de treinta días naturales.
+
+«Precio»: la contraprestación por caja de cada Producto fijada en el Anexo II, con las revisiones que procedan conforme a la Cláusula 6.
+
+«Previsión»: la estimación no vinculante de necesidades de compra que el Comprador comunica al Proveedor con periodicidad trimestral conforme a la Cláusula 5.1.
+
+«Producto»: cada una de las referencias relacionadas en el Anexo I, identificadas por su código de referencia del Proveedor (formato «CONS-XXXX-XX-XXX»), su descripción y su formato.
+
+«Proveedor»: Conservas Marjal Blanca S.L., con los datos que constan en el encabezamiento.
+
+«Retirada»: la operación de recuperación de Productos desde la cadena de distribución, ya sea desde la Plataforma, desde los establecimientos del Comprador o desde el consumidor final, por motivos de seguridad alimentaria, de conformidad legal o de calidad, regulada en la Cláusula 12 y en el Anexo VI.
+
+«Tarifa»: la relación de Precios vigente en cada momento, que inicialmente es la contenida en el Anexo II.
+
+«Tasa de Servicio»: el porcentaje que resulta de dividir las cajas efectivamente entregadas en plazo entre las cajas confirmadas, calculado mensualmente por referencia y en su conjunto, conforme al Anexo III.
+
+«Vida Útil»: el periodo comprendido entre la fecha de fabricación de un Producto y su fecha de consumo preferente, según conste en la Especificación.
+
+1.2. Los encabezamientos de las Cláusulas se incluyen únicamente por razones de comodidad y no afectarán a su interpretación.
+
+1.3. Las referencias a Cláusulas y Anexos lo son a las Cláusulas y Anexos de este Contrato. Los Anexos forman parte integrante del Contrato a todos los efectos. En caso de discrepancia entre el cuerpo del Contrato y un Anexo, prevalecerá el cuerpo del Contrato, salvo en materias técnicas (Especificaciones, requisitos logísticos y de calidad), en las que prevalecerá el Anexo correspondiente.
+
+1.4. Las referencias a cualquier norma legal se entenderán hechas a la norma vigente en cada momento, incluidas las disposiciones que la modifiquen, desarrollen o sustituyan.
+
+1.5. Los plazos señalados por días se computarán por días naturales, salvo que se indique expresamente que son Días Laborables. Si el último día de un plazo fuera inhábil en el lugar en que deba cumplirse la obligación, el plazo se entenderá prorrogado al primer Día Laborable siguiente.
+
+1.6. Las expresiones «incluido», «incluye» y similares se entenderán seguidas de «sin carácter limitativo».
+
+CLÁUSULA 2. OBJETO DEL CONTRATO
+
+2.1. El presente Contrato tiene por objeto establecer las condiciones en las que el Proveedor suministrará al Comprador, y este adquirirá del Proveedor, los Productos relacionados en el Anexo I, con destino a su comercialización en los establecimientos del Comprador y a través de los canales de venta que este explote, incluido el canal de venta en línea.
+
+2.2. El Contrato tiene naturaleza de contrato marco. Las obligaciones concretas de suministro nacerán de cada Pedido que el Comprador curse y el Proveedor confirme conforme a la Cláusula 5. Cada Pedido confirmado constituirá una compraventa mercantil sometida a los términos de este Contrato, sin que sea necesario reproducirlos en cada uno de ellos.
+
+2.3. El Contrato no obliga al Comprador a adquirir cantidades mínimas de Productos, ni al Proveedor a suministrar cantidades que excedan de las que resulten razonables en atención a las Previsiones comunicadas y a la capacidad productiva declarada en el Anexo I, sin perjuicio de las consecuencias que se establecen en la Cláusula 14 para las desviaciones respecto de las Previsiones.
+
+2.4. Quedan excluidos del objeto del Contrato los productos frescos, los productos congelados y cualesquiera otros que no figuren en el Anexo I. La incorporación de nuevos Productos requerirá la firma de una adenda al Anexo I y al Anexo II conforme a la Cláusula 4.4.
+
+2.5. El presente Contrato sustituye a cualesquiera acuerdos, condiciones generales de compra o de venta, tarifas y comunicaciones anteriores entre las Partes en relación con el suministro de los Productos. Las condiciones generales de compra del Comprador y las condiciones generales de venta del Proveedor no serán de aplicación a las relaciones reguladas por este Contrato, aunque figuren impresas o referenciadas en Pedidos, Confirmaciones de Pedido, Albaranes o facturas.
+
+CLÁUSULA 3. DURACIÓN, PRÓRROGA Y PREAVISO
+
+3.1. El Contrato entrará en vigor en la Fecha de Efectos, esto es, el 1 de febrero de 2026, y tendrá una duración inicial de dos (2) años, hasta el 31 de enero de 2028.
+
+3.2. Llegado el término de la duración inicial, el Contrato se prorrogará tácitamente por periodos sucesivos de un (1) año, salvo que cualquiera de las Partes comunique a la otra por escrito su voluntad de no prorrogarlo con una antelación mínima de tres (3) meses a la fecha de vencimiento del periodo inicial o de cualquiera de sus prórrogas.
+
+3.3. La comunicación de no prórroga deberá realizarse por alguno de los medios previstos en la Cláusula 26 y no requerirá justificación. Su ejercicio no dará derecho a indemnización alguna a favor de la otra Parte, sin perjuicio de lo dispuesto en la Cláusula 23 respecto de los Pedidos en curso, las existencias de Productos bajo Marca del Distribuidor y los materiales de envasado específicos.
+
+3.4. Durante el periodo de preaviso las Partes continuarán cumpliendo el Contrato con normalidad. El Comprador no reducirá de manera injustificada el volumen de Pedidos respecto de las Previsiones comunicadas, y el Proveedor mantendrá el Nivel de Servicio.
+
+3.5. Los plazos de duración previstos en esta Cláusula se entienden sin perjuicio de la facultad de resolución anticipada regulada en la Cláusula 22.
+
+CLÁUSULA 4. PRODUCTOS, ESPECIFICACIONES Y CAMBIOS
+
+4.1. Los Productos objeto del Contrato son los que se relacionan en el Anexo I, con las Especificaciones que allí se detallan. El Proveedor garantiza que cada Producto entregado se ajusta a su Especificación y a la normativa aplicable en materia de seguridad alimentaria, higiene, etiquetado, información al consumidor, materiales en contacto con alimentos, pesos y medidas, y trazabilidad.
+
+4.2. El Proveedor no podrá modificar la composición, la receta, el origen de las materias primas principales, el formato, el peso neto o escurrido, el envase primario, la codificación ni la paletización de un Producto sin el consentimiento previo y por escrito del Comprador. La solicitud de cambio se comunicará con una antelación mínima de sesenta (60) días naturales a la fecha prevista para su implantación, acompañada de la nueva Especificación, de las muestras que el Comprador razonablemente solicite y de la documentación de calidad actualizada.
+
+4.3. El Comprador dispondrá de veinte (20) Días Laborables desde la recepción completa de la solicitud para aceptarla o rechazarla motivadamente. Transcurrido dicho plazo sin respuesta, la solicitud se entenderá rechazada. Si el cambio viniera impuesto por una modificación normativa de obligado cumplimiento, el Proveedor lo comunicará con la mayor antelación posible y el Comprador no podrá rechazarlo, si bien podrá exigir que la implantación se coordine con el agotamiento de las existencias y de los materiales de envasado en curso.
+
+4.4. La incorporación de nuevos Productos, la baja de Productos existentes y la modificación de Especificaciones aceptadas conforme al apartado anterior se documentarán mediante adenda al Anexo I y, en su caso, al Anexo II, firmada por ambas Partes. Las adendas se numerarán correlativamente y se archivarán junto con el Contrato.
+
+4.5. El Comprador podrá dar de baja cualquier Producto del surtido con un preaviso de treinta (30) días naturales, sin más obligación que la de cursar los Pedidos que resulten de las Previsiones comunicadas para dicho periodo y la de asumir, respecto de los Productos bajo Marca del Distribuidor, las existencias y los materiales de envasado específicos en los términos de la Cláusula 15.6.
+
+4.6. El Proveedor podrá dar de baja un Producto con un preaviso mínimo de noventa (90) días naturales, siempre que ofrezca al Comprador, cuando exista, un Producto sustitutivo de características equivalentes y en condiciones económicas no menos favorables. Si la baja obedeciera a la imposibilidad sobrevenida de obtener una materia prima esencial, el preaviso podrá reducirse al tiempo que resulte razonablemente posible, debiendo el Proveedor acreditar dicha imposibilidad.
+
+4.7. El Proveedor mantendrá en todo momento a disposición del Comprador la Documentación de Calidad de cada Producto actualizada, y la remitirá en el plazo máximo de cinco (5) Días Laborables desde que le sea requerida. Las fichas técnicas se revisarán, como mínimo, una vez cada Año Contractual, y en todo caso cuando se produzca cualquier cambio en la Especificación.
+
+CLÁUSULA 5. PREVISIONES, PEDIDOS Y CONFIRMACIÓN
+
+5.1. Previsiones. El Comprador comunicará al Proveedor, antes del día 15 del último mes de cada trimestre natural, una Previsión de compra por Producto y por mes para el trimestre siguiente, y una Previsión orientativa para los dos trimestres posteriores. Las Previsiones tienen carácter estimativo y no vinculante, sin perjuicio de lo dispuesto en la Cláusula 14.5 para las desviaciones significativas y en la Cláusula 15.5 para los Productos bajo Marca del Distribuidor.
+
+5.2. Pedidos. El Comprador cursará los Pedidos por escrito, preferentemente mediante intercambio electrónico de datos (EDI) en el formato acordado en el Anexo IV o, en su defecto, mediante correo electrónico a la dirección pedidos@marjalblanca.example o a la que la sustituya conforme a la Cláusula 26. Cada Pedido indicará, como mínimo: el número de Pedido del Comprador, la referencia y descripción de cada Producto, la cantidad en cajas completas, el punto de entrega, la fecha de entrega solicitada y, en su caso, el número de Cita Previa.
+
+5.3. Confirmación. El Proveedor confirmará cada Pedido dentro de las veinticuatro (24) horas siguientes a su recepción, computadas en Días Laborables, indicando las cantidades confirmadas y la fecha de entrega. Transcurrido dicho plazo sin que el Proveedor haya comunicado reservas, el Pedido se entenderá confirmado en su totalidad para la fecha de entrega solicitada. Si el Proveedor no pudiera servir la totalidad del Pedido, lo indicará expresamente, con la cantidad que puede servir en la fecha solicitada y la fecha prevista para el resto; el Comprador podrá aceptar la entrega parcial o anular la parte no confirmada sin coste alguno.
+
+5.4. Pedido Mínimo. El Pedido Mínimo será de dos (2) palés completos o, alternativamente, de un importe de mil quinientos euros (1.500 €) sin IVA a Precio de Tarifa, lo que primero se alcance. Dentro de cada Pedido, las cantidades por Producto se expresarán en cajas completas y, para los Productos que así se indique en el Anexo I, en capas completas de palé. El Proveedor podrá rechazar los Pedidos que no alcancen el Pedido Mínimo, comunicándolo dentro del plazo de confirmación; si no lo hace, el Pedido se entenderá aceptado.
+
+5.5. Plazo de entrega. El plazo de entrega estándar es el que se establece en la Cláusula 7.3. Los Pedidos que soliciten una fecha de entrega inferior al plazo estándar tendrán la consideración de Pedidos urgentes; el Proveedor hará sus mejores esfuerzos por atenderlos, sin que su incumplimiento genere Penalización, y podrá repercutir el sobrecoste de transporte que se acuerde en cada caso.
+
+5.6. Modificación y anulación. El Comprador podrá modificar o anular un Pedido sin coste hasta las 12:00 horas del segundo Día Laborable anterior a la fecha de entrega confirmada. Las modificaciones posteriores requerirán la aceptación del Proveedor, que no la denegará sin causa razonable; las anulaciones posteriores, cuando el Pedido ya se encuentre preparado, facultarán al Proveedor para facturar los gastos de preparación y, en su caso, de transporte efectivamente incurridos, hasta un máximo del tres por ciento (3 %) del importe del Pedido.
+
+5.7. Pedidos de promoción. Los Pedidos destinados a acciones promocionales (folleto, segunda unidad, cabecera de góndola u otras) se identificarán como tales y se comunicarán con una antelación mínima de veintiún (21) días naturales respecto de la fecha de entrega, indicando el periodo de la promoción y la cantidad estimada. El Proveedor confirmará la disponibilidad dentro de los tres (3) Días Laborables siguientes. Confirmada una promoción, la falta de servicio quedará sujeta a la Penalización específica prevista en la Cláusula 13.4.
+
+5.8. Cada Pedido confirmado es firme y vinculante para ambas Partes. Las condiciones que figuren en el Pedido o en la Confirmación de Pedido y que contradigan el Contrato se tendrán por no puestas, salvo que se refieran a los datos identificativos del Pedido (referencias, cantidades, fechas, punto de entrega y precios aplicables según Tarifa).
+
+CLÁUSULA 6. PRECIOS, REVISIÓN DE PRECIOS Y DESCUENTOS
+
+6.1. Los Precios de los Productos son los que figuran en el Anexo II, expresados en euros por caja, sin IVA, en condiciones DAP Plataforma (Incoterms 2020) conforme a la Cláusula 7. Los Precios incluyen el envase primario y secundario, la paletización, el etiquetado conforme a la Especificación, el transporte hasta la Plataforma y la Documentación de Calidad; no incluyen el IVA ni otros impuestos indirectos que se repercutirán conforme a la normativa vigente.
+
+6.2. Los Precios se mantendrán invariables durante el primer Año Contractual, es decir, hasta el 31 de enero de 2027.
+
+6.3. Revisión ordinaria. A partir del segundo Año Contractual, los Precios podrán revisarse una (1) vez por Año Contractual, con efectos desde el 1 de febrero de cada año. La Parte que pretenda la revisión lo comunicará a la otra antes del 1 de noviembre del año anterior, acompañando una justificación de la variación de costes. La revisión ordinaria no podrá superar la variación interanual del Índice de Precios de Consumo general publicado por el Instituto Nacional de Estadística para el mes de septiembre inmediatamente anterior, salvo acuerdo expreso en contrario.
+
+6.4. Revisión extraordinaria por materias primas. Con independencia de la revisión ordinaria, si el precio medio de mercado de alguna de las materias primas principales (lomos de atún, aceite de oliva, hojalata o alcachofa) experimentara, respecto del precio de referencia consignado en el Anexo II, una variación superior al quince por ciento (15 %) mantenida durante al menos dos (2) meses consecutivos, cualquiera de las Partes podrá solicitar una revisión extraordinaria del Precio de los Productos afectados, proporcional al peso de dicha materia prima en el coste del Producto según la estructura de costes orientativa del Anexo II. La Parte solicitante aportará la documentación acreditativa de la variación (cotizaciones de lonja o de mercado de origen, facturas de compra, índices oficiales o publicaciones sectoriales reconocidas). Las Partes negociarán de buena fe durante un plazo de treinta (30) días naturales; alcanzado el acuerdo, el nuevo Precio se aplicará a los Pedidos cursados a partir del primer día del mes siguiente.
+
+6.5. Si transcurrido el plazo de negociación previsto en el apartado anterior no se hubiera alcanzado acuerdo, la Parte solicitante podrá, respecto de los Productos afectados y únicamente de ellos, dar por terminado el suministro con un preaviso de sesenta (60) días naturales, durante los cuales continuarán aplicándose los Precios anteriores. Esta facultad no dará derecho a indemnización alguna.
+
+6.6. Descuentos y rappel. El Comprador tendrá derecho a los descuentos por volumen (rappel) que se establecen en el Anexo II, calculados sobre la facturación neta anual de Productos, sin IVA y descontadas las devoluciones y los abonos. El rappel se liquidará mediante factura del Comprador al Proveedor, o mediante abono del Proveedor, dentro de los treinta (30) días siguientes al cierre de cada Año Contractual, previa conciliación de las cifras de facturación.
+
+6.7. Aportaciones promocionales. Las aportaciones del Proveedor a las acciones promocionales del Comprador (descuentos en Precio para promociones, participación en folletos u otras) se acordarán caso por caso por escrito, con indicación de la acción, el periodo, las referencias afectadas y el importe o porcentaje de la aportación. No se aplicarán cargos, descuentos ni aportaciones que no hayan sido previamente pactados por escrito, de conformidad con lo dispuesto en la Ley 12/2013.
+
+6.8. Cualquier modificación de Precios acordada conforme a esta Cláusula se documentará mediante adenda al Anexo II firmada por ambas Partes, con indicación de la fecha de efectos.
+
+CLÁUSULA 7. CONDICIONES DE ENTREGA E INCOTERMS
+
+7.1. Salvo pacto expreso en contrario en un Pedido concreto, las entregas se realizarán en condiciones DAP (Delivered at Place, «Entregada en lugar») Plataforma del Comprador, Incoterms 2020, esto es, en Plataforma logística Serrano, Pol. Ind. Carrús, c/ Alfarería 3, 03206 Elche. El Proveedor asumirá los costes y riesgos del transporte hasta la Plataforma, y la descarga será realizada por el personal de la Plataforma con sus propios medios, conforme a lo dispuesto en el Anexo IV.
+
+7.2. Para las entregas con destino a establecimientos del Comprador situados fuera de la provincia de Alicante, o para las expediciones que el Comprador destine a la exportación, las Partes podrán acordar por escrito otras condiciones de entrega. En particular, para las expediciones que el Comprador o sus clientes recojan en las instalaciones del Proveedor, se aplicarán las condiciones EXW (Ex Works, «En fábrica») Almoradí, Incoterms 2020, con un Precio reducido conforme al Anexo II.
+
+7.3. El plazo de entrega estándar será de cinco (5) Días Laborables contados desde la Confirmación de Pedido o, en caso de confirmación tácita, desde el vencimiento del plazo de confirmación previsto en la Cláusula 5.3. Los Pedidos cursados después de las 14:00 horas se entenderán recibidos el Día Laborable siguiente. Las Partes podrán acordar un calendario fijo de entregas semanales para las referencias de mayor rotación, que se recogerá en el Anexo IV; en tal caso, el plazo estándar se sustituirá por las fechas de dicho calendario.
+
+7.4. Las entregas se efectuarán dentro de las ventanas horarias del Calendario de Entregas y con Cita Previa. Se considerará entregado en plazo el Pedido cuyo transportista se presente en la Plataforma dentro de la franja de la Cita Previa en la fecha confirmada. Si el transportista se presentara fuera de la franja, la Plataforma podrá, a su elección, admitir la descarga cuando exista disponibilidad de muelle o rechazarla y exigir una nueva Cita Previa, en cuyo caso la entrega se considerará retrasada a los efectos de la Cláusula 13.
+
+7.5. Cada entrega irá acompañada del Albarán, por duplicado, con el contenido mínimo previsto en el Anexo IV, incluidos el número de Pedido del Comprador, las referencias, las cantidades por referencia en cajas y unidades, el número de lote y la fecha de consumo preferente de cada referencia, el número de palés y su identificación mediante etiqueta GS1-128 (SSCC).
+
+7.6. Los Productos se entregarán paletizados conforme a la Especificación de cada Producto y a los requisitos del Anexo IV, sobre palé europeo de 800 x 1.200 mm homologado (EPAL) en régimen de intercambio, retractilados, sin sobresalir del perímetro del palé, con una altura máxima de 1,80 metros incluido el palé, y sin mezclar referencias en un mismo palé salvo en los palés de picking claramente identificados como tales.
+
+7.7. El Proveedor podrá realizar entregas parciales únicamente cuando así lo haya indicado en la Confirmación de Pedido y el Comprador lo haya aceptado. Cada entrega parcial se documentará y facturará de forma independiente. No se admitirán entregas anticipadas respecto de la fecha confirmada sin autorización previa de la Plataforma.
+
+7.8. Las esperas en la Plataforma imputables al Comprador que superen las dos (2) horas desde la hora de la Cita Previa facultarán al Proveedor para repercutir los costes de espera de su transportista, hasta un máximo de cuarenta y cinco euros (45 €) por hora o fracción a partir de la tercera hora, previa acreditación documental. Las esperas imputables al Proveedor o a su transportista no generarán derecho alguno.
+
+CLÁUSULA 8. TRANSMISIÓN DEL RIESGO Y RESERVA DE DOMINIO
+
+8.1. El riesgo de pérdida o deterioro de los Productos se transmitirá al Comprador en el momento en que los Productos se pongan a su disposición en la Plataforma, sobre el medio de transporte y preparados para la descarga, conforme a las reglas DAP Incoterms 2020. En las entregas EXW, el riesgo se transmitirá al Comprador en el momento en que los Productos se pongan a su disposición en las instalaciones del Proveedor, cargados en el medio de transporte designado por el Comprador.
+
+8.2. Sin perjuicio de la transmisión del riesgo, el Proveedor se reserva la propiedad de los Productos hasta el completo pago de su Precio. Mientras el Precio no haya sido íntegramente satisfecho, el Comprador se obliga a mantener los Productos debidamente identificados y en condiciones adecuadas de conservación, si bien podrá comercializarlos en el curso ordinario de su actividad. En caso de impago, el Proveedor podrá exigir la restitución de los Productos no vendidos que aún se encuentren en poder del Comprador, sin perjuicio de las demás acciones que le correspondan.
+
+8.3. La firma del Albarán por el personal de recepción de la Plataforma acreditará la entrega de los bultos y palés que en él se indiquen y la fecha y hora de la misma, pero no supondrá la aceptación de la conformidad de los Productos, que quedará sujeta a lo dispuesto en la Cláusula 11.
+
+CLÁUSULA 9. FACTURACIÓN, PLAZO DE PAGO Y MOROSIDAD
+
+9.1. El Proveedor emitirá una factura por cada entrega, con referencia al número de Pedido del Comprador y al Albarán correspondiente, dentro de los cinco (5) Días Laborables siguientes a la entrega. Las facturas se emitirán en formato electrónico estructurado conforme a lo que las Partes acuerden en el Anexo IV y, mientras dicho intercambio no esté operativo, en formato PDF remitido a la dirección de facturación del Comprador indicada en el Anexo VIII. Las facturas contendrán, además de las menciones legalmente exigibles, la fecha de entrega, el desglose por referencia con precio unitario por caja, los descuentos aplicados y la fecha de vencimiento.
+
+9.2. El Comprador pagará las facturas en el plazo de sesenta (60) días naturales contados desde la fecha de la factura, mediante transferencia bancaria a la cuenta que el Proveedor designe por escrito, que inicialmente es la indicada en el Anexo VIII. En ningún caso el plazo de pago podrá exceder del máximo legalmente permitido para los productos de que se trate por la Ley 3/2004, de 29 de diciembre, por la que se establecen medidas de lucha contra la morosidad en las operaciones comerciales, y por la Ley 12/2013. Si la fecha de vencimiento fuera inhábil, el pago se efectuará el Día Laborable inmediatamente anterior.
+
+9.3. El Comprador podrá agrupar los pagos de las facturas vencidas en una remesa semanal, que se ordenará el jueves de cada semana, siempre que ninguna factura resulte pagada con posterioridad a su vencimiento. Las Partes reconocen que, a los efectos del cómputo de los intereses de demora, se estará a la fecha de vencimiento de cada factura y no a la de la remesa.
+
+9.4. Si el Comprador discrepara del contenido de una factura, lo comunicará por escrito al Proveedor dentro de los diez (10) Días Laborables siguientes a su recepción, con indicación de los motivos. La discrepancia sobre una parte de la factura no suspenderá el pago de la parte no discutida. Resuelta la discrepancia, el Proveedor emitirá, cuando proceda, la correspondiente factura rectificativa. El Comprador no podrá compensar unilateralmente cantidades contra las facturas del Proveedor, salvo las Penalizaciones y los abonos que hayan sido reconocidos por escrito por el Proveedor o determinados conforme a la Cláusula 13.
+
+9.5. El retraso en el pago devengará, sin necesidad de intimación, un interés de demora igual al tipo de interés aplicado por el Banco Central Europeo a su más reciente operación principal de financiación efectuada antes del primer día del semestre natural de que se trate, incrementado en ocho (8) puntos porcentuales, conforme al artículo 7 de la Ley 3/2004. El Proveedor tendrá derecho, además, a la indemnización por costes de cobro prevista en el artículo 8 de dicha Ley.
+
+9.6. En caso de impago de cualquier factura transcurridos quince (15) días naturales desde su vencimiento, y previo requerimiento escrito con concesión de un plazo adicional de diez (10) Días Laborables, el Proveedor podrá suspender las entregas pendientes hasta la regularización de la deuda, sin que dicha suspensión constituya incumplimiento del Nivel de Servicio ni genere Penalización alguna.
+
+9.7. Los pagos se imputarán, salvo indicación expresa del Comprador en el momento de efectuarlos, a las facturas de vencimiento más antiguo.
+
+CLÁUSULA 10. GARANTÍA DE CALIDAD Y SEGURIDAD ALIMENTARIA
+
+10.1. El Proveedor garantiza que los Productos, en el momento de su entrega y durante toda su Vida Útil, siempre que se conserven en las condiciones indicadas en la Especificación: (a) son aptos para el consumo humano y seguros conforme al Reglamento (CE) n.º 178/2002 y a la normativa alimentaria aplicable; (b) han sido elaborados en instalaciones que cumplen los requisitos de higiene de los Reglamentos (CE) n.º 852/2004 y n.º 853/2004 y disponen de un sistema de autocontrol basado en el APPCC; (c) se ajustan a su Especificación, a la norma de calidad que en su caso les sea aplicable y a la información declarada en su etiquetado; (d) cumplen la normativa de etiquetado e información al consumidor, incluido el Reglamento (UE) n.º 1169/2011, y de materiales en contacto con alimentos; y (e) están libres de cargas y gravámenes y no infringen derechos de terceros.
+
+10.2. El Proveedor mantendrá en vigor durante toda la duración del Contrato una certificación de seguridad alimentaria reconocida por la Global Food Safety Initiative (IFS Food, BRCGS Food o FSSC 22000) para las instalaciones en las que se elaboren los Productos, y comunicará al Comprador cualquier pérdida, suspensión o degradación de dicha certificación en el plazo máximo de dos (2) Días Laborables desde que tenga conocimiento de ella.
+
+10.3. El Proveedor dispondrá de un sistema de trazabilidad que permita identificar, para cada lote de Producto, las materias primas y materiales de envasado utilizados, sus proveedores, los parámetros del tratamiento térmico aplicado, los resultados de los controles de calidad y los clientes a los que se ha expedido, y facilitará dicha información al Comprador en un plazo máximo de cuatro (4) horas en caso de Incidencia de Calidad y de dos (2) Días Laborables en los demás casos.
+
+10.4. Vida Útil mínima a la entrega. En el momento de la entrega, los Productos deberán disponer de una Vida Útil restante no inferior a los dos tercios (2/3) de su Vida Útil total y, en todo caso, no inferior a dieciocho (18) meses. Los Productos que no cumplan este requisito podrán ser rechazados por el Comprador en la recepción, salvo que este acepte expresamente su entrega con el descuento que las Partes acuerden para el caso concreto.
+
+10.5. Cada lote de Producto se entregará con la Documentación de Calidad prevista en el Anexo V, y en particular con el certificado de conformidad del lote, cuando el Comprador lo requiera para las referencias bajo Marca del Distribuidor. El Proveedor conservará muestras testigo de cada lote durante toda su Vida Útil más seis (6) meses.
+
+10.6. El Comprador, o un tercero designado por él y sujeto a obligaciones de confidencialidad, podrá auditar las instalaciones, los procesos y los registros del Proveedor relacionados con los Productos, con un preaviso mínimo de diez (10) Días Laborables, y sin preaviso en caso de Incidencia de Calidad grave. El Proveedor prestará su colaboración y facilitará el acceso a las instalaciones y a la documentación. Las auditorías se limitarán a una (1) por Año Contractual, salvo que se deriven de una Incidencia de Calidad o de un resultado insatisfactorio en la auditoría anterior.
+
+10.7. El Proveedor comunicará al Comprador, en el plazo máximo de veinticuatro (24) horas, cualquier resultado analítico, inspección oficial, alerta o información de la que tenga conocimiento que pueda afectar a la seguridad o a la conformidad de los Productos suministrados, aunque el riesgo no esté confirmado.
+
+10.8. Las garantías previstas en esta Cláusula se entienden sin perjuicio de las que resulten de la legislación aplicable, incluidas las relativas a la responsabilidad por productos defectuosos, y no se verán limitadas por la aceptación de los Productos en la recepción ni por el transcurso de los plazos de reclamación de la Cláusula 11 respecto de los defectos que no fueran razonablemente detectables en ella.
+
+CLÁUSULA 11. RECEPCIÓN, INSPECCIÓN Y RECLAMACIONES
+
+11.1. En la recepción de cada entrega, la Plataforma comprobará el número de palés y bultos, el estado aparente del embalaje y de los palés, la coincidencia de las referencias y cantidades con el Albarán y con el Pedido, los números de lote y las fechas de consumo preferente, y la temperatura cuando así lo exija la Especificación. Las discrepancias que se aprecien en este acto se harán constar en el Albarán y, cuando proceda, en un Acta de No Conformidad.
+
+11.2. Defectos aparentes. Las reclamaciones por discrepancias de cantidad, referencias erróneas, roturas, daños en el embalaje, deficiencias de paletización o de etiquetado del embalaje, o incumplimiento de la Vida Útil mínima a la entrega deberán comunicarse al Proveedor dentro de las cuarenta y ocho (48) horas siguientes a la recepción, mediante Acta de No Conformidad acompañada, cuando sea posible, de fotografías. Transcurrido dicho plazo sin reclamación, se entenderá que la entrega ha sido aceptada en cuanto a dichos extremos.
+
+11.3. Defectos ocultos. Las reclamaciones por vicios o defectos que no fueran razonablemente apreciables en la recepción (incluidos los defectos de cierre, de esterilidad comercial, de composición, de peso escurrido o de etiquetado del envase primario) deberán comunicarse dentro de los diez (10) Días Laborables siguientes a aquel en que el Comprador los hubiera descubierto o hubiera podido razonablemente descubrirlos, y en todo caso dentro de la Vida Útil del Producto. Esta regla no limita las acciones derivadas de la responsabilidad por productos defectuosos ni las que procedan por dolo o culpa grave.
+
+11.4. El Comprador podrá rechazar en la recepción los palés o bultos afectados por un defecto aparente, o la entrega completa cuando el defecto afecte a más del diez por ciento (10 %) de los bultos o comprometa la seguridad del Producto. Los Productos rechazados quedarán a disposición del Proveedor, que deberá retirarlos a su costa en el plazo de cinco (5) Días Laborables; transcurrido dicho plazo, el Comprador podrá devolverlos a portes debidos o destruirlos previa comunicación, repercutiendo el coste.
+
+11.5. Recibida una reclamación, el Proveedor responderá por escrito dentro de los tres (3) Días Laborables siguientes, aceptándola, rechazándola motivadamente o solicitando la información adicional que razonablemente necesite. En caso de aceptación, el Proveedor procederá, a elección del Comprador, a la reposición de los Productos afectados en el plazo máximo de cinco (5) Días Laborables o al abono de su importe, y asumirá los costes razonables de gestión y de retirada que se acrediten.
+
+11.6. En caso de discrepancia sobre la conformidad de un Producto, cualquiera de las Partes podrá solicitar que se realice un análisis contradictorio por un laboratorio acreditado conforme a la norma UNE-EN ISO/IEC 17025, elegido de común acuerdo o, en su defecto, entre los relacionados en el Anexo VI, sobre las muestras testigo conservadas por el Proveedor y las muestras retenidas por el Comprador. El resultado será vinculante para las Partes en cuanto al hecho analizado, y los costes del análisis serán soportados por la Parte cuya posición resulte desestimada.
+
+11.7. La atención de las reclamaciones se sujetará, en lo no previsto en esta Cláusula, al Protocolo del Anexo VI.
+
+CLÁUSULA 12. RETIRADA Y RECUPERACIÓN DE PRODUCTO
+
+12.1. Cuando cualquiera de las Partes tenga conocimiento de una Incidencia de Calidad que afecte o pueda afectar a la seguridad de un Producto, o que suponga un incumplimiento de la normativa que obligue o aconseje su retirada del mercado, lo comunicará a la otra de forma inmediata y, en todo caso, dentro de las cuatro (4) horas siguientes, por teléfono al contacto de emergencia del Anexo VIII y por correo electrónico, facilitando toda la información disponible: referencia, lotes afectados, naturaleza de la incidencia, cantidades expedidas y ubicación conocida del Producto.
+
+12.2. La decisión de proceder a la Retirada corresponderá al Proveedor como operador responsable de la puesta en el mercado, sin perjuicio de la facultad del Comprador de retirar cautelarmente de la venta los lotes afectados cuando existan indicios razonables de riesgo, y de las obligaciones de ambas Partes frente a las autoridades competentes conforme al artículo 19 del Reglamento (CE) n.º 178/2002. La Retirada cautelar acordada por el Comprador de buena fe no generará responsabilidad para este, aunque finalmente se confirme la conformidad del Producto, salvo que hubiera actuado de forma manifiestamente desproporcionada.
+
+12.3. El Proveedor coordinará la Retirada conforme al Anexo VI y asumirá todos los costes directos derivados de ella cuando la Incidencia de Calidad le sea imputable, incluidos los de localización, bloqueo, recogida, transporte, almacenamiento, destrucción, comunicación a los consumidores cuando proceda, y el valor de los Productos retirados a Precio de Tarifa. Cuando la Incidencia sea imputable al Comprador (por ejemplo, por conservación inadecuada), los costes serán de su cuenta.
+
+12.4. Las Partes se comprometen a realizar, al menos una vez por Año Contractual, un ejercicio de simulación de trazabilidad y Retirada sobre un lote elegido por el Comprador, cuyos resultados se documentarán y se incorporarán al seguimiento de la Cláusula 14.
+
+12.5. Ninguna de las Partes realizará comunicaciones públicas relativas a una Retirada sin consultar previamente a la otra, salvo cuando lo exija la ley o una autoridad competente, en cuyo caso informará a la otra Parte con la mayor antelación posible.
+
+CLÁUSULA 13. PENALIZACIONES
+
+13.1. Las Penalizaciones previstas en esta Cláusula y en el Anexo III tienen la consideración de cláusula penal en el sentido de los artículos 1.152 y siguientes del Código Civil, y sustituyen a la indemnización de daños y perjuicios por el incumplimiento al que se refieren, salvo que dicho incumplimiento haya sido doloso o cause daños a terceros, o que se disponga otra cosa en este Contrato. Las Partes las consideran una estimación razonable del perjuicio que el incumplimiento causa a la Parte perjudicada.
+
+13.2. Retraso en la entrega. Por cada Día Laborable de retraso respecto de la fecha de entrega confirmada, el Proveedor abonará al Comprador una Penalización equivalente al uno por ciento (1 %) del valor a Precio de Tarifa de los Productos entregados con retraso, con un máximo del diez por ciento (10 %) de dicho valor. Superado el décimo Día Laborable de retraso, el Comprador podrá, además, anular la parte del Pedido no entregada sin coste alguno.
+
+13.3. Falta de servicio. Cuando la Tasa de Servicio mensual global sea inferior al noventa y siete por ciento (97 %), el Proveedor abonará una Penalización del dos por ciento (2 %) del valor a Precio de Tarifa de las cajas confirmadas y no entregadas en dicho mes. Cuando la Tasa de Servicio de una referencia concreta sea inferior al noventa por ciento (90 %) durante dos (2) meses consecutivos, la Penalización correspondiente a dicha referencia se elevará al cuatro por ciento (4 %).
+
+13.4. Rotura en promoción. La falta de servicio de un Pedido de promoción confirmado conforme a la Cláusula 5.7 dará lugar a una Penalización fija de quinientos euros (500 €) por referencia y promoción, más la Penalización por falta de servicio del apartado anterior calculada sobre las cajas no entregadas.
+
+13.5. Incumplimientos logísticos y documentales. Las deficiencias de paletización, etiquetado de palés, Albarán o Cita Previa se penalizarán conforme al cuadro del Anexo III, con importes fijos por incidencia que oscilan entre treinta euros (30 €) y ciento cincuenta euros (150 €).
+
+13.6. Incidencias de Calidad. Sin perjuicio de las obligaciones de reposición, abono y Retirada, cada Incidencia de Calidad imputable al Proveedor que dé lugar a un Acta de No Conformidad confirmada se penalizará con el importe fijo previsto en el Anexo III. Las Incidencias de Calidad que supongan un riesgo para la salud de los consumidores quedan excluidas del régimen de Penalizaciones y se someterán al régimen general de responsabilidad de la Cláusula 24.
+
+13.7. Límite conjunto. El importe total de las Penalizaciones a cargo del Proveedor en cada Año Contractual no podrá exceder del diez por ciento (10 %) de la facturación neta del Proveedor al Comprador en dicho Año Contractual. Este límite no se aplicará a las obligaciones de reposición, abono, Retirada ni a los daños derivados de dolo o de riesgos para la salud.
+
+13.8. Procedimiento. El Comprador comunicará al Proveedor, dentro de los quince (15) Días Laborables siguientes al cierre de cada mes, la liquidación de las Penalizaciones devengadas en dicho mes, con el detalle de los Pedidos, referencias, fechas y cálculos. El Proveedor podrá formular alegaciones en el plazo de diez (10) Días Laborables. Transcurrido dicho plazo, o resueltas las alegaciones, el Comprador emitirá la factura de Penalización, que el Proveedor pagará en el plazo de treinta (30) días o que podrá ser compensada con las facturas del Proveedor conforme a la Cláusula 9.4.
+
+13.9. Exoneración. No se devengarán Penalizaciones cuando el incumplimiento se deba a fuerza mayor conforme a la Cláusula 20, a un acto u omisión del Comprador (incluidos los Pedidos que excedan en más del treinta por ciento (30 %) la Previsión del mes correspondiente, los cambios de Pedido fuera de plazo o la falta de disponibilidad de muelle en la Plataforma), o a la suspensión de entregas legítimamente acordada conforme a la Cláusula 9.6.
+
+CLÁUSULA 14. NIVEL DE SERVICIO Y SEGUIMIENTO
+
+14.1. El Proveedor se compromete a mantener el Nivel de Servicio definido en el Anexo III, cuyos indicadores principales son la Tasa de Servicio, el Índice de Puntualidad, el Índice de Conformidad en recepción y el Plazo de Respuesta a reclamaciones.
+
+14.2. Los objetivos mínimos son: Tasa de Servicio mensual global igual o superior al noventa y siete por ciento (97 %); Índice de Puntualidad igual o superior al noventa y cinco por ciento (95 %) de las entregas dentro de la franja de Cita Previa; Índice de Conformidad en recepción igual o superior al noventa y ocho por ciento (98 %) de los palés sin Acta de No Conformidad; y respuesta a las reclamaciones dentro de los tres (3) Días Laborables previstos en la Cláusula 11.5.
+
+14.3. El Comprador facilitará mensualmente al Proveedor, a través del portal de proveedores o por correo electrónico, el cuadro de mando con los indicadores del mes anterior. El Proveedor podrá contrastar los datos con sus propios registros y comunicar discrepancias en el plazo de diez (10) Días Laborables.
+
+14.4. Las Partes celebrarán una reunión de seguimiento con periodicidad trimestral, en la que revisarán los indicadores, las incidencias del periodo, las Previsiones, las acciones promocionales previstas, los cambios normativos y cualquier otra cuestión relevante para la relación. De cada reunión se levantará acta, que firmarán los representantes de ambas Partes y que no modificará el Contrato salvo que se formalice la correspondiente adenda.
+
+14.5. Desviaciones respecto de las Previsiones. Si los Pedidos de un mes superaran en más del treinta por ciento (30 %) la Previsión comunicada para dicho mes, el exceso no computará para el cálculo de la Tasa de Servicio ni generará Penalización, sin perjuicio del deber del Proveedor de hacer sus mejores esfuerzos por servirlo. Si los Pedidos de un trimestre fueran inferiores en más del treinta por ciento (30 %) a la Previsión comunicada, las Partes analizarán las causas en la siguiente reunión de seguimiento; respecto de los Productos bajo Marca del Distribuidor se estará, además, a lo dispuesto en la Cláusula 15.5.
+
+14.6. Plan de mejora. Si durante dos (2) meses consecutivos, o tres (3) en un mismo Año Contractual, el Proveedor no alcanzara alguno de los objetivos mínimos del apartado 14.2, deberá presentar, en el plazo de diez (10) Días Laborables desde el requerimiento del Comprador, un plan de mejora con acciones concretas, responsables y plazos, cuyo cumplimiento se revisará en la siguiente reunión de seguimiento. La falta de presentación del plan o su incumplimiento reiterado se considerará incumplimiento grave a los efectos de la Cláusula 22.
+
+
+
+CLÁUSULA 15. MARCA DEL DISTRIBUIDOR Y EXCLUSIVIDADES
+
+15.1. Determinados Productos, identificados en el Anexo I con la mención «MDD», se envasarán bajo la Marca del Distribuidor del Comprador conforme a las Especificaciones y a los diseños de etiqueta que este apruebe por escrito. El Proveedor elaborará dichos Productos con la misma calidad, en las mismas instalaciones y bajo los mismos controles que los Productos de marca propia de características equivalentes, sin perjuicio de las diferencias de receta expresamente recogidas en la Especificación.
+
+15.2. El Comprador facilitará al Proveedor los diseños de etiqueta y los elementos de identidad visual de la Marca del Distribuidor, y será responsable de la exactitud de las menciones comerciales que incorpore. El Proveedor será responsable de que la información obligatoria del etiquetado (denominación, lista de ingredientes, alérgenos, cantidad neta y escurrida, fecha de consumo preferente, lote, condiciones de conservación, información nutricional y datos del operador responsable) sea correcta y conforme a la normativa, y revisará a tal efecto cada diseño antes de su aprobación definitiva, comunicando por escrito cualquier observación.
+
+15.3. El Comprador será identificado en el etiquetado de los Productos MDD como operador bajo cuyo nombre se comercializa el alimento, y el Proveedor figurará como fabricante mediante la mención «Fabricado por» o «Elaborado por» seguida de su razón social y dirección, o mediante el número de RGSEAA, según acuerden las Partes para cada Producto.
+
+15.4. El Proveedor no utilizará la Marca del Distribuidor para ningún fin distinto del cumplimiento de este Contrato, no suministrará a terceros Productos etiquetados con ella y destruirá, o entregará al Comprador si este lo solicita, los materiales de envasado que la incorporen a la terminación del Contrato o a la baja del Producto, en los términos del apartado 15.6.
+
+15.5. Compromiso de compra de materiales específicos. El Comprador reconoce que la elaboración de los Productos MDD exige al Proveedor la adquisición de materiales de envasado específicos (etiquetas, litografía de latas, cajas impresas) en cantidades mínimas de fabricación. El Proveedor mantendrá existencias de dichos materiales para un máximo de tres (3) meses de consumo según las Previsiones, y comunicará al Comprador con carácter previo las compras que excedan de dicho horizonte. Si la Previsión de un Producto MDD se redujera en más del treinta por ciento (30 %) o el Producto se diera de baja, el Comprador abonará al Proveedor el coste acreditado de los materiales específicos en existencia hasta dicho máximo, siempre que el Proveedor no pueda darles otro uso.
+
+15.6. A la baja de un Producto MDD o a la terminación del Contrato, el Comprador cursará los Pedidos necesarios para agotar las existencias de Producto terminado que el Proveedor tenga fabricadas de acuerdo con las Previsiones, hasta un máximo de un (1) mes de consumo, y abonará los materiales específicos conforme al apartado anterior. El Proveedor entregará o destruirá el resto de los materiales conforme al apartado 15.4 y certificará la destrucción por escrito.
+
+15.7. No exclusividad. Salvo por lo dispuesto en el apartado 15.4 respecto de la Marca del Distribuidor, el Contrato no confiere exclusividad alguna: el Proveedor podrá suministrar productos idénticos o similares a terceros, incluidos competidores del Comprador, y el Comprador podrá adquirir productos idénticos o similares de terceros. No obstante, el Proveedor no suministrará a terceros, durante la vigencia del Contrato y los seis (6) meses siguientes, productos cuya receta haya sido desarrollada específicamente para el Comprador y así conste en la Especificación.
+
+CLÁUSULA 16. PROPIEDAD INTELECTUAL E INDUSTRIAL
+
+16.1. Cada Parte conservará la titularidad de las marcas, nombres comerciales, diseños, recetas, conocimientos técnicos y demás derechos de propiedad intelectual e industrial de los que sea titular con anterioridad al Contrato o que desarrolle con independencia de él. Nada en este Contrato supondrá cesión o licencia de tales derechos, salvo la licencia limitada, no exclusiva y gratuita que el Comprador concede al Proveedor para utilizar la Marca del Distribuidor en el etiquetado y envasado de los Productos MDD conforme a la Cláusula 15.
+
+16.2. Las recetas y los procesos de elaboración de los Productos, incluidos los Productos MDD, son propiedad del Proveedor y tienen la consideración de información confidencial. Los diseños de etiqueta y los elementos de identidad visual de la Marca del Distribuidor son propiedad del Comprador.
+
+16.3. El Proveedor garantiza que los Productos de marca propia y sus envases no infringen derechos de propiedad intelectual o industrial de terceros, y mantendrá indemne al Comprador frente a cualquier reclamación por dicho motivo. El Comprador garantiza lo mismo respecto de los diseños y marcas que facilite para los Productos MDD, y mantendrá indemne al Proveedor.
+
+16.4. El Comprador podrá utilizar las marcas, denominaciones e imágenes de los Productos de marca propia del Proveedor en sus folletos, catálogos, sitio web y demás soportes publicitarios, de forma fiel y sin alteraciones, únicamente para promover la venta de los Productos en sus establecimientos y canales. El Proveedor facilitará las imágenes y fichas comerciales necesarias en el formato que el Comprador razonablemente solicite.
+
+CLÁUSULA 17. CONFIDENCIALIDAD
+
+17.1. Cada Parte se obliga a mantener la más estricta confidencialidad sobre toda la información de la otra Parte a la que tenga acceso con ocasión del Contrato, sea cual fuere su naturaleza y el soporte en que se contenga, y en particular sobre los Precios, descuentos y condiciones económicas, las Previsiones y volúmenes de compra, las recetas, procesos y Especificaciones, los resultados de auditorías y controles de calidad, las incidencias, los datos de los establecimientos y de la Plataforma, y el contenido mismo de este Contrato (la «Información Confidencial»).
+
+17.2. La Parte receptora utilizará la Información Confidencial exclusivamente para el cumplimiento del Contrato, y solo la comunicará a aquellos de sus empleados, asesores y subcontratistas que necesiten conocerla a tal fin y que estén sujetos a obligaciones de confidencialidad no menos estrictas que las aquí previstas, respondiendo de su cumplimiento.
+
+17.3. No tendrá la consideración de Información Confidencial la que: (a) sea o llegue a ser de dominio público sin incumplimiento de esta Cláusula; (b) estuviera ya en poder de la Parte receptora con anterioridad a su comunicación, según pueda acreditarse documentalmente; (c) sea recibida legítimamente de un tercero sin restricción de confidencialidad; o (d) haya sido desarrollada de forma independiente por la Parte receptora. Tampoco constituirá incumplimiento la comunicación exigida por la ley, por una autoridad competente o por una resolución judicial, siempre que la Parte requerida informe previamente a la otra, en la medida en que la ley lo permita, y limite la comunicación a lo estrictamente necesario.
+
+17.4. Las obligaciones de confidencialidad se mantendrán en vigor durante la vigencia del Contrato y durante los cinco (5) años siguientes a su terminación por cualquier causa. Respecto de las recetas y procesos de elaboración del Proveedor que tengan la consideración de secreto empresarial conforme a la Ley 1/2019, de 20 de febrero, de Secretos Empresariales, la obligación se mantendrá mientras conserven tal condición.
+
+17.5. A la terminación del Contrato, o antes si la otra Parte lo solicita, cada Parte devolverá o destruirá la Información Confidencial de la otra que obre en su poder, incluidas las copias, y certificará por escrito la destrucción, con la salvedad de la información que deba conservar por imperativo legal o que se encuentre en copias de seguridad automáticas, que seguirá sujeta a esta Cláusula.
+
+17.6. Las Partes reconocen que el incumplimiento de esta Cláusula puede causar daños difícilmente reparables, por lo que la Parte perjudicada podrá solicitar, además de la indemnización que proceda, la adopción de medidas cautelares para hacer cesar la infracción.
+
+CLÁUSULA 18. PROTECCIÓN DE DATOS PERSONALES
+
+18.1. Las Partes tratarán los datos personales de las personas de contacto, representantes y empleados de la otra Parte a los que accedan con ocasión del Contrato con la única finalidad de gestionar la relación contractual, mantener las comunicaciones y cumplir las obligaciones legales aplicables. La base jurídica del tratamiento es el interés legítimo de las Partes en la gestión de la relación y, en su caso, el cumplimiento de obligaciones legales.
+
+18.2. Cada Parte actúa como responsable independiente del tratamiento respecto de dichos datos, y se obliga a cumplir el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, a aplicar las medidas de seguridad adecuadas y a informar a sus propios empleados y contactos de la comunicación de sus datos a la otra Parte.
+
+18.3. Los datos se conservarán durante la vigencia del Contrato y, después, durante los plazos de prescripción de las acciones que pudieran derivarse de él. Las personas interesadas podrán ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad dirigiéndose a las direcciones indicadas en el Anexo VIII.
+
+18.4. No está previsto que ninguna de las Partes trate datos personales por cuenta de la otra. Si en el futuro fuera necesario (por ejemplo, para la gestión de reclamaciones de consumidores en el marco de una Retirada), las Partes suscribirán previamente el correspondiente contrato de encargo del tratamiento conforme al artículo 28 del RGPD.
+
+CLÁUSULA 19. SEGUROS
+
+19.1. El Proveedor mantendrá en vigor, durante toda la duración del Contrato y durante los dos (2) años siguientes a su terminación respecto de los Productos entregados durante su vigencia, una póliza de seguro de responsabilidad civil general y de responsabilidad civil de producto, que cubra los daños personales, materiales y los perjuicios consecuenciales causados por los Productos, incluidos los gastos de Retirada, con un límite mínimo de tres millones de euros (3.000.000 €) por siniestro y por anualidad de seguro, y con un sublímite para gastos de Retirada no inferior a trescientos mil euros (300.000 €).
+
+19.2. El Proveedor entregará al Comprador, a la firma del Contrato y en cada renovación de la póliza, un certificado emitido por la entidad aseguradora que acredite la vigencia, las coberturas y los límites contratados. La existencia del seguro no limitará la responsabilidad del Proveedor conforme a este Contrato.
+
+19.3. El Proveedor contratará, además, el seguro de transporte de las mercancías hasta la Plataforma, en la medida en que asuma el riesgo conforme a la Cláusula 8, o exigirá a su transportista que lo tenga contratado.
+
+CLÁUSULA 20. FUERZA MAYOR
+
+20.1. Ninguna de las Partes será responsable del incumplimiento o del retraso en el cumplimiento de sus obligaciones, con excepción de las obligaciones de pago, cuando se deba a un supuesto de fuerza mayor, entendiendo por tal cualquier acontecimiento imprevisible o que, previsto, fuera inevitable, ajeno al control razonable de la Parte afectada, tal como catástrofes naturales, inundaciones (incluidas las de la cuenca del Segura), incendios, epidemias declaradas por las autoridades, guerras, actos de terrorismo, huelgas generales o sectoriales ajenas a la Parte afectada, disposiciones de las autoridades que impidan el cumplimiento, e interrupciones generalizadas del suministro eléctrico o de las comunicaciones.
+
+20.2. No se considerarán fuerza mayor la dificultad o el encarecimiento del cumplimiento, las variaciones de precio de las materias primas (que se regirán por la Cláusula 6.4), los incumplimientos de los proveedores o subcontratistas de la Parte afectada salvo que estos a su vez se deban a fuerza mayor, ni las huelgas limitadas al personal de la Parte afectada.
+
+20.3. La Parte afectada por un supuesto de fuerza mayor lo notificará a la otra por escrito dentro de los cinco (5) días naturales siguientes a tener conocimiento de él, indicando su naturaleza, su duración estimada y las obligaciones afectadas, y adoptará todas las medidas razonables para mitigar sus efectos y reanudar el cumplimiento a la mayor brevedad. Mientras dure el supuesto, las obligaciones afectadas quedarán suspendidas y los plazos correspondientes se prorrogarán por un periodo igual al de la suspensión.
+
+20.4. Si el Proveedor se viera afectado por un supuesto de fuerza mayor que limitara su capacidad de suministro, distribuirá la capacidad disponible entre sus clientes de forma equitativa y proporcional a los volúmenes habituales, sin discriminar al Comprador.
+
+20.5. Si el supuesto de fuerza mayor se prolongara durante más de sesenta (60) días naturales consecutivos, cualquiera de las Partes podrá resolver el Contrato, o la parte de él afectada, mediante comunicación escrita a la otra, sin derecho a indemnización, quedando a salvo las obligaciones devengadas con anterioridad.
+
+CLÁUSULA 21. CESIÓN Y SUBCONTRATACIÓN
+
+21.1. Ninguna de las Partes podrá ceder el Contrato, ni los derechos y obligaciones que de él se derivan, sin el consentimiento previo y por escrito de la otra Parte, que no se denegará sin causa razonable. No obstante, cualquiera de las Partes podrá ceder el Contrato a una sociedad de su mismo grupo, en el sentido del artículo 42 del Código de Comercio, mediante simple notificación a la otra Parte con una antelación mínima de treinta (30) días naturales, siempre que la cesionaria asuma íntegramente las obligaciones del Contrato y la cedente responda solidariamente de su cumplimiento durante los doce (12) meses siguientes.
+
+21.2. El Proveedor podrá ceder a entidades financieras los créditos derivados de las facturas emitidas al amparo del Contrato (factoring o confirming), comunicándolo al Comprador, sin que ello altere las condiciones de pago ni las facultades de este conforme a la Cláusula 9.
+
+21.3. El Proveedor podrá subcontratar el transporte y las operaciones logísticas, así como el suministro de materias primas y materiales de envasado. No podrá subcontratar la elaboración ni el envasado de los Productos sin el consentimiento previo y por escrito del Comprador, que podrá condicionarlo a la realización de una auditoría de las instalaciones del subcontratista. En todo caso, el Proveedor responderá frente al Comprador de los actos y omisiones de sus subcontratistas como si fueran propios.
+
+CLÁUSULA 22. RESOLUCIÓN DEL CONTRATO
+
+22.1. Cualquiera de las Partes podrá resolver el Contrato, mediante comunicación escrita a la otra, en los siguientes supuestos:
+
+(a) Incumplimiento grave de las obligaciones del Contrato por la otra Parte que, siendo susceptible de subsanación, no sea subsanado dentro de los treinta (30) días naturales siguientes al requerimiento escrito en el que se identifique el incumplimiento y se advierta de la voluntad de resolver.
+
+(b) Incumplimiento grave no susceptible de subsanación, o reiteración de incumplimientos que, aunque subsanados, evidencien la incapacidad o la falta de voluntad de la otra Parte de cumplir el Contrato; a estos efectos se considerará reiteración la comisión de tres (3) o más incumplimientos graves en un mismo Año Contractual.
+
+(c) Declaración de concurso de la otra Parte, apertura de la fase de liquidación, solicitud de homologación de un plan de reestructuración que afecte a los créditos derivados del Contrato, o cese de hecho de su actividad, en la medida en que la legislación concursal lo permita.
+
+(d) Cambio de control de la otra Parte a favor de un competidor directo de la Parte que resuelve, comunicado en el plazo de treinta (30) días desde que se tenga conocimiento del cambio.
+
+(e) Prolongación de un supuesto de fuerza mayor conforme a la Cláusula 20.5.
+
+22.2. Sin perjuicio de lo anterior, el Comprador podrá resolver el Contrato con efectos inmediatos en caso de pérdida o suspensión de la certificación de seguridad alimentaria del Proveedor no restablecida en el plazo de noventa (90) días, de Incidencia de Calidad grave que haya supuesto un riesgo real para la salud de los consumidores imputable al Proveedor, o de incumplimiento de las obligaciones de la Cláusula 25 en materia de ética y cumplimiento normativo.
+
+22.3. El Proveedor podrá resolver el Contrato con efectos inmediatos en caso de impago de facturas vencidas por importe superior a treinta mil euros (30.000 €) o equivalente a más de sesenta (60) días de facturación media, que no sea regularizado dentro de los quince (15) Días Laborables siguientes al requerimiento escrito.
+
+22.4. Se considerarán, en todo caso, incumplimientos graves a los efectos de esta Cláusula: el incumplimiento de las obligaciones de pago, de confidencialidad, de seguridad alimentaria y de seguros; la falta de presentación o el incumplimiento reiterado de un plan de mejora conforme a la Cláusula 14.6; el incumplimiento de la Tasa de Servicio mínima durante tres (3) meses consecutivos; y la cesión o subcontratación no autorizadas.
+
+22.5. La resolución no afectará a los derechos y obligaciones devengados con anterioridad a la fecha en que produzca efectos, ni al derecho de la Parte cumplidora a reclamar los daños y perjuicios que el incumplimiento le haya causado, con los límites de la Cláusula 24.
+
+CLÁUSULA 23. CONSECUENCIAS DE LA TERMINACIÓN
+
+23.1. A la terminación del Contrato por cualquier causa, incluidas la expiración de su plazo y la no prórroga:
+
+(a) Los Pedidos confirmados con anterioridad a la fecha de terminación se cumplirán en sus propios términos, salvo que la terminación se deba a incumplimiento de la otra Parte y la Parte cumplidora opte por anularlos.
+
+(b) El Comprador cursará los Pedidos y abonará los materiales específicos de los Productos MDD conforme a la Cláusula 15.6.
+
+(c) El Proveedor dejará de utilizar la Marca del Distribuidor y devolverá o destruirá los materiales de envasado que la incorporen, conforme a la Cláusula 15.4.
+
+(d) Cada Parte devolverá o destruirá la Información Confidencial de la otra conforme a la Cláusula 17.5.
+
+(e) Las Partes liquidarán, dentro de los sesenta (60) días siguientes, el rappel devengado hasta la fecha de terminación, calculado a prorrata, y las Penalizaciones pendientes.
+
+(f) El Proveedor mantendrá la cobertura del seguro de responsabilidad civil de producto y la conservación de muestras testigo respecto de los Productos entregados, conforme a las Cláusulas 19.1 y 10.5.
+
+23.2. Sobrevivirán a la terminación del Contrato las Cláusulas 8.2, 10, 11.3, 12, 13.8, 16, 17, 18, 19.1, 23, 24, 26 y 27, así como cualesquiera otras que por su naturaleza deban seguir siendo aplicables.
+
+23.3. Durante los seis (6) meses siguientes a la terminación, el Proveedor atenderá las reclamaciones y las solicitudes de información de trazabilidad relativas a los Productos entregados en las mismas condiciones que durante la vigencia del Contrato.
+
+CLÁUSULA 24. RESPONSABILIDAD Y LIMITACIÓN
+
+24.1. Cada Parte responderá frente a la otra de los daños y perjuicios directos que le cause el incumplimiento de sus obligaciones contractuales, conforme a lo dispuesto en el Código Civil y en el Código de Comercio, con las especialidades previstas en esta Cláusula.
+
+24.2. Salvo en los supuestos de dolo o culpa grave, de daños a la vida, la salud o la integridad física de las personas, de incumplimiento de las obligaciones de confidencialidad, o de infracción de derechos de propiedad intelectual o industrial de terceros, ninguna de las Partes responderá frente a la otra del lucro cesante, la pérdida de negocio, la pérdida de clientela ni de otros daños indirectos o consecuenciales.
+
+24.3. Con las mismas salvedades del apartado anterior, la responsabilidad total de cada Parte frente a la otra por todos los incumplimientos acaecidos en un mismo Año Contractual no excederá del cien por cien (100 %) de la facturación neta del Proveedor al Comprador en los doce (12) meses inmediatamente anteriores al hecho causante, o de doscientos mil euros (200.000 €) si esta cifra fuera superior.
+
+24.4. Las Penalizaciones de la Cláusula 13 se computarán dentro del límite del apartado anterior, salvo las excepciones allí previstas. Las obligaciones de reposición, abono y Retirada, así como los costes de Retirada, no se computarán ni quedarán sujetas a dicho límite.
+
+24.5. El Proveedor mantendrá indemne al Comprador frente a las reclamaciones de terceros, incluidos consumidores y autoridades, derivadas de defectos de los Productos que le sean imputables, incluidas las sanciones administrativas firmes que se impongan al Comprador por causa imputable al Proveedor, siempre que el Comprador le comunique la reclamación en el plazo de cinco (5) Días Laborables desde su recepción, le permita participar en la defensa y no reconozca responsabilidad sin su consentimiento. Recíprocamente, el Comprador mantendrá indemne al Proveedor frente a las reclamaciones derivadas de la conservación, manipulación o exposición inadecuadas de los Productos en la Plataforma o en los establecimientos, o de los diseños y menciones comerciales de la Marca del Distribuidor.
+
+CLÁUSULA 25. CUMPLIMIENTO NORMATIVO, ÉTICA Y SOSTENIBILIDAD
+
+25.1. Cada Parte declara y garantiza que cumple y cumplirá, en el desarrollo de su actividad y en el cumplimiento del Contrato, toda la normativa aplicable, incluida la relativa a seguridad alimentaria, medio ambiente, prevención de riesgos laborales, relaciones laborales y Seguridad Social, competencia, prevención del blanqueo de capitales, y prevención de la corrupción y el soborno, y que dispone de las licencias, autorizaciones y registros necesarios.
+
+25.2. Las Partes se obligan a cumplir la Ley 12/2013, de 2 de agosto, de medidas para mejorar el funcionamiento de la cadena alimentaria, y en particular a no realizar ninguna de las prácticas comerciales desleales prohibidas por dicha Ley, a no modificar unilateralmente las condiciones del Contrato, a no exigir pagos adicionales no previstos en él, y a conservar la documentación relativa al Contrato durante el plazo legalmente exigido.
+
+25.3. El Proveedor declara conocer el Código de Conducta de Proveedores del Comprador, que ha recibido con anterioridad a la firma del Contrato, y se obliga a cumplirlo y a exigir su cumplimiento a sus propios proveedores de materias primas en la medida de sus posibilidades. En particular, el Proveedor garantiza que ni él ni sus proveedores emplean trabajo infantil o forzoso, que respetan la libertad sindical y que aplican condiciones laborales conformes a la legislación y a los convenios colectivos aplicables.
+
+25.4. El Proveedor garantiza que el atún y los demás productos de la pesca utilizados en la elaboración de los Productos proceden de capturas legales, declaradas y reglamentadas, acompañadas de los certificados de captura exigidos por el Reglamento (CE) n.º 1005/2008, y facilitará al Comprador, a su solicitud, información sobre la especie, la zona de captura FAO, el método de pesca y, cuando esté disponible, la certificación de sostenibilidad de la pesquería.
+
+25.5. Las Partes colaborarán en la reducción del impacto ambiental de la cadena de suministro. El Proveedor informará anualmente al Comprador sobre el porcentaje de material reciclado y la reciclabilidad de los envases de los Productos, sobre las medidas adoptadas para reducir el consumo de energía y agua en su proceso productivo, y sobre cualquier certificación ambiental que obtenga. Las Partes estudiarán en las reuniones de seguimiento la posibilidad de optimizar las cargas y de reducir los envases secundarios.
+
+25.6. Cada Parte pondrá a disposición de la otra un canal de denuncias conforme a la Ley 2/2023, de 20 de febrero, a través del cual los empleados y colaboradores de ambas puedan comunicar cualquier irregularidad relacionada con el Contrato, y se compromete a no adoptar represalias contra quienes lo utilicen de buena fe.
+
+25.7. El incumplimiento de las obligaciones de esta Cláusula, cuando sea grave o reiterado, facultará a la otra Parte para resolver el Contrato conforme a la Cláusula 22.
+
+CLÁUSULA 26. NOTIFICACIONES
+
+26.1. Las comunicaciones entre las Partes relativas al Contrato se realizarán por escrito y se dirigirán a las direcciones postales y electrónicas y a las personas indicadas en el Anexo VIII, o a las que cada Parte comunique a la otra en sustitución de ellas con una antelación mínima de cinco (5) Días Laborables.
+
+26.2. Las comunicaciones ordinarias relativas a la ejecución del Contrato (Previsiones, Pedidos, Confirmaciones, Albaranes, reclamaciones, liquidaciones de Penalizaciones y similares) podrán realizarse por correo electrónico o a través del portal de proveedores del Comprador, y se entenderán recibidas el Día Laborable siguiente a su envío, salvo que se acredite su recepción anterior o el remitente reciba un aviso de error de entrega.
+
+26.3. Las comunicaciones relativas a la modificación, prórroga, no prórroga, suspensión o resolución del Contrato, a la reclamación de daños y perjuicios y al ejercicio de las facultades de las Cláusulas 6.5, 9.6, 20 y 22 se realizarán mediante burofax con acuse de recibo y certificación de texto, correo electrónico certificado o cualquier otro medio que permita acreditar fehacientemente su envío, su contenido y su recepción, sin perjuicio de que puedan anticiparse por correo electrónico ordinario.
+
+26.4. Las comunicaciones de emergencia relativas a Incidencias de Calidad y Retiradas se realizarán, además, por teléfono al contacto de emergencia del Anexo VIII, disponible las veinticuatro horas del día todos los días del año.
+
+CLÁUSULA 27. LEY APLICABLE, MEDIACIÓN Y JURISDICCIÓN
+
+27.1. El presente Contrato se rige por la legislación española común, con exclusión de la Convención de las Naciones Unidas sobre los Contratos de Compraventa Internacional de Mercaderías, que las Partes acuerdan expresamente no aplicar.
+
+27.2. Las Partes se comprometen a intentar resolver de buena fe cualquier controversia derivada del Contrato mediante negociación directa entre sus representantes con poder de decisión. Si la controversia no se resolviera en el plazo de treinta (30) días naturales desde la comunicación escrita en la que una Parte la plantee a la otra, cualquiera de ellas podrá someterla a mediación ante el Centro de Mediación de la Cámara de Comercio de Alicante, conforme a su reglamento, con una duración máxima de sesenta (60) días naturales salvo prórroga acordada. La sumisión a mediación no impedirá la solicitud de medidas cautelares ni la interposición de acciones para interrumpir la prescripción.
+
+27.3. Agotada la mediación sin acuerdo, o transcurrido el plazo anterior sin que ninguna de las Partes la haya instado, las Partes, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, se someten a los Juzgados y Tribunales de la ciudad de Alicante para el conocimiento de cuantas cuestiones se susciten sobre la interpretación, el cumplimiento y la resolución del Contrato.
+
+27.4. Lo dispuesto en esta Cláusula se entiende sin perjuicio de las competencias atribuidas a la Agencia de Información y Control Alimentarios (AICA) y a las autoridades autonómicas en materia de cadena alimentaria, ni de la facultad de las Partes de acudir a ellas conforme a la Ley 12/2013.
+
+CLÁUSULA 28. DISPOSICIONES FINALES
+
+28.1. Integridad. El Contrato, con sus Anexos, constituye el acuerdo íntegro entre las Partes en relación con su objeto y sustituye a cualesquiera acuerdos, negociaciones, declaraciones y compromisos anteriores, verbales o escritos, sobre el mismo objeto.
+
+28.2. Modificaciones. Ninguna modificación del Contrato ni de sus Anexos será válida si no consta por escrito y está firmada por los representantes debidamente apoderados de ambas Partes. Las actas de las reuniones de seguimiento, los correos electrónicos y las comunicaciones a través del portal de proveedores no constituirán modificación del Contrato salvo que así se indique expresamente y se cumpla lo anterior.
+
+28.3. Nulidad parcial. Si alguna de las estipulaciones del Contrato fuera declarada nula, inválida o ineficaz, en todo o en parte, dicha declaración no afectará a la validez de las restantes estipulaciones, y las Partes negociarán de buena fe su sustitución por otra válida que se aproxime en la mayor medida posible a la finalidad económica de la estipulación afectada.
+
+28.4. No renuncia. La falta de ejercicio o el ejercicio tardío por cualquiera de las Partes de un derecho o facultad derivado del Contrato no se interpretará como renuncia al mismo, ni impedirá su ejercicio posterior. La tolerancia de un incumplimiento no supondrá tolerancia de incumplimientos futuros.
+
+28.5. Independencia. Las Partes son contratantes independientes. Nada en el Contrato se interpretará como constitutivo de una sociedad, agrupación, agencia, franquicia o relación laboral entre ellas, y ninguna de las Partes podrá obligar a la otra frente a terceros.
+
+28.6. Gastos. Cada Parte soportará los gastos y tributos que le correspondan por la negociación, formalización y cumplimiento del Contrato.
+
+28.7. Idioma. El Contrato se redacta en castellano. Las Partes podrán intercambiar documentación técnica y comercial en valenciano o en inglés, pero en caso de discrepancia prevalecerá la versión castellana del Contrato y de sus Anexos.
+
+28.8. Ejemplares. El Contrato se firma electrónicamente mediante firma electrónica cualificada por los representantes de ambas Partes, en un único ejemplar electrónico del que cada Parte conservará una copia auténtica. Las Partes reconocen plena validez y eficacia a dicha firma conforme al Reglamento (UE) n.º 910/2014.
+
+Y en prueba de conformidad, las Partes firman el presente Contrato, con sus ocho Anexos, en el lugar y la fecha indicados en el encabezamiento.
+
+
+Por Conservas Marjal Blanca S.L.                                   Por Supermercados Serrano S.L.
+
+
+____________________________                                     ____________________________
+D. Fermín Leal Payá                                              D.ª Rosario Serrano Antón
+Administrador Único                                              Consejera Delegada
+[Firmado electrónicamente el 26/01/2026 10:42]                   [Firmado electrónicamente el 26/01/2026 12:15]
+
+
+ANEXO I. PRODUCTOS Y ESPECIFICACIONES TÉCNICAS
+
+I.0. Consideraciones generales
+
+Este Anexo relaciona los cuarenta (40) Productos objeto del Contrato con sus Especificaciones. Para cada Producto se indica la referencia del Proveedor, la denominación de venta, el formato, los códigos de identificación, la composición, el origen de la materia prima principal, el tratamiento aplicado, la Vida Útil, los parámetros de control y las condiciones de envasado. Las fichas técnicas completas, con la información nutricional y los planes de control analítico, se entregan por separado conforme al Anexo V y se consideran parte de la Especificación.
+
+Capacidad productiva declarada por el Proveedor a los efectos de la Cláusula 2.3: 2.400.000 unidades de consumo mensuales en formatos de lata RO-120/RR-125, 320.000 tarros mensuales de 370 y 720 ml y 60.000 latas mensuales de formato hostelería (1 y 3 kg), en régimen de dos turnos. En campaña de alcachofa (noviembre-abril) y de tomate (julio-septiembre) la capacidad de los formatos de vidrio se reserva prioritariamente a dichas familias.
+
+Los Productos marcados con «(MDD)» se elaboran bajo Marca del Distribuidor conforme a la Cláusula 15. Los restantes se suministran bajo la marca «Marjal Blanca» del Proveedor.
+
+Formatos: «RO-120» y «RR-125» designan latas de hojalata de 120 y 125 ml de capacidad nominal, de forma oblonga y rectangular respectivamente; «T370» y «T720» designan tarros de vidrio de 370 y 720 ml; «1K» y «3K» designan latas de hojalata de 1 y 3 kg de formato hostelería; «P3» designa un pack de tres latas de 80 g retractilado; «B100» y «B250» designan bolsa de 100 g y bandeja de 250 g.
+
+I.1. CONS-ATUN-OL-120 (MDD)
+Denominación de venta: Atún claro en aceite de oliva. Descripción comercial: Atún claro en aceite de oliva.
+Formato: Lata RO-120 (120 g / 85 g esc.); contenido declarado: 120 g / 85 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100001. Código de caja: 1843700210008.
+Ingredientes: Atún claro (Thunnus albacares), aceite de oliva y sal.
+Alérgenos: Pescado. Puede contener trazas de crustáceos y moluscos.
+Origen y materia prima: Atún capturado en el océano Atlántico (zonas FAO 34 y 47) o Índico (FAO 51 y 57), lomos precocidos congelados; envasado en Almoradí (Alicante).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; registro de tiempo y temperatura por lote.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Contenido en histamina inferior a 50 mg/kg (lote); cloruro sódico 1,0-1,8 %; vacío mínimo 20 cm Hg en lata; ausencia de dobles cierres defectuosos según plan de muestreo.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Serrano Selección (Marca del Distribuidor), conforme a la Cláusula 15. Diseño de etiqueta aprobado el 12/01/2026 (versión 2).
+
+I.2. CONS-ATUN-OL-P3 (MDD)
+Denominación de venta: Atún claro en aceite de oliva. Descripción comercial: Atún claro en aceite de oliva pack 3.
+Formato: Pack 3 latas RO-80 (3 x 80 g); contenido declarado: 3 x 80 g. Unidades por caja: 16. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100070. Código de caja: 1843700210008.
+Ingredientes: Atún claro (Thunnus albacares), aceite de oliva y sal.
+Alérgenos: Pescado. Puede contener trazas de crustáceos y moluscos.
+Origen y materia prima: Atún capturado en el océano Atlántico (zonas FAO 34 y 47) o Índico (FAO 51 y 57), lomos precocidos congelados; envasado en Almoradí (Alicante).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; registro de tiempo y temperatura por lote.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Contenido en histamina inferior a 50 mg/kg (lote); cloruro sódico 1,0-1,8 %; vacío mínimo 20 cm Hg en lata; ausencia de dobles cierres defectuosos según plan de muestreo.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Serrano Selección (Marca del Distribuidor), conforme a la Cláusula 15. Diseño de etiqueta aprobado el 12/01/2026 (versión 2).
+
+I.3. CONS-ATUN-GI-120 (MDD)
+Denominación de venta: Atún claro en aceite de girasol. Descripción comercial: Atún claro en aceite de girasol.
+Formato: Lata RO-120 (120 g / 85 g esc.); contenido declarado: 120 g / 85 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100148. Código de caja: 1843700210015.
+Ingredientes: Atún claro (Thunnus albacares), aceite de girasol y sal.
+Alérgenos: Pescado. Puede contener trazas de crustáceos y moluscos.
+Origen y materia prima: Atún capturado en el océano Atlántico (zonas FAO 34 y 47) o Índico (FAO 51 y 57), lomos precocidos congelados; envasado en Almoradí (Alicante).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; registro de tiempo y temperatura por lote.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Contenido en histamina inferior a 50 mg/kg (lote); cloruro sódico 1,0-1,8 %; vacío mínimo 20 cm Hg en lata; ausencia de dobles cierres defectuosos según plan de muestreo.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Serrano Selección (Marca del Distribuidor), conforme a la Cláusula 15. Diseño de etiqueta aprobado el 12/01/2026 (versión 2).
+
+I.4. CONS-ATUN-NA-120
+Denominación de venta: Atún claro al natural. Descripción comercial: Atún claro al natural.
+Formato: Lata RO-120 (120 g / 85 g esc.); contenido declarado: 120 g / 85 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100216. Código de caja: 1843700210022.
+Ingredientes: Atún claro (Thunnus albacares), agua y sal.
+Alérgenos: Pescado. Puede contener trazas de crustáceos y moluscos.
+Origen y materia prima: Atún capturado en el océano Atlántico (zonas FAO 34 y 47) o Índico (FAO 51 y 57), lomos precocidos congelados; envasado en Almoradí (Alicante).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; registro de tiempo y temperatura por lote.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Contenido en histamina inferior a 50 mg/kg (lote); cloruro sódico 1,0-1,8 %; vacío mínimo 20 cm Hg en lata; ausencia de dobles cierres defectuosos según plan de muestreo.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.5. CONS-ATUN-ES-120
+Denominación de venta: Atún claro en escabeche. Descripción comercial: Atún claro en escabeche.
+Formato: Lata RO-120 (120 g / 85 g esc.); contenido declarado: 120 g / 85 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100285. Código de caja: 1843700210022.
+Ingredientes: Atún claro (Thunnus albacares), aceite de girasol, vinagre de vino, sal, laurel y especias.
+Alérgenos: Pescado. Puede contener trazas de crustáceos y moluscos.
+Origen y materia prima: Atún capturado en el océano Atlántico (zonas FAO 34 y 47) o Índico (FAO 51 y 57), lomos precocidos congelados; envasado en Almoradí (Alicante).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; registro de tiempo y temperatura por lote.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Contenido en histamina inferior a 50 mg/kg (lote); cloruro sódico 1,0-1,8 %; vacío mínimo 20 cm Hg en lata; ausencia de dobles cierres defectuosos según plan de muestreo.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.6. CONS-ATUN-OL-1K
+Denominación de venta: Atún claro en aceite de oliva. Descripción comercial: Atún claro en aceite de oliva hostelería.
+Formato: Lata 1 kg (1000 g / 700 g esc.); contenido declarado: 1000 g / 700 g esc. Unidades por caja: 6. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002100353. Código de caja: 1843700210039.
+Ingredientes: Atún claro (Thunnus albacares), aceite de oliva y sal.
+Alérgenos: Pescado. Puede contener trazas de crustáceos y moluscos.
+Origen y materia prima: Atún capturado en el océano Atlántico (zonas FAO 34 y 47) o Índico (FAO 51 y 57), lomos precocidos congelados; envasado en Almoradí (Alicante).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; registro de tiempo y temperatura por lote.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Contenido en histamina inferior a 50 mg/kg (lote); cloruro sódico 1,0-1,8 %; vacío mínimo 20 cm Hg en lata; ausencia de dobles cierres defectuosos según plan de muestreo.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.7. CONS-BONI-OL-120
+Denominación de venta: Bonito del norte en aceite de oliva. Descripción comercial: Bonito del norte en aceite de oliva.
+Formato: Lata RO-120 (120 g / 85 g esc.); contenido declarado: 120 g / 85 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100421. Código de caja: 1843700210046.
+Ingredientes: Bonito del norte (Thunnus alalunga), aceite de oliva y sal.
+Alérgenos: Pescado.
+Origen y materia prima: Bonito del norte capturado con caña o curricán en el Atlántico Nororiental (FAO 27), procesado en fresco en campaña (junio-octubre).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; envasado manual de trozos enteros.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Color blanco-rosado uniforme; ausencia de sangre y de espinas; cloruro sódico 1,0-1,8 %; histamina inferior a 50 mg/kg.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.8. CONS-BONI-OL-220
+Denominación de venta: Bonito del norte en aceite de oliva. Descripción comercial: Bonito del norte en aceite de oliva.
+Formato: Lata RO-220 (220 g / 160 g esc.); contenido declarado: 220 g / 160 g esc. Unidades por caja: 12. Cajas por palé: 72 (7 capas). Código EAN-13 unidad de consumo: 8437002100490. Código de caja: 1843700210046.
+Ingredientes: Bonito del norte (Thunnus alalunga), aceite de oliva y sal.
+Alérgenos: Pescado.
+Origen y materia prima: Bonito del norte capturado con caña o curricán en el Atlántico Nororiental (FAO 27), procesado en fresco en campaña (junio-octubre).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; envasado manual de trozos enteros.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Color blanco-rosado uniforme; ausencia de sangre y de espinas; cloruro sódico 1,0-1,8 %; histamina inferior a 50 mg/kg.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.9. CONS-BONI-OL-T400
+Denominación de venta: Bonito del norte en aceite de oliva. Descripción comercial: Bonito del norte en aceite de oliva.
+Formato: Tarro cristal 400 g. Unidades por caja: 12. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002100568. Código de caja: 1843700210053.
+Ingredientes: Bonito del norte (Thunnus alalunga), aceite de oliva y sal.
+Alérgenos: Pescado.
+Origen y materia prima: Bonito del norte capturado con caña o curricán en el Atlántico Nororiental (FAO 27), procesado en fresco en campaña (junio-octubre).
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos; envasado manual de trozos enteros.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Color blanco-rosado uniforme; ausencia de sangre y de espinas; cloruro sódico 1,0-1,8 %; histamina inferior a 50 mg/kg.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.10. CONS-MELV-OL-120
+Denominación de venta: Melva canutera en aceite de oliva. Descripción comercial: Melva canutera en aceite de oliva.
+Formato: Lata RO-120 (120 g / 85 g esc.); contenido declarado: 120 g / 85 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100636. Código de caja: 1843700210060.
+Ingredientes: Melva canutera, aceite de oliva y sal.
+Alérgenos: Pescado.
+Origen y materia prima: Pescado azul del Atlántico y del Mediterráneo (FAO 27 y 37), procesado en fresco.
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Histamina inferior a 50 mg/kg; cloruro sódico según ficha; ausencia de parásitos visibles (inspección visual 100 %).
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.11. CONS-CABA-OL-120
+Denominación de venta: Caballa del sur en aceite de oliva. Descripción comercial: Caballa del sur en aceite de oliva.
+Formato: Lata RO-120 (120 g / 85 g esc.); contenido declarado: 120 g / 85 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100704. Código de caja: 1843700210077.
+Ingredientes: Caballa del sur, aceite de oliva y sal.
+Alérgenos: Pescado.
+Origen y materia prima: Pescado azul del Atlántico y del Mediterráneo (FAO 27 y 37), procesado en fresco.
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Histamina inferior a 50 mg/kg; cloruro sódico según ficha; ausencia de parásitos visibles (inspección visual 100 %).
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.12. CONS-SARD-OL-120 (MDD)
+Denominación de venta: Sardinillas en aceite de oliva. Descripción comercial: Sardinillas en aceite de oliva.
+Formato: Lata RR-125 (125 g / 90 g esc.); contenido declarado: 125 g / 90 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100773. Código de caja: 1843700210077.
+Ingredientes: Sardinillas, aceite de oliva y sal.
+Alérgenos: Pescado.
+Origen y materia prima: Pescado azul del Atlántico y del Mediterráneo (FAO 27 y 37), procesado en fresco.
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Histamina inferior a 50 mg/kg; cloruro sódico según ficha; ausencia de parásitos visibles (inspección visual 100 %).
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Serrano Selección (Marca del Distribuidor), conforme a la Cláusula 15. Diseño de etiqueta aprobado el 12/01/2026 (versión 2).
+
+I.13. CONS-SARD-TO-120
+Denominación de venta: Sardinas en tomate. Descripción comercial: Sardinas en tomate.
+Formato: Lata RR-125 (125 g / 90 g esc.); contenido declarado: 125 g / 90 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100841. Código de caja: 1843700210084.
+Ingredientes: Sardinas (Sardina pilchardus), tomate (32 %), aceite de girasol, azúcar, sal y almidón modificado de maíz.
+Alérgenos: Pescado.
+Origen y materia prima: Pescado azul del Atlántico y del Mediterráneo (FAO 27 y 37), procesado en fresco.
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Histamina inferior a 50 mg/kg; cloruro sódico según ficha; ausencia de parásitos visibles (inspección visual 100 %).
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.14. CONS-ANCH-OL-50
+Denominación de venta: Filetes de anchoa en aceite de oliva. Descripción comercial: Filetes de anchoa en aceite de oliva.
+Formato: Lata 50 g (29 g esc.); contenido declarado: 29 g esc. Unidades por caja: 24. Cajas por palé: 120 (10 capas). Código EAN-13 unidad de consumo: 8437002100919. Código de caja: 1843700210091.
+Ingredientes: Filetes de anchoa (Engraulis encrasicolus), aceite de oliva y sal.
+Alérgenos: Pescado.
+Origen y materia prima: Anchoa del Cantábrico o del Mediterráneo (FAO 27 y 37), salazón mínima de 6 meses, fileteado manual.
+Tratamiento y proceso: Semiconserva: no esterilizada; conservación en refrigeración entre 5 y 12 °C en toda la cadena.
+Vida Útil total: 12 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: Histamina inferior a 50 mg/kg; cloruro sódico según ficha; ausencia de parásitos visibles (inspección visual 100 %).
+Conservación: refrigeración entre 5 y 12 °C; una vez abierto, consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.15. CONS-MEJI-ES-120
+Denominación de venta: Mejillones en escabeche 8/12 piezas. Descripción comercial: Mejillones en escabeche 8/12 piezas.
+Formato: Lata RR-125 (115 g / 69 g esc.); contenido declarado: 115 g / 69 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002100988. Código de caja: 1843700210091.
+Ingredientes: Mejillones (Mytilus galloprovincialis), aceite de girasol, vinagre de vino, sal, pimentón y especias.
+Alérgenos: Moluscos. Puede contener trazas de pescado y crustáceos.
+Origen y materia prima: Moluscos de acuicultura o de captura en el Atlántico Nororiental (FAO 27); zonas de producción clasificadas conforme al Reglamento (UE) 2019/627.
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Recuento de piezas por lata según formato; biotoxinas marinas conforme al Reglamento (CE) n.º 853/2004; ausencia de arena.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.16. CONS-BERB-NA-120
+Denominación de venta: Berberechos al natural 40/50 piezas. Descripción comercial: Berberechos al natural 40/50 piezas.
+Formato: Lata RR-125 (115 g / 63 g esc.); contenido declarado: 115 g / 63 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002101053. Código de caja: 1843700210107.
+Ingredientes: Berberechos (Cerastoderma edule), agua y sal.
+Alérgenos: Moluscos. Puede contener trazas de pescado y crustáceos.
+Origen y materia prima: Moluscos de acuicultura o de captura en el Atlántico Nororiental (FAO 27); zonas de producción clasificadas conforme al Reglamento (UE) 2019/627.
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Recuento de piezas por lata según formato; biotoxinas marinas conforme al Reglamento (CE) n.º 853/2004; ausencia de arena.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.17. CONS-CALA-TI-120
+Denominación de venta: Calamares en su tinta. Descripción comercial: Calamares en su tinta.
+Formato: Lata RR-125 (115 g / 72 g esc.); contenido declarado: 115 g / 72 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002101121. Código de caja: 1843700210114.
+Ingredientes: Calamar (Loligo spp.), aceite de girasol, tinta de calamar, cebolla, tomate, sal y especias.
+Alérgenos: Moluscos. Puede contener trazas de pescado y crustáceos.
+Origen y materia prima: Moluscos de acuicultura o de captura en el Atlántico Nororiental (FAO 27); zonas de producción clasificadas conforme al Reglamento (UE) 2019/627.
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Recuento de piezas por lata según formato; biotoxinas marinas conforme al Reglamento (CE) n.º 853/2004; ausencia de arena.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.18. CONS-PULP-OL-120
+Denominación de venta: Pulpo en aceite de oliva. Descripción comercial: Pulpo en aceite de oliva.
+Formato: Lata RR-125 (115 g / 72 g esc.); contenido declarado: 115 g / 72 g esc. Unidades por caja: 24. Cajas por palé: 90 (8 capas). Código EAN-13 unidad de consumo: 8437002101190. Código de caja: 1843700210114.
+Ingredientes: Pulpo (Octopus vulgaris), aceite de oliva y sal.
+Alérgenos: Moluscos. Puede contener trazas de pescado y crustáceos.
+Origen y materia prima: Moluscos de acuicultura o de captura en el Atlántico Nororiental (FAO 27); zonas de producción clasificadas conforme al Reglamento (UE) 2019/627.
+Tratamiento y proceso: Esterilización en autoclave estático; F0 mínimo 7 minutos.
+Vida Útil total: 60 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Recuento de piezas por lata según formato; biotoxinas marinas conforme al Reglamento (CE) n.º 853/2004; ausencia de arena.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.19. CONS-ALCA-CO-T370 (MDD)
+Denominación de venta: Corazones de alcachofa. Descripción comercial: Corazones de alcachofa de la Vega Baja.
+Formato: Tarro cristal 370 ml (350 g / 200 g esc.); contenido declarado: 350 g / 200 g esc. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002101268. Código de caja: 1843700210121.
+Ingredientes: Alcachofa (Cynara scolymus), agua, sal, acidulante: ácido cítrico, antioxidante: ácido ascórbico.
+Alérgenos: No contiene alérgenos de declaración obligatoria. Elaborado en instalaciones que manipulan pescado y moluscos en líneas separadas.
+Origen y materia prima: Alcachofa variedad Blanca de Tudela cultivada en la Vega Baja del Segura (Alicante), campaña de noviembre a abril; procesado en fresco en un máximo de 24 horas desde la recolección.
+Tratamiento y proceso: Escaldado, pelado y calibrado; esterilización en autoclave; pH de equilibrio inferior a 4,3 en producto acidificado.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Calibre según formato (corazones 30/40 o 40/50 piezas por kg); peso escurrido con tolerancia de -2 %; color uniforme sin pardeamiento.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Serrano Selección (Marca del Distribuidor), conforme a la Cláusula 15. Diseño de etiqueta aprobado el 12/01/2026 (versión 2).
+
+I.20. CONS-ALCA-CO-T720
+Denominación de venta: Corazones de alcachofa. Descripción comercial: Corazones de alcachofa de la Vega Baja.
+Formato: Tarro cristal 720 ml (660 g / 400 g esc.); contenido declarado: 660 g / 400 g esc. Unidades por caja: 6. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002101336. Código de caja: 1843700210138.
+Ingredientes: Alcachofa (Cynara scolymus), agua, sal, acidulante: ácido cítrico, antioxidante: ácido ascórbico.
+Alérgenos: No contiene alérgenos de declaración obligatoria. Elaborado en instalaciones que manipulan pescado y moluscos en líneas separadas.
+Origen y materia prima: Alcachofa variedad Blanca de Tudela cultivada en la Vega Baja del Segura (Alicante), campaña de noviembre a abril; procesado en fresco en un máximo de 24 horas desde la recolección.
+Tratamiento y proceso: Escaldado, pelado y calibrado; esterilización en autoclave; pH de equilibrio inferior a 4,3 en producto acidificado.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Calibre según formato (corazones 30/40 o 40/50 piezas por kg); peso escurrido con tolerancia de -2 %; color uniforme sin pardeamiento.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.21. CONS-ALCA-CO-3K
+Denominación de venta: Corazones de alcachofa. Descripción comercial: Corazones de alcachofa hostelería.
+Formato: Lata 3 kg (2.500 g / 1.500 g esc.); contenido declarado: 2.500 g / 1.500 g esc. Unidades por caja: 4. Cajas por palé: 48 (6 capas). Código EAN-13 unidad de consumo: 8437002101404. Código de caja: 1843700210145.
+Ingredientes: Alcachofa (Cynara scolymus), agua, sal, acidulante: ácido cítrico, antioxidante: ácido ascórbico.
+Alérgenos: No contiene alérgenos de declaración obligatoria. Elaborado en instalaciones que manipulan pescado y moluscos en líneas separadas.
+Origen y materia prima: Alcachofa variedad Blanca de Tudela cultivada en la Vega Baja del Segura (Alicante), campaña de noviembre a abril; procesado en fresco en un máximo de 24 horas desde la recolección.
+Tratamiento y proceso: Escaldado, pelado y calibrado; esterilización en autoclave; pH de equilibrio inferior a 4,3 en producto acidificado.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Calibre según formato (corazones 30/40 o 40/50 piezas por kg); peso escurrido con tolerancia de -2 %; color uniforme sin pardeamiento.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.22. CONS-ALCA-FO-T370
+Denominación de venta: Fondos de alcachofa. Descripción comercial: Fondos de alcachofa.
+Formato: Tarro cristal 370 ml (350 g / 200 g esc.); contenido declarado: 350 g / 200 g esc. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002101473. Código de caja: 1843700210145.
+Ingredientes: Alcachofa (Cynara scolymus), agua, sal, acidulante: ácido cítrico, antioxidante: ácido ascórbico.
+Alérgenos: No contiene alérgenos de declaración obligatoria. Elaborado en instalaciones que manipulan pescado y moluscos en líneas separadas.
+Origen y materia prima: Alcachofa variedad Blanca de Tudela cultivada en la Vega Baja del Segura (Alicante), campaña de noviembre a abril; procesado en fresco en un máximo de 24 horas desde la recolección.
+Tratamiento y proceso: Escaldado, pelado y calibrado; esterilización en autoclave; pH de equilibrio inferior a 4,3 en producto acidificado.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Calibre según formato (corazones 30/40 o 40/50 piezas por kg); peso escurrido con tolerancia de -2 %; color uniforme sin pardeamiento.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.23. CONS-PIQU-EN-T370 (MDD)
+Denominación de venta: Pimientos del piquillo asados. Descripción comercial: Pimientos del piquillo enteros.
+Formato: Tarro cristal 370 ml (350 g / 220 g esc.); contenido declarado: 350 g / 220 g esc. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002101541. Código de caja: 1843700210152.
+Ingredientes: Pimientos del piquillo (Capsicum annuum), agua, sal, acidulante: ácido cítrico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Pimiento variedad piquillo asado a la llama y pelado sin agua, procedente de cultivo nacional; envasado en campaña (septiembre-noviembre).
+Tratamiento y proceso: Asado a la llama, pelado manual, envasado y esterilización; pH inferior a 4,3.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; ausencia de restos de piel superior al 2 % en peso; color rojo intenso.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Serrano Selección (Marca del Distribuidor), conforme a la Cláusula 15. Diseño de etiqueta aprobado el 12/01/2026 (versión 2).
+
+I.24. CONS-PIQU-TI-T370
+Denominación de venta: Pimientos del piquillo asados. Descripción comercial: Pimientos del piquillo en tiras.
+Formato: Tarro cristal 370 ml (350 g / 220 g esc.); contenido declarado: 350 g / 220 g esc. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002101619. Código de caja: 1843700210169.
+Ingredientes: Pimientos del piquillo (Capsicum annuum), agua, sal, acidulante: ácido cítrico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Pimiento variedad piquillo asado a la llama y pelado sin agua, procedente de cultivo nacional; envasado en campaña (septiembre-noviembre).
+Tratamiento y proceso: Asado a la llama, pelado manual, envasado y esterilización; pH inferior a 4,3.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; ausencia de restos de piel superior al 2 % en peso; color rojo intenso.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.25. CONS-PIQU-EN-3K
+Denominación de venta: Pimientos del piquillo asados. Descripción comercial: Pimientos del piquillo enteros hostelería.
+Formato: Lata 3 kg (2.500 g / 1.800 g esc.); contenido declarado: 2.500 g / 1.800 g esc. Unidades por caja: 4. Cajas por palé: 48 (6 capas). Código EAN-13 unidad de consumo: 8437002101688. Código de caja: 1843700210169.
+Ingredientes: Pimientos del piquillo (Capsicum annuum), agua, sal, acidulante: ácido cítrico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Pimiento variedad piquillo asado a la llama y pelado sin agua, procedente de cultivo nacional; envasado en campaña (septiembre-noviembre).
+Tratamiento y proceso: Asado a la llama, pelado manual, envasado y esterilización; pH inferior a 4,3.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; ausencia de restos de piel superior al 2 % en peso; color rojo intenso.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.26. CONS-TOMA-TR-T720
+Denominación de venta: Tomate triturado. Descripción comercial: Tomate triturado.
+Formato: Tarro cristal 720 ml (700 g); contenido declarado: 700 g. Unidades por caja: 6. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002101756. Código de caja: 1843700210176.
+Ingredientes: Tomate (99,5 %), sal y acidulante: ácido cítrico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Tomate de industria de cultivo nacional (Vega Baja y Región de Murcia), procesado en campaña (julio-septiembre).
+Tratamiento y proceso: Triturado en caliente, concentración parcial en su caso, envasado en caliente y pasteurización en túnel; pH inferior a 4,3.
+Vida Útil total: 24 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: Grados Brix mínimos según ficha (triturado 5,5; frito 9,0); consistencia Bostwick; ausencia de piel y semillas en frito.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.27. CONS-TOMA-TR-3K
+Denominación de venta: Tomate triturado. Descripción comercial: Tomate triturado hostelería.
+Formato: Lata 3 kg. Unidades por caja: 4. Cajas por palé: 48 (6 capas). Código EAN-13 unidad de consumo: 8437002101824. Código de caja: 1843700210183.
+Ingredientes: Tomate (99,5 %), sal y acidulante: ácido cítrico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Tomate de industria de cultivo nacional (Vega Baja y Región de Murcia), procesado en campaña (julio-septiembre).
+Tratamiento y proceso: Triturado en caliente, concentración parcial en su caso, envasado en caliente y pasteurización en túnel; pH inferior a 4,3.
+Vida Útil total: 24 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: Grados Brix mínimos según ficha (triturado 5,5; frito 9,0); consistencia Bostwick; ausencia de piel y semillas en frito.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.28. CONS-TOMA-FR-T370 (MDD)
+Denominación de venta: Tomate frito con aceite de oliva. Descripción comercial: Tomate frito con aceite de oliva.
+Formato: Tarro cristal 370 ml (350 g); contenido declarado: 350 g. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002101893. Código de caja: 1843700210183.
+Ingredientes: Tomate (85 %), aceite de oliva virgen extra (4 %), cebolla, azúcar, sal, almidón modificado de maíz y acidulante: ácido cítrico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Tomate de industria de cultivo nacional (Vega Baja y Región de Murcia), procesado en campaña (julio-septiembre).
+Tratamiento y proceso: Triturado en caliente, concentración parcial en su caso, envasado en caliente y pasteurización en túnel; pH inferior a 4,3.
+Vida Útil total: 24 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: Grados Brix mínimos según ficha (triturado 5,5; frito 9,0); consistencia Bostwick; ausencia de piel y semillas en frito.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Serrano Selección (Marca del Distribuidor), conforme a la Cláusula 15. Diseño de etiqueta aprobado el 12/01/2026 (versión 2).
+
+I.29. CONS-TOMA-FR-3K
+Denominación de venta: Tomate frito con aceite de oliva. Descripción comercial: Tomate frito hostelería.
+Formato: Lata 3 kg. Unidades por caja: 4. Cajas por palé: 48 (6 capas). Código EAN-13 unidad de consumo: 8437002101961. Código de caja: 1843700210190.
+Ingredientes: Tomate (85 %), aceite de oliva virgen extra (4 %), cebolla, azúcar, sal, almidón modificado de maíz y acidulante: ácido cítrico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Tomate de industria de cultivo nacional (Vega Baja y Región de Murcia), procesado en campaña (julio-septiembre).
+Tratamiento y proceso: Triturado en caliente, concentración parcial en su caso, envasado en caliente y pasteurización en túnel; pH inferior a 4,3.
+Vida Útil total: 24 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: Grados Brix mínimos según ficha (triturado 5,5; frito 9,0); consistencia Bostwick; ausencia de piel y semillas en frito.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: hojalata electrolítica con barniz interior apto para contacto alimentario, abre-fácil. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.30. CONS-HABI-BA-T370
+Denominación de venta: Habitas baby en aceite de oliva. Descripción comercial: Habitas baby en aceite de oliva.
+Formato: Tarro cristal 370 ml (350 g / 200 g esc.); contenido declarado: 350 g / 200 g esc. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002102036. Código de caja: 1843700210206.
+Ingredientes: Habas baby (Vicia faba), aceite de oliva, sal.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Hortalizas de cultivo nacional, procesadas en fresco o congeladas según campaña.
+Tratamiento y proceso: Esterilización en autoclave; en el pisto, cocinado previo en marmita y envasado en caliente.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; textura y color según muestra patrón aprobada.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.31. CONS-JUDI-VE-T720
+Denominación de venta: Judías verdes planas. Descripción comercial: Judías verdes planas.
+Formato: Tarro cristal 720 ml (660 g / 350 g esc.); contenido declarado: 660 g / 350 g esc. Unidades por caja: 6. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002102104. Código de caja: 1843700210213.
+Ingredientes: Judías verdes planas (Phaseolus vulgaris), agua y sal.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Hortalizas de cultivo nacional, procesadas en fresco o congeladas según campaña.
+Tratamiento y proceso: Esterilización en autoclave; en el pisto, cocinado previo en marmita y envasado en caliente.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; textura y color según muestra patrón aprobada.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.32. CONS-GARB-CO-T720 (MDD)
+Denominación de venta: Garbanzos cocidos. Descripción comercial: Garbanzos cocidos.
+Formato: Tarro cristal 720 ml (660 g / 400 g esc.); contenido declarado: 660 g / 400 g esc. Unidades por caja: 6. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002102173. Código de caja: 1843700210213.
+Ingredientes: Garbanzos, agua, sal y antioxidante: E-385.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Legumbre seca de origen nacional o comunitario, hidratada y cocida en planta.
+Tratamiento y proceso: Remojo, cocción en el propio envase y esterilización en autoclave.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; grano entero superior al 95 %; ausencia de piel desprendida en exceso.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Serrano Selección (Marca del Distribuidor), conforme a la Cláusula 15. Diseño de etiqueta aprobado el 12/01/2026 (versión 2).
+
+I.33. CONS-LENT-CO-T720
+Denominación de venta: Lentejas cocidas. Descripción comercial: Lentejas cocidas.
+Formato: Tarro cristal 720 ml (660 g / 400 g esc.); contenido declarado: 660 g / 400 g esc. Unidades por caja: 6. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002102241. Código de caja: 1843700210220.
+Ingredientes: Lentejas, agua, sal y antioxidante: E-385.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Legumbre seca de origen nacional o comunitario, hidratada y cocida en planta.
+Tratamiento y proceso: Remojo, cocción en el propio envase y esterilización en autoclave.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; grano entero superior al 95 %; ausencia de piel desprendida en exceso.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.34. CONS-ALUB-CO-T720
+Denominación de venta: Alubias blancas cocidas. Descripción comercial: Alubias blancas cocidas.
+Formato: Tarro cristal 720 ml (660 g / 400 g esc.); contenido declarado: 660 g / 400 g esc. Unidades por caja: 6. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002102319. Código de caja: 1843700210237.
+Ingredientes: Alubias, agua, sal y antioxidante: E-385.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Legumbre seca de origen nacional o comunitario, hidratada y cocida en planta.
+Tratamiento y proceso: Remojo, cocción en el propio envase y esterilización en autoclave.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; grano entero superior al 95 %; ausencia de piel desprendida en exceso.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.35. CONS-PIST-VE-T370
+Denominación de venta: Pisto de verduras. Descripción comercial: Pisto de verduras.
+Formato: Tarro cristal 370 ml (350 g); contenido declarado: 350 g. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002102388. Código de caja: 1843700210237.
+Ingredientes: Tomate, calabacín, cebolla, pimiento, berenjena, aceite de oliva, sal y azúcar.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Hortalizas de cultivo nacional, procesadas en fresco o congeladas según campaña.
+Tratamiento y proceso: Esterilización en autoclave; en el pisto, cocinado previo en marmita y envasado en caliente.
+Vida Útil total: 36 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4.
+Parámetros de control: Peso escurrido con tolerancia de -2 %; textura y color según muestra patrón aprobada.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.36. CONS-ACEI-VE-T370
+Denominación de venta: Aceitunas verdes manzanilla con hueso. Descripción comercial: Aceitunas verdes manzanilla con hueso.
+Formato: Tarro cristal 370 ml (350 g / 200 g esc.); contenido declarado: 350 g / 200 g esc. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002102456. Código de caja: 1843700210244.
+Ingredientes: Aceitunas verdes manzanilla con hueso, agua, sal, acidulante: ácido láctico, antioxidante: ácido ascórbico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Aceituna de mesa de cultivo nacional; alcaparra del sureste peninsular y Baleares.
+Tratamiento y proceso: Fermentación o desamargado según variedad; envasado con salmuera y pasteurización.
+Vida Útil total: 24 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: pH inferior a 4,3; cloruro sódico 4-6 %; calibre según ficha.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.37. CONS-ACEI-NE-T370
+Denominación de venta: Aceitunas negras aragón. Descripción comercial: Aceitunas negras aragón.
+Formato: Tarro cristal 370 ml (350 g / 200 g esc.); contenido declarado: 350 g / 200 g esc. Unidades por caja: 12. Cajas por palé: 84 (7 capas). Código EAN-13 unidad de consumo: 8437002102524. Código de caja: 1843700210251.
+Ingredientes: Aceitunas negras aragón, agua, sal, acidulante: ácido láctico, antioxidante: ácido ascórbico.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Aceituna de mesa de cultivo nacional; alcaparra del sureste peninsular y Baleares.
+Tratamiento y proceso: Fermentación o desamargado según variedad; envasado con salmuera y pasteurización.
+Vida Útil total: 24 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: pH inferior a 4,3; cloruro sódico 4-6 %; calibre según ficha.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.38. CONS-ALCP-EN-T200
+Denominación de venta: Alcaparras en vinagre. Descripción comercial: Alcaparras en vinagre.
+Formato: Tarro cristal 200 ml (180 g / 100 g esc.); contenido declarado: 180 g / 100 g esc. Unidades por caja: 12. Cajas por palé: 96 (8 capas). Código EAN-13 unidad de consumo: 8437002102593. Código de caja: 1843700210251.
+Ingredientes: Alcaparras (Capparis spinosa), agua, vinagre de vino, sal.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Aceituna de mesa de cultivo nacional; alcaparra del sureste peninsular y Baleares.
+Tratamiento y proceso: Fermentación o desamargado según variedad; envasado con salmuera y pasteurización.
+Vida Útil total: 24 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: pH inferior a 4,3; cloruro sódico 4-6 %; calibre según ficha.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: tarro de vidrio con tapa twist-off de 63 u 82 mm y botón de seguridad. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.39. CONS-NORA-SE-B100
+Denominación de venta: Ñoras secas. Descripción comercial: Ñoras secas de la Vega Baja.
+Formato: Bolsa 100 g. Unidades por caja: 20. Cajas por palé: 40 (5 capas). Código EAN-13 unidad de consumo: 8437002102661. Código de caja: 1843700210268.
+Ingredientes: Ñoras (Capsicum annuum var. bola) secadas al sol.
+Alérgenos: No contiene alérgenos de declaración obligatoria.
+Origen y materia prima: Cultivo tradicional de Guardamar del Segura y la Vega Baja; secado natural al sol en ristra.
+Tratamiento y proceso: Producto desecado sin tratamiento térmico; humedad inferior al 12 %.
+Vida Útil total: 18 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: Ausencia de mohos visibles; aflatoxinas y ocratoxina A conforme al Reglamento (UE) 2023/915; color rojo oscuro uniforme.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: bolsa de polipropileno termosellada. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+I.40. CONS-DATI-EL-B250
+Denominación de venta: Dátiles deshuesados. Descripción comercial: Dátil de Elche deshuesado.
+Formato: Bandeja 250 g. Unidades por caja: 12. Cajas por palé: 60 (6 capas). Código EAN-13 unidad de consumo: 8437002102739. Código de caja: 1843700210275.
+Ingredientes: Dátiles (Phoenix dactylifera) 100 %.
+Alérgenos: No contiene alérgenos de declaración obligatoria. Puede contener restos de hueso.
+Origen y materia prima: Dátil de las variedades Medjool y Confitera cultivado en Elche (Alicante); cosecha de octubre a diciembre.
+Tratamiento y proceso: Selección, deshuesado, envasado en bandeja termosellada en atmósfera protectora.
+Vida Útil total: 12 meses desde la fecha de fabricación. Vida Útil mínima a la entrega: la mayor de dos tercios de la Vida Útil total y dieciocho meses, conforme a la Cláusula 10.4 (para este Producto, por tener una Vida Útil inferior a veintisiete meses, las Partes acuerdan que la Vida Útil mínima a la entrega será de dos tercios de la total).
+Parámetros de control: Humedad 18-24 %; ausencia de insectos y de huesos (detección por rayos X 100 %); calibre según ficha.
+Conservación: lugar fresco y seco, a temperatura ambiente; una vez abierto, conservar en frigorífico y consumir en 3 días.
+Envase primario: bandeja de PET reciclado con film termosellado. Envase secundario: caja de cartón ondulado canal B, impresa a una tinta, con EAN de caja, lote y fecha de consumo preferente en un lateral.
+Tolerancia de peso: conforme al Real Decreto 1801/2008 y al Reglamento (UE) n.º 1169/2011; peso escurrido con tolerancia máxima de -2 % sobre el declarado en la media del lote.
+Marca: Marjal Blanca (marca propia del Proveedor).
+
+
+ANEXO II. TARIFA Y CONDICIONES ECONÓMICAS
+
+II.1. Tarifa de Precios (vigente desde el 1 de febrero de 2026 hasta el 31 de enero de 2027)
+
+Precios en euros por caja, sin IVA. Columna «DAP»: entrega en Plataforma conforme a la Cláusula 7.1. Columna «EXW»: recogida en fábrica conforme a la Cláusula 7.2 (Precio DAP menos 3,5 % en concepto de transporte). Los Precios de esta Tarifa ya incorporan el descuento comercial del ocho por ciento (8 %) negociado sobre la tarifa general del Proveedor para 2026, y no son acumulables con ningún otro descuento salvo el rappel del apartado II.3 y las aportaciones promocionales del apartado II.4.
+
+Referencia           Descripción                                Uds     DAP       EXW
+CONS-ATUN-OL-120     Atún claro en aceite de oliva               24     24,29     23,44
+CONS-ATUN-OL-P3      Atún claro en aceite de oliva pack 3        16     26,50     25,57
+CONS-ATUN-GI-120     Atún claro en aceite de girasol             24     20,98     20,25
+CONS-ATUN-NA-120     Atún claro al natural                       24     21,64     20,88
+CONS-ATUN-ES-120     Atún claro en escabeche                     24     22,08     21,31
+CONS-ATUN-OL-1K      Atún claro en aceite de oliva hostelería     6     43,61     42,08
+CONS-BONI-OL-120     Bonito del norte en aceite de oliva         24     38,42     37,08
+CONS-BONI-OL-220     Bonito del norte en aceite de oliva         12     34,22     33,02
+CONS-BONI-OL-T400    Bonito del norte en aceite de oliva         12     54,10     52,21
+CONS-MELV-OL-120     Melva canutera en aceite de oliva           24     26,94     26,00
+CONS-CABA-OL-120     Caballa del sur en aceite de oliva          24     19,87     19,17
+CONS-SARD-OL-120     Sardinillas en aceite de oliva              24     27,82     26,85
+CONS-SARD-TO-120     Sardinas en tomate                          24     18,33     17,69
+CONS-ANCH-OL-50      Filetes de anchoa en aceite de oliva        24     48,58     46,88
+CONS-MEJI-ES-120     Mejillones en escabeche 8/12 piezas         24     31,35     30,25
+CONS-BERB-NA-120     Berberechos al natural 40/50 piezas         24     60,72     58,59
+CONS-CALA-TI-120     Calamares en su tinta                       24     26,28     25,36
+CONS-PULP-OL-120     Pulpo en aceite de oliva                    24     56,08     54,12
+CONS-ALCA-CO-T370    Corazones de alcachofa de la Vega Baja      12     24,84     23,97
+CONS-ALCA-CO-T720    Corazones de alcachofa de la Vega Baja       6     21,53     20,78
+CONS-ALCA-CO-3K      Corazones de alcachofa hostelería            4     32,02     30,90
+CONS-ALCA-FO-T370    Fondos de alcachofa                         12     29,26     28,24
+CONS-PIQU-EN-T370    Pimientos del piquillo enteros              12     23,18     22,37
+CONS-PIQU-TI-T370    Pimientos del piquillo en tiras             12     20,98     20,25
+CONS-PIQU-EN-3K      Pimientos del piquillo enteros hostelería    4     30,91     29,83
+CONS-TOMA-TR-T720    Tomate triturado                             6      9,11      8,79
+CONS-TOMA-TR-3K      Tomate triturado hostelería                  4     13,25     12,79
+CONS-TOMA-FR-T370    Tomate frito con aceite de oliva            12     14,90     14,38
+CONS-TOMA-FR-3K      Tomate frito hostelería                      4     16,19     15,62
+CONS-HABI-BA-T370    Habitas baby en aceite de oliva             12     36,43     35,15
+CONS-JUDI-VE-T720    Judías verdes planas                         6     11,59     11,18
+CONS-GARB-CO-T720    Garbanzos cocidos                            6      8,56      8,26
+CONS-LENT-CO-T720    Lentejas cocidas                             6      8,56      8,26
+CONS-ALUB-CO-T720    Alubias blancas cocidas                      6      8,83      8,52
+CONS-PIST-VE-T370    Pisto de verduras                           12     19,32     18,64
+CONS-ACEI-VE-T370    Aceitunas verdes manzanilla con hueso       12     13,80     13,32
+CONS-ACEI-NE-T370    Aceitunas negras aragón                     12     15,46     14,92
+CONS-ALCP-EN-T200    Alcaparras en vinagre                       12     17,66     17,04
+CONS-NORA-SE-B100    Ñoras secas de la Vega Baja                 20     30,36     29,30
+CONS-DATI-EL-B250    Dátil de Elche deshuesado                   12     38,64     37,29
+
+II.2. Precios de referencia de materias primas (Cláusula 6.4)
+
+A los efectos de la revisión extraordinaria de Precios, las Partes fijan los siguientes precios de referencia, correspondientes a la media de los meses de octubre a diciembre de 2025:
+- Lomos de atún claro precocidos congelados (Thunnus albacares), origen Atlántico, entregados en Valencia: 6,90 euros por kilogramo.
+- Aceite de oliva virgen a granel, calidad conservera, entregado en Almoradí: 4,85 euros por kilogramo.
+- Hojalata electrolítica para envase RO-120, litografiada, entregada en Almoradí: 0,1215 euros por cuerpo.
+- Alcachofa Blanca de Tudela calibre industria, entregada en Almoradí: 1,15 euros por kilogramo.
+
+Estructura de costes orientativa por familia (porcentaje del coste del Producto que representa la materia prima principal): atún en aceite de oliva, 48 % atún y 9 % aceite; atún en girasol o al natural, 52 % atún; bonito del norte, 58 % bonito; alcachofa, 41 % alcachofa; tomate, 22 % tomate; envase de hojalata, entre 14 % y 19 % según formato.
+
+II.3. Descuentos por volumen (rappel)
+
+El Comprador tendrá derecho, al cierre de cada Año Contractual, a un rappel calculado sobre la facturación neta anual de Productos (sin IVA, deducidas devoluciones y abonos), conforme a la siguiente escala, aplicable al total de la facturación y no por tramos:
+- Facturación neta anual superior a 250.000 euros: rappel del dos por ciento (2 %).
+- Facturación neta anual superior a 400.000 euros: rappel del tres por ciento (3 %).
+- Facturación neta anual superior a 600.000 euros: rappel del tres coma cinco por ciento (3,5 %).
+
+El rappel se liquidará conforme a la Cláusula 6.6. A título informativo, la facturación neta del Proveedor al Comprador en el ejercicio 2025 ascendió a 312.480,60 euros.
+
+II.4. Aportaciones promocionales
+
+Para cada acción promocional acordada conforme a la Cláusula 6.7, el Proveedor podrá aportar un descuento sobre el Precio de las cajas servidas para la promoción, que se documentará en el acuerdo promocional correspondiente. Como marco orientativo para 2026, las Partes contemplan cuatro (4) acciones de folleto sobre las referencias CONS-ATUN-OL-120, CONS-ATUN-OL-P3 y CONS-ALCA-CO-T370, con un descuento promocional del diez por ciento (10 %) sobre el Precio de Tarifa durante el periodo de la promoción, y una acción de Navidad sobre CONS-BONI-OL-T400 y CONS-DATI-EL-B250 con un descuento del siete por ciento (7 %).
+
+II.5. Otros conceptos
+
+No se aplicará ningún cargo por apertura de referencia, por inclusión en surtido, por espacio en lineal, por servicios logísticos de la Plataforma ni por cualquier otro concepto que no esté expresamente previsto en este Contrato. Los costes de las muestras para pruebas de producto (hasta un máximo de dos cajas por referencia y Año Contractual) serán a cargo del Proveedor.
+
+II.6. Datos de facturación
+
+Facturas a nombre de Supermercados Serrano S.L., NIF B34029173, Avenida de la Libertad 214, 03206 Elche (Alicante). Dirección de recepción de facturas: proveedores.facturas@supermercadosserrano.example. Cuenta de abono del Proveedor: ES21 0081 1234 5600 0123 4567, titular Conservas Marjal Blanca S.L..
+
+
+ANEXO III. NIVEL DE SERVICIO Y CUADRO DE PENALIZACIONES
+
+III.1. Definición y cálculo de los indicadores
+
+Tasa de Servicio (TS): cociente, expresado en porcentaje, entre las cajas entregadas en la fecha confirmada (o dentro del Día Laborable siguiente) y las cajas confirmadas en el mes, calculado por referencia y en su conjunto. Las cajas de Pedidos que excedan en más del 30 % la Previsión mensual no computan en el denominador. Objetivo mínimo mensual global: 97 %. Objetivo mínimo por referencia: 90 %.
+
+Índice de Puntualidad (IP): porcentaje de entregas cuyo transportista se presenta en la Plataforma dentro de la franja de Cita Previa, sobre el total de entregas del mes. Objetivo mínimo: 95 %. Se excluyen las entregas cuya Cita Previa haya sido modificada por la Plataforma con menos de 24 horas de antelación.
+
+Índice de Conformidad en recepción (IC): porcentaje de palés recibidos sin Acta de No Conformidad sobre el total de palés recibidos en el mes. Objetivo mínimo: 98 %.
+
+Plazo de Respuesta a reclamaciones (PR): porcentaje de reclamaciones respondidas dentro de los tres Días Laborables previstos en la Cláusula 11.5. Objetivo mínimo: 100 %.
+
+Fiabilidad documental (FD): porcentaje de entregas con Albarán completo y correcto (número de Pedido, referencias, cantidades, lotes, fechas, SSCC) y factura conforme a la Cláusula 9.1. Objetivo mínimo: 98 %.
+
+III.2. Cuadro de Penalizaciones
+
+Concepto                                                      Penalización                                              Base o límite
+Retraso en la entrega (Cláusula 13.2)                         1 % por Día Laborable de retraso                          Máximo 10 % del valor de lo entregado con retraso
+Falta de servicio mensual global inferior al 97 % (13.3)     2 % de las cajas confirmadas y no entregadas              Valor a Precio de Tarifa
+Falta de servicio por referencia inferior al 90 % dos meses   4 % de las cajas confirmadas y no entregadas              Valor a Precio de Tarifa
+Rotura en promoción confirmada (13.4)                         500 € por referencia y promoción                          Más la Penalización por falta de servicio
+Entrega sin Cita Previa o fuera de franja (13.5)              60 € por entrega                                          —
+Palé no conforme (altura, retractilado, mezcla, EPAL) (13.5)  30 € por palé                                             —
+Etiqueta SSCC ausente o ilegible (13.5)                       30 € por palé                                             —
+Albarán incompleto o incorrecto (13.5)                        50 € por entrega                                          —
+Factura sin número de Pedido o con datos erróneos (13.5)      50 € por factura                                          —
+Acta de No Conformidad confirmada por Incidencia de Calidad   150 € por Acta                                            Más reposición o abono
+Entrega con Vida Útil inferior a la mínima (10.4)             150 € por referencia y entrega                            Más rechazo o descuento acordado
+Falta de respuesta a reclamación en plazo (11.5)              40 € por Día Laborable de retraso                         Máximo 400 € por reclamación
+Retraso en entrega de Documentación de Calidad (4.7)          25 € por Día Laborable de retraso                         Máximo 250 € por requerimiento
+
+III.3. Límite conjunto y procedimiento
+
+El conjunto de las Penalizaciones queda sujeto al límite del 10 % de la facturación neta anual previsto en la Cláusula 13.7 y se liquida conforme al procedimiento de la Cláusula 13.8. Las Penalizaciones de importe fijo por incidencia solo se aplicarán a partir de la tercera incidencia del mismo tipo en un mismo mes natural, con el fin de excluir los errores aislados.
+
+III.4. Penalizaciones a cargo del Comprador
+
+Espera del transportista en la Plataforma superior a dos horas imputable al Comprador: 45 € por hora o fracción a partir de la tercera hora (Cláusula 7.8). Anulación de Pedido fuera de plazo con Pedido ya preparado: hasta el 3 % del importe del Pedido (Cláusula 5.6). Retraso en el pago: intereses de demora e indemnización por costes de cobro conforme a la Cláusula 9.5.
+
+III.5. Cuadro de mando
+
+El Comprador facilitará mensualmente el cuadro de mando con los cinco indicadores, con detalle por Pedido y por referencia, dentro de los diez Días Laborables siguientes al cierre del mes. Los indicadores se revisarán en las reuniones trimestrales de seguimiento previstas en la Cláusula 14.4, junto con el histórico de los doce meses anteriores.
+
+
+ANEXO IV. REQUISITOS LOGÍSTICOS Y DE ENTREGA
+
+IV.1. Plataforma y horarios
+
+Punto de entrega: Plataforma logística Serrano, Pol. Ind. Carrús, c/ Alfarería 3, 03206 Elche. Calendario de Entregas: de lunes a viernes, de 6:00 a 14:00 horas, excepto festivos. Las entregas de Productos del Proveedor tienen asignados preferentemente los martes y jueves. Los muelles 4 a 7 están reservados a proveedores de alimentación seca; el Proveedor no utilizará los muelles de temperatura controlada salvo para la referencia CONS-ANCH-OL-50 (semiconserva, refrigerada), que se entregará por el muelle 9 y se transportará entre 5 y 12 °C con registro de temperatura.
+
+IV.2. Cita Previa
+
+La Cita Previa se solicitará a través del portal de proveedores (proveedores.supermercadosserrano.example) con una antelación mínima de veinticuatro (24) horas y máxima de cinco (5) Días Laborables respecto de la fecha de entrega, indicando el número de Pedido, el número de palés, la matrícula del vehículo cuando se conozca y el nombre del transportista. La Plataforma confirmará la franja horaria (de una hora) en el propio portal. Cada Cita Previa admite un máximo de veintiséis (26) palés. Las modificaciones de Cita Previa con menos de doce (12) horas de antelación deberán solicitarse por teléfono al responsable de recepción indicado en el Anexo VIII.
+
+IV.3. Paletización
+
+Palé europeo EPAL de 800 x 1.200 mm, en buen estado, en régimen de intercambio uno a uno en el momento de la descarga; los palés no intercambiados se anotarán en el Albarán y se liquidarán trimestralmente. Altura máxima de 1,80 metros incluido el palé. Cajas en mosaico según el esquema de paletización de cada Producto (Anexo I), sin voladizos y con las esquinas alineadas. Retractilado con film estirable de al menos cinco vueltas, con la etiqueta SSCC visible en dos caras adyacentes. Un solo Producto y un solo lote por palé, salvo en palés de picking, que llevarán una etiqueta «PICKING» de al menos 10 x 15 cm y una relación de contenido.
+
+IV.4. Identificación y codificación
+
+Cada caja llevará impresos o etiquetados, en un lateral, el código EAN-13 de la caja, la referencia, la descripción, el número de unidades, el lote y la fecha de consumo preferente. Cada palé llevará una etiqueta logística GS1-128 con el SSCC, el GTIN de la caja, la cantidad de cajas, el lote y la fecha de consumo preferente. El Proveedor comunicará al Comprador con al menos diez (10) Días Laborables de antelación cualquier cambio en los códigos EAN o GTIN.
+
+IV.5. Albarán
+
+El Albarán se entregará por duplicado en papel al personal de recepción, y adicionalmente en formato electrónico (mensaje DESADV de EDI o PDF por correo electrónico a recepcion@supermercadosserrano.example) antes de la llegada del vehículo. Contendrá: número de Albarán y fecha; número de Pedido del Comprador; datos del Proveedor y del Comprador; punto de entrega; número de Cita Previa; para cada referencia, la descripción, el código EAN, las cajas, las unidades, el lote y la fecha de consumo preferente; número total de palés con sus SSCC; y nombre y matrícula del transportista. Los Albaranes que no contengan estos datos podrán dar lugar a la Penalización documental del Anexo III.
+
+IV.6. Intercambio electrónico de datos (EDI)
+
+Las Partes implantarán, en el plazo máximo de seis (6) meses desde la Fecha de Efectos, el intercambio de los mensajes ORDERS (Pedido), ORDRSP (Confirmación de Pedido), DESADV (aviso de expedición) e INVOIC (factura) en formato EDIFACT EANCOM D96A a través de la red de valor añadido que el Comprador utiliza con sus proveedores. Los costes de la implantación en los sistemas de cada Parte serán a su cargo. Hasta la implantación, se utilizará el correo electrónico con los formatos indicados en las Cláusulas 5 y 9.
+
+IV.7. Transporte
+
+El Proveedor utilizará transportistas autorizados, con vehículos limpios, sin olores y sin restos de cargas anteriores, que no transporten simultáneamente productos incompatibles con alimentos. Para la referencia refrigerada se exigirá vehículo con equipo de frío y registro de temperatura, cuya impresión se entregará con el Albarán. El transportista se identificará en la Plataforma y cumplirá las normas de seguridad y circulación interna que se le faciliten.
+
+IV.8. Devoluciones logísticas
+
+Los Productos rechazados en la recepción conforme a la Cláusula 11.4 se retirarán por el Proveedor en el plazo de cinco (5) Días Laborables, previa Cita Previa, con un Albarán de devolución emitido por la Plataforma. Los envases retornables (palés) se gestionarán conforme al apartado IV.3.
+
+
+ANEXO V. REQUISITOS DE CALIDAD, CERTIFICACIONES Y DOCUMENTACIÓN
+
+V.1. Certificaciones y registros
+
+El Proveedor mantendrá en vigor y entregará copia al Comprador, a la firma y en cada renovación: certificado IFS Food (o BRCGS Food o FSSC 22000) de las instalaciones de Almoradí, con el informe de auditoría a disposición del Comprador previa solicitud; inscripción en el RGSEAA con las claves aplicables (12 conservas de pescado, 21 conservas vegetales); autorización sanitaria de funcionamiento de la Generalitat Valenciana; certificado de estar al corriente de las obligaciones tributarias y con la Seguridad Social (renovación semestral); certificado del seguro de responsabilidad civil de producto conforme a la Cláusula 19; y, para los Productos de la pesca, la documentación de trazabilidad y los certificados de captura conforme a la Cláusula 25.4.
+
+V.2. Fichas técnicas
+
+Para cada Producto, el Proveedor entregará una ficha técnica en el formato del Comprador que incluya, como mínimo: denominación legal y comercial, lista de ingredientes con porcentajes de los ingredientes destacados, alérgenos (presencia y trazas), información nutricional por 100 g, características organolépticas, parámetros físico-químicos y microbiológicos con sus límites, tratamiento aplicado, Vida Útil y condiciones de conservación, formato, pesos neto y escurrido, envase primario y secundario, codificación EAN y GTIN, paletización, país de origen de la materia prima principal y datos del fabricante. Las fichas se revisarán al menos una vez por Año Contractual y siempre que cambie la Especificación.
+
+V.3. Plan de control analítico
+
+El Proveedor aplicará un plan de control analítico por lote y por periodo que incluya, según familia: esterilidad comercial (incubación a 37 °C durante 10 días y a 55 °C durante 7 días de una muestra representativa de cada lote esterilizado); cierre de latas (medición de doble cierre al inicio, a mitad y al final de cada lote); vacío y pH de equilibrio en productos acidificados; histamina en productos de la pesca (por lote de materia prima); metales pesados (mercurio, cadmio, plomo) en atún y bonito con periodicidad trimestral; residuos de plaguicidas en vegetales con periodicidad semestral; y micotoxinas en ñoras y dátiles por lote de materia prima. Los resultados se archivarán durante la Vida Útil del Producto más un año, y se entregarán al Comprador en el plazo de la Cláusula 4.7.
+
+V.4. Documentación por lote para Productos MDD
+
+Para cada lote de Producto MDD, el Proveedor entregará, junto con el Albarán o en los tres Días Laborables siguientes, un certificado de conformidad del lote firmado por el responsable de calidad, que indique la fecha de fabricación, el número de lote, el resultado de la esterilidad comercial, los controles de cierre y de peso, y la declaración de conformidad con la Especificación.
+
+V.5. Auditorías
+
+Las auditorías previstas en la Cláusula 10.6 se realizarán conforme al cuestionario de auditoría de proveedores del Comprador, que abarca: instalaciones y mantenimiento; sistema APPCC y prerrequisitos; trazabilidad y gestión de lotes; control de alérgenos; control de cuerpos extraños; limpieza y desinfección; control de plagas; formación del personal; gestión de reclamaciones y Retiradas; defensa alimentaria y prevención del fraude. El Proveedor presentará un plan de acciones correctivas en el plazo de quince (15) Días Laborables desde la recepción del informe de auditoría.
+
+V.6. Gestión de cambios
+
+Cualquier cambio de proveedor de materia prima principal, de material de envase primario, de proceso de esterilización o de instalación de fabricación se comunicará al Comprador conforme a la Cláusula 4.2, acompañado de la evaluación de riesgos correspondiente y, cuando proceda, de un estudio de Vida Útil actualizado.
+
+V.7. Formación e higiene
+
+El personal del Proveedor que manipule los Productos recibirá formación en higiene alimentaria y en el sistema APPCC al menos una vez al año, con registro de asistencia. El Proveedor dispondrá de un programa de vigilancia de la salud conforme a la normativa de prevención de riesgos laborales y de un procedimiento de exclusión de manipuladores con enfermedades transmisibles por alimentos.
+
+
+ANEXO VI. PROTOCOLO DE RECLAMACIONES Y DE RETIRADA DE PRODUCTO
+
+VI.1. Reclamaciones en recepción
+
+Paso 1. El personal de recepción de la Plataforma anota la discrepancia en el Albarán y, si afecta a la cantidad, a la calidad aparente o a la Vida Útil, cumplimenta un Acta de No Conformidad conforme al modelo del Anexo VII, con fotografías. Paso 2. La Plataforma remite el Acta al Proveedor dentro de las 48 horas siguientes a la recepción (Cláusula 11.2) a la dirección calidad@marjalblanca.example, con copia a pedidos@marjalblanca.example. Paso 3. El Proveedor acusa recibo el mismo Día Laborable y responde en el plazo de tres Días Laborables (Cláusula 11.5) indicando si acepta la reclamación, la causa identificada, la acción correctiva y la solución propuesta (reposición, abono o recogida). Paso 4. Si el Comprador acepta la solución, el Proveedor la ejecuta en el plazo de cinco Días Laborables y emite el abono, cuando proceda, en la siguiente factura. Paso 5. La reclamación se cierra con la confirmación escrita del Comprador y se registra en el cuadro de mando.
+
+VI.2. Reclamaciones de establecimientos y consumidores
+
+Las reclamaciones recibidas en los establecimientos del Comprador o a través de su servicio de atención al cliente que afecten a un Producto se comunicarán al Proveedor en el plazo de dos Días Laborables, con los datos del Producto (referencia, lote, fecha de consumo preferente), la descripción de la incidencia y, siempre que sea posible, la muestra física o fotografías. El Proveedor investigará la causa y responderá en el plazo de cinco Días Laborables con el informe de investigación. Cuando la reclamación afecte a la seguridad del Producto (cuerpos extraños duros o cortantes, envases hinchados o con fugas, olores anómalos, presencia de alérgenos no declarados, reacciones adversas de consumidores), se aplicará el procedimiento de la sección VI.3 desde la primera comunicación.
+
+VI.3. Retirada de producto
+
+Fase 1. Alerta (0-4 horas). La Parte que tenga conocimiento de la Incidencia de Calidad llama al contacto de emergencia de la otra (Anexo VIII) y envía un correo electrónico con el asunto «ALERTA CALIDAD – [referencia] – [lote]». El Proveedor bloquea en su almacén todas las existencias del lote afectado y de los lotes contiguos fabricados con la misma materia prima, y el Comprador bloquea cautelarmente el lote en la Plataforma y en los establecimientos mediante su sistema de bloqueo de referencias. Fase 2. Evaluación (4-24 horas). El Proveedor realiza la evaluación de riesgos, recopila la trazabilidad completa del lote (materias primas, proceso, controles, clientes destinatarios y cantidades) y la remite al Comprador. Las Partes celebran una conferencia telefónica de crisis con sus responsables de calidad, logística y comunicación, y acuerdan la clasificación de la incidencia: (a) sin riesgo, se levanta el bloqueo; (b) Retirada del canal (Plataforma y establecimientos), sin comunicación a consumidores; (c) Retirada del mercado con comunicación a consumidores y a las autoridades. Fase 3. Ejecución (24-72 horas). En los supuestos (b) y (c), el Proveedor emite la orden de Retirada con las instrucciones de recogida, el Comprador retira el Producto de la venta y lo consolida en la Plataforma, y el Proveedor lo recoge en el plazo máximo de cinco Días Laborables. En el supuesto (c), el Proveedor realiza las comunicaciones a las autoridades sanitarias (a través del SCIRI o del sistema que corresponda) y redacta la nota informativa a los consumidores, que el Comprador revisa antes de su publicación y difunde en sus establecimientos y canales. Fase 4. Cierre (hasta 30 días). El Proveedor emite el informe final con la causa raíz, las acciones correctivas y preventivas, las cantidades retiradas y destruidas (con certificado de destrucción) y la liquidación de costes conforme a la Cláusula 12.3. Las Partes revisan el desarrollo de la Retirada en la siguiente reunión de seguimiento.
+
+VI.4. Contactos de crisis
+
+Los contactos de emergencia, disponibles las 24 horas, son los indicados en el Anexo VIII. Cada Parte comunicará a la otra cualquier cambio en dichos contactos en el plazo de dos Días Laborables.
+
+VI.5. Laboratorios de referencia para análisis contradictorio (Cláusula 11.6)
+
+Laboratorio Analítico del Segura S.L. (Elche), acreditación ENAC n.º 1187/LE2280; Laboratori Agroalimentari de la Generalitat Valenciana (Burjassot); Instituto Tecnológico Agroalimentario AINIA (Paterna). Las Partes podrán acordar cualquier otro laboratorio acreditado conforme a la norma UNE-EN ISO/IEC 17025 para el ensayo de que se trate.
+
+VI.6. Simulacro anual
+
+El ejercicio de simulación previsto en la Cláusula 12.4 se realizará en el primer trimestre de cada Año Contractual sobre un lote elegido por el Comprador con un preaviso de una hora. El Proveedor deberá facilitar la trazabilidad completa (hacia atrás, hasta las materias primas, y hacia delante, hasta los clientes) en el plazo máximo de cuatro horas, y el resultado del ejercicio se documentará en un informe conjunto.
+
+
+ANEXO VII. MODELOS DE ACTA DE RECEPCIÓN Y DE NO CONFORMIDAD
+
+VII.1. Acta de Recepción
+
+ACTA DE RECEPCIÓN N.º ______ / 20__
+Plataforma: Plataforma logística Serrano, Pol. Ind. Carrús, c/ Alfarería 3, 03206 Elche
+Proveedor: Conservas Marjal Blanca S.L. · NIF B38122941
+Número de Pedido del Comprador: ____________    Número de Albarán del Proveedor: ____________
+Número de Cita Previa: ____________    Franja horaria asignada: ____:____ a ____:____
+Fecha y hora de llegada del vehículo: ____/____/______ ____:____    Matrícula: ____________    Transportista: ____________
+Fecha y hora de inicio de descarga: ____:____    Fecha y hora de fin de descarga: ____:____    Muelle: ____
+Número de palés declarados: ____    Número de palés recibidos: ____    Palés EPAL intercambiados: ____
+Temperatura del vehículo (solo referencias refrigeradas): ____ °C
+Relación de referencias recibidas:
+  Referencia | Descripción | Lote | Consumo preferente | Cajas declaradas | Cajas recibidas | Observaciones
+  ______________________________________________________________________________________________________
+  ______________________________________________________________________________________________________
+Estado del embalaje y de la paletización: [ ] Conforme  [ ] No conforme (ver Acta de No Conformidad n.º ______)
+Documentación recibida: [ ] Albarán por duplicado  [ ] Registro de temperatura  [ ] Certificado de lote (MDD)
+Observaciones: ______________________________________________________________________________________
+Firmado por la Plataforma: ____________________    Firmado por el transportista: ____________________
+La firma de esta Acta acredita la entrega de los bultos indicados en la fecha y hora señaladas y no supone la aceptación de la conformidad de los Productos (Cláusula 8.3).
+
+VII.2. Acta de No Conformidad
+
+ACTA DE NO CONFORMIDAD N.º ______ / 20__
+Fecha: ____/____/______    Hora: ____:____    Plataforma: Plataforma logística Serrano, Pol. Ind. Carrús, c/ Alfarería 3, 03206 Elche
+Proveedor: Conservas Marjal Blanca S.L.    Número de Pedido: ____________    Número de Albarán: ____________    Acta de Recepción n.º: ______
+Tipo de no conformidad (marcar): [ ] Cantidad (faltas o sobras)  [ ] Referencia errónea  [ ] Rotura o daño en el transporte  [ ] Paletización o retractilado  [ ] Etiquetado de caja o SSCC  [ ] Vida Útil inferior a la mínima  [ ] Temperatura  [ ] Documentación  [ ] Calidad del Producto (descríbase)  [ ] Otros
+Referencias afectadas:
+  Referencia | Lote | Consumo preferente | Cajas afectadas | Unidades afectadas | Descripción de la no conformidad
+  ______________________________________________________________________________________________________
+  ______________________________________________________________________________________________________
+Decisión de la Plataforma: [ ] Aceptación con reserva  [ ] Rechazo parcial (palés/bultos n.º ______)  [ ] Rechazo total
+Fotografías adjuntas: [ ] Sí (n.º ____)  [ ] No
+Solución solicitada al Proveedor: [ ] Reposición  [ ] Abono  [ ] Recogida del Producto rechazado  [ ] Otra: ____________
+Firmado por la Plataforma (nombre y cargo): ____________________
+Respuesta del Proveedor (a cumplimentar en el plazo de tres Días Laborables):
+  Fecha de respuesta: ____/____/______    Acepta la reclamación: [ ] Sí  [ ] No  [ ] Parcialmente
+  Causa identificada: ______________________________________________________________________________
+  Acción correctiva: _______________________________________________________________________________
+  Solución ofrecida y plazo: ________________________________________________________________________
+  Firmado por el Proveedor (nombre y cargo): ____________________
+Cierre (a cumplimentar por el Comprador): Fecha: ____/____/______    Conforme: [ ] Sí  [ ] No    Observaciones: ____________
+
+
+ANEXO VIII. DATOS DE CONTACTO Y DIRECCIONES DE NOTIFICACIÓN
+
+VIII.1. Proveedor: Conservas Marjal Blanca S.L.
+Domicilio a efectos de notificaciones: Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante).
+Correo electrónico para notificaciones formales (Cláusula 26.3): direccion@marjalblanca.example.
+Dirección general: D. Fermín Leal Payá, direccion@marjalblanca.example, 965 70 12 48.
+Administración y facturación: D.ª Marisa Pérez Galiana, administracion@marjalblanca.example, 965 70 12 48 (ext. 2).
+Pedidos y logística: pedidos@marjalblanca.example, 965 70 12 48 (ext. 1).
+Calidad: D. Andreu Ballester Coll, calidad@marjalblanca.example, 965 70 12 48 (ext. 4).
+Contacto de emergencia 24 horas (Cláusula 12.1 y Anexo VI): D. Andreu Ballester Coll, teléfono móvil 620 118 402; suplente D. Fermín Leal Payá, teléfono móvil 610 224 911.
+Cuenta bancaria para el pago de facturas (Cláusula 9.2): ES21 0081 1234 5600 0123 4567, titular Conservas Marjal Blanca S.L..
+Delegado de protección de datos / ejercicio de derechos: rgpd@marjalblanca.example.
+
+VIII.2. Comprador: Supermercados Serrano S.L.
+Domicilio a efectos de notificaciones: Avenida de la Libertad 214, 03206 Elche (Alicante).
+Correo electrónico para notificaciones formales (Cláusula 26.3): juridico@supermercadosserrano.example.
+Dirección de compras: D. Joaquín Serrano Antón, director de compras, compras.direccion@supermercadosserrano.example, 966 61 40 22 (ext. 201).
+Compras (gestión de Pedidos y Previsiones): D.ª Amparo Sellés Ripoll, compras@supermercadosserrano.example, 966 61 40 22 (ext. 214).
+Plataforma logística (recepción y Citas Previas): D. Pedro Antón Maciá, responsable de recepción, recepcion@supermercadosserrano.example, 966 61 40 30.
+Calidad y seguridad alimentaria: D.ª Laura Candela Brotons, calidad@supermercadosserrano.example, 966 61 40 22 (ext. 230).
+Contacto de emergencia 24 horas: D.ª Laura Candela Brotons, teléfono móvil 660 771 208; suplente D. Pedro Antón Maciá, teléfono móvil 660 771 215.
+Recepción de facturas (Cláusula 9.1): proveedores.facturas@supermercadosserrano.example.
+Portal de proveedores: proveedores.supermercadosserrano.example (alta de usuarios a través de Compras).
+Delegado de protección de datos / ejercicio de derechos: dpd@supermercadosserrano.example.
+
+VIII.3. Calendario de festivos a efectos del cómputo de Días Laborables (Cláusula 1.1)
+
+Se consideran inhábiles, además de los festivos nacionales y autonómicos de la Comunitat Valenciana, los festivos locales comunes a Elche y Almoradí que las Partes se comunicarán antes del 31 de enero de cada año. Para el año 2026, las Partes acuerdan considerar inhábiles a los efectos del Contrato los días 19 de marzo, 6 de abril, 24 de junio, 14 de agosto y 9 de octubre, además de los festivos nacionales.
+
+VIII.4. Relación de adendas
+
+Adenda n.º 1, de 26 de enero de 2026: ninguna (documento inicial). Las adendas posteriores se relacionarán en este apartado con su número, fecha, objeto y Anexos afectados.
+
+— FIN DEL CONTRATO Y DE SUS ANEXOS —

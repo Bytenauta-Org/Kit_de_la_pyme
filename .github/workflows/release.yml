@@ -1,0 +1,116 @@
+# Publicación de versiones del kit de datos.
+#
+# Los datos del kit no cambian sin subir versión (semver) y anotarlo en CHANGELOG.md. Este
+# flujo cierra el círculo: cuando llega a main un CHANGELOG cuya primera sección es una
+# versión «## [X.Y.Z] - AAAA-MM-DD» que todavía no tiene etiqueta, comprueba los checksums,
+# empaqueta datos/ y tareas/ en un zip con su sha256, crea la etiqueta vX.Y.Z y publica la
+# release con las notas de esa sección. Si la etiqueta ya existe no hace nada.
+#
+# También se puede lanzar a mano (workflow_dispatch) desde la pestaña Actions.
+
+name: Release del kit de datos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - CHANGELOG.md
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+env:
+  PYTHONUTF8: "1"
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  etiquetar:
+    name: Etiquetar y publicar la versión del CHANGELOG
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar el repositorio con sus etiquetas
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Preparar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Leer la versión vigente del CHANGELOG
+        id: version
+        run: python tools/version_changelog.py --github-output --notas "$RUNNER_TEMP/notas.md" | tee -a "$GITHUB_OUTPUT"
+
+      - name: ¿Existe ya la etiqueta?
+        id: etiqueta
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error::La versión «$VERSION» del CHANGELOG no es X.Y.Z; las prerreleases no se etiquetan solas."
+            exit 1
+          fi
+          if git rev-parse -q --verify "refs/tags/v$VERSION" > /dev/null; then
+            echo "existe=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::La etiqueta v$VERSION ya existe; no se publica nada."
+          else
+            echo "existe=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: CITATION.cff lleva la misma versión (aviso, no bloquea)
+        if: steps.etiqueta.outputs.existe == 'false'
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          if [ -f CITATION.cff ] && ! grep -Eq "^version: *[\"']?v?${VERSION//./\\.}[\"']?\s*$" CITATION.cff; then
+            echo "::warning::CITATION.cff no dice «version: $VERSION»; conviene actualizarlo en la misma PR que el CHANGELOG."
+          fi
+
+      - name: Verificar los datos antes de etiquetar
+        if: steps.etiqueta.outputs.existe == 'false'
+        run: |
+          python -m pip install --quiet --upgrade pip
+          python -m pip install --quiet -e .
+          python -m kit_pyme verificar
+          (cd datos && sha256sum --check --strict --quiet CHECKSUMS.sha256)
+
+      - name: Empaquetar los datos
+        if: steps.etiqueta.outputs.existe == 'false'
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          nombre="kit-de-la-pyme-datos-v$VERSION"
+          zip -r -X -q "$nombre.zip" datos tareas LICENSE README.md CHANGELOG.md CITATION.cff \
+            -x '*/__pycache__/*' -x '*.pyc'
+          sha256sum "$nombre.zip" > "$nombre.zip.sha256"
+          unzip -l "$nombre.zip" | tail -n 1
+          cat "$nombre.zip.sha256"
+
+      - name: Crear la etiqueta y la release
+        if: steps.etiqueta.outputs.existe == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+          FECHA: ${{ steps.version.outputs.fecha }}
+        run: |
+          nombre="kit-de-la-pyme-datos-v$VERSION"
+          titulo="Kit de la pyme v$VERSION"
+          if [ -n "$FECHA" ]; then titulo="$titulo ($FECHA)"; fi
+          gh release create "v$VERSION" \
+            --target "$GITHUB_SHA" \
+            --title "$titulo" \
+            --notes-file "$RUNNER_TEMP/notas.md" \
+            "$nombre.zip" "$nombre.zip.sha256"
+          echo "::notice::Publicada la release v$VERSION."

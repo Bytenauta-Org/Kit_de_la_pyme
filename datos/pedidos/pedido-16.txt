@@ -1,0 +1,21 @@
+De: Sergio Baeza <central@alifresc.example>
+Para: Pedidos Marjal Blanca <pedidos@marjalblanca.example>
+Fecha: martes, 8 sept 2026, 11:27
+Asunto: Pedido Vallonga miércoles 9 (CORREGIDO)
+
+Hola Marisa,
+
+Pedido para la Vallonga:
+
+CONS-ATUN-OL-120   40 cajas
+CONS-ATUN-ES-120   10 cajas
+CONS-MEJI-ES-120   12 cajas
+CONS-CABA-OL-120   16 cajas
+CONS-JUDI-VE-T720  20 cajas
+
+Entrega miércoles 9.
+
+Sergio
+
+-----
+Me corrijo, acabo de ver que de mejillones todavía tenemos 30 cajas del pedido anterior: QUITA la línea de mejillones, el resto igual. Y si puede ser sube las judías a 24 cajas.

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/respuesta-redactar-recordatorio.schema.json",
+  "title": "Respuesta esperada de redactar-recordatorio (un recordatorio)",
+  "$comment": "Copia literal del campo «esquema» de la tarea en src/pruebas/tareas.ts del pipeline del blog (Bytenauta-Org/bytenauta-blog-agentes). El objeto que se usa para validar la respuesta del modelo, y el mismo que lleva tareas/<id>/tarea.json, es este sin las claves $schema, $id, title y $comment.",
+  "type": "object",
+  "required": [
+    "asunto",
+    "cuerpo"
+  ],
+  "properties": {
+    "asunto": {
+      "type": "string"
+    },
+    "cuerpo": {
+      "type": "string",
+      "description": "El correo completo, con saludo y firma"
+    }
+  }
+}

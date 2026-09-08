@@ -1,0 +1,47 @@
+{
+  "_comentario": "Copiado sin cambiar una coma de src/pruebas/tareas.ts del pipeline del blog (bytenauta-blog-agentes). Los marcadores {{ruta}} del prompt se sustituyen por el contenido literal del fichero al componerlo; el sha256 del prompt compuesto y del mensaje de sistema enviado (prompt + línea FORMATO) están en «sha256» y los comprueba «python -m kit_pyme verificar».",
+  "id": "buscar-en-contrato",
+  "nombre": "Responder 15 preguntas sobre un contrato de suministro de 60 páginas",
+  "descripcion": "Un contrato marco de suministro real en tamaño (28.000 palabras, 28 cláusulas y 8 anexos) y las quince preguntas que hace un gerente: plazo de pago, penalizaciones, Incoterm, vida útil, fuerza mayor… Se puntúa el dato y que cite la cláusula.",
+  "origen": {
+    "fichero": "src/pruebas/tareas.ts",
+    "lineas": "238-267",
+    "repo": "bytenauta-blog-agentes"
+  },
+  "prompt": "Eres el asistente de la gerencia de Conservas Marjal Blanca S.L. Tienes delante el contrato marco de suministro firmado con Supermercados Serrano S.L. Te van a hacer preguntas concretas sobre él.\n\nReglas:\n- Responde solo con lo que dice el contrato. Si el contrato no lo dice, responde «el contrato no lo regula».\n- Da el dato concreto (la cifra, el plazo, el porcentaje, el lugar) tal como aparece en el contrato, sin redondear ni interpretar.\n- Indica en «clausula» el número de la cláusula o del apartado del anexo donde está (por ejemplo «9.2» o «Anexo II.3»). Si el dato está en varios sitios, cita el principal.\n- En «cita» copia la frase literal del contrato en la que te basas (máximo 40 palabras).\n\nResponde solo con el JSON del esquema.\n\n=== CONTRATO ===\n{{datos/contrato/contrato.txt}}",
+  "linea_formato": true,
+  "esquema": {
+    "type": "object",
+    "required": [
+      "respuesta",
+      "clausula",
+      "cita"
+    ],
+    "properties": {
+      "respuesta": {
+        "type": "string",
+        "description": "Respuesta breve con el dato concreto"
+      },
+      "clausula": {
+        "type": "string",
+        "description": "Número de cláusula o apartado de anexo, p. ej. «9.2»"
+      },
+      "cita": {
+        "type": "string",
+        "description": "Frase literal del contrato, máximo 40 palabras"
+      }
+    }
+  },
+  "max_tokens": 4000,
+  "verdad": "datos/contrato/contrato-preguntas.json",
+  "lista": "preguntas",
+  "entrada": {
+    "tipo": "campo",
+    "campo": "pregunta",
+    "descripcion": "Solo la pregunta (campo «pregunta» de contrato-preguntas.json); el contrato entero va en el prompt de sistema."
+  },
+  "sha256": {
+    "prompt": "41b2c9fcd389eeb87f332a2cac8c67ebcf25512b389c998c8a778d639d983d93",
+    "system": "8cd3e48027d43d67423002b4a9a1c6119827dee271fa3acf68518ba0aab7b314"
+  }
+}

@@ -1,0 +1,21 @@
+De: Comunicaciones Levante Telecom S.L. <facturas@levantetelecom.example>
+Para: Administración Marjal Blanca <administracion@marjalblanca.example>
+Fecha: 02/09/2026
+Asunto: Factura CLT-260900412
+
+Estimado cliente:
+
+Le remitimos la factura CLT-260900412 de fecha 02/09/2026, emitida a nombre de Conservas Marjal Blanca S.L. (NIF B38122941).
+
+| Concepto | Cantidad | Precio | Importe |
+|---|---|---|---|
+| Fibra empresa 1 Gb + centralita virtual (agosto) | 1 | 129,90 | 129,90 |
+| Líneas móviles (5) tarifa empresa | 5 | 17,00 | 85,00 |
+
+Base imponible: 214,90 €
+IVA 21 %: 45,13 €
+Total: 260,03 €
+
+Recibo domiciliado, cargo el 12/09/2026.
+
+Comunicaciones Levante Telecom S.L. · B37229085 · c/ Mayor 120 · 03202 Elche (Alicante)

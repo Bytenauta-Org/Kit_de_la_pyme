@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/respuesta-buscar-en-contrato.schema.json",
+  "title": "Respuesta esperada de buscar-en-contrato (una pregunta)",
+  "$comment": "Copia literal del campo «esquema» de la tarea en src/pruebas/tareas.ts del pipeline del blog (Bytenauta-Org/bytenauta-blog-agentes). El objeto que se usa para validar la respuesta del modelo, y el mismo que lleva tareas/<id>/tarea.json, es este sin las claves $schema, $id, title y $comment.",
+  "type": "object",
+  "required": [
+    "respuesta",
+    "clausula",
+    "cita"
+  ],
+  "properties": {
+    "respuesta": {
+      "type": "string",
+      "description": "Respuesta breve con el dato concreto"
+    },
+    "clausula": {
+      "type": "string",
+      "description": "Número de cláusula o apartado de anexo, p. ej. «9.2»"
+    },
+    "cita": {
+      "type": "string",
+      "description": "Frase literal del contrato, máximo 40 palabras"
+    }
+  }
+}

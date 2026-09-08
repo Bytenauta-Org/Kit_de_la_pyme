@@ -1,0 +1,24 @@
+FACTURA
+Número: GL-2026-2210
+Fecha de emisión: 8 de septiembre de 2026
+Referencia: Pedido 26/0917 · etiquetas RO-120 y tarro 370
+
+Emisor: Gráficas Lucentum S.L.
+NIF: B35410224
+Domicilio: c/ Artes Gráficas 7, Pol. Ind. Las Atalayas · 03114 Alicante
+Correo: admon@graficaslucentum.example
+
+Destinatario: Conservas Marjal Blanca S.L. · NIF B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+
+Detalle:
+  1. Etiqueta envolvente RO-120 atún oliva, 5 tintas + barniz (uds) — 150000 x 0,0118 = 1770,00 €
+  2. Etiqueta tarro 370 alcachofa corazones (uds) — 60000 x 0,0230 = 1380,00 €
+  3. Fotolitos y ajuste de máquina — 1 x 180,00 = 180,00 €
+
+Base imponible: 3330,00 €
+IVA (21 %): 699,30 €
+TOTAL A PAGAR: 4029,30 €
+
+Condiciones de pago: Giro domiciliado a 60 días f.f.
+Cuenta para transferencias: ES33 0081 5555 6600 1122 9900

@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/contrato-preguntas.schema.json",
+  "title": "Las 15 preguntas sobre el contrato y su respuesta (datos/contrato/contrato-preguntas.json)",
+  "description": "Un elemento por pregunta. Se puntúa que la respuesta contenga el dato (alguna alternativa de cada grupo) y que cite alguna de las cláusulas aceptadas.",
+  "type": "object",
+  "required": [
+    "_comentario",
+    "fichero",
+    "preguntas"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "_comentario": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Criterio de acierto en una frase, para quien abre el fichero sin leer la documentación."
+    },
+    "fichero": {
+      "const": "contrato.txt",
+      "description": "El contrato entero va dentro del prompt de sistema; el mensaje de usuario es solo la pregunta."
+    },
+    "preguntas": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "$ref": "#/$defs/pregunta"
+      },
+      "$comment": "v1.0.0: 15 preguntas. Cambiar el número de casos, o cualquier caso, es cambiar de versión mayor (ver datos/README.md)."
+    }
+  },
+  "$defs": {
+    "pregunta": {
+      "type": "object",
+      "required": [
+        "id",
+        "pregunta",
+        "respuesta",
+        "clausula",
+        "debe_contener_alguno",
+        "clausulas_aceptadas"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^p[0-9]{2}$"
+        },
+        "pregunta": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Lo único que se envía al modelo como mensaje de usuario."
+        },
+        "respuesta": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Respuesta de referencia. No se compara literalmente; aparece en el texto del fallo."
+        },
+        "clausula": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Cláusula principal, para el texto del fallo."
+        },
+        "debe_contener_alguno": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "description": "Grupos de alternativas. La unión de respuesta + clausula + cita del modelo, normalizada (minúsculas, sin acentos, espacios comprimidos), tiene que contener al menos una alternativa de CADA grupo."
+        },
+        "clausulas_aceptadas": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "La cita vale si clausula + respuesta del modelo (normalizados) contiene alguna: las que llevan letras («Anexo II») como subcadena; las numéricas («9.2») como token entero (separadores: todo lo que no sea letra, dígito o punto; se quita un punto final). La «cita» literal no cuenta para esto."
+        }
+      }
+    }
+  }
+}

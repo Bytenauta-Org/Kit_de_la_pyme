@@ -1,0 +1,290 @@
+{
+  "_comentario": "Categoría (una de: reclamacion, consulta, cambio-pedido, pedido, factura-proveedor, aviso-proveedor, administrativo, spam), urgencia (alta = hay que actuar hoy; media = esta semana; baja = cuando se pueda o nada), acción esperada y resumen de una línea.",
+  "categorias": [
+    "reclamacion",
+    "consulta",
+    "cambio-pedido",
+    "pedido",
+    "factura-proveedor",
+    "aviso-proveedor",
+    "administrativo",
+    "spam"
+  ],
+  "urgencias": [
+    "alta",
+    "media",
+    "baja"
+  ],
+  "correos": [
+    {
+      "id": "correo-01",
+      "fichero": "correo-01.txt",
+      "categoria": "reclamacion",
+      "urgencia": "media",
+      "remitente": "Supermercados Serrano S.L.",
+      "accion": "Emitir abono de 11 latas de CONS-BONI-OL-220 y avisar al transportista del retractilado; responder a Amparo hoy.",
+      "resumen": "Serrano reclama 11 latas de bonito abolladas por un palé sin retractilar y pide abono."
+    },
+    {
+      "id": "correo-02",
+      "fichero": "correo-02.txt",
+      "categoria": "consulta",
+      "urgencia": "media",
+      "remitente": "Distribuciones Hermanos Cascales S.L.",
+      "accion": "Confirmar a Paco si el pedido puede estar preparado el miércoles para que lo recoja su camión.",
+      "resumen": "Cascales pregunta si su pedido del jueves puede recogerse el miércoles."
+    },
+    {
+      "id": "correo-03",
+      "fichero": "correo-03.txt",
+      "categoria": "cambio-pedido",
+      "urgencia": "alta",
+      "remitente": "Supermercados Alifresc S.L.",
+      "accion": "Comprobar en almacén si el pedido está paletizado; si no, cambiar 10 cajas de CONS-ATUN-ES-120 por CONS-ATUN-NA-120 y confirmar a Sergio antes de que salga mañana.",
+      "resumen": "Alifresc pide cambiar 10 cajas de escabeche por natural en el pedido que sale mañana."
+    },
+    {
+      "id": "correo-04",
+      "fichero": "correo-04.txt",
+      "categoria": "factura-proveedor",
+      "urgencia": "baja",
+      "remitente": "Envases Metálicos del Vinalopó S.L.",
+      "accion": "Pasar la factura a contabilidad para registro y casar con el albarán 5502; anotar la subida del recargo de energía en octubre.",
+      "resumen": "Factura de hojalata del proveedor de envases, vencimiento a 60 días, con aviso de subida de recargo en octubre."
+    },
+    {
+      "id": "correo-05",
+      "fichero": "correo-05.txt",
+      "categoria": "spam",
+      "urgencia": "baja",
+      "remitente": "premios@empresa-excelente-europa.example",
+      "accion": "Borrar sin responder ni pulsar el enlace; es un «premio» de pago.",
+      "resumen": "Correo de un supuesto premio empresarial que pide 390 € para confirmarlo: spam."
+    },
+    {
+      "id": "correo-06",
+      "fichero": "correo-06.txt",
+      "categoria": "reclamacion",
+      "urgencia": "alta",
+      "remitente": "Cash Vega Baja S.A.",
+      "accion": "Comprobar la carga en almacén, enviar hoy mismo las 12 cajas de CONS-ATUN-OL-120 que faltan con la furgoneta y llamar a Loli para confirmar hora.",
+      "resumen": "Cash Vega Baja recibió 68 cajas de atún en vez de 80 y necesita las 12 que faltan hoy porque mañana empieza una promoción."
+    },
+    {
+      "id": "correo-07",
+      "fichero": "correo-07.txt",
+      "categoria": "consulta",
+      "urgencia": "baja",
+      "remitente": "Restaurante Casa Pepa (Josefa Belmonte Cano)",
+      "accion": "Responder que no hay referencia sin sal (el atún al natural es la de menos sal) y que el bonito en lata grande no está en catálogo; ofrecer CONS-ATUN-OL-1K.",
+      "resumen": "Casa Pepa pregunta por atún bajo en sal y por bonito en formato hostelería."
+    },
+    {
+      "id": "correo-08",
+      "fichero": "correo-08.txt",
+      "categoria": "administrativo",
+      "urgencia": "media",
+      "remitente": "Asesoría Vega Fiscal",
+      "accion": "Enviar facturas de julio-agosto y justificante del IS antes del 25/09, autorizar por escrito la solicitud del certificado AEAT y confirmar que las cuentas anuales están depositadas.",
+      "resumen": "La asesoría pide facturas, un justificante y autorización para un certificado antes del 25 de septiembre."
+    },
+    {
+      "id": "correo-09",
+      "fichero": "correo-09.txt",
+      "categoria": "aviso-proveedor",
+      "urgencia": "media",
+      "remitente": "Almazara Sierra de Mariola S. Coop.",
+      "accion": "Calcular el consumo de aceite hasta el 15 de octubre y confirmar pedido antes del 20/09 para aprovechar el precio de 4,85 €/kg; revisar el coste de las referencias en aceite de oliva.",
+      "resumen": "El proveedor de aceite sube el precio un 11 % desde octubre; pedir antes del 20 mantiene el precio actual."
+    },
+    {
+      "id": "correo-10",
+      "fichero": "correo-10.txt",
+      "categoria": "reclamacion",
+      "urgencia": "alta",
+      "remitente": "Ultramarinos La Font S.L.U.",
+      "accion": "Abrir incidencia de calidad hoy: bloquear el lote L26187 en almacén, pedir a Vicent que retire y guarde los tarros, recogerlos para análisis, revisar a qué otros clientes se sirvió ese lote y valorar retirada.",
+      "resumen": "La Font ha encontrado dos tarros de alcachofa del lote L26187 con la tapa hinchada: posible problema de seguridad alimentaria."
+    },
+    {
+      "id": "correo-11",
+      "fichero": "correo-11.txt",
+      "categoria": "consulta",
+      "urgencia": "media",
+      "remitente": "Mediterranean Pantry Ltd",
+      "accion": "Confirmar a Helen la fecha de disponibilidad (21/09) y el número de palés, y enviar la factura proforma esta semana para el prepago.",
+      "resumen": "El importador británico pregunta si el pedido estará listo el 21 y pide la proforma para pagar."
+    },
+    {
+      "id": "correo-12",
+      "fichero": "correo-12.txt",
+      "categoria": "cambio-pedido",
+      "urgencia": "baja",
+      "remitente": "Distribuciones Bernabéu e Hijos S.L.",
+      "accion": "Cambiar la fecha de entrega del pedido de Bernabéu del 11/09 al 18/09 y confirmarlo.",
+      "resumen": "Bernabéu retrasa una semana la entrega de su pedido, sin más cambios."
+    },
+    {
+      "id": "correo-13",
+      "fichero": "correo-13.txt",
+      "categoria": "factura-proveedor",
+      "urgencia": "baja",
+      "remitente": "Transportes Orihuela Express S.L.",
+      "accion": "Registrar la factura, comprobar el detalle de 37 expediciones y las 2 esperas facturadas contra los albaranes antes de aprobar el pago a 30 días.",
+      "resumen": "Factura mensual del transportista con recargo de combustible y dos esperas facturadas aparte."
+    },
+    {
+      "id": "correo-14",
+      "fichero": "correo-14.txt",
+      "categoria": "spam",
+      "urgencia": "baja",
+      "remitente": "seguridad@sabadell-verificacion.example (suplantación)",
+      "accion": "No pulsar el enlace ni introducir datos; marcar como phishing, borrar y avisar a quien lleve la banca. Si hay dudas, llamar al banco por el teléfono de la tarjeta.",
+      "resumen": "Phishing que imita al banco y pide verificar datos bancarios en un enlace falso."
+    },
+    {
+      "id": "correo-15",
+      "fichero": "correo-15.txt",
+      "categoria": "administrativo",
+      "urgencia": "media",
+      "remitente": "Ayuntamiento de Almoradí",
+      "accion": "Anotar el pago de 1.248,60 € en el calendario antes del 16/11 y valorar domiciliarlo.",
+      "resumen": "El ayuntamiento notifica la tasa de residuos de 2026 (1.248,60 €) con plazo voluntario hasta el 16 de noviembre."
+    },
+    {
+      "id": "correo-16",
+      "fichero": "correo-16.txt",
+      "categoria": "cambio-pedido",
+      "urgencia": "media",
+      "remitente": "Sabores de Levante Online S.L.",
+      "accion": "Actualizar el pedido de campaña (6 cajas de CONS-DATI-EL-B250 pasan al 15/09, 18 quedan al 29/09) y responder a la duda de facturación: una factura por albarán.",
+      "resumen": "Sabores de Levante adelanta 6 cajas de dátil a la primera entrega y pregunta si pueden facturarse las entregas por separado."
+    },
+    {
+      "id": "correo-17",
+      "fichero": "correo-17.txt",
+      "categoria": "pedido",
+      "urgencia": "media",
+      "remitente": "Bar-Cafetería El Racó de Toni (Antoni Buigues Soler)",
+      "accion": "Grabar el pedido (2 CONS-ATUN-OL-120, 1 CONS-SARD-OL-120, 1 CONS-PIQU-EN-T370) con entrega el viernes antes de las 11 y confirmar.",
+      "resumen": "El Racó de Toni pide en valenciano cuatro cajas para el viernes por la mañana."
+    },
+    {
+      "id": "correo-18",
+      "fichero": "correo-18.txt",
+      "categoria": "reclamacion",
+      "urgencia": "media",
+      "remitente": "Distribuciones Hermanos Cascales S.L.",
+      "accion": "Comprobar la factura 26/1132: se aplicó tarifa general en vez de la de Cascales; emitir factura rectificativa por 190,20 € (60 cajas × 3,17 €) antes del 30/09.",
+      "resumen": "Cascales reclama que la factura 26/1132 lleva precio de tarifa general en vez del suyo y pide rectificativa antes del giro."
+    },
+    {
+      "id": "correo-19",
+      "fichero": "correo-19.txt",
+      "categoria": "consulta",
+      "urgencia": "baja",
+      "remitente": "Cooperativa Agrícola San Isidro de Callosa S. Coop. V.",
+      "accion": "Preparar oferta de 40 y 60 cajas de CONS-DATI-EL-B250 para entrega la primera semana de diciembre e indicar fecha límite de reserva.",
+      "resumen": "La cooperativa pide precio para 40-60 cajas de dátil de Elche para las cestas de Navidad."
+    },
+    {
+      "id": "correo-20",
+      "fichero": "correo-20.txt",
+      "categoria": "aviso-proveedor",
+      "urgencia": "alta",
+      "remitente": "Túnidos Congelados Atlántico S.A.",
+      "accion": "Revisar hoy el stock de lomos y el plan de producción de la semana del 14; si no cubre hasta el 24/09, aceptar los 6.000 kg de Vigo con entrega el 16/09.",
+      "resumen": "El contenedor de atún llega 10 días tarde; el proveedor ofrece 6.000 kg alternativos el 16 con sobrecoste."
+    },
+    {
+      "id": "correo-21",
+      "fichero": "correo-21.txt",
+      "categoria": "administrativo",
+      "urgencia": "alta",
+      "remitente": "Conselleria de Sanitat – CSP Orihuela",
+      "accion": "Avisar hoy al responsable de calidad y a gerencia; preparar APPCC, trazabilidad de seis meses, registros de esterilización y plan de limpieza para el martes 15 a las 10:00.",
+      "resumen": "Sanidad anuncia inspección oficial el martes 15 a las 10:00 y pide tener lista la documentación de autocontrol."
+    },
+    {
+      "id": "correo-22",
+      "fichero": "correo-22.txt",
+      "categoria": "spam",
+      "urgencia": "baja",
+      "remitente": "Boletín de ferias",
+      "accion": "Nada; archivar o darse de baja. Si interesa el webinar de etiquetado del 24/09, pasarlo a calidad.",
+      "resumen": "Boletín comercial de ferias y tendencias; sin acción necesaria."
+    },
+    {
+      "id": "correo-23",
+      "fichero": "correo-23.txt",
+      "categoria": "reclamacion",
+      "urgencia": "media",
+      "remitente": "Catering Lucentum Eventos S.L.",
+      "accion": "Pedir disculpas, averiguar por qué salió un día tarde y ofrecer un descuento en el próximo pedido; anotar en la ficha del cliente que avise ante cualquier retraso.",
+      "resumen": "Catering Lucentum se queja de que el pedido llegó un día tarde y pide aviso previo y un gesto en el precio."
+    },
+    {
+      "id": "correo-24",
+      "fichero": "correo-24.txt",
+      "categoria": "consulta",
+      "urgencia": "media",
+      "remitente": "Supermercados Alifresc S.L.",
+      "accion": "Pasar a calidad la petición: 14 fichas técnicas, certificado IFS, declaración de alérgenos/OGM y certificado del seguro de RC, todo en PDF antes del 25/09.",
+      "resumen": "Alifresc pide documentación de calidad de 14 referencias para su auditoría de octubre, antes del 25 de septiembre."
+    },
+    {
+      "id": "correo-25",
+      "fichero": "correo-25.txt",
+      "categoria": "cambio-pedido",
+      "urgencia": "media",
+      "remitente": "Supermercados Serrano S.L.",
+      "accion": "Modificar el pedido PC-26-08811: la línea de CONS-ALCA-CO-T720 pasa de 24 a 14 cajas; confirmar y esperar el PDF corregido.",
+      "resumen": "Serrano reduce de 24 a 14 cajas la línea de alcachofa 720 del pedido del día 15."
+    },
+    {
+      "id": "correo-26",
+      "fichero": "correo-26.txt",
+      "categoria": "factura-proveedor",
+      "urgencia": "baja",
+      "remitente": "Laboratorio Analítico del Segura S.L.",
+      "accion": "Archivar el informe conforme de los lotes L26187 y L26190 en calidad y pasar la factura a contabilidad (30 días).",
+      "resumen": "El laboratorio envía resultados conformes de dos lotes y su factura a 30 días."
+    },
+    {
+      "id": "correo-27",
+      "fichero": "correo-27.txt",
+      "categoria": "consulta",
+      "urgencia": "alta",
+      "remitente": "Restaurante Casa Pepa (Josefa Belmonte Cano)",
+      "accion": "Localizar al repartidor ahora y confirmar a Pepa por teléfono la hora de entrega (antes de las 12).",
+      "resumen": "Casa Pepa pregunta si el pedido llega hoy antes de las 12 porque tiene el comedor lleno."
+    },
+    {
+      "id": "correo-28",
+      "fichero": "correo-28.txt",
+      "categoria": "aviso-proveedor",
+      "urgencia": "media",
+      "remitente": "Gráficas Lucentum S.L.",
+      "accion": "Revisar la prueba v3 de la etiqueta del dátil y dar el OK por escrito antes del jueves 17 a las 14:00.",
+      "resumen": "La imprenta necesita aprobar la etiqueta del dátil antes del jueves para entregar el 28."
+    },
+    {
+      "id": "correo-29",
+      "fichero": "correo-29.txt",
+      "categoria": "reclamacion",
+      "urgencia": "alta",
+      "remitente": "Mediterranean Pantry Ltd",
+      "accion": "Conseguir hoy el certificado sanitario de exportación que cubra los productos de la pesca y enviarlo al agente de aduanas con copia a Helen; plazo 48 horas.",
+      "resumen": "Dos palés retenidos en Dover por falta de certificado sanitario de las anchoas; hay 48 horas para enviarlo."
+    },
+    {
+      "id": "correo-30",
+      "fichero": "correo-30.txt",
+      "categoria": "administrativo",
+      "urgencia": "media",
+      "remitente": "Banco – Oficina de Empresas",
+      "accion": "Pedir a la asesoría el balance a 30/06 y las declaraciones de IVA, preparar el pool bancario y proponer fecha de reunión la semana del 21.",
+      "resumen": "El banco pide documentación antes del 30/09 para renovar la póliza de crédito que vence el 31 de octubre."
+    }
+  ]
+}

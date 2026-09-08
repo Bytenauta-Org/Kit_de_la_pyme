@@ -1,0 +1,22 @@
+TÚNIDOS CONGELADOS ATLÁNTICO S.A.
+A36122703 · Muelle de Bouzas, nave 14 · 36208 Vigo (Pontevedra) · Tel. 986 20 15 60
+facturacion@tunidosatlantico.example
+
+                                                          FACTURA Nº 2026/A/03318
+                                                          Fecha: 28/08/2026
+CLIENTE: Conservas Marjal Blanca S.L.
+NIF: B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+Su referencia: Pedido MB-0891 · contenedor MSKU 771203-4
+
+Concepto                                                  Cantidad      Precio       Importe
+------------------------------------------------------------------------------------------
+Lomos de atún claro (Thunnus albacares) precocidos c     18000        6,90     124200,00
+Flete y despacho Valencia                                    1     1180,00       1180,00
+------------------------------------------------------------------------------------------
+                                                          Base imponible      125380,00
+                                                          IVA 10 %              12538,00
+                                                          TOTAL FACTURA       137918,00 €
+
+Forma de pago: pagaré a 90 días fecha factura. Vencimiento: 26/11/2026.
+IBAN: ES90 0049 5511 2200 3344 5566

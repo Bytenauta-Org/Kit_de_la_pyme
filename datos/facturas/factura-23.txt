@@ -1,0 +1,22 @@
+CARTONAJES DEL SEGURA S.A.
+A30331508 · Pol. Ind. La Estación, parcela 22 · 03340 Albatera (Alicante) · Tel. 965 48 60 17
+clientes@cartonajessegura.example
+
+                                                          FACTURA Nº 2026/0866
+                                                          Fecha: 07/09/2026
+CLIENTE: Conservas Marjal Blanca S.L.
+NIF: B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+Su referencia: Pedido MB-0907 · albaranes 3320/3321
+
+Concepto                                                  Cantidad      Precio       Importe
+------------------------------------------------------------------------------------------
+Caja americana 24 x RO-120, canal B, impresa 1 tinta     30000        0,24       7200,00
+Caja 12 x tarro 370 con separadores (uds)                10000        0,24       2400,00
+------------------------------------------------------------------------------------------
+                                                          Base imponible        9600,00
+                                                          IVA 21 %               2016,00
+                                                          TOTAL FACTURA        11616,00 €
+
+Giro a 60 días fecha factura.
+IBAN: ES56 0081 7788 9900 1122 3344

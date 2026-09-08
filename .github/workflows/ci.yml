@@ -1,0 +1,232 @@
+# Integración continua del kit de la pyme.
+#
+# Cuatro trabajos independientes, para que cada fallo se lea por separado:
+#   ruff      lint y formato del código Python (estilo Google, línea de 100).
+#   pruebas   pytest y «python -m kit_pyme verificar» en Python 3.11, 3.12 y 3.13.
+#   datos     los checksums cuadran, no sobra ni falta ningún fichero de datos, todo es LF
+#             y UTF-8 sin BOM, los JSON parsean y los YAML de .github y CITATION.cff cumplen
+#             su esquema.
+#   mermaid   todos los diagramas del README y de docs/ se renderizan con mermaid-cli.
+# Y uno final, «todo-verde», que es la única comprobación que hace falta marcar como
+# obligatoria en la protección de la rama main.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUTF8: "1"
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+  FORCE_COLOR: "1"
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  ruff:
+    name: Ruff (lint y formato)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v7
+
+      - name: Preparar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Instalar el paquete con las dependencias de desarrollo
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+          # Red de seguridad: si el extra «dev» no los trajera, que no falle por eso.
+          python -m pip install ruff pytest
+
+      - name: ruff check
+        run: ruff check --output-format=github .
+
+      - name: ruff format --check
+        run: ruff format --check --diff .
+
+  pruebas:
+    name: pytest y verificar (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v7
+
+      - name: Preparar Python ${{ matrix.python }}
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Instalar el paquete con las dependencias de desarrollo
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+          python -m pip install pytest
+
+      - name: pytest
+        run: pytest -q
+
+      - name: Los datos son los de la versión publicada (python -m kit_pyme verificar)
+        run: python -m kit_pyme verificar
+
+      - name: La CLI responde (humo)
+        run: |
+          python -m kit_pyme tareas
+          python -m kit_pyme casos clasificar-facturas > /dev/null
+
+  datos:
+    name: Datos (checksums, LF, sin BOM, JSON) y metadatos
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v7
+
+      - name: Los checksums cuadran (sha256sum, sin pasar por el paquete)
+        working-directory: datos
+        run: sha256sum --check --strict CHECKSUMS.sha256
+
+      - name: No sobra ni falta ningún fichero de datos respecto a CHECKSUMS.sha256
+        working-directory: datos
+        run: |
+          awk '{ sub(/^\*/, "", $2); print $2 }' CHECKSUMS.sha256 | LC_ALL=C sort > "$RUNNER_TEMP/listados.txt"
+          find pedidos correos contrato facturas cobros -type f | LC_ALL=C sort > "$RUNNER_TEMP/reales.txt"
+          if ! diff -u "$RUNNER_TEMP/listados.txt" "$RUNNER_TEMP/reales.txt"; then
+            echo "::error::Hay ficheros en datos/ que no están en CHECKSUMS.sha256 o al revés. Si los datos cambian, sube la versión del kit, regenera los checksums y anótalo en CHANGELOG.md."
+            exit 1
+          fi
+
+      - name: Todo el texto está en LF en el índice de git
+        run: |
+          if git ls-files --eol -- . ':!*.png' ':!*.jpg' ':!*.zip' | grep -E '^i/(crlf|mixed)'; then
+            echo "::error::Ficheros con CRLF en el índice. El repositorio es LF (.gitattributes); normalízalos con «git add --renormalize .»."
+            exit 1
+          fi
+
+      - name: UTF-8 sin BOM y JSON válido (datos/, tareas/, resultados/, docs/)
+        run: |
+          python - <<'PY'
+          import json
+          import pathlib
+          import sys
+
+          raices = ["datos", "tareas", "resultados", "docs", "README.md", "CITATION.cff"]
+          errores = []
+          for nombre in raices:
+              raiz = pathlib.Path(nombre)
+              if not raiz.exists():
+                  continue
+              ficheros = [raiz] if raiz.is_file() else sorted(p for p in raiz.rglob("*") if p.is_file())
+              for fichero in ficheros:
+                  crudo = fichero.read_bytes()
+                  if crudo.startswith(b"\xef\xbb\xbf"):
+                      errores.append(f"{fichero.as_posix()}: BOM UTF-8; guárdalo como UTF-8 sin BOM")
+                      continue
+                  try:
+                      texto = crudo.decode("utf-8")
+                  except UnicodeDecodeError as error:
+                      errores.append(f"{fichero.as_posix()}: no es UTF-8 ({error})")
+                      continue
+                  if fichero.suffix == ".json":
+                      try:
+                          json.loads(texto)
+                      except json.JSONDecodeError as error:
+                          errores.append(f"{fichero.as_posix()}: JSON inválido ({error})")
+          for error in errores:
+              print(f"::error::{error}")
+          print(f"{len(errores)} errores")
+          sys.exit(1 if errores else 0)
+          PY
+
+      - name: Preparar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Los YAML de .github y CITATION.cff cumplen su esquema
+        run: |
+          python -m pip install --quiet check-jsonschema
+          check-jsonschema --builtin-schema vendor.github-workflows .github/workflows/*.yml
+          check-jsonschema --builtin-schema vendor.dependabot .github/dependabot.yml
+          check-jsonschema --builtin-schema vendor.github-issue-config .github/ISSUE_TEMPLATE/config.yml
+          find .github/ISSUE_TEMPLATE -name '*.yml' ! -name config.yml -print0 \
+            | xargs -0 check-jsonschema --builtin-schema vendor.github-issue-forms
+          if [ -f CITATION.cff ]; then
+            check-jsonschema --builtin-schema vendor.citation-file-format CITATION.cff
+          else
+            echo "::warning::No hay CITATION.cff; el contrato del repositorio lo pide."
+          fi
+
+  mermaid:
+    name: Diagramas Mermaid (README y docs)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v7
+
+      - name: Preparar Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Preparar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # mermaid-cli trae Puppeteer, y Puppeteer descarga un Chromium de ~150 MB. La caché se
+      # invalida sola cuando cambia la versión fijada en tools/comprobar_mermaid.py.
+      - name: Caché de mermaid-cli y del Chromium de Puppeteer
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/puppeteer
+          key: mermaid-${{ runner.os }}-node24-${{ hashFiles('tools/comprobar_mermaid.py') }}
+
+      - name: Renderizar todos los diagramas con mermaid-cli
+        run: python tools/comprobar_mermaid.py --npx --sin-sandbox README.md docs/*.md resultados/README.md
+
+  todo-verde:
+    name: Todo verde
+    if: always()
+    needs: [ruff, pruebas, datos, mermaid]
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Ningún trabajo ha fallado, se ha cancelado ni se ha saltado
+        env:
+          RESULTADOS: ${{ toJSON(needs) }}
+        run: |
+          echo "$RESULTADOS"
+          if echo "$RESULTADOS" | grep -Eq '"result": *"(failure|cancelled|skipped)"'; then
+            echo "::error::Hay trabajos en rojo; mira los de arriba."
+            exit 1
+          fi
+          echo "Todo verde."

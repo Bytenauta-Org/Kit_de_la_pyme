@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: El blog «A la última»
+    url: https://bytenauta.com/a-la-ultima/
+    about: Qué se prueba cada semana sobre este kit, con qué modelos y qué salió.
+  - name: Vulnerabilidad, dato personal real o algo que no debería ser público
+    url: https://github.com/Bytenauta-Org/Kit_de_la_pyme/security/policy
+    about: No abras un issue público; sigue lo que dice SECURITY.md.
+  - name: Bytenauta S.L.
+    url: https://bytenauta.com/
+    about: Quiénes somos y cómo contactar para cualquier otra cosa.

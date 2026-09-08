@@ -1,0 +1,22 @@
+AQUAVEGA GESTIÓN DEL AGUA S.A.
+A37112042 · Av. de la Libertad 88 · 03160 Almoradí (Alicante) · Tel. 900 700 811
+clientes@aquavega.example
+
+                                                          FACTURA Nº AQ/26/0088123
+                                                          Fecha: 07/09/2026
+CLIENTE: Conservas Marjal Blanca S.L.
+NIF: B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+Su referencia: Contrato 20-5511 · lectura 01/07 – 31/08/2026
+
+Concepto                                                  Cantidad      Precio       Importe
+------------------------------------------------------------------------------------------
+Consumo agua industrial 2.112 m³                          2112        0,72       1520,64
+Cuota de servicio bimestral                                  1       96,40         96,40
+Canon de saneamiento (autonómico)                            1      295,26        295,26
+------------------------------------------------------------------------------------------
+                                                          Base imponible        1912,30
+                                                          IVA 10 %                191,23
+                                                          TOTAL FACTURA         2103,53 €
+
+Pago en 20 días desde la emisión mediante transferencia o en oficina.

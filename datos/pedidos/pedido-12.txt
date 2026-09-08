@@ -1,0 +1,41 @@
+De: Amparo Sellés <compras@supermercadosserrano.example>
+Para: Pedidos Marjal Blanca <pedidos@marjalblanca.example>
+Fecha: lunes, 7 sept 2026, 14:47
+Asunto: PC-26-08811 · entrega 15/09
+
+Adjunto pedido de compra para el 15. Gracias.
+Amparo
+
+[Adjunto: PC-26-08811.pdf — texto extraído]
+
+SUPERMERCADOS SERRANO S.L.  ·  CIF B34029173                    PEDIDO DE COMPRA Nº PC-26-08811
+Plataforma logística · Pol. Ind. Carrús, c/ Alfarería 3 · 03206 Elche      Fecha: 07/09/2026   Página 1 de 2
+Proveedor: Conservas Marjal Blanca S.L. · B38122941                           Entrega: 15/09/2026 antes de 12:00
+Condiciones: tarifa 2026 firmada 12/01/2026 · Pago 60 días f.f. · Portes pagados
+
+Lín. Referencia          Descripción                                Cajas  € caja      Importe
+1    CONS-ATUN-OL-120    Atún claro en aceite de oliva                 50    24,29     1214,50
+2    CONS-ATUN-GI-120    Atún claro en aceite de girasol               30    20,98      629,40
+3    CONS-ATUN-NA-120    Atún claro al natural                         20    21,64      432,80
+4    CONS-BONI-OL-120    Bonito del norte en aceite de oliva           12    38,42      461,04
+5    CONS-MELV-OL-120    Melva canutera en aceite de oliva             10    26,94      269,40
+6    CONS-PIQU-EN-T370   Pimientos del piquillo
+                                                                  Suma y sigue:     3007,14
+Documento generado por SerranoERP v7.3 · Este pedido está sujeto a las condiciones generales de compra de Supermercados Serrano S.L.
+------------------------------------------------------------------------------------------------------
+SUPERMERCADOS SERRANO S.L.  ·  CIF B34029173                    PEDIDO DE COMPRA Nº PC-26-08811
+Plataforma logística · Pol. Ind. Carrús, c/ Alfarería 3 · 03206 Elche      Fecha: 07/09/2026   Página 2 de 2
+Proveedor: Conservas Marjal Blanca S.L. · B38122941                           Entrega: 15/09/2026 antes de 12:00
+Condiciones: tarifa 2026 firmada 12/01/2026 · Pago 60 días f.f. · Portes pagados
+
+Lín. Referencia          Descripción                                Cajas  € caja      Importe
+                         enteros · Tarro cristal 370 ml            18    23,18      417,24
+7    CONS-PIQU-TI-T370   Pimientos del piquillo en tiras               12    20,98      251,76
+8    CONS-ALCA-CO-T720   Corazones de alcachofa de la Vega Baja        24    21,53      516,72
+9    CONS-ACEI-NE-T370   Aceitunas negras aragón                       15    15,46      231,90
+
+                                                                 Base imponible:     4424,76
+                                                                 IVA 10 %:            442,48
+                                                                 TOTAL:              4867,24
+Total cajas: 191 · Palés estimados: 3
+Documento generado por SerranoERP v7.3 · Este pedido está sujeto a las condiciones generales de compra de Supermercados Serrano S.L.

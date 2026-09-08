@@ -1,0 +1,37 @@
+De: Rubén Ortolá <economato@ghmediterraneo.example>
+Para: Pedidos Marjal Blanca <pedidos@marjalblanca.example>
+Fecha: miércoles, 2 sept 2026, 08:31
+Asunto: OC-2026-0457 Conservas Marjal Blanca
+
+Adjunto orden de compra. Sin número de OC en albarán y factura no se recepciona.
+Saludos, Rubén.
+
+[Adjunto: OC-2026-0457.pdf — texto extraído automáticamente]
+
+GRUPO HOSTELERO MEDITERRÁNEO S.L.                              ORDEN DE COMPRA
+CIF B37205416 · Av. de l'Aigüera 112 · 03503 Benidorm          Nº OC-2026-0457
+Economato central · Tel. 966 80 51 30                          Fecha: 02/09/2026
+                                                               Página 1 de 1
+
+PROVEEDOR: Conservas Marjal Blanca S.L. (B38122941)
+Código proveedor interno: PRV-0233
+Condiciones: 30 días f.f. · Portes pagados · Entrega en economato central, L-V 7:00-13:00
+Fecha de entrega solicitada: 09/09/2026
+
+Línea  Referencia          Descripción                                  Ud.   Cant.   Precio     Importe
+1      CONS-ATUN-OL-1K     Atún claro en aceite de oliva hostelería Lat caja    24    45,03     1080,72
+2      CONS-ALCA-CO-3K     Corazones de alcachofa hostelería Lata 3 kg  caja    12    33,06      396,72
+3      CONS-PIQU-EN-3K     Pimientos del piquillo enteros hostelería La caja    10    31,92      319,20
+4      CONS-TOMA-TR-3K     Tomate triturado hostelería Lata 3 kg        caja    30    13,68      410,40
+5      CONS-TOMA-FR-3K     Tomate frito hostelería Lata 3 kg            caja    16    16,72      267,52
+6      CONS-ANCH-OL-50     Filetes de anchoa en aceite de oliva Lata 50 caja     8    50,16      401,28
+                                                                     Base imponible:     2875,84
+                                                                     IVA 10 %:            287,58
+                                                                     TOTAL OC:           3163,42
+
+Observaciones: indicar nº OC en albarán y factura. Mercancía sin OC no se recepciona. Palés europeos 80x120 con
+intercambio. Temperatura ambiente. Vida útil mínima a la entrega: 18 meses.
+
+Autorizado por: R. Ortolá — Jefe de economato        Firma: [firma digital verificada]
+Grupo Hostelero Mediterráneo S.L. · Inscrita en el Registro Mercantil de Alicante, tomo 3.412, folio 88
+--- Fin del documento ---

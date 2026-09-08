@@ -1,0 +1,23 @@
+ENVASES METÁLICOS DEL VINALOPÓ S.L.
+B34551200 · Pol. Ind. El Rubial, c/ 4, nave 9 · 03400 Villena (Alicante) · Tel. 965 80 44 12
+facturacion@envasesvinalopo.example
+
+                                                          FACTURA Nº EMV/2026/1187
+                                                          Fecha: 04/09/2026
+CLIENTE: Conservas Marjal Blanca S.L.
+NIF: B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+Su referencia: Albarán 5502 · su pedido MB-0902
+
+Concepto                                                  Cantidad      Precio       Importe
+------------------------------------------------------------------------------------------
+Cuerpo hojalata RO-120 litografiado 2 tintas            120000      0,1215      14580,00
+Tapa abre-fácil RO-120                                  120000      0,0320       3840,00
+Recargo energía 2,5 %                                        1      460,50        460,50
+------------------------------------------------------------------------------------------
+                                                          Base imponible       18880,50
+                                                          IVA 21 %               3964,91
+                                                          TOTAL FACTURA        22845,41 €
+
+Forma de pago: giro domiciliado a 60 días fecha factura.
+IBAN: ES44 2100 8811 2300 1122 3344

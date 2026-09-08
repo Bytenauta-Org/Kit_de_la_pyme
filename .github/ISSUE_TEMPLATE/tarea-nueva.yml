@@ -1,0 +1,79 @@
+name: Propuesta de tarea nueva
+description: Una tarea de pyme que el kit debería medir.
+title: "[tarea] "
+labels: ["tarea-nueva"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Una tarea entra en el kit si cumple tres cosas: (1) es algo que una pyme hace hoy a mano, (2) se puede puntuar con **reglas deterministas** (nada de otra IA que juzgue) y (3) sus datos se pueden **inventar** sin copiar nada real. Cuanto más concreto sea el criterio de acierto, más fácil es que salga adelante.
+
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre de la tarea
+      placeholder: Cuadrar 20 albaranes con sus facturas
+    validations:
+      required: true
+
+  - type: textarea
+    id: a-mano
+    attributes:
+      label: Qué hace hoy una persona a mano y cuánto tarda
+      description: El trabajo real, con su volumen (cuántos al día, cuántos minutos cada uno) y qué sale mal cuando se hace deprisa.
+    validations:
+      required: true
+
+  - type: textarea
+    id: datos
+    attributes:
+      label: Qué datos habría que inventar
+      description: Ficheros, formatos (texto, CSV, PDF pasado a texto, OCR sucio), número de casos y qué trampas conviene meter (una referencia inexistente, un duplicado, un precio que no cuadra).
+    validations:
+      required: true
+
+  - type: textarea
+    id: puntuacion
+    attributes:
+      label: Cómo se puntuaría, regla por regla
+      description: Qué campos se comparan, con qué tolerancia, qué se ignora y cuál es el texto del fallo. Mira `docs/puntuacion.md` para el estilo.
+      placeholder: |
+        - Acierta si el total coincide con el esperado (±0,011 €) y el vencimiento es el mismo día.
+        - No se puntúa el proveedor ni la cuenta contable.
+        - Fallo: «Albarán 07: total X donde ponía Y».
+    validations:
+      required: true
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Borrador del prompt de sistema y del esquema JSON de la respuesta
+      description: No hace falta que esté perfecto; sí que diga qué claves devuelve el modelo.
+      render: text
+
+  - type: dropdown
+    id: casos
+    attributes:
+      label: Número de casos
+      options:
+        - "10"
+        - "15"
+        - "20"
+        - "25"
+        - "30"
+        - Otro (dilo en la descripción)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: comprobaciones
+    attributes:
+      label: Comprobaciones
+      options:
+        - label: La puntuación que propongo es determinista (dos personas con la misma respuesta obtienen el mismo resultado).
+          required: true
+        - label: Los datos serían inventados; ninguna empresa, persona, NIF ni dirección reales.
+          required: true
+        - label: Puedo aportar datos o casos si la tarea se acepta.
+        - label: Acepto que lo que aporte se publique bajo CC BY 4.0.
+          required: true

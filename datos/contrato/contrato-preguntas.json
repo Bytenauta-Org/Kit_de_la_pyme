@@ -1,0 +1,327 @@
+{
+  "_comentario": "15 preguntas sobre contrato.txt con la respuesta correcta y la cláusula donde está. Para dar una respuesta por buena tiene que contener alguno de los textos de cada grupo de debe_contener_alguno (normalizando mayúsculas y acentos) y citar alguna de las cláusulas aceptadas.",
+  "fichero": "contrato.txt",
+  "preguntas": [
+    {
+      "id": "p01",
+      "pregunta": "¿En qué plazo tiene que pagar Serrano las facturas de Marjal Blanca?",
+      "respuesta": "60 días naturales desde la fecha de la factura, por transferencia.",
+      "clausula": "9.2",
+      "debe_contener_alguno": [
+        [
+          "60 días",
+          "60 dias",
+          "sesenta días",
+          "sesenta dias",
+          "60 naturales"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "9.2",
+        "9"
+      ]
+    },
+    {
+      "id": "p02",
+      "pregunta": "¿Qué interés de demora se aplica si el Comprador paga tarde?",
+      "respuesta": "El tipo del BCE (operación principal de financiación) más 8 puntos porcentuales, según el artículo 7 de la Ley 3/2004.",
+      "clausula": "9.5",
+      "debe_contener_alguno": [
+        [
+          "8 puntos",
+          "ocho puntos",
+          "ocho (8) puntos",
+          "8 puntos porcentuales",
+          "+ 8",
+          "+8"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "9.5",
+        "9"
+      ]
+    },
+    {
+      "id": "p03",
+      "pregunta": "¿Cuál es el plazo de entrega estándar de un pedido una vez confirmado?",
+      "respuesta": "5 días laborables desde la confirmación del pedido (o desde el vencimiento del plazo de confirmación tácita).",
+      "clausula": "7.3",
+      "debe_contener_alguno": [
+        [
+          "5 días laborables",
+          "cinco días laborables",
+          "cinco (5) días laborables",
+          "5 dias laborables",
+          "cinco dias laborables"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "7.3",
+        "7"
+      ]
+    },
+    {
+      "id": "p04",
+      "pregunta": "¿Qué penalización hay por entregar un pedido con retraso y cuál es su tope?",
+      "respuesta": "1 % del valor de lo entregado con retraso por cada día laborable, con un máximo del 10 %.",
+      "clausula": "13.2",
+      "debe_contener_alguno": [
+        [
+          "1 %",
+          "1%",
+          "uno por ciento",
+          "un 1",
+          "1 por ciento"
+        ],
+        [
+          "10 %",
+          "10%",
+          "diez por ciento"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "13.2",
+        "13",
+        "Anexo III",
+        "III.2"
+      ]
+    },
+    {
+      "id": "p05",
+      "pregunta": "¿Con qué Incoterm y en qué lugar se entregan los productos por defecto?",
+      "respuesta": "DAP (Incoterms 2020) en la plataforma logística de Serrano en Elche (Pol. Ind. Carrús).",
+      "clausula": "7.1",
+      "debe_contener_alguno": [
+        [
+          "DAP"
+        ],
+        [
+          "Elche",
+          "Plataforma",
+          "plataforma"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "7.1",
+        "7"
+      ]
+    },
+    {
+      "id": "p06",
+      "pregunta": "¿Qué vida útil mínima deben tener los productos en el momento de la entrega?",
+      "respuesta": "Al menos dos tercios de la vida útil total y, en todo caso, no menos de 18 meses.",
+      "clausula": "10.4",
+      "debe_contener_alguno": [
+        [
+          "18 meses",
+          "dieciocho meses",
+          "dieciocho (18) meses"
+        ],
+        [
+          "dos tercios",
+          "2/3"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "10.4",
+        "10"
+      ]
+    },
+    {
+      "id": "p07",
+      "pregunta": "¿Cuánto tiempo tiene el Comprador para reclamar una rotura o una falta de cajas detectada en la recepción?",
+      "respuesta": "48 horas desde la recepción, mediante Acta de No Conformidad.",
+      "clausula": "11.2",
+      "debe_contener_alguno": [
+        [
+          "48 horas",
+          "cuarenta y ocho horas",
+          "cuarenta y ocho (48) horas",
+          "48 h"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "11.2",
+        "11"
+      ]
+    },
+    {
+      "id": "p08",
+      "pregunta": "¿Cuánto dura el contrato y con qué preaviso se puede evitar la prórroga?",
+      "respuesta": "Dos años desde el 1 de febrero de 2026 (hasta el 31 de enero de 2028), con prórrogas tácitas anuales salvo preaviso de 3 meses.",
+      "clausula": "3",
+      "debe_contener_alguno": [
+        [
+          "dos años",
+          "2 años",
+          "dos (2) años",
+          "31 de enero de 2028"
+        ],
+        [
+          "3 meses",
+          "tres meses",
+          "tres (3) meses"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "3.1",
+        "3.2",
+        "3"
+      ]
+    },
+    {
+      "id": "p09",
+      "pregunta": "¿Durante cuánto tiempo después de terminar el contrato sigue vigente la obligación de confidencialidad?",
+      "respuesta": "Cinco años tras la terminación (y mientras dure el secreto empresarial para recetas y procesos).",
+      "clausula": "17.4",
+      "debe_contener_alguno": [
+        [
+          "5 años",
+          "cinco años",
+          "cinco (5) años",
+          "5 anos",
+          "cinco anos"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "17.4",
+        "17"
+      ]
+    },
+    {
+      "id": "p10",
+      "pregunta": "¿Qué importe mínimo debe cubrir el seguro de responsabilidad civil de producto del Proveedor?",
+      "respuesta": "3.000.000 € por siniestro y anualidad, con sublímite de 300.000 € para gastos de retirada.",
+      "clausula": "19.1",
+      "debe_contener_alguno": [
+        [
+          "3.000.000",
+          "3 millones",
+          "tres millones",
+          "3000000",
+          "3.000.000 €",
+          "3M"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "19.1",
+        "19"
+      ]
+    },
+    {
+      "id": "p11",
+      "pregunta": "Si hay una inundación que para la fábrica, ¿en cuántos días hay que avisar y a partir de cuánto tiempo se puede resolver el contrato?",
+      "respuesta": "Avisar en 5 días naturales; si la fuerza mayor dura más de 60 días naturales, cualquiera de las partes puede resolver.",
+      "clausula": "20",
+      "debe_contener_alguno": [
+        [
+          "5 días",
+          "cinco días",
+          "cinco (5) días",
+          "5 dias",
+          "cinco dias"
+        ],
+        [
+          "60 días",
+          "sesenta días",
+          "sesenta (60) días",
+          "60 dias",
+          "sesenta dias"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "20.3",
+        "20.5",
+        "20"
+      ]
+    },
+    {
+      "id": "p12",
+      "pregunta": "¿Cuál es el pedido mínimo que puede cursar Serrano?",
+      "respuesta": "Dos palés completos o 1.500 € sin IVA a precio de tarifa, lo que primero se alcance.",
+      "clausula": "5.4",
+      "debe_contener_alguno": [
+        [
+          "1.500",
+          "1500",
+          "mil quinientos"
+        ],
+        [
+          "2 palés",
+          "dos palés",
+          "dos (2) palés",
+          "2 pales",
+          "dos pales",
+          "dos palets",
+          "2 palets"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "5.4",
+        "5"
+      ]
+    },
+    {
+      "id": "p13",
+      "pregunta": "¿Qué rappel le corresponde a Serrano si compra 420.000 € en un año contractual?",
+      "respuesta": "El 3 %, porque supera los 400.000 € (2 % a partir de 250.000 €; 3,5 % a partir de 600.000 €), aplicado sobre el total de la facturación.",
+      "clausula": "Anexo II.3",
+      "debe_contener_alguno": [
+        [
+          "3 %",
+          "3%",
+          "tres por ciento",
+          "3 por ciento"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "II.3",
+        "Anexo II",
+        "anexo II",
+        "6.6"
+      ]
+    },
+    {
+      "id": "p14",
+      "pregunta": "¿Cuál es la tasa de servicio mensual mínima que debe cumplir el Proveedor?",
+      "respuesta": "97 % (global mensual); 90 % por referencia.",
+      "clausula": "14.2",
+      "debe_contener_alguno": [
+        [
+          "97 %",
+          "97%",
+          "noventa y siete"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "14.2",
+        "14",
+        "III.1",
+        "Anexo III",
+        "13.3"
+      ]
+    },
+    {
+      "id": "p15",
+      "pregunta": "Si hay un conflicto y no se resuelve hablando, ¿qué pasos hay y qué tribunales deciden?",
+      "respuesta": "Negociación 30 días, después mediación en la Cámara de Comercio de Alicante (máximo 60 días) y, si no hay acuerdo, los Juzgados y Tribunales de Alicante.",
+      "clausula": "27",
+      "debe_contener_alguno": [
+        [
+          "Alicante"
+        ],
+        [
+          "mediación",
+          "mediacion",
+          "Cámara de Comercio",
+          "Camara de Comercio"
+        ]
+      ],
+      "clausulas_aceptadas": [
+        "27.2",
+        "27.3",
+        "27"
+      ]
+    }
+  ]
+}

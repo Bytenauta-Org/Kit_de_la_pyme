@@ -1,0 +1,2035 @@
+{
+  "UMBRALES": {
+    "aciertos_lunes": 0.9,
+    "aciertos_humo": 0.6,
+    "coste_caso_lunes_eur": 0.05
+  },
+  "tareas": {
+    "extraer-pedidos": {
+      "nombre": "Sacar las líneas de 20 pedidos tal como llegan por correo",
+      "descripcion": "Veinte pedidos reales de una conservera (correo suelto, tabla pegada, PDF, CSV, foto con OCR, valenciano, uno con una referencia que no existe y otro con un precio que no es el de tarifa): cliente, referencias, cajas y precio de tarifa.",
+      "max_tokens": 6000,
+      "required": [
+        "cliente",
+        "lineas",
+        "incidencias"
+      ],
+      "prompt_chars": 8498,
+      "prompt_bytes": 8583,
+      "prompt_sha256": "7c613ac2a9cde1ce58fe0b38b24e804ea4b78c0f36f9a6daef52ac6e7cb4aa8c",
+      "prompt_tiene_CR": false,
+      "system_enviado_chars": 8682,
+      "system_enviado_sha256": "79480c98e6eb90047c6046bae43c1d58d911879a8ae9ce6874c42f5cce3f23cb",
+      "linea_formato": "\n\nFORMATO DE LA RESPUESTA: un solo objeto JSON con exactamente estas claves, escritas así: cliente, lineas, incidencias. Sin otras claves, sin comentarios y sin texto antes ni después.",
+      "casos": [
+        {
+          "id": "pedido-01",
+          "entrada_chars": 1005,
+          "entrada_bytes": 1024,
+          "entrada_sha256": "b9579711e64458b976434564e777dc3191a13f330630c993dc3e8abfefdd12ff",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-02",
+          "entrada_chars": 775,
+          "entrada_bytes": 782,
+          "entrada_sha256": "0d9e56a3877b59a83b7824e3bc1dc38f76eb9adda36df61748ed5332f4d5c1d1",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-03",
+          "entrada_chars": 2316,
+          "entrada_bytes": 2356,
+          "entrada_sha256": "5950b9d6023cf2ff26a1feab02ff52dd696827a04a68d3af70bc13b914fcecca",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-04",
+          "entrada_chars": 1048,
+          "entrada_bytes": 1051,
+          "entrada_sha256": "9c8f01620e563f633d0e2ee9a7a914bfda12d3786f16547927d87fda1b8660d0",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-05",
+          "entrada_chars": 635,
+          "entrada_bytes": 639,
+          "entrada_sha256": "d0d0433a4ff442042971b08a585bc82bf179c95395ef69dbb4300c17f64be465",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-06",
+          "entrada_chars": 512,
+          "entrada_bytes": 519,
+          "entrada_sha256": "6d4b27d2b418f91140ba7feb35acf6ecf0b49d0ee22629d98b6340bb3c0d9735",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-07",
+          "entrada_chars": 622,
+          "entrada_bytes": 638,
+          "entrada_sha256": "db733dcd81041ba3cff14080c205afd310f4afcf3f07223d834418ec68c6b8eb",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-08",
+          "entrada_chars": 661,
+          "entrada_bytes": 671,
+          "entrada_sha256": "9552cdd3bacf136285a3b341d9761ca0a5634a1b94fcc37def9836863fcae9e5",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-09",
+          "entrada_chars": 679,
+          "entrada_bytes": 688,
+          "entrada_sha256": "4d0bcd8e32a4ede94fbca6c251e37a22ae374f787b5ff2f68f86e0025a59f400",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-10",
+          "entrada_chars": 687,
+          "entrada_bytes": 695,
+          "entrada_sha256": "374a85a8d5e19ad82852fd90b75b919b0ef0bdd8b09728a8fba0286610fc0b64",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-11",
+          "entrada_chars": 383,
+          "entrada_bytes": 385,
+          "entrada_sha256": "29076681b0418c5986b745221b1f2c5ecb919efab6385980d1e36a785cfdb86b",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-12",
+          "entrada_chars": 2953,
+          "entrada_bytes": 3001,
+          "entrada_sha256": "86741f20ea21f5b9981a4f07aa70979309cbae935357cb81e9d30911e50d1d10",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-13",
+          "entrada_chars": 608,
+          "entrada_bytes": 615,
+          "entrada_sha256": "00b827bd3db64fd2a47428d6ce66535fcd9cf998af2e7a7446d0052b0795dfcd",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-14",
+          "entrada_chars": 899,
+          "entrada_bytes": 905,
+          "entrada_sha256": "3f73a68a78c1cce9ca033f75793427fd70f655dceb61ef34b692ab3df2801869",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-15",
+          "entrada_chars": 728,
+          "entrada_bytes": 734,
+          "entrada_sha256": "b79cdf7c2678954acd22a0600a5632c4a3a4dfdf4d40bf4eb715f5bf23375c97",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-16",
+          "entrada_chars": 581,
+          "entrada_bytes": 586,
+          "entrada_sha256": "9c098adc539f4296f1228ced22633ccf3f5b61132364834f056bd0f2fc4f5443",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-17",
+          "entrada_chars": 795,
+          "entrada_bytes": 808,
+          "entrada_sha256": "14d68da40808bf3d91f3e1df25adc4671479092b2e910d5d60f6fd490ed279e2",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-18",
+          "entrada_chars": 1000,
+          "entrada_bytes": 1008,
+          "entrada_sha256": "7ef16198f117d7cc2c6e19ae52d0dc5e07c88ac1c8537af29ecf14876b1d6ad1",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-19",
+          "entrada_chars": 398,
+          "entrada_bytes": 401,
+          "entrada_sha256": "26bbc6b309a77f7ce37a6caaf4c0c98f55322f4bf73c6d2f6bf1828153c1450c",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "pedido-20",
+          "entrada_chars": 571,
+          "entrada_bytes": 586,
+          "entrada_sha256": "fa7f2f66e5e35695c2a0317f7c06dce2ec376feab1384bc8ee0d9bc01c00bd9a",
+          "entrada_tiene_CR": false
+        }
+      ]
+    },
+    "resumir-correos": {
+      "nombre": "Clasificar 30 correos del buzón de administración y decir qué hay que hacer",
+      "descripcion": "Treinta correos de clientes, proveedores, gestoría, banco, Sanidad y spam: categoría, urgencia y acción. Se puntúan categoría y urgencia exactas.",
+      "max_tokens": 4000,
+      "required": [
+        "categoria",
+        "urgencia",
+        "accion",
+        "resumen"
+      ],
+      "prompt_chars": 1509,
+      "prompt_bytes": 1532,
+      "prompt_sha256": "1760765f27944b1b9e4a1c3054d6703a1c70f0de0178b06231c4955d3233c898",
+      "prompt_tiene_CR": false,
+      "system_enviado_chars": 1701,
+      "system_enviado_sha256": "cfb42d36e4bd277bcfbec0f37c1dbc64ae9f48e4a59aaa7213a9bda0e4017780",
+      "linea_formato": "\n\nFORMATO DE LA RESPUESTA: un solo objeto JSON con exactamente estas claves, escritas así: categoria, urgencia, accion, resumen. Sin otras claves, sin comentarios y sin texto antes ni después.",
+      "casos": [
+        {
+          "id": "correo-01",
+          "entrada_chars": 701,
+          "entrada_bytes": 714,
+          "entrada_sha256": "0108fa2e44b1b9e2de5250aabc751a668efde16b8d9bd48a1bc6d8cfffe2757a",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-02",
+          "entrada_chars": 335,
+          "entrada_bytes": 340,
+          "entrada_sha256": "d72d9ee2406bbd3ce5833c19a81b20af97b0db9546edb2f94edf4b29c774a301",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-03",
+          "entrada_chars": 489,
+          "entrada_bytes": 498,
+          "entrada_sha256": "b4a774b52548129b75ff60a6c6572181f1b8e10e29a28daedcbbf216d91e5db5",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-04",
+          "entrada_chars": 672,
+          "entrada_bytes": 684,
+          "entrada_sha256": "cf515b7894ec74d7886466f5b9cb3d2b6beb67ca27a081582462c5a4da09f758",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-05",
+          "entrada_chars": 832,
+          "entrada_bytes": 846,
+          "entrada_sha256": "4590d132f53295e4a8cbec6b1ece4c15f0b674c83d50aae70ea95d760a89b108",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-06",
+          "entrada_chars": 685,
+          "entrada_bytes": 698,
+          "entrada_sha256": "cbb8af46a0dcb68dfa702b5264125edc9bb49fc26458b11bb45f5072b274091f",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-07",
+          "entrada_chars": 354,
+          "entrada_bytes": 360,
+          "entrada_sha256": "d8010383a55f3f562b9d34bcf5478ea91cfda9b33193338749e682b501f6ec84",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-08",
+          "entrada_chars": 866,
+          "entrada_bytes": 877,
+          "entrada_sha256": "d01c4ee9d1a5d6ef3f0791bcbe7917872b49565899222d4b3f9edcb1b2b30967",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-09",
+          "entrada_chars": 770,
+          "entrada_bytes": 785,
+          "entrada_sha256": "999638c4c1b34d313a76c43b1b50a0e7242a4df730823f1b55be52e6d83c1be7",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-10",
+          "entrada_chars": 616,
+          "entrada_bytes": 626,
+          "entrada_sha256": "663a2b5e51f9291225075aad80ae304ef9af4430bdd829a2bb7540733ab42fe1",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-11",
+          "entrada_chars": 462,
+          "entrada_bytes": 465,
+          "entrada_sha256": "8292d2fc40a20afb69ee0ef44791674d42b4c195a5b9c54e09c5efc2518a14f3",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-12",
+          "entrada_chars": 359,
+          "entrada_bytes": 365,
+          "entrada_sha256": "670178927a893080c893d1c06885a896e80c533110b87c87676b80e29beee00c",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-13",
+          "entrada_chars": 706,
+          "entrada_bytes": 715,
+          "entrada_sha256": "731350af2dddd00f368b874609ccb9d28c1240b8f3f17953f9a9c5a5d9554178",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-14",
+          "entrada_chars": 587,
+          "entrada_bytes": 594,
+          "entrada_sha256": "71860a5bdca75c0bc700d8b9ae4d5cc13a6996f3d1b371a4aba07429f75bf8d9",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-15",
+          "entrada_chars": 722,
+          "entrada_bytes": 738,
+          "entrada_sha256": "c31a8cd8bc24bb0a659df1f97befd1a297fef97754dd8a4ff7a46b928ae89593",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-16",
+          "entrada_chars": 706,
+          "entrada_bytes": 721,
+          "entrada_sha256": "80d98a6da273d1cfa0d8d370f382a29b6e6c044918f02c5c2302f06023ea8de6",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-17",
+          "entrada_chars": 331,
+          "entrada_bytes": 332,
+          "entrada_sha256": "99ae3f51069059a28866b8cb4126ccab731797f344628617d967a0be6b4b2c51",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-18",
+          "entrada_chars": 411,
+          "entrada_bytes": 416,
+          "entrada_sha256": "0300722f38c74312ced9438bd36679b92656cd088ee2f3ad210fadbcf06c2e20",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-19",
+          "entrada_chars": 522,
+          "entrada_bytes": 529,
+          "entrada_sha256": "d282adb1f2eb7f2364be032b8297b2eb5209872d95612b9eb13e9ec6b3e1adf5",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-20",
+          "entrada_chars": 767,
+          "entrada_bytes": 782,
+          "entrada_sha256": "ac36560adba902e4592103973a6d5746dc8448fbc437bc4fe82e8d740458363f",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-21",
+          "entrada_chars": 819,
+          "entrada_bytes": 836,
+          "entrada_sha256": "2074e3eee9fbd61b0e2b8bf3c36d0a427a3d729ce10d8f1ea8e3fb0a91a5acb6",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-22",
+          "entrada_chars": 682,
+          "entrada_bytes": 696,
+          "entrada_sha256": "90cffd4937ce09ef7463391b3f7fe50d658faac66b61ec8b57e569f869419dd9",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-23",
+          "entrada_chars": 613,
+          "entrada_bytes": 627,
+          "entrada_sha256": "f39348885b2c816232fad4960b2af8199a1b0f074047f23c6aca6c0e3e2700ad",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-24",
+          "entrada_chars": 629,
+          "entrada_bytes": 637,
+          "entrada_sha256": "61b0088a44f70ad32ee53a91051a1df8da98969a2c41b36095a34d5002f923c2",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-25",
+          "entrada_chars": 434,
+          "entrada_bytes": 443,
+          "entrada_sha256": "bfe322232ebf868b148d1ea9597a79d14f622c2833176303b29cd9664cbd8f06",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-26",
+          "entrada_chars": 570,
+          "entrada_bytes": 577,
+          "entrada_sha256": "78d97ec78342779a81fdf675a5e57d72e6223e4662ec02511c0923e4b286cbd2",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-27",
+          "entrada_chars": 305,
+          "entrada_bytes": 305,
+          "entrada_sha256": "310234500059abca8afc5a05b573d7caf21f81167753978f5d6e2431a07603b6",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-28",
+          "entrada_chars": 610,
+          "entrada_bytes": 621,
+          "entrada_sha256": "b7151510a7041dde0dfbc34f99d8eacc0475c561d61036c28b8a1f23ea9d020a",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-29",
+          "entrada_chars": 640,
+          "entrada_bytes": 642,
+          "entrada_sha256": "bb61a6b38d43fe16037497d10f074caeb21d83f73756c594f7689b44a812420e",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "correo-30",
+          "entrada_chars": 599,
+          "entrada_bytes": 614,
+          "entrada_sha256": "2c7a72f1f336dde4677de938c057ee5be91c2f3a7295ffc9a8c8e036ca634b7a",
+          "entrada_tiene_CR": false
+        }
+      ]
+    },
+    "buscar-en-contrato": {
+      "nombre": "Responder 15 preguntas sobre un contrato de suministro de 60 páginas",
+      "descripcion": "Un contrato marco de suministro real en tamaño (28.000 palabras, 28 cláusulas y 8 anexos) y las quince preguntas que hace un gerente: plazo de pago, penalizaciones, Incoterm, vida útil, fuerza mayor… Se puntúa el dato y que cite la cláusula.",
+      "max_tokens": 4000,
+      "required": [
+        "respuesta",
+        "clausula",
+        "cita"
+      ],
+      "prompt_chars": 185179,
+      "prompt_bytes": 188628,
+      "prompt_sha256": "41b2c9fcd389eeb87f332a2cac8c67ebcf25512b389c998c8a778d639d983d93",
+      "prompt_tiene_CR": false,
+      "system_enviado_chars": 185360,
+      "system_enviado_sha256": "8cd3e48027d43d67423002b4a9a1c6119827dee271fa3acf68518ba0aab7b314",
+      "linea_formato": "\n\nFORMATO DE LA RESPUESTA: un solo objeto JSON con exactamente estas claves, escritas así: respuesta, clausula, cita. Sin otras claves, sin comentarios y sin texto antes ni después.",
+      "casos": [
+        {
+          "id": "p01",
+          "entrada_chars": 68,
+          "entrada_bytes": 70,
+          "entrada_sha256": "ec19d5b0d666a5f9fcada753333d2939c502a92745c8224db00e3d1c6b03c951",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p02",
+          "entrada_chars": 60,
+          "entrada_bytes": 63,
+          "entrada_sha256": "fc1eca025629e348010e7840313618ddf22a7bc55ec6b681c67839c65384219c",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p03",
+          "entrada_chars": 70,
+          "entrada_bytes": 73,
+          "entrada_sha256": "bfeeb08dfd2672b78f905e425ce0421cab21add5c1ce7caf3c0d982eca826021",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p04",
+          "entrada_chars": 75,
+          "entrada_bytes": 79,
+          "entrada_sha256": "84d6261d30bde3ec8ac1aa7e5e9f3502465d01aeb176ab5d3c95d01d05cd4ca6",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p05",
+          "entrada_chars": 71,
+          "entrada_bytes": 74,
+          "entrada_sha256": "833be2e3bc7133489d7dc01a7355e3b86f61f5f9eb035a1ee0935f2832124b56",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p06",
+          "entrada_chars": 76,
+          "entrada_bytes": 80,
+          "entrada_sha256": "2ff9f0e5ae8ac66c4e5c4fde3604ea9370bcbd4686a18ccc43c8e703663550a2",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p07",
+          "entrada_chars": 106,
+          "entrada_bytes": 109,
+          "entrada_sha256": "c2d7b3c58630cb361d670ffadbcfd46ecaff4399b850eb9dea04ea946686a863",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p08",
+          "entrada_chars": 72,
+          "entrada_bytes": 76,
+          "entrada_sha256": "05c2dabdf08eb8fbce50b98ee5823cd2757db1560511c9f1ae69520893a3f0fa",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p09",
+          "entrada_chars": 103,
+          "entrada_bytes": 107,
+          "entrada_sha256": "66e33828ad5909f538eb5d8e3292bf29d918556a0ebbe889afc116369818f4dd",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p10",
+          "entrada_chars": 93,
+          "entrada_bytes": 96,
+          "entrada_sha256": "297f0c441bfd1522be01ae232e6d1751c64b94532bf764e358c679848a0245d8",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p11",
+          "entrada_chars": 133,
+          "entrada_bytes": 139,
+          "entrada_sha256": "f6806ffd8e7c4570ceda1ab65bae71d5610fe8a529ac4d389826f0b905527338",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p12",
+          "entrada_chars": 51,
+          "entrada_bytes": 54,
+          "entrada_sha256": "74f5bb47f2b96c8221a12ea38484fd16484c181263ce13f5a89c92fbf71d462a",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p13",
+          "entrada_chars": 79,
+          "entrada_bytes": 84,
+          "entrada_sha256": "6ea1da1f183785e322ff977a00a92d1cdc90ba671e9bebfc12dcff67fae01ff1",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p14",
+          "entrada_chars": 74,
+          "entrada_bytes": 77,
+          "entrada_sha256": "8e4e77e7b7fdcd6417490b95665498ac52df17cf0b60cf096f7f118105e44b54",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "p15",
+          "entrada_chars": 87,
+          "entrada_bytes": 90,
+          "entrada_sha256": "c0b20f36384802fb685b89c98bb75f653285c4b1f76e254cf22b51d4b82b2f22",
+          "entrada_tiene_CR": false
+        }
+      ]
+    },
+    "clasificar-facturas": {
+      "nombre": "Contabilizar 25 facturas recibidas: total, vencimiento y si ya estaba registrada",
+      "descripcion": "Veinticinco facturas de proveedores como llegan (hojalata, atún, luz, alquiler con retención, seguro sin IVA, un SaaS irlandés con inversión del sujeto pasivo, un ticket de gasóleo, y dos que ya estaban contabilizadas). Se puntúan total, vencimiento y duplicada.",
+      "max_tokens": 4000,
+      "required": [
+        "proveedor",
+        "numero",
+        "fecha",
+        "base",
+        "iva",
+        "total",
+        "vencimiento",
+        "cuenta_sugerida",
+        "duplicada"
+      ],
+      "prompt_chars": 2250,
+      "prompt_bytes": 2280,
+      "prompt_sha256": "c41359a43546984e292e82ba9248f8e52aec1b4db8d061b1a3c2c24bb217b132",
+      "prompt_tiene_CR": false,
+      "system_enviado_chars": 2489,
+      "system_enviado_sha256": "01307e1f80c6f7450fa8b0d209f76867fe082b2065e44009e52d26124bf58e4a",
+      "linea_formato": "\n\nFORMATO DE LA RESPUESTA: un solo objeto JSON con exactamente estas claves, escritas así: proveedor, numero, fecha, base, iva, total, vencimiento, cuenta_sugerida, duplicada. Sin otras claves, sin comentarios y sin texto antes ni después.",
+      "casos": [
+        {
+          "id": "factura-01",
+          "entrada_chars": 1409,
+          "entrada_bytes": 1424,
+          "entrada_sha256": "fec2df31b22fa4f2bb62e056e710819567c77691a3ef12ddd3e11d4be07840fa",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-02",
+          "entrada_chars": 707,
+          "entrada_bytes": 724,
+          "entrada_sha256": "61a7b9238407a57f325ac4375a30b75e4884c1579091866b5cffdbb6da560233",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-03",
+          "entrada_chars": 1333,
+          "entrada_bytes": 1347,
+          "entrada_sha256": "fac842e7201c157ca2782d035024e34837a2a7b35adbd8da9e0be58c084906c8",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-04",
+          "entrada_chars": 892,
+          "entrada_bytes": 904,
+          "entrada_sha256": "22d59f69378634e1e337d2bc9b2ff9c43c75137ad54ee678bff43aed286b350c",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-05",
+          "entrada_chars": 1462,
+          "entrada_bytes": 1482,
+          "entrada_sha256": "808776776d2d21fd1c5e9bebb944a64fe60d95a42472f93432aa45f836a692c1",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-06",
+          "entrada_chars": 857,
+          "entrada_bytes": 887,
+          "entrada_sha256": "e652f0b49ea192127829801f659c40d51553abb56f76c65de768aa4f011731a1",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-07",
+          "entrada_chars": 1337,
+          "entrada_bytes": 1350,
+          "entrada_sha256": "dadb0a82387f3582c65e0a192c83ccc2c1ce14a059f93d537149377cb49ad0ff",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-08",
+          "entrada_chars": 713,
+          "entrada_bytes": 730,
+          "entrada_sha256": "c913899a0fb11a421c3f9e3246db6ce87afca344a5611a257010591abdf57108",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-09",
+          "entrada_chars": 765,
+          "entrada_bytes": 789,
+          "entrada_sha256": "18fc00d2adcbae70c6a507e930f3657dfe6954e10316ca59b929b1352e2298cb",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-10",
+          "entrada_chars": 1290,
+          "entrada_bytes": 1304,
+          "entrada_sha256": "b77616fcc9ff2216470c4ab0dbc2fef25baabe71d7dde6b7e6b4b89c395a9463",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-11",
+          "entrada_chars": 742,
+          "entrada_bytes": 765,
+          "entrada_sha256": "e92ab404cd5369520b089295be5e2a547662ea72b7754000ab7bd5d3764622d0",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-12",
+          "entrada_chars": 1372,
+          "entrada_bytes": 1389,
+          "entrada_sha256": "899eadd9858ea678ba1f46d2ff41f007eb06cae50ba813d01e235c5a0ddd729c",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-13",
+          "entrada_chars": 726,
+          "entrada_bytes": 738,
+          "entrada_sha256": "f765c33cf111184565c42291b698b1bf6f622e42d75299fae7e2bd8ae827c3f7",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-14",
+          "entrada_chars": 876,
+          "entrada_bytes": 909,
+          "entrada_sha256": "805935c5f0bd3f89f581eb1296c7d1b56bed5348376c552254ecf5814ea417f8",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-15",
+          "entrada_chars": 746,
+          "entrada_bytes": 761,
+          "entrada_sha256": "920e3f981f23403530349b94f0a458aba32e8d66621fb08deb2876aaf5d5896c",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-16",
+          "entrada_chars": 522,
+          "entrada_bytes": 526,
+          "entrada_sha256": "1bc1b38814d20f8d478d76091a03109fe7fe44fc9708e52250787e212e23b441",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-17",
+          "entrada_chars": 769,
+          "entrada_bytes": 793,
+          "entrada_sha256": "1ef50e42732001fb1e40045db7ca0781cc68c8d9a95bae46a4c7c41c1c6d7f30",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-18",
+          "entrada_chars": 1362,
+          "entrada_bytes": 1371,
+          "entrada_sha256": "a622779379a9dec688d382f20c7a6bf09f94a9684599d60ef44bda5f550cfe2e",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-19",
+          "entrada_chars": 845,
+          "entrada_bytes": 863,
+          "entrada_sha256": "92ca20ffd921cc8ca88f7c46903cc7ab8171583a4a934a41fde6cd96ba66bbe9",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-20",
+          "entrada_chars": 613,
+          "entrada_bytes": 620,
+          "entrada_sha256": "0784f23caebc634d96caa35a3adf2a65aac77a30726c74e1aa2840f617958f18",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-21",
+          "entrada_chars": 806,
+          "entrada_bytes": 833,
+          "entrada_sha256": "f380817302caf0a635e8fc63a42e72a8fd281e05aa024c42993e76ee5f28409c",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-22",
+          "entrada_chars": 760,
+          "entrada_bytes": 790,
+          "entrada_sha256": "11d2b842ad780faf67848a9e031b2f21225f943150a6804b213b9cb5b11511d8",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-23",
+          "entrada_chars": 1283,
+          "entrada_bytes": 1294,
+          "entrada_sha256": "890eedc35d7b2a8cf9762d95cb6715744d49b0852b616e66e0bc9f7f36bf8b7f",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-24",
+          "entrada_chars": 565,
+          "entrada_bytes": 566,
+          "entrada_sha256": "94459b7ee6de1867ff035edd6cea3995cea77807649d2efd3b16a6e2220260c0",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "factura-25",
+          "entrada_chars": 809,
+          "entrada_bytes": 827,
+          "entrada_sha256": "c47279c2e91492ead1b39ec61d4383400ba33ebf493a0242e7055505c128ef0a",
+          "entrada_tiene_CR": false
+        }
+      ]
+    },
+    "redactar-recordatorio": {
+      "nombre": "Escribir 10 recordatorios de cobro con el tono que toca",
+      "descripcion": "Diez facturas vencidas de la hoja de cobros: un correo por cada una con el número, el importe pendiente y el vencimiento, amable a los 7 días, firme al mes y último aviso a los dos meses. Se puntúa por reglas, no por gusto.",
+      "max_tokens": 4000,
+      "required": [
+        "asunto",
+        "cuerpo"
+      ],
+      "prompt_chars": 1364,
+      "prompt_bytes": 1386,
+      "prompt_sha256": "5aa5c0c0ffe0f403bb403ea0c26c8d41eae4df8c175bb78878fc2911856ea95a",
+      "prompt_tiene_CR": false,
+      "system_enviado_chars": 1534,
+      "system_enviado_sha256": "d68cbb0ed5ef3b948afbad3063af2cef1e6dac8bcf2257570eff11ceb0f5e011",
+      "linea_formato": "\n\nFORMATO DE LA RESPUESTA: un solo objeto JSON con exactamente estas claves, escritas así: asunto, cuerpo. Sin otras claves, sin comentarios y sin texto antes ni después.",
+      "casos": [
+        {
+          "id": "recordatorio-01",
+          "entrada_chars": 596,
+          "entrada_bytes": 603,
+          "entrada_sha256": "78d635480344fe438f30e626607ef18dbe1517945a612247d3026fe888596492",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-02",
+          "entrada_chars": 600,
+          "entrada_bytes": 607,
+          "entrada_sha256": "930827225a8a203381c2b1924e959e8508dc447c48dab024003a43f9a302b86a",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-03",
+          "entrada_chars": 601,
+          "entrada_bytes": 608,
+          "entrada_sha256": "995dcc01da963a9706726bb167a7c7b2f8bfc1406870c8a3103fd1c4d626f3f9",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-04",
+          "entrada_chars": 650,
+          "entrada_bytes": 659,
+          "entrada_sha256": "4553f9c1e13d8e9ab3a194588e2f5cf2fd285458ab8964fa3b0fa6c29bf37d03",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-05",
+          "entrada_chars": 605,
+          "entrada_bytes": 613,
+          "entrada_sha256": "ec7d6e9bd32a2643d28157e35a17a6beb9af296ee8179b7f0d6dd9da30e28bbf",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-06",
+          "entrada_chars": 617,
+          "entrada_bytes": 627,
+          "entrada_sha256": "01f50ef0ba28a2923c8b88a06077e0a4fa7d12edde4edd1cd88f11554c2dc53b",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-07",
+          "entrada_chars": 618,
+          "entrada_bytes": 629,
+          "entrada_sha256": "518998e3de32dd1ab1066afac9ef6d25b98866fabee37f299d039e1be3b3fadd",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-08",
+          "entrada_chars": 741,
+          "entrada_bytes": 748,
+          "entrada_sha256": "46055a0293c3f0ad2446694af13d4da0b688123d34f5c33c9c84fbc0a2c59f82",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-09",
+          "entrada_chars": 745,
+          "entrada_bytes": 755,
+          "entrada_sha256": "5aec6f8d265dc9f7659ca7c873f1640978757d0165e66b660b539a1bfa398f7a",
+          "entrada_tiene_CR": false
+        },
+        {
+          "id": "recordatorio-10",
+          "entrada_chars": 742,
+          "entrada_bytes": 753,
+          "entrada_sha256": "171c9426d6fe627928b0ab937377ae57d2546f645908cdb3dec000e03e75b881",
+          "entrada_tiene_CR": false
+        }
+      ]
+    }
+  },
+  "verdad_100": {
+    "extraer-pedidos": {
+      "casos": 20,
+      "aciertos": 20,
+      "fallos": []
+    },
+    "resumir-correos": {
+      "casos": 30,
+      "aciertos": 30,
+      "fallos": []
+    },
+    "buscar-en-contrato": {
+      "casos": 15,
+      "aciertos": 15,
+      "fallos": []
+    },
+    "clasificar-facturas": {
+      "casos": 25,
+      "aciertos": 25,
+      "fallos": []
+    },
+    "redactar-recordatorio": {
+      "casos": 10,
+      "aciertos": 10,
+      "fallos": []
+    }
+  },
+  "puntuar_ejemplo": {
+    "tarea": "resumir-correos",
+    "casos": [
+      "correo-01",
+      "correo-02",
+      "correo-03",
+      "correo-04",
+      "correo-05",
+      "correo-06"
+    ],
+    "respuestas": [
+      {
+        "categoria": "reclamacion",
+        "urgencia": "media"
+      },
+      {
+        "categoria": "consulta",
+        "urgencia": "media"
+      },
+      {
+        "categoria": "spam",
+        "urgencia": "baja"
+      },
+      {
+        "categoria": "spam",
+        "urgencia": "baja"
+      },
+      {
+        "categoria": "spam",
+        "urgencia": "baja"
+      },
+      {
+        "categoria": "spam",
+        "urgencia": "baja"
+      }
+    ],
+    "resultado": {
+      "aciertos": 3,
+      "fallos": [
+        "Correo 03: lo clasificó como «spam» cuando era cambio-pedido (Alifresc pide cambiar 10 cajas de escabeche por natural en el pedido que sale mañana.)",
+        "Correo 04: lo clasificó como «spam» cuando era factura-proveedor (Factura de hojalata del proveedor de envases, vencimiento a 60 días, con aviso de subida de recargo en octubre.)",
+        "Correo 06: lo clasificó como «spam» cuando era reclamacion (Cash Vega Baja recibió 68 cajas de atún en vez de 80 y necesita las 12 que faltan hoy porque mañana empieza una promoción.)"
+      ],
+      "todos_los_fallos": [
+        "Correo 03: lo clasificó como «spam» cuando era cambio-pedido (Alifresc pide cambiar 10 cajas de escabeche por natural en el pedido que sale mañana.)",
+        "Correo 04: lo clasificó como «spam» cuando era factura-proveedor (Factura de hojalata del proveedor de envases, vencimiento a 60 días, con aviso de subida de recargo en octubre.)",
+        "Correo 06: lo clasificó como «spam» cuando era reclamacion (Cash Vega Baja recibió 68 cajas de atún en vez de 80 y necesita las 12 que faltan hoy porque mañana empieza una promoción.)"
+      ]
+    }
+  },
+  "puntuar_sin_respuesta": {
+    "aciertos": 0,
+    "fallos": [
+      "Pedido 01: el modelo no devolvió una respuesta válida",
+      "Pedido 02: no devolvió nada legible"
+    ],
+    "todos_los_fallos": [
+      "Pedido 01: el modelo no devolvió una respuesta válida",
+      "Pedido 02: no devolvió nada legible"
+    ]
+  },
+  "utilidades": {
+    "leerNumero": [
+      {
+        "entrada": "4.312,60",
+        "salida": 4312.6
+      },
+      {
+        "entrada": "4312.60",
+        "salida": 4312.6
+      },
+      {
+        "entrada": "1.234 €",
+        "salida": 1234
+      },
+      {
+        "entrada": 24.29,
+        "salida": 24.29
+      },
+      {
+        "entrada": "nada",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "1 234,56 €",
+        "salida": 1234.56
+      },
+      {
+        "entrada": "1,5",
+        "salida": 1.5
+      },
+      {
+        "entrada": "12.5",
+        "salida": 12.5
+      },
+      {
+        "entrada": "1.234",
+        "salida": 1234
+      },
+      {
+        "entrada": "1,234",
+        "salida": 1234
+      },
+      {
+        "entrada": "",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "   ",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "12abc",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "1e3",
+        "salida": 1000
+      },
+      {
+        "entrada": "0x10",
+        "salida": 16
+      },
+      {
+        "entrada": "-3,50",
+        "salida": -3.5
+      },
+      {
+        "entrada": "+5",
+        "salida": 5
+      },
+      {
+        "entrada": "1.234.567,89",
+        "salida": 1234567.89
+      },
+      {
+        "entrada": "1,234.56",
+        "salida": 1234.56
+      },
+      {
+        "entrada": "100,",
+        "salida": 100
+      },
+      {
+        "entrada": "100.",
+        "salida": 100
+      },
+      {
+        "entrada": ".5",
+        "salida": 0.5
+      },
+      {
+        "entrada": ",5",
+        "salida": 0.5
+      },
+      {
+        "entrada": "1.234,5",
+        "salida": 1234.5
+      },
+      {
+        "entrada": "12,345",
+        "salida": 12345
+      },
+      {
+        "entrada": "1 000",
+        "salida": 1000
+      },
+      {
+        "entrada": "€ 45",
+        "salida": 45
+      },
+      {
+        "entrada": "Infinity",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "NaN",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "1_000",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": true,
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": null,
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "<undefined>",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": {
+          "a": 1
+        },
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": [
+          1
+        ],
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": 0,
+        "salida": 0
+      },
+      {
+        "entrada": -0.001,
+        "salida": -0.001
+      },
+      {
+        "entrada": 3.999999,
+        "salida": 3.999999
+      }
+    ],
+    "leerFecha": [
+      {
+        "entrada": "07/09/2026",
+        "salida": "2026-09-07"
+      },
+      {
+        "entrada": "2026-09-07",
+        "salida": "2026-09-07"
+      },
+      {
+        "entrada": "7 de septiembre de 2026",
+        "salida": "2026-09-07"
+      },
+      {
+        "entrada": "sin fecha",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "7-9-2026",
+        "salida": "2026-09-07"
+      },
+      {
+        "entrada": "07.09.2026",
+        "salida": "2026-09-07"
+      },
+      {
+        "entrada": "Vence el 3 de Noviembre de 2026",
+        "salida": "2026-11-03"
+      },
+      {
+        "entrada": "2026-9-7",
+        "salida": "2026-09-07"
+      },
+      {
+        "entrada": "20260907",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "07/09/26",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "1 de Enero de 2027",
+        "salida": "2027-01-01"
+      },
+      {
+        "entrada": "Septiembre 7, 2026",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "2026-09-07T00:00:00Z",
+        "salida": "2026-09-07"
+      },
+      {
+        "entrada": "12026-09-05",
+        "salida": "2026-09-05"
+      },
+      {
+        "entrada": "31/12/2026 y 01/01/2027",
+        "salida": "2026-12-31"
+      },
+      {
+        "entrada": "2026-13-45",
+        "salida": "2026-13-45"
+      },
+      {
+        "entrada": "el 5 de sept de 2026",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": 12345,
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": null,
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "<undefined>",
+        "salida": "<undefined>"
+      },
+      {
+        "entrada": "  2026-09-07  ",
+        "salida": "2026-09-07"
+      },
+      {
+        "entrada": "Fecha: 2026-09-07; también 08/09/2026",
+        "salida": "2026-09-07"
+      }
+    ],
+    "normalizarTexto": [
+      {
+        "entrada": "  Reclamación   URGENTE\n\tya ",
+        "salida": "reclamacion urgente ya"
+      },
+      {
+        "entrada": "Ñoras",
+        "salida": "noras"
+      },
+      {
+        "entrada": "Bernabéu",
+        "salida": "bernabeu"
+      },
+      {
+        "entrada": "Straße",
+        "salida": "straße"
+      },
+      {
+        "entrada": "İstanbul",
+        "salida": "istanbul"
+      },
+      {
+        "entrada": "ﬁ",
+        "salida": "ﬁ"
+      },
+      {
+        "entrada": "a b",
+        "salida": "a b"
+      },
+      {
+        "entrada": "a b",
+        "salida": "a b"
+      },
+      {
+        "entrada": "x﻿y",
+        "salida": "x y"
+      },
+      {
+        "entrada": null,
+        "salida": ""
+      },
+      {
+        "entrada": "<undefined>",
+        "salida": ""
+      },
+      {
+        "entrada": 123,
+        "salida": "123"
+      },
+      {
+        "entrada": 24.5,
+        "salida": "24.5"
+      },
+      {
+        "entrada": 1,
+        "salida": "1"
+      },
+      {
+        "entrada": 1e+21,
+        "salida": "1e+21"
+      },
+      {
+        "entrada": 1e-7,
+        "salida": "1e-7"
+      },
+      {
+        "entrada": true,
+        "salida": "true"
+      },
+      {
+        "entrada": false,
+        "salida": "false"
+      },
+      {
+        "entrada": {
+          "a": 1,
+          "b": "é"
+        },
+        "salida": "{\"a\":1,\"b\":\"e\"}"
+      },
+      {
+        "entrada": [
+          1,
+          "x"
+        ],
+        "salida": "[1,\"x\"]"
+      },
+      {
+        "entrada": "Cañón — “comillas” · punto",
+        "salida": "canon — “comillas” · punto"
+      }
+    ],
+    "normalizarReferencia": [
+      {
+        "entrada": "cons atun-ol_120.",
+        "salida": "CONSATUNOL120"
+      },
+      {
+        "entrada": "C0NS-ATUN-0L-1K",
+        "salida": "C0NSATUN0L1K"
+      },
+      {
+        "entrada": "cons-ñora",
+        "salida": "CONSORA"
+      },
+      {
+        "entrada": "CONS-ATUN-OL-120",
+        "salida": "CONSATUNOL120"
+      },
+      {
+        "entrada": "cons–atun",
+        "salida": "CONSATUN"
+      },
+      {
+        "entrada": "straße",
+        "salida": "STRASSE"
+      },
+      {
+        "entrada": null,
+        "salida": ""
+      },
+      {
+        "entrada": "<undefined>",
+        "salida": ""
+      },
+      {
+        "entrada": 120,
+        "salida": "120"
+      },
+      {
+        "entrada": {
+          "a": 1
+        },
+        "salida": "A1"
+      }
+    ],
+    "formatearEuros": [
+      {
+        "entrada": 4312.6,
+        "salida": "4.312,60 €"
+      },
+      {
+        "entrada": 2448,
+        "salida": "2.448,00 €"
+      },
+      {
+        "entrada": 22845.41,
+        "salida": "22.845,41 €"
+      },
+      {
+        "entrada": 1234567.891,
+        "salida": "1.234.567,89 €"
+      },
+      {
+        "entrada": 0.005,
+        "salida": "0,01 €"
+      },
+      {
+        "entrada": 1.005,
+        "salida": "1,00 €"
+      },
+      {
+        "entrada": 0,
+        "salida": "0,00 €"
+      },
+      {
+        "entrada": -1234.5,
+        "salida": "-1.234,50 €"
+      },
+      {
+        "entrada": 2.675,
+        "salida": "2,67 €"
+      },
+      {
+        "entrada": 8306.7,
+        "salida": "8.306,70 €"
+      },
+      {
+        "entrada": 1.455,
+        "salida": "1,46 €"
+      },
+      {
+        "entrada": 0.125,
+        "salida": "0,13 €"
+      },
+      {
+        "entrada": 1000000,
+        "salida": "1.000.000,00 €"
+      },
+      {
+        "entrada": 999.995,
+        "salida": "1.000,00 €"
+      },
+      {
+        "entrada": 0.30000000000000004,
+        "salida": "0,30 €"
+      }
+    ],
+    "normalizarClaves": [
+      {
+        "esquema": {
+          "required": [
+            "proveedor",
+            "numero",
+            "fecha",
+            "base",
+            "iva",
+            "total",
+            "vencimiento"
+          ]
+        },
+        "datos": {
+          "proveedor": "X",
+          "numero_factura": "F-1",
+          "fecha_factura": "2026-09-01",
+          "base_imponible": 100,
+          "cuota_iva": 21,
+          "importe_total": 121,
+          "fecha_vencimiento": "2026-10-01"
+        },
+        "salida": {
+          "proveedor": "X",
+          "numero_factura": "F-1",
+          "fecha_factura": "2026-09-01",
+          "base_imponible": 100,
+          "cuota_iva": 21,
+          "importe_total": 121,
+          "fecha_vencimiento": "2026-10-01",
+          "vencimiento": "2026-10-01",
+          "numero": "F-1",
+          "fecha": "2026-09-01",
+          "total": 121,
+          "base": 100,
+          "iva": 21
+        }
+      },
+      {
+        "esquema": {
+          "required": [
+            "base",
+            "iva"
+          ]
+        },
+        "datos": {
+          "base_imponible": 1,
+          "base_total": 2,
+          "iva": 3
+        },
+        "salida": {
+          "base_imponible": 1,
+          "base_total": 2,
+          "iva": 3
+        }
+      },
+      {
+        "esquema": {
+          "required": [
+            "total"
+          ]
+        },
+        "datos": {
+          "Importe Total (EUR)": 5
+        },
+        "salida": {
+          "Importe Total (EUR)": 5,
+          "total": 5
+        }
+      },
+      {
+        "esquema": {
+          "required": [
+            "total"
+          ]
+        },
+        "datos": {
+          "total": 1,
+          "importe_total": 2
+        },
+        "salida": {
+          "total": 1,
+          "importe_total": 2
+        }
+      },
+      {
+        "esquema": {
+          "required": [
+            "cliente",
+            "lineas",
+            "incidencias"
+          ]
+        },
+        "datos": {
+          "Cliente": "A",
+          "LINEAS": [],
+          "incidencias_detectadas": []
+        },
+        "salida": {
+          "Cliente": "A",
+          "LINEAS": [],
+          "incidencias_detectadas": [],
+          "incidencias": [],
+          "cliente": "A",
+          "lineas": []
+        }
+      },
+      {
+        "esquema": {
+          "required": [
+            "a"
+          ]
+        },
+        "datos": [
+          1,
+          2
+        ],
+        "salida": [
+          1,
+          2
+        ]
+      },
+      {
+        "esquema": {},
+        "datos": {
+          "x": 1
+        },
+        "salida": {
+          "x": 1
+        }
+      }
+    ],
+    "extraerJson": [
+      {
+        "entrada": "```json\n{\"a\":1}\n```",
+        "salida": {
+          "a": 1
+        }
+      },
+      {
+        "entrada": "Aquí tienes: {\"a\":1} y ya",
+        "salida": {
+          "a": 1
+        }
+      },
+      {
+        "entrada": "{\"a\":\"x\ny\"}",
+        "salida": {
+          "a": "x\ny"
+        }
+      },
+      {
+        "entrada": "{\"a\":[1,2",
+        "error": "La respuesta no es JSON válido ni reparable"
+      },
+      {
+        "entrada": "[1,2]",
+        "salida": [
+          1,
+          2
+        ]
+      },
+      {
+        "entrada": " {\"a\":1} ",
+        "salida": {
+          "a": 1
+        }
+      },
+      {
+        "entrada": "```\n{\"b\":2}\n```",
+        "salida": {
+          "b": 2
+        }
+      },
+      {
+        "entrada": "{\"a\":1}}",
+        "error": "La respuesta no es JSON válido ni reparable"
+      },
+      {
+        "entrada": "nada",
+        "error": "La respuesta no contiene JSON"
+      },
+      {
+        "entrada": "{\"a\":\"x\ny\", \"b\":[1,",
+        "error": "La respuesta no es JSON válido ni reparable"
+      }
+    ],
+    "validarContraEsquema": [
+      {
+        "datos": [],
+        "esquema": {
+          "type": "object",
+          "required": [
+            "a"
+          ]
+        },
+        "salida": [
+          "la raíz no es un objeto"
+        ]
+      },
+      {
+        "datos": null,
+        "esquema": {
+          "type": "object",
+          "required": [
+            "a"
+          ]
+        },
+        "salida": [
+          "la raíz no es un objeto"
+        ]
+      },
+      {
+        "datos": {
+          "b": 1
+        },
+        "esquema": {
+          "type": "object",
+          "required": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        "salida": [
+          "falta «a»",
+          "falta «c»"
+        ]
+      },
+      {
+        "datos": {
+          "a": null
+        },
+        "esquema": {
+          "type": "object",
+          "required": [
+            "a"
+          ]
+        },
+        "salida": []
+      },
+      {
+        "datos": {},
+        "esquema": {
+          "type": "array"
+        },
+        "salida": [
+          "la raíz no es un array"
+        ]
+      },
+      {
+        "datos": "x",
+        "esquema": {},
+        "salida": []
+      }
+    ],
+    "estimarCoste": [
+      {
+        "modelo": "anthropic/claude-haiku-4-5",
+        "tokens_entrada": 1000000,
+        "tokens_salida": 0,
+        "coste_eur": 0.9
+      },
+      {
+        "modelo": "anthropic/claude-haiku-4-5",
+        "tokens_entrada": 0,
+        "tokens_salida": 1000000,
+        "coste_eur": 4.5
+      },
+      {
+        "modelo": "anthropic/claude-haiku-4-5",
+        "tokens_entrada": 3000,
+        "tokens_salida": 400,
+        "coste_eur": 0.0045
+      },
+      {
+        "modelo": "anthropic/claude-sonnet-5",
+        "tokens_entrada": 3000,
+        "tokens_salida": 400,
+        "coste_eur": 0.014
+      },
+      {
+        "modelo": "anthropic/claude-opus-5",
+        "tokens_entrada": 3000,
+        "tokens_salida": 400,
+        "coste_eur": 0.07
+      },
+      {
+        "modelo": "openai/gpt-6",
+        "tokens_entrada": 3000,
+        "tokens_salida": 400,
+        "coste_eur": 0.015
+      },
+      {
+        "modelo": "anthropic/claude-haiku-4-5-20251001",
+        "tokens_entrada": 3000,
+        "tokens_salida": 400,
+        "coste_eur": 0.015
+      },
+      {
+        "modelo": "lo-que-sea",
+        "tokens_entrada": 1,
+        "tokens_salida": 1,
+        "coste_eur": 0.000018
+      }
+    ],
+    "normalizarModelo": [
+      {
+        "modelo": "claude-haiku-4-5",
+        "principal": "anthropic/claude-haiku-4-5",
+        "salida": "anthropic/claude-haiku-4-5"
+      },
+      {
+        "modelo": "claude-haiku-4-5-20251001",
+        "principal": "anthropic/claude-haiku-4-5",
+        "salida": "anthropic/claude-haiku-4-5-20251001"
+      },
+      {
+        "modelo": "gpt-6",
+        "principal": "x/y",
+        "salida": "openai/gpt-6"
+      },
+      {
+        "modelo": "o3-mini",
+        "principal": "x/y",
+        "salida": "openai/o3-mini"
+      },
+      {
+        "modelo": "gemini-4-pro",
+        "principal": "x/y",
+        "salida": "google/gemini-4-pro"
+      },
+      {
+        "modelo": "openai/gpt-6",
+        "principal": "x/y",
+        "salida": "openai/gpt-6"
+      },
+      {
+        "modelo": "raro",
+        "principal": "anthropic/claude-haiku-4-5",
+        "salida": "anthropic/claude-haiku-4-5"
+      }
+    ],
+    "esTemperaturaObsoleta": [
+      {
+        "estado": 400,
+        "cuerpo": "{\"error\":{\"message\":\"temperature is deprecated\"}}",
+        "salida": true
+      },
+      {
+        "estado": 400,
+        "cuerpo": "`temperature` is not supported",
+        "salida": true
+      },
+      {
+        "estado": 400,
+        "cuerpo": "unsupported parameter: temperature",
+        "salida": true
+      },
+      {
+        "estado": 400,
+        "cuerpo": "temperature fuera de rango",
+        "salida": false
+      },
+      {
+        "estado": 422,
+        "cuerpo": "temperature is deprecated",
+        "salida": false
+      },
+      {
+        "estado": 400,
+        "cuerpo": "top_p is not supported",
+        "salida": false
+      }
+    ]
+  },
+  "veredictos": [
+    {
+      "nombre": "W37 extraer-pedidos publicado",
+      "aciertos": 15,
+      "casos": 20,
+      "coste_eur": 0.3822,
+      "fallos": [
+        "Pedido 06: en CONS-BONI-OL-220 puso 34,22 € donde la tarifa dice 37,20 €",
+        "Pedido 07: en CONS-MELV-OL-120 puso 26,40 € donde la tarifa dice 29,28 €",
+        "Pedido 13: en CONS-ALCA-CO-T720 puso 22,23 € donde la tarifa dice 23,40 €"
+      ],
+      "veredicto": "todavia-no",
+      "nota": "Falló 5 de 20: hay que revisar cada resultado y entonces no ahorra tiempo. Ejemplo: Pedido 06: en CONS-BONI-OL-220 puso 34,22 € donde la tarifa dice 37,20 €."
+    },
+    {
+      "nombre": "W37 clasificar-facturas publicado",
+      "aciertos": 24,
+      "casos": 25,
+      "coste_eur": 0.1428,
+      "fallos": [
+        "Factura 08: vencimiento 2026-10-05 donde tocaba 05/09/2026"
+      ],
+      "veredicto": "lo-usaria-el-lunes",
+      "nota": "Acertó 24 de 25 a 0,6 céntimos por caso; sirve el lunes si una persona repasa los casos con incidencia. Ejemplo: Factura 08: vencimiento 2026-10-05 donde tocaba 05/09/2026."
+    },
+    {
+      "nombre": "todo bien y barato",
+      "aciertos": 20,
+      "casos": 20,
+      "coste_eur": 0.5,
+      "fallos": [],
+      "veredicto": "lo-usaria-el-lunes",
+      "nota": "Acertó los 20 casos a 2,5 céntimos por caso; lo pondría a trabajar el lunes con alguien mirando por encima la primera semana."
+    },
+    {
+      "nombre": "todo bien pero caro (0,10 €/caso)",
+      "aciertos": 20,
+      "casos": 20,
+      "coste_eur": 2,
+      "fallos": [],
+      "veredicto": "todavia-no",
+      "nota": "Acierta (20 de 20) pero sale a 10,0 céntimos por caso: para este volumen no compensa frente a hacerlo a mano."
+    },
+    {
+      "nombre": "justo en el umbral 90 % y 0,05 €/caso",
+      "aciertos": 18,
+      "casos": 20,
+      "coste_eur": 1,
+      "fallos": [
+        "x"
+      ],
+      "veredicto": "lo-usaria-el-lunes",
+      "nota": "Acertó 18 de 20 a 5,0 céntimos por caso; sirve el lunes si una persona repasa los casos con incidencia. Ejemplo: x."
+    },
+    {
+      "nombre": "justo en el umbral 60 %",
+      "aciertos": 12,
+      "casos": 20,
+      "coste_eur": 0.1,
+      "fallos": [
+        "x"
+      ],
+      "veredicto": "todavia-no",
+      "nota": "Falló 8 de 20: hay que revisar cada resultado y entonces no ahorra tiempo. Ejemplo: x."
+    },
+    {
+      "nombre": "por debajo del 60 %",
+      "aciertos": 11,
+      "casos": 20,
+      "coste_eur": 0.1,
+      "fallos": [
+        "x",
+        "y"
+      ],
+      "veredicto": "humo",
+      "nota": "Falló 9 de 20; no vale para esto todavía. Ejemplo: x."
+    },
+    {
+      "nombre": "sin casos",
+      "aciertos": 0,
+      "casos": 0,
+      "coste_eur": 0,
+      "fallos": [],
+      "veredicto": "todavia-no",
+      "nota": "Falló 0 de 0: hay que revisar cada resultado y entonces no ahorra tiempo."
+    },
+    {
+      "nombre": "20 de 25 sin respuesta (80 %)",
+      "aciertos": 0,
+      "casos": 25,
+      "coste_eur": 0,
+      "fallos": [
+        "x"
+      ],
+      "sinRespuesta": 20,
+      "veredicto": "todavia-no",
+      "nota": "No devolvió una respuesta que se pudiera leer en 20 de 25 casos. Puede ser cosa de cómo se lo pedimos y no de lo que sabe: lo repetiremos antes de darlo por malo."
+    },
+    {
+      "nombre": "19 de 25 sin respuesta (76 %)",
+      "aciertos": 0,
+      "casos": 25,
+      "coste_eur": 0,
+      "fallos": [
+        "x"
+      ],
+      "sinRespuesta": 19,
+      "veredicto": "humo",
+      "nota": "Falló 25 de 25; no vale para esto todavía. Ejemplo: x."
+    },
+    {
+      "nombre": "20 de 25 errores de servicio",
+      "aciertos": 0,
+      "casos": 25,
+      "coste_eur": 0,
+      "fallos": [
+        "x"
+      ],
+      "sinRespuesta": 20,
+      "erroresServicio": 20,
+      "veredicto": "todavia-no",
+      "nota": "El servicio no contestó en 20 de 25 casos (errores de red o del proveedor): no se ha medido nada. Lo repetiremos."
+    },
+    {
+      "nombre": "8 de 10 sin respuesta",
+      "aciertos": 2,
+      "casos": 10,
+      "coste_eur": 0.01,
+      "fallos": [
+        "x"
+      ],
+      "sinRespuesta": 8,
+      "veredicto": "todavia-no",
+      "nota": "No devolvió una respuesta que se pudiera leer en 8 de 10 casos. Puede ser cosa de cómo se lo pedimos y no de lo que sabe: lo repetiremos antes de darlo por malo."
+    },
+    {
+      "nombre": "7 de 10 sin respuesta",
+      "aciertos": 2,
+      "casos": 10,
+      "coste_eur": 0.01,
+      "fallos": [
+        "x"
+      ],
+      "sinRespuesta": 7,
+      "veredicto": "humo",
+      "nota": "Falló 8 de 10; no vale para esto todavía. Ejemplo: x."
+    },
+    {
+      "nombre": "coste con redondeo de céntimos 0,05 → 5,0",
+      "aciertos": 9,
+      "casos": 10,
+      "coste_eur": 0.5,
+      "fallos": [],
+      "veredicto": "lo-usaria-el-lunes",
+      "nota": "Acertó 9 de 10 a 5,0 céntimos por caso; sirve el lunes si una persona repasa los casos con incidencia."
+    },
+    {
+      "nombre": "céntimos 0,0057 → 0,6",
+      "aciertos": 10,
+      "casos": 10,
+      "coste_eur": 0.057,
+      "fallos": [],
+      "veredicto": "lo-usaria-el-lunes",
+      "nota": "Acertó los 10 casos a 0,6 céntimos por caso; lo pondría a trabajar el lunes con alguien mirando por encima la primera semana."
+    },
+    {
+      "nombre": "céntimos 0,00125 → 0,1",
+      "aciertos": 10,
+      "casos": 10,
+      "coste_eur": 0.0125,
+      "fallos": [],
+      "veredicto": "lo-usaria-el-lunes",
+      "nota": "Acertó los 10 casos a 0,1 céntimos por caso; lo pondría a trabajar el lunes con alguien mirando por encima la primera semana."
+    },
+    {
+      "nombre": "céntimos 0,00135 → 0,1",
+      "aciertos": 10,
+      "casos": 10,
+      "coste_eur": 0.0135,
+      "fallos": [],
+      "veredicto": "lo-usaria-el-lunes",
+      "nota": "Acertó los 10 casos a 0,1 céntimos por caso; lo pondría a trabajar el lunes con alguien mirando por encima la primera semana."
+    }
+  ],
+  "redondeos": {
+    "Math.round(x*10000)/10000": [
+      {
+        "x": 0.38215,
+        "salida": 0.3822
+      },
+      {
+        "x": 0.38225,
+        "salida": 0.3823
+      },
+      {
+        "x": 0.14275,
+        "salida": 0.1427
+      },
+      {
+        "x": 1.00005,
+        "salida": 1.0001
+      },
+      {
+        "x": 0.000025,
+        "salida": 0
+      },
+      {
+        "x": 0.00015,
+        "salida": 0.0001
+      }
+    ],
+    "Math.round(ms/100)/10 (segundos)": [
+      {
+        "ms": 16850,
+        "salida": 16.9
+      },
+      {
+        "ms": 16950,
+        "salida": 17
+      },
+      {
+        "ms": 16949,
+        "salida": 16.9
+      },
+      {
+        "ms": 10450,
+        "salida": 10.5
+      },
+      {
+        "ms": 10499,
+        "salida": 10.5
+      },
+      {
+        "ms": 50,
+        "salida": 0.1
+      },
+      {
+        "ms": 149,
+        "salida": 0.1
+      },
+      {
+        "ms": 150,
+        "salida": 0.2
+      }
+    ],
+    "toFixed(1) sobre céntimos": [
+      {
+        "x": 0.05,
+        "salida": "0.1"
+      },
+      {
+        "x": 0.15,
+        "salida": "0.1"
+      },
+      {
+        "x": 0.25,
+        "salida": "0.3"
+      },
+      {
+        "x": 0.35,
+        "salida": "0.3"
+      },
+      {
+        "x": 0.45,
+        "salida": "0.5"
+      },
+      {
+        "x": 1.005,
+        "salida": "1.0"
+      },
+      {
+        "x": 2.675,
+        "salida": "2.7"
+      },
+      {
+        "x": 0.5712,
+        "salida": "0.6"
+      },
+      {
+        "x": 1.9105,
+        "salida": "1.9"
+      }
+    ],
+    "toFixed(2)": [
+      {
+        "x": 1.005,
+        "salida": "1.00"
+      },
+      {
+        "x": 2.675,
+        "salida": "2.67"
+      },
+      {
+        "x": 1.455,
+        "salida": "1.46"
+      },
+      {
+        "x": 0.125,
+        "salida": "0.13"
+      },
+      {
+        "x": 8.345,
+        "salida": "8.35"
+      },
+      {
+        "x": 24.285,
+        "salida": "24.29"
+      },
+      {
+        "x": 0.615,
+        "salida": "0.61"
+      }
+    ]
+  }
+}

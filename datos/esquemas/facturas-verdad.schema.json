@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/facturas-verdad.schema.json",
+  "title": "Respuesta correcta de las 25 facturas recibidas (datos/facturas/facturas-verdad.json)",
+  "description": "Un elemento por factura. Se puntúan total (±0,011 €), vencimiento y duplicada; proveedor, número, fecha, base, IVA y cuenta son informativos.",
+  "type": "object",
+  "required": [
+    "_comentario",
+    "empresa",
+    "facturas"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "_comentario": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Criterio de acierto en una frase, para quien abre el fichero sin leer la documentación."
+    },
+    "empresa": {
+      "const": "Conservas Marjal Blanca S.L."
+    },
+    "facturas": {
+      "type": "array",
+      "minItems": 25,
+      "maxItems": 25,
+      "items": {
+        "$ref": "#/$defs/factura"
+      },
+      "$comment": "v1.0.0: 25 facturas. Cambiar el número de casos, o cualquier caso, es cambiar de versión mayor (ver datos/README.md)."
+    }
+  },
+  "$defs": {
+    "fecha_iso": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "format": "date",
+      "description": "Fecha en formato AAAA-MM-DD."
+    },
+    "nif": {
+      "type": "string",
+      "description": "NIF/CIF español (letra + 7 dígitos + control), DNI (8 dígitos + letra) o número de IVA extranjero («GB 447 2201 93»). Todos inventados; los españoles llevan dígito de control válido.",
+      "anyOf": [
+        {
+          "pattern": "^[ABCDEFGHJNPQRSUVW][0-9]{7}[0-9A-J]$"
+        },
+        {
+          "pattern": "^[0-9]{8}[A-Z]$"
+        },
+        {
+          "pattern": "^[A-Z]{2} [0-9A-Z ]+$"
+        }
+      ]
+    },
+    "importe": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Euros, con dos decimales como mucho."
+    },
+    "factura": {
+      "type": "object",
+      "required": [
+        "id",
+        "fichero",
+        "proveedor",
+        "nif_proveedor",
+        "numero",
+        "fecha",
+        "base",
+        "tipo_iva",
+        "iva",
+        "retencion",
+        "otros",
+        "total",
+        "vencimiento",
+        "cuenta_sugerida",
+        "cuenta_nombre",
+        "duplicada",
+        "nota"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^factura-[0-9]{2}$"
+        },
+        "fichero": {
+          "type": "string",
+          "pattern": "^factura-[0-9]{2}\\.txt$",
+          "description": "Fichero de facturas/ que se da al modelo íntegro como mensaje de usuario."
+        },
+        "proveedor": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Tal como aparece en la factura. No se puntúa."
+        },
+        "nif_proveedor": {
+          "$ref": "#/$defs/nif"
+        },
+        "numero": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Número de factura tal como aparece. No se puntúa."
+        },
+        "fecha": {
+          "$ref": "#/$defs/fecha_iso",
+          "description": "Fecha de la factura. No se puntúa."
+        },
+        "base": {
+          "$ref": "#/$defs/importe",
+          "description": "Base imponible. No se puntúa."
+        },
+        "tipo_iva": {
+          "enum": [
+            0,
+            4,
+            10,
+            21
+          ],
+          "description": "Tipo de IVA en %: 0 (exento o inversión del sujeto pasivo), 4 (superreducido), 10 (reducido), 21 (general)."
+        },
+        "iva": {
+          "$ref": "#/$defs/importe",
+          "description": "Cuota de IVA. No se puntúa."
+        },
+        "retencion": {
+          "$ref": "#/$defs/importe",
+          "description": "Retención de IRPF que se resta (alquileres 19 %, profesionales 15 %)."
+        },
+        "otros": {
+          "$ref": "#/$defs/importe",
+          "description": "Impuestos que no son IVA y se suman (primas de seguros)."
+        },
+        "total": {
+          "$ref": "#/$defs/importe",
+          "description": "Se puntúa: |total del modelo − este| ≤ 0,011. Invariante: base + iva − retencion + otros = total."
+        },
+        "vencimiento": {
+          "$ref": "#/$defs/fecha_iso",
+          "description": "Se puntúa: la fecha del modelo se lee en AAAA-MM-DD, DD/MM/AAAA, DD-MM-AAAA, DD.MM.AAAA o «D de mes de AAAA» y se compara exacta."
+        },
+        "cuenta_sugerida": {
+          "type": "string",
+          "pattern": "^6[0-9]{2}$",
+          "description": "Cuenta del PGC de pymes (grupo 6), tres dígitos. No se puntúa."
+        },
+        "cuenta_nombre": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nombre de la cuenta. Informativo."
+        },
+        "duplicada": {
+          "type": "boolean",
+          "description": "true si proveedor y número ya están en registro-previo.csv. Se puntúa; un valor ausente o null en la respuesta del modelo cuenta como false."
+        },
+        "nota": {
+          "type": "string",
+          "description": "Puede estar vacía. Si no lo está, se añade entre paréntesis al texto del fallo de total."
+        }
+      }
+    }
+  }
+}

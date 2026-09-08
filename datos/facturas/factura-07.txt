@@ -1,0 +1,22 @@
+COOPERATIVA AGRÍCOLA SAN ISIDRO DE CALLOSA S. COOP. V.
+F30117295 · c/ de la Estación 45 · 03360 Callosa de Segura (Alicante) · Tel. 965 31 02 44
+facturacion@coopsanisidro.example
+
+                                                          FACTURA Nº V-2026-1088
+                                                          Fecha: 09/09/2026
+CLIENTE: Conservas Marjal Blanca S.L.
+NIF: B38122941
+Polígono Industrial Las Maromas, calle Alcachofa 14, 03160 Almoradí (Alicante)
+Su referencia: Entregas 01-08/09/2026 · albaranes 4410 a 4416
+
+Concepto                                                  Cantidad      Precio       Importe
+------------------------------------------------------------------------------------------
+Alcachofa Blanca de Tudela calibre industria, kg         12000        1,15      13800,00
+Cajas de campo (retornables, depósito)                     400        0,00          0,00
+------------------------------------------------------------------------------------------
+                                                          Base imponible       13800,00
+                                                          IVA  4 %                552,00
+                                                          TOTAL FACTURA        14352,00 €
+
+Pago a 30 días fecha factura por transferencia.
+IBAN: ES55 3005 0011 2233 4455 6677

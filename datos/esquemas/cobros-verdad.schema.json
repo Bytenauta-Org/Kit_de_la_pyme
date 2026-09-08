@@ -1,0 +1,361 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Bytenauta-Org/Kit_de_la_pyme/main/datos/esquemas/cobros-verdad.schema.json",
+  "title": "Hoja de cobros resuelta y los 10 casos de recordatorio (datos/cobros/cobros-verdad.json)",
+  "description": "A quién hay que recordar y a quién no (informativo), la firma y los tonos que se interpolan en el prompt, y los diez casos de redactar-recordatorio con sus reglas de puntuación.",
+  "type": "object",
+  "required": [
+    "_comentario",
+    "fecha_referencia",
+    "empresa",
+    "firma",
+    "tonos",
+    "recordar",
+    "no_recordar",
+    "casos_recordatorio"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "_comentario": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Criterio de acierto en una frase, para quien abre el fichero sin leer la documentación."
+    },
+    "fecha_referencia": {
+      "$ref": "#/$defs/fecha_iso",
+      "const": "2026-09-14",
+      "description": "«Hoy» para el prompt (lunes 14 de septiembre de 2026); se interpola como «Hoy es 14/09/2026». Cambiarla cambia el prompt."
+    },
+    "empresa": {
+      "const": "Conservas Marjal Blanca S.L."
+    },
+    "firma": {
+      "type": "object",
+      "required": [
+        "nombre",
+        "cargo",
+        "telefono",
+        "iban"
+      ],
+      "additionalProperties": false,
+      "description": "Se interpola en el prompt de redactar-recordatorio: cambiar un valor cambia el prompt y las cifras dejan de ser comparables.",
+      "properties": {
+        "nombre": {
+          "const": "Marisa Pérez"
+        },
+        "cargo": {
+          "const": "Administración"
+        },
+        "telefono": {
+          "const": "965 70 12 48"
+        },
+        "iban": {
+          "const": "ES21 0081 1234 5600 0123 4567"
+        }
+      }
+    },
+    "tonos": {
+      "type": "object",
+      "required": [
+        "amable",
+        "firme",
+        "formal"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "amable": {
+          "$ref": "#/$defs/tono",
+          "properties": {
+            "descripcion": {
+              "const": "recordatorio cordial: damos por hecho que es un despiste; sin amenazas ni mención de intereses"
+            }
+          }
+        },
+        "firme": {
+          "$ref": "#/$defs/tono",
+          "properties": {
+            "descripcion": {
+              "const": "firme pero educado: pide fecha concreta de pago y avisa de que es el segundo aviso o de que el retraso es ya importante; sin amenazas legales"
+            }
+          }
+        },
+        "formal": {
+          "$ref": "#/$defs/tono",
+          "properties": {
+            "descripcion": {
+              "const": "último aviso formal: fija un plazo de días para pagar y advierte de suspensión de suministro y/o intereses de demora según contrato; correcto, sin insultos"
+            }
+          }
+        }
+      }
+    },
+    "recordar": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/recordar"
+      },
+      "description": "Facturas vencidas que tocaba reclamar el 14/09/2026. Los diez casos salen de aquí."
+    },
+    "no_recordar": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/no_recordar"
+      },
+      "description": "Facturas vencidas que NO se reclaman y por qué. Informativo."
+    },
+    "casos_recordatorio": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "$ref": "#/$defs/caso_recordatorio"
+      },
+      "$comment": "v1.0.0: 10 recordatorios. Cambiar el número de casos, o cualquier caso, es cambiar de versión mayor (ver datos/README.md)."
+    }
+  },
+  "$defs": {
+    "fecha_iso": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "format": "date",
+      "description": "Fecha en formato AAAA-MM-DD."
+    },
+    "importe": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Euros, con dos decimales como mucho."
+    },
+    "numero_factura": {
+      "type": "string",
+      "pattern": "^26/[0-9]{4}$",
+      "description": "Número de factura emitida, columna «numero» de cobros.csv."
+    },
+    "tono": {
+      "type": "object",
+      "required": [
+        "descripcion",
+        "prohibido",
+        "obligatorio"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "descripcion": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Se interpola literalmente en el prompt de redactar-recordatorio."
+        },
+        "prohibido": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Cadenas que no pueden aparecer en un recordatorio de este tono."
+        },
+        "obligatorio": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Expresiones regulares (sintaxis ECMAScript) que tienen que casar."
+        }
+      }
+    },
+    "recordar": {
+      "type": "object",
+      "required": [
+        "factura",
+        "cliente",
+        "contacto",
+        "importe_total",
+        "importe_pendiente",
+        "vencimiento",
+        "dias_retraso",
+        "tono",
+        "rasgos"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "factura": {
+          "$ref": "#/$defs/numero_factura"
+        },
+        "cliente": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contacto": {
+          "type": "string",
+          "minLength": 1
+        },
+        "importe_total": {
+          "$ref": "#/$defs/importe"
+        },
+        "importe_pendiente": {
+          "$ref": "#/$defs/importe",
+          "description": "importe_total − importe_cobrado de cobros.csv."
+        },
+        "vencimiento": {
+          "$ref": "#/$defs/fecha_iso"
+        },
+        "dias_retraso": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "tono": {
+          "enum": [
+            "amable",
+            "firme",
+            "formal"
+          ],
+          "description": "1-15 días amable; 16-45 firme; más de 45 formal."
+        },
+        "rasgos": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Se interpola en la entrada del caso como «Contexto (hoja de cobros)»."
+        }
+      }
+    },
+    "no_recordar": {
+      "type": "object",
+      "required": [
+        "factura",
+        "cliente",
+        "vencimiento",
+        "motivo"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "factura": {
+          "$ref": "#/$defs/numero_factura"
+        },
+        "cliente": {
+          "type": "string",
+          "minLength": 1
+        },
+        "vencimiento": {
+          "$ref": "#/$defs/fecha_iso"
+        },
+        "motivo": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "caso_recordatorio": {
+      "type": "object",
+      "required": [
+        "id",
+        "factura",
+        "cliente",
+        "contacto",
+        "importe_pendiente",
+        "vencimiento",
+        "dias_retraso",
+        "tono",
+        "reglas"
+      ],
+      "additionalProperties": false,
+      "description": "La entrada del caso se compone con estos campos y la fila de cobros.csv (ver docs/tareas.md).",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^recordatorio-[0-9]{2}$"
+        },
+        "factura": {
+          "$ref": "#/$defs/numero_factura"
+        },
+        "cliente": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contacto": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nombre y apellido de la persona de contacto."
+        },
+        "importe_pendiente": {
+          "$ref": "#/$defs/importe"
+        },
+        "vencimiento": {
+          "$ref": "#/$defs/fecha_iso"
+        },
+        "dias_retraso": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "tono": {
+          "enum": [
+            "amable",
+            "firme",
+            "formal"
+          ]
+        },
+        "reglas": {
+          "$ref": "#/$defs/reglas"
+        }
+      }
+    },
+    "reglas": {
+      "type": "object",
+      "required": [
+        "debe_contener_alguno",
+        "debe_contener_expresion",
+        "no_debe_contener",
+        "max_palabras",
+        "debe_nombrar_cliente",
+        "debe_firmar"
+      ],
+      "additionalProperties": false,
+      "description": "Todas las comprobaciones se hacen sobre asunto + salto de línea + cuerpo, normalizados (minúsculas, sin acentos, espacios comprimidos), salvo el recuento de palabras.",
+      "properties": {
+        "debe_contener_alguno": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "description": "Grupos en este orden: número de factura, importe pendiente, fecha de vencimiento (así los nombra el texto del fallo). Alguna forma de cada grupo tiene que aparecer."
+        },
+        "debe_contener_expresion": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Expresiones regulares (sintaxis ECMAScript) que tienen que casar, sin distinguir mayúsculas, sobre el texto normalizado (por eso «último aviso» no casa y «ultimo aviso» sí)."
+        },
+        "no_debe_contener": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Cadenas prohibidas para este tono (se normalizan antes de buscarlas)."
+        },
+        "max_palabras": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Palabras contadas sobre asunto + cuerpo sin normalizar. v1.0.0: 220 en todos los casos (el prompt pide «menos de 200»; manda esta regla)."
+        },
+        "debe_nombrar_cliente": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nombre de pila del contacto; tiene que aparecer en el texto normalizado."
+        },
+        "debe_firmar": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Tiene que aparecer en el texto normalizado («Marjal»)."
+        }
+      }
+    }
+  }
+}
