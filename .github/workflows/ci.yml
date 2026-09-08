@@ -6,7 +6,9 @@
 #   datos     los checksums cuadran, no sobra ni falta ningún fichero de datos, todo es LF
 #             y UTF-8 sin BOM, los JSON parsean y los YAML de .github y CITATION.cff cumplen
 #             su esquema.
-#   mermaid   todos los diagramas del README y de docs/ se renderizan con mermaid-cli.
+#   mermaid   todos los diagramas del repositorio, en los dos idiomas, se renderizan con
+#             mermaid-cli. La lista la vigila tests/test_documentacion.py: si un fichero
+#             nuevo trae un diagrama y no entra aquí, el test falla.
 # Y uno final, «todo-verde», que es la única comprobación que hace falta marcar como
 # obligatoria en la protección de la rama main.
 
@@ -128,14 +130,14 @@ jobs:
             exit 1
           fi
 
-      - name: UTF-8 sin BOM y JSON válido (datos/, tareas/, resultados/, docs/)
+      - name: UTF-8 sin BOM y JSON válido (datos/, tareas/, resultados/, docs/, los dos README)
         run: |
           python - <<'PY'
           import json
           import pathlib
           import sys
 
-          raices = ["datos", "tareas", "resultados", "docs", "README.md", "CITATION.cff"]
+          raices = ["datos", "tareas", "resultados", "docs", "README.md", "README.en.md", "CITATION.cff"]
           errores = []
           for nombre in raices:
               raiz = pathlib.Path(nombre)
@@ -183,7 +185,7 @@ jobs:
           fi
 
   mermaid:
-    name: Diagramas Mermaid (README y docs)
+    name: Diagramas Mermaid (los dos README y docs/, español e inglés)
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -211,7 +213,7 @@ jobs:
           key: mermaid-${{ runner.os }}-node24-${{ hashFiles('tools/comprobar_mermaid.py') }}
 
       - name: Renderizar todos los diagramas con mermaid-cli
-        run: python tools/comprobar_mermaid.py --npx --sin-sandbox README.md docs/*.md resultados/README.md
+        run: python tools/comprobar_mermaid.py --npx --sin-sandbox README.md README.en.md docs/*.md docs/en/*.md resultados/README.md CONTRIBUTING.md
 
   todo-verde:
     name: Todo verde

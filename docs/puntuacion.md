@@ -1,3 +1,5 @@
+**Español** · [English](en/puntuacion.md)
+
 # Cómo se puntúa
 
 La puntuación del kit es la del blog «A la última», regla por regla. El código de referencia es `src/pruebas/puntuar.ts` (comparadores y normalización) y `src/pruebas/index.ts` (umbrales, veredicto, nota, coste y tiempo) del pipeline del blog; `kit_pyme` los reproduce en Python y `tests/` comprueba que devuelve las mismas salidas con los mismos datos, incluidos los redondeos de JavaScript.
@@ -131,6 +133,55 @@ Los dos solo aparecen en `resultado.json` cuando son mayores que cero.
 ### El comando `puntuar` del kit
 
 `python -m kit_pyme puntuar <tarea> <respuestas.jsonl>` lee una línea JSON por caso, `{"id": "<id del caso>", "respuesta": <objeto o null>}`. Un caso sin línea se puntúa como ausente. A cada respuesta que sea un objeto se le aplica el mismo rescate de claves parecidas y la misma validación de `required` que en el blog; si no cumple el esquema se trata como ausente y suma en `sin_respuesta`, porque en el blog una respuesta así nunca llega a puntuarse. `segundos` y `coste_eur` salen a 0 salvo que las líneas del JSONL traigan `uso` (tokens) y `segundos`, una extensión del kit para quien mide a mano.
+
+El fichero admite BOM (lo pone el Bloc de notas y lo pone `Out-File -Encoding utf8` de PowerShell 5.1) y tanto CRLF como LF: lo que se compara es el JSON, no los bytes del fichero.
+
+### Comprobar que tu copia puntúa igual, sin llamar a ningún modelo
+
+El repositorio trae las respuestas correctas de cada tarea en `tests/oro/respuestas-verdad/`. Puntuarlas tiene que dar el 100 %:
+
+```console
+$ python -m kit_pyme puntuar clasificar-facturas tests/oro/respuestas-verdad/clasificar-facturas.jsonl
+Tarea      clasificar-facturas — Contabilizar 25 facturas recibidas: total, vencimiento y si ya estaba registrada
+Modelo     (sin modelo)
+Casos      25
+Aciertos   25 de 25
+Segundos   0
+Coste      0 €
+Veredicto  lo-usaria-el-lunes
+Nota       Acertó los 25 casos a 0,0 céntimos por caso; lo pondría a trabajar el lunes con alguien mirando por encima la primera semana.
+```
+
+Estropea un solo dato —el vencimiento de `factura-08`, que es el que falló Haiku 4.5 en el número publicado— y sale la frase de fallo que se publicó, palabra por palabra:
+
+```bash
+sed '/"id":"factura-08"/s/2026-09-05/2026-10-05/' \
+  tests/oro/respuestas-verdad/clasificar-facturas.jsonl > respuestas.jsonl
+python -m kit_pyme puntuar clasificar-facturas respuestas.jsonl
+```
+
+```console
+Tarea      clasificar-facturas — Contabilizar 25 facturas recibidas: total, vencimiento y si ya estaba registrada
+Modelo     (sin modelo)
+Casos      25
+Aciertos   24 de 25
+Segundos   0
+Coste      0 €
+Veredicto  lo-usaria-el-lunes
+Nota       Acertó 24 de 25 a 0,0 céntimos por caso; sirve el lunes si una persona repasa los casos con incidencia. Ejemplo: Factura 08: vencimiento 2026-10-05 donde tocaba 05/09/2026.
+Fallos publicados (hasta 3):
+  - Factura 08: vencimiento 2026-10-05 donde tocaba 05/09/2026
+```
+
+La frase es la de [`resultados/2026-W37.json`](../resultados/2026-W37.json). Los aciertos y la nota coinciden con lo publicado; los segundos y el coste salen a 0 porque aquí no ha llamado nadie a ningún modelo, y por eso el veredicto se calcula solo con la tasa de aciertos.
+
+En PowerShell 5.1, el mismo cambio:
+
+```powershell
+(Get-Content tests/oro/respuestas-verdad/clasificar-facturas.jsonl) `
+  -replace '(?<="id":"factura-08".*)2026-09-05','2026-10-05' | Out-File -Encoding utf8 respuestas.jsonl
+python -m kit_pyme puntuar clasificar-facturas respuestas.jsonl
+```
 
 ## Veredicto
 

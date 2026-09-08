@@ -1,3 +1,5 @@
+**Español** · [English](en/metodologia.md)
+
 # Metodología
 
 Qué mide el kit, cómo lo mide, qué no mide y cómo se versionan los datos para que las cifras de distintas semanas y de distintas personas se puedan poner una al lado de la otra.
@@ -67,7 +69,24 @@ Conviene tenerlo delante al leer una cifra.
 
 ## Paridad con el blog
 
-El blog puntúa con código TypeScript (`src/pruebas/tareas.ts`, `puntuar.ts`, `index.ts` de su pipeline). El kit lo reproduce en Python, y la paridad no se afirma: se comprueba. Los tests de `tests/` cargan salidas grabadas de ese código TypeScript ejecutado sobre los mismos datos (prompts compuestos con su SHA-256, entradas de cada caso, respuestas correctas que dan 100 %, más de cien respuestas trucadas con el `ok` y la frase de fallo exactos, tablas de las funciones de normalización, 17 combinaciones de veredicto y nota, y los redondeos de JavaScript) y exigen que el kit devuelva lo mismo.
+El blog puntúa con código TypeScript (`src/pruebas/tareas.ts`, `puntuar.ts`, `index.ts` de su pipeline). El kit lo reproduce en Python, y la paridad no se afirma: se comprueba. Los tests de `tests/` cargan salidas grabadas de ese código TypeScript ejecutado sobre los mismos datos y exigen que el kit devuelva lo mismo.
+
+Qué se comprueba, una fila por cosa que podría desviarse:
+
+| Comprobación | Contra qué | Dónde |
+|---|---|---|
+| El prompt de cada tarea es byte a byte el del blog | SHA-256 del prompt compuesto y del mensaje de sistema de las cinco tareas | `tests/oro/resumen.json`, y `python -m kit_pyme verificar` |
+| Los 85 ficheros de datos son los publicados | `datos/CHECKSUMS.sha256` | `python -m kit_pyme verificar` |
+| Las respuestas correctas dan el 100 % | Los cinco `*-verdad.json` puntuados contra sí mismos | `tests/oro/respuestas-verdad/` |
+| Cada regla falla con la frase exacta | Más de cien respuestas trucadas con su `ok` y su frase de fallo, grabadas del código del blog | `tests/test_puntuacion.py` |
+| Las funciones de normalización dan lo mismo | Tablas de entrada y salida de `texto`, `normalizarTexto`, `normalizarReferencia`, `leerNumero`, `leerFecha`, `formatearEuros`, `leerBooleano` | `tests/test_normalizar.py` |
+| El veredicto y la nota son los mismos | 17 combinaciones de aciertos, coste, casos sin respuesta y errores de servicio | `tests/test_veredicto.py` |
+| Los redondeos son los de JavaScript | `Math.round`, `toFixed(1)`, `toFixed(2)` y `Math.ceil` con los valores de borde | `tests/test_javascript.py` |
+| El ejecutor se comporta igual ante un error | Un servidor falso en `127.0.0.1` que devuelve 400, 429, cuerpo vacío y respuestas grabadas | `tests/test_ejecutar.py` |
+
+La batería entera son **633 pruebas** (`python -m pytest`, medido el 08-09-2026 con Python 3.13; una se salta si `mmdc` no está en el `PATH`). La integración continua las ejecuta en cuatro trabajos: `ruff` (lint y formato), `pruebas` (la batería en Python 3.11, 3.12 y 3.13), `datos` (checksums con `sha256sum`, LF en el índice de git, UTF-8 sin BOM, JSON válido y esquemas de los YAML) y `mermaid` (los 30 diagramas de la documentación, en los dos idiomas, renderizados con mermaid-cli).
+
+Emular los redondeos de JavaScript no es un detalle de estilo: `Math.round(0.5)` va hacia arriba y el `round()` de Python va al par, y `toFixed(2)` redondea el valor binario exacto. Sin eso, el coste publicado y el del kit se separarían en el cuarto decimal y las dos cifras dejarían de ser la misma cifra. Está en [`puntuacion.md`](puntuacion.md#redondeos).
 
 Cuando el blog cambie una regla, un prompt o un umbral, el kit cambia en la misma versión y el `CHANGELOG.md` lo dice con la fecha. Hasta entonces, si el kit y el blog difieren, es un fallo del kit y se trata como tal.
 

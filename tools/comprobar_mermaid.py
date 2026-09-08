@@ -15,7 +15,7 @@ Hace dos comprobaciones, de menos a más:
 
 Uso::
 
-    python tools/comprobar_mermaid.py                       # README.md y docs/*.md
+    python tools/comprobar_mermaid.py                       # los README y docs/ en los dos idiomas
     python tools/comprobar_mermaid.py --npx --sin-sandbox   # como en la CI
     python tools/comprobar_mermaid.py --sin-mmdc docs/*.md  # solo el chequeo mínimo
 
@@ -41,7 +41,7 @@ from collections.abc import Iterable, Sequence
 VERSION_MMDC = "11.17.0"
 
 #: Ficheros que se comprueban cuando no se pasa ninguno.
-FICHEROS_POR_DEFECTO = ("README.md", "docs/*.md")
+FICHEROS_POR_DEFECTO = ("README*.md", "docs/*.md", "docs/en/*.md")
 
 #: Primer token de un diagrama Mermaid (sin los sufijos ``-beta`` y ``-vN``).
 TIPOS_CONOCIDOS = frozenset(

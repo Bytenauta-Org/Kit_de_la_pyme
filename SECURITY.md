@@ -1,5 +1,7 @@
 # Seguridad
 
+*In English: this policy is kept in Spanish. The short version: the repository contains no real data and no secrets, the runner only calls the endpoint you pass in `--endpoint` with the key it reads from the environment variable you name in `--clave-env`, and it never prints or stores that key. To report a vulnerability, do not open a public issue: use «Report a vulnerability» on the Security tab, or write to info@bytenauta.com with the subject `Seguridad: Kit de la pyme`. What the runner does and does not send is described in [`docs/en/reproducir.md`](docs/en/reproducir.md).*
+
 ## Qué hay y qué no hay en este repositorio
 
 - **No hay datos reales.** Todo lo que hay en `datos/` es inventado: empresas, personas, NIF, cuentas bancarias, direcciones y correos (`.example`). Si encuentras algo que coincida con una empresa o persona real, avísanos como se indica abajo y lo cambiaremos en la siguiente versión.

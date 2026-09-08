@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Read this in English
+    url: https://github.com/Bytenauta-Org/Kit_de_la_pyme/blob/main/README.en.md
+    about: The English README. Issues and pull requests are accepted in Spanish or English.
   - name: El blog «A la última»
     url: https://bytenauta.com/a-la-ultima/
     about: Qué se prueba cada semana sobre este kit, con qué modelos y qué salió.

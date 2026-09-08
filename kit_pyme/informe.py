@@ -190,6 +190,10 @@ def construir_informe(
 def leer_jsonl(ruta: Path) -> list[dict[str, Any]]:
     """Lee un fichero con un objeto JSON por línea (las líneas en blanco se ignoran).
 
+    Se lee como ``utf-8-sig``: el fichero de respuestas lo escribe quien prueba la
+    herramienta, y en Windows el Bloc de notas y ``Out-File`` le ponen una marca de orden
+    de bytes que no es JSON. Un fichero UTF-8 normal se lee igual.
+
     Args:
         ruta: Ruta del fichero.
 
@@ -200,7 +204,7 @@ def leer_jsonl(ruta: Path) -> list[dict[str, Any]]:
         ValueError: Si una línea no es un objeto JSON.
     """
     filas: list[dict[str, Any]] = []
-    with open(ruta, encoding="utf-8") as f:
+    with open(ruta, encoding="utf-8-sig") as f:
         for n, linea in enumerate(f, start=1):
             if not linea.strip():
                 continue

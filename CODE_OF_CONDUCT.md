@@ -1,5 +1,7 @@
 # Código de conducta del Pacto de Contribuyentes
 
+*In English: this is the Spanish translation of the Contributor Covenant 2.1. The original English text is at [contributor-covenant.org/version/2/1/code_of_conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) and applies here word for word. Conduct concerns go to info@bytenauta.com, in Spanish or in English.*
+
 ## Nuestro compromiso
 
 Nosotros, como miembros, contribuyentes y líderes, nos comprometemos a hacer de la participación en nuestra comunidad una experiencia libre de acoso para todo el mundo, independientemente de la edad, dimensión corporal, minusvalías visibles o invisibles, etnicidad, características sexuales, identidad y expresión de género, nivel de experiencia, educación, nivel socioeconómico, nacionalidad, apariencia personal, raza, casta, color, religión, o identidad u orientación sexual.

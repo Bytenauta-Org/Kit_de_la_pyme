@@ -1,8 +1,10 @@
+**Español** · [English](en/tareas.md)
+
 # Las cinco tareas
 
 Este documento describe cada tarea del kit tal como la ejecuta y la puntúa el blog «A la última»: el prompt de sistema literal, el esquema JSON de la respuesta, cómo se construye la entrada de cada caso, qué fichero tiene la respuesta correcta y el criterio exacto de acierto con la frase de fallo que produce cada regla. La fuente es el código del pipeline del blog (`src/pruebas/tareas.ts` y `src/pruebas/puntuar.ts`); el paquete `kit_pyme` lo reproduce y los tests de `tests/` comprueban la paridad contra las salidas reales de ese código.
 
-Índice: [Lo común a todas](#lo-común-a-todas) · [extraer-pedidos](#1-extraer-pedidos) · [resumir-correos](#2-resumir-correos) · [buscar-en-contrato](#3-buscar-en-contrato) · [clasificar-facturas](#4-clasificar-facturas) · [redactar-recordatorio](#5-redactar-recordatorio) · [Verificación de los prompts](#verificación-de-los-prompts)
+Índice: [Lo común a todas](#lo-común-a-todas) · [Verlo desde la terminal](#verlo-desde-la-terminal) · [extraer-pedidos](#1-extraer-pedidos) · [resumir-correos](#2-resumir-correos) · [buscar-en-contrato](#3-buscar-en-contrato) · [clasificar-facturas](#4-clasificar-facturas) · [redactar-recordatorio](#5-redactar-recordatorio) · [Verificación de los prompts](#verificación-de-los-prompts)
 
 ## Lo común a todas
 
@@ -40,6 +42,56 @@ Se añadió el 08-09-2026 porque, sin `response_format`, un modelo contestaba `b
 4. Si se agotan los intentos, el caso queda **sin respuesta**: cuenta como fallo con el texto `<Etiqueta>: el modelo no devolvió una respuesta válida` y suma en `sin_respuesta`.
 
 Las etiquetas de los fallos son `Pedido 06`, `Correo 03`, `Factura 08`, `Recordatorio 01` (prefijo y número tal como están en el id del caso) y `Contrato p01` para el contrato. El detalle de las funciones de normalización está en [`puntuacion.md`](puntuacion.md).
+
+---
+
+## Verlo desde la terminal
+
+Las tres órdenes que enseñan una tarea sin llamar a ningún modelo y sin gastar nada. La salida es la de verdad, copiada de una ejecución con Python 3.13 y `kit_pyme 1.0.0`.
+
+**Qué tareas hay, con sus casos y su `max_tokens`:**
+
+```console
+$ python -m kit_pyme tareas
+id                     casos  max_tokens  nombre
+extraer-pedidos           20        6000  Sacar las líneas de 20 pedidos tal como llegan por correo
+resumir-correos           30        4000  Clasificar 30 correos del buzón de administración y decir qué hay que hacer
+buscar-en-contrato        15        4000  Responder 15 preguntas sobre un contrato de suministro de 60 páginas
+clasificar-facturas       25        4000  Contabilizar 25 facturas recibidas: total, vencimiento y si ya estaba registrada
+redactar-recordatorio     10        4000  Escribir 10 recordatorios de cobro con el tono que toca
+```
+
+**Qué se le envía al modelo en un caso concreto.** `casos` imprime la entrada tal cual; con `--id`, solo la de ese caso. En `buscar-en-contrato` la entrada es la pregunta sola, porque el contrato entero va en el prompt de sistema:
+
+```console
+$ python -m kit_pyme casos buscar-en-contrato --id p01
+===== p01 =====
+¿En qué plazo tiene que pagar Serrano las facturas de Marjal Blanca?
+```
+
+**Qué prompt de sistema acompaña a esa entrada.** `prompt` compone el texto con los ficheros de datos ya sustituidos y la línea `FORMATO` al final; con `--sin-formato`, sin esa línea. Es exactamente lo que hay que pegar en un chat si vas a probar sin API:
+
+```console
+$ python -m kit_pyme prompt clasificar-facturas | head -3
+Trabajas en contabilidad de Conservas Marjal Blanca S.L. (NIF B38122941, Almoradí, Alicante). Te van llegando facturas de proveedores y tienes que dejarlas listas para contabilizar.
+
+Para cada factura devuelve:
+
+$ python -m kit_pyme prompt clasificar-facturas | tail -1
+FORMATO DE LA RESPUESTA: un solo objeto JSON con exactamente estas claves, escritas así: proveedor, numero, fecha, base, iva, total, vencimiento, cuenta_sugerida, duplicada. Sin otras claves, sin comentarios y sin texto antes ni después.
+```
+
+`prompt` termina su salida en un salto de línea por convención de terminal. El mensaje de sistema de las cinco tareas no lo lleva (acaba en la línea `FORMATO`), así que el volcado por defecto tiene siempre un byte más que el texto que se envía al modelo. Con `--sin-formato` depende de la tarea:
+
+| Tarea | El prompt compuesto termina en salto de línea | `prompt --sin-formato > fichero` |
+|---|---|---|
+| extraer-pedidos | sí (`clientes.csv`) | byte a byte el prompt publicado, 8.583 bytes |
+| resumir-correos | no | un salto de línea más: 1.533 bytes en vez de 1.532 |
+| buscar-en-contrato | sí (`contrato.txt`) | byte a byte el prompt publicado, 188.628 bytes |
+| clasificar-facturas | sí (`registro-previo.csv`) | byte a byte el prompt publicado, 2.280 bytes |
+| redactar-recordatorio | no | un salto de línea más: 1.387 bytes en vez de 1.386 |
+
+Para comprobar los SHA-256 de la [última sección](#verificación-de-los-prompts) no compares el volcado: usa `python -m kit_pyme verificar`, que compone los prompts en memoria y los compara con los publicados sin pasar por un fichero.
 
 ---
 
@@ -576,3 +628,12 @@ SHA-256 (UTF-8, saltos de línea LF) del prompt de cada tarea una vez sustituido
 | redactar-recordatorio | `5aa5c0c0ffe0f403bb403ea0c26c8d41eae4df8c175bb78878fc2911856ea95a` | 1 386 | `d68cbb0ed5ef3b948afbad3063af2cef1e6dac8bcf2257570eff11ceb0f5e011` |
 
 Las entradas de pedidos, correos y facturas son los ficheros `.txt` tal cual, así que su SHA-256 es el de `datos/CHECKSUMS.sha256`. Las entradas compuestas de contrato (la pregunta) y recordatorio (la ficha) se comprueban en los tests contra las salidas grabadas del código del blog.
+
+Para comprobarlo tú:
+
+```console
+$ python -m kit_pyme verificar
+OK   datos/ y los prompts son los publicados (checksums y sha256 correctos).
+```
+
+Esa línea significa dos cosas a la vez: que los 85 ficheros de `datos/` son byte a byte los publicados y que los diez hashes de esta tabla salen de componer los prompts con esos bytes. Si alguna de las dos cosas deja de ser cierta, el comando lo dice fichero a fichero y devuelve código de salida 1; los ejemplos están en [`datos.md`](datos.md#checksumssha256).

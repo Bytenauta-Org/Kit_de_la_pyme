@@ -1,3 +1,5 @@
+**Español** · [English](en/datos.md)
+
 # Los datos
 
 Todo lo que hay en `datos/` es de una empresa inventada, **Conservas Marjal Blanca S.L.** (NIF B38122941), una conservera de Almoradí (Alicante) con unos 40 empleados. Clientes, proveedores, personas, NIF, direcciones, importes y fechas son inventados pero coherentes: los NIF tienen dígito de control válido, las direcciones son plausibles, los precios de los pedidos cuadran con la tarifa, los totales de las facturas cuadran con base, IVA, retención y otros impuestos, y los dominios de correo terminan en `.example` a propósito. Ninguna empresa ni persona es real.
@@ -17,7 +19,7 @@ Todo lo que hay en `datos/` es de una empresa inventada, **Conservas Marjal Blan
 | Ficheros de verdad | Uno por carpeta, `*-verdad.json` (en el contrato, `contrato-preguntas.json`). Cada uno empieza con un campo `_comentario` que explica el criterio |
 | Lo que no hay | Ficheros binarios: los PDF, las fotos y los escaneos están como texto ya extraído (con los defectos del OCR incluidos) |
 
-Los ficheros de datos no cambian sin subir la versión y anotarlo en `CHANGELOG.md`. `python -m kit_pyme verificar` comprueba los 85 contra `CHECKSUMS.sha256` y que no haya ficheros de más.
+Los ficheros de datos no cambian sin subir la versión y anotarlo en `CHANGELOG.md`. `python -m kit_pyme verificar` comprueba los 85 contra `CHECKSUMS.sha256`, que no haya ficheros de más y que los cinco prompts compuestos a partir de estos bytes sigan dando el SHA-256 publicado en [`tareas.md`](tareas.md#verificación-de-los-prompts).
 
 ## Modelo de datos
 
@@ -388,3 +390,26 @@ b9579711e64458b976434564e777dc3191a13f330630c993dc3e8abfefdd12ff  pedidos/pedido
 ```
 
 Se comprueba con `python -m kit_pyme verificar` (que además avisa si hay ficheros en las cinco carpetas que no están en la lista) o, con las herramientas del sistema, con `cd datos && sha256sum -c CHECKSUMS.sha256`. Los hashes son de los bytes tal cual (UTF-8, LF); un editor que cambie los saltos de línea a CRLF o añada un BOM hará fallar la verificación, y eso es lo que se quiere.
+
+Con los datos intactos:
+
+```console
+$ python -m kit_pyme verificar
+OK   datos/ y los prompts son los publicados (checksums y sha256 correctos).
+$ echo $?
+0
+```
+
+Y esto es lo que sale cuando no lo están. Sobre una copia de `datos/` con un byte añadido a `factura-08.txt`, `correo-30.txt` borrado y un `extra.csv` que no estaba:
+
+```console
+$ python -m kit_pyme verificar
+MAL  falta datos/correos/correo-30.txt
+MAL  datos/facturas/factura-08.txt ha cambiado (sha256 distinto del publicado)
+MAL  datos/cobros/extra.csv no está en CHECKSUMS.sha256: sobra o hay que versionar el kit
+3 problema(s): los datos NO son los publicados.
+$ echo $?
+1
+```
+
+Los tres casos importan por separado. Un fichero que falta o que ha cambiado significa que tus cifras no son comparables con las publicadas. Un fichero de más significa que alguien ha añadido un caso sin subir la versión del kit, que es la manera silenciosa de que dos números dejen de medir lo mismo.

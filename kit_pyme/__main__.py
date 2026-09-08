@@ -124,8 +124,9 @@ def _orden_casos(tarea: Tarea, solo_id: str | None, jsonl: bool) -> int:
 
 
 def _orden_prompt(tarea: Tarea, sin_formato: bool) -> int:
-    sys.stdout.write(tarea.prompt if sin_formato else tarea.system)
-    if not tarea.prompt.endswith("\n"):
+    texto = tarea.prompt if sin_formato else tarea.system
+    sys.stdout.write(texto)
+    if not texto.endswith("\n"):
         sys.stdout.write("\n")
     return SALIDA_OK
 
@@ -220,7 +221,9 @@ def main(argv: Sequence[str] | None = None) -> int:
     """
     for flujo in (sys.stdout, sys.stderr):
         if hasattr(flujo, "reconfigure"):
-            flujo.reconfigure(encoding="utf-8")
+            # newline LF además de UTF-8: en Windows, sin él, «prompt» y «casos» redirigidos
+            # a un fichero saldrían con CRLF y su sha256 dejaría de ser el publicado.
+            flujo.reconfigure(encoding="utf-8", newline="\n")
     a = _analizador().parse_args(argv)
     try:
         raiz = raiz_del_kit(a.raiz)

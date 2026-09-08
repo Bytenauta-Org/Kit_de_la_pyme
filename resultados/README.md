@@ -1,5 +1,7 @@
 # Resultados publicados
 
+*In English: these are the publishing rules of a Spanish blog, so they are kept in Spanish. What the published figures mean and how to read them is in [`../docs/en/metodologia.md`](../docs/en/metodologia.md).*
+
 Esta carpeta guarda, número a número, las cifras que el blog «A la última» ha publicado sobre el kit, tal como salieron y con su procedencia. Es el registro contra el que se compara cualquier resultado nuevo.
 
 ## La regla

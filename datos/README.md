@@ -1,5 +1,7 @@
 # Datos del kit de la pyme · v1.0.0
 
+*In English: this front page is in Spanish, like the data it describes. The 85 files, one by one, and the data model are in [`../docs/en/datos.md`](../docs/en/datos.md).*
+
 Todo lo que hay aquí es de **Conservas Marjal Blanca S.L.**, una conservera inventada de Almoradí
 (Alicante) con unos 40 empleados. Clientes, proveedores, NIF, cuentas bancarias, direcciones e
 importes son inventados pero coherentes: los NIF llevan dígito de control válido, los precios cuadran

@@ -70,10 +70,28 @@ def test_casos_id_desconocido(raiz):
     assert "factura-99" in r.stderr
 
 
-def test_prompt_es_el_mensaje_de_sistema(raiz, tareas):
-    r = cli(raiz, "prompt", "resumir-correos")
+@pytest.mark.parametrize("id_tarea", ORDEN_TAREAS)
+def test_prompt_es_el_mensaje_de_sistema(raiz, tareas, id_tarea):
+    """En las cinco tareas, «prompt» imprime el system entero y termina en un salto de línea."""
+    r = cli(raiz, "prompt", id_tarea)
     assert r.returncode == 0, r.stderr
-    assert r.stdout == tareas["resumir-correos"].system + "\n"
+    esperado = tareas[id_tarea].system
+    assert r.stdout == esperado + ("" if esperado.endswith("\n") else "\n")
+
+
+@pytest.mark.parametrize("id_tarea", ORDEN_TAREAS)
+def test_prompt_sale_en_lf_aunque_se_ejecute_en_windows(raiz, tareas, id_tarea):
+    """Redirigido a un fichero, «prompt --sin-formato» es el prompt publicado byte a byte."""
+    crudo = subprocess.run(
+        [sys.executable, "-m", "kit_pyme", "prompt", id_tarea, "--sin-formato"],
+        cwd=raiz,
+        capture_output=True,
+        env={**os.environ, "PYTHONIOENCODING": "utf-8"},
+        check=True,
+    ).stdout
+    assert b"\r\n" not in crudo
+    esperado = tareas[id_tarea].prompt.encode("utf-8")
+    assert crudo == esperado + (b"" if esperado.endswith(b"\n") else b"\n")
 
 
 @pytest.mark.parametrize("id_tarea", ORDEN_TAREAS)
@@ -157,6 +175,17 @@ def test_puntuar_con_uso_y_segundos_declarados(raiz, tmp_path):
     assert resultado["coste_eur"] == 0.0176  # 10 × 0.001755 = 0.01755 → 0.0176 (Math.round)
     assert resultado["segundos"] == 12.5
     assert resultado["nota"].startswith("Acertó los 10 casos a 0,2 céntimos por caso")
+
+
+def test_puntuar_admite_un_jsonl_con_marca_de_orden_de_bytes(raiz, tmp_path):
+    """En Windows, el Bloc de notas y «Out-File -Encoding utf8» ponen un BOM: se acepta."""
+    origen = (ORO / "respuestas-verdad" / "clasificar-facturas.jsonl").read_text(encoding="utf-8")
+    jsonl = tmp_path / "r.jsonl"
+    jsonl.write_bytes(b"\xef\xbb\xbf" + origen.encode("utf-8"))
+    r = cli(raiz, "puntuar", "clasificar-facturas", str(jsonl), "--json")
+    assert r.returncode == 0, r.stderr
+    resultado = json.loads(r.stdout)
+    assert resultado["aciertos"] == resultado["casos"] == 25
 
 
 def test_verificar(raiz):

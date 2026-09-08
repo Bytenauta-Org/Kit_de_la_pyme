@@ -1,9 +1,9 @@
 {
   "semana": "2026-W37",
   "fecha_publicacion": "2026-09-08",
-  "publicado_en": "https://bytenauta.com/a-la-ultima/",
+  "publicado_en": "https://bytenauta.com/a-la-ultima/2026-09-08-referencia-bien-precio-tarifa/",
   "numero": "2026-09-08-referencia-bien-precio-tarifa",
-  "origen": "Bytenauta-Org/bytenauta-web@1884104 (PR #5), contenido/borradores/2026-09-08-referencia-bien-precio-tarifa/post.json",
+  "origen": "Bytenauta-Org/bytenauta-web@1884104 (PR #5), contenido/posts/2026-09-08-referencia-bien-precio-tarifa/post.json",
   "banco": "Bytenauta-Org/bytenauta-blog-agentes, src/pruebas/{index,tareas,puntuar}.ts, ejecutado desde un Worker de Cloudflare",
   "modo": "directo (endpoint compatible OpenAI de Anthropic), sin response_format, temperature 0, 4 casos en paralelo, hasta 3 intentos por caso",
   "kit_datos_version": "1.0.0",
@@ -73,5 +73,6 @@
       }
     }
   ],
-  "nota_tiradas": "Tres tiradas del mismo día con el mismo modelo dieron los mismos aciertos y los mismos tres fallos; solo cambian los segundos (tiempo de red) y el coste en la cuarta cifra decimal (tokens de salida). La publicada es la del PR #5."
+  "nota_tiradas": "Tres tiradas del mismo día con el mismo modelo dieron los mismos aciertos y los mismos tres fallos; solo cambian los segundos (tiempo de red) y el coste en la cuarta cifra decimal (tokens de salida). La publicada es la del PR #5.",
+  "publicado_en_ingles": "https://bytenauta.com/a-la-ultima/en/2026-09-08-reference-matched-price-didnt-match/"
 }

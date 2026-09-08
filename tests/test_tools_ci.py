@@ -165,11 +165,17 @@ def test_mmdc_renderiza_los_validos_y_rechaza_los_rotos(tmp_path: pathlib.Path) 
 
 
 def test_los_markdown_del_repositorio_pasan_el_chequeo_minimo() -> None:
-    """Todo diagrama del README y de docs/ tiene un tipo conocido y los corchetes cuadran."""
-    ficheros = [RAIZ / "README.md", *sorted((RAIZ / "docs").glob("*.md"))]
-    ficheros = [f for f in ficheros if f.is_file()]
+    """Todo diagrama del repositorio es de tipo conocido y cuadra.
+
+    Antes miraba solo los README y ``docs/``, y así CONTRIBUTING.md y
+    ``resultados/README.md`` llevaban diagramas que nadie comprobaba. La lista se saca
+    de los ficheros, no se escribe a mano: uno nuevo entra solo.
+    """
+    ficheros = [
+        f for f in sorted(RAIZ.rglob("*.md")) if ".git" not in f.parts and "```mermaid" in f.read_text(encoding="utf-8")
+    ]
     if not ficheros:
-        pytest.skip("todavía no hay README.md ni docs/ en esta copia")
+        pytest.skip("todavía no hay ningún Markdown con diagramas en esta copia")
     fallos = [r for r in mermaid.comprobar(ficheros, None) if not r.ok]
     assert fallos == [], [f"{r.bloque.etiqueta}: {r.detalle}" for r in fallos]
 
